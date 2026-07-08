@@ -1,0 +1,19 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS / System files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Uploads (private)
+.uploads/

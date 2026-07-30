@@ -1,6 +1,6 @@
 ## 案例二：Block的"Goose"——企业级AgenticOps实践
 
-Block（原Square Inc.，旗下拥有Square支付和Cash App两大业务板块）的AgenticOps实践是2026年企业级部署的标杆案例。其内部AI Agent "Goose"基于MCP架构构建，服务12,000名员工跨越15个职能领域，常规任务节省50%至75%时间[^ch02-1]。
+Block（原Square Inc.，旗下拥有Square支付和Cash App两大业务板块）的AgenticOps实践是2026年企业级部署的标杆案例。其内部AI Agent "Goose"基于MCP架构构建，服务12,000名员工跨越15个职能领域，常规任务节省50%至75%时间[^ch01-1]。
 
 Goose的技术架构严格遵循AgenticOps的三层模型。编排层使用Block自研的Agent管理平台，负责任务路由和权限管控；执行层通过100余个内部MCP Server连接企业系统——包括支付数据库、客户CRM、财务系统、人力资源平台和代码仓库；观测层记录了每一次Agent交互的完整决策链路，用于效率分析和合规审计。
 

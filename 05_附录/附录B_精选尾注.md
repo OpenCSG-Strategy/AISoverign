@@ -78,12 +78,6 @@
 
 [^p3-ai-marketing]: *The power of generative marketing*，*International Journal of Research in Marketing*，2025年，DOI 10.1016/j.ijresmar.2024.09.002。研究比较10,320张AI合成营销图片、2,400张人工图片和254,400次人工评价，并观察超过173,000次现场广告曝光；特定横幅广告场景中，最佳AI图像点击率比人工图库图高50%。该结果只支持营销素材场景的点击差异，不等于品牌长期资产、销售利润或公共内容质量全面改善。**截至：2026-08-03；置信度：同行评审和现场曝光研究已确认，外部有效性受场景限制。** https://doi.org/10.1016/j.ijresmar.2024.09.002
 
-[^p4-sierra-leone-ai]: Google，*Measuring the impact of AI on teaching and learning*，2026年5月19日。Google与当地教师合作，在塞拉利昂进行八周预注册随机试验，将48个数学课堂、近1800名七、八年级学生分为受引导的Gemini学习工具组和常规课堂组；项目方报告外部评估成绩提高0.26个标准差，达到建议使用量的学生提高0.38个标准差。材料来自项目方发布与技术报告，不能单独证明长期学习、跨学科或跨国家效果；它最适合说明教学设计、教师参与、使用剂量与模型共同决定结果。**置信度：项目方披露的随机试验已确认；独立复现和长期外部有效性待观察。** https://blog.google/products-and-platforms/products/education/measuring-the-impact-of-ai-on-teaching-and-learning/
-
-[^p4-pnas-ai-learning]: *Generative AI Can Harm Learning: An RCT of AI Tutors in High School Mathematics*，*Proceedings of the National Academy of Sciences*，2025年，DOI:10.1073/pnas.2422633122。该现场实验比较普通学习、通用生成式AI与带教学护栏的AI辅导，报告即时表现与撤掉工具后的独立学习结果并不相同：未受约束的生成式AI可能提高当下解题表现，却损害后续独立表现，带护栏的辅导系统没有出现同样下降。**置信度：同行评审现场实验；具体效应受样本、课程、工具和测验设计限制，不应外推为所有教育AI必然有害。** https://doi.org/10.1073/pnas.2422633122
-
-[^p4-kaiser-scribe]: Kaiser Permanente Division of Research，*AI-assisted notetaking gains steady support from Kaiser Permanente physicians*，2025年4月1日；相关NEJM Catalyst研究。2023年10月至2024年12月，AI记录助手被7260名医生用于2576627次就诊，机构分析称节省近16000小时记录时间；调查中88%的医生认为互动改善，患者调查中8%表示对使用技术有一定不适。该系统生成转录和摘要，不提供诊疗建议，医生可审阅、修改，患者被告知正在使用。数据来自单一医疗集团的部署与调查，不能外推为临床结局改善。**置信度：机构研究与官方披露已确认；效果和患者体验存在选择偏差，临床安全与长期经济性仍需独立验证。** https://divisionofresearch.kp.org/news/ai-assisted-notetaking-gains-steady-support-from-kaiser-permanente-physicians/
-
 [^p6-uk-government-ai]: UK Government Digital Service，*Microsoft 365 Copilot Experiment: Cross-Government Findings Report*，2025年6月2日；Department for Science, Innovation and Technology、Government Digital Service，*AI coding assistant trial*，2025年9月12日。前者在2024年9月至12月覆盖12个政府组织、约20000名员工，评估文档、邮件、表格、演示和会议中的效率、质量与满意度；后者在2024年11月至2025年2月向中央政府组织提供2500个代码助手许可，并收集遥测、满意度与退出调查。部署规模与试验设计已由政府文件确认，但不等于财政节省、公共服务质量改善或长期生产率提升。**置信度：政府一手文件已确认；结果指标和跨部门外部有效性需按报告方法解释。** https://www.gov.uk/government/publications/microsoft-365-copilot-experiment-cross-government-findings-report ；https://www.gov.uk/government/publications/ai-coding-assistant-trial
 
 ## 第二章　为什么AI需要主权
@@ -118,27 +112,11 @@
 
 [^p3-opc-signal]: U.S. Census Bureau，2023年Nonemployer Statistics及2026年小企业数据说明，记录30,427,808个无雇员经营单位，占全部经营单位78.4%，总收入接近1.8万亿美元；多数为自雇者经营的非公司制业务，不等于AI OPC。Stripe Atlas于2026年5月披露，其平台当年第二季度截至统计时新设C公司中单一创始人占63%，同时报告普通与头部单人创业者的收入差距扩大；该结果存在平台选择、公司类型与观察期偏差。OECD的创业政策综述也提醒，一人/无雇员企业在创业数量中占主导，但平均增长和就业贡献有限，少数网络化、技能型个体可以高度创新。正文据此把OPC视为建立在既有微型经济底盘上的新趋势信号，不把平台数据写成社会总体比例或AI因果效果。**置信度：美国官方统计已确认；Stripe为利益相关平台样本；AI导致的长期增收与存活效果待验证。** https://www.census.gov/library/stories/2026/05/small-business-week.html ；https://www.census.gov/library/stories/2025/07/nonemployer-business-growth.html ；https://stripe.com/blog/top-solo-founder-traits ；https://www.oecd.org/en/publications/international-compendium-of-entrepreneurship-policies_338f1873-en/full-report/objectives-and-challenges-of-entrepreneurship-policy_f354bd94.html
 
-## 第四章　组织：守住共同体的边界
+## 第四章　组织：让部门自治而能力协同
 
-[^p4-sweden-school]: European Data Protection Board，*Facial recognition in school renders Sweden’s first GDPR fine*，2019年8月22日。瑞典一所高中以人脸识别记录出勤，涉及22名学生；监管机构认为敏感生物识别数据处理缺少适当法律基础、影响评估不足，且师生权力差异使同意不能成为有效依据。https://www.edpb.europa.eu/news/national-news/2019/facial-recognition-school-renders-swedens-first-gdpr-fine_en
+[^p4-zero-trust]: NIST，*Zero Trust Architecture*（SP 800-207，2020年8月）与 *A Zero Trust Architecture Model for Access Control in Cloud-Native Applications in Multi-Cloud Environments*（SP 800-207A，2023年9月）。前者要求不因网络位置或资产归属自动信任，并对资源访问执行逐次、最小权限判断；后者把身份、API网关、服务网格与细粒度策略扩展到多云、云原生环境。正文据此类比企业内部部门域，不声称两份标准专为AI或部门协同编写。**置信度：NIST正式标准已确认；部门AI架构为本书的工程外推。** https://doi.org/10.6028/NIST.SP.800-207 ；https://doi.org/10.6028/NIST.SP.800-207A
 
-[^p4-dfe-data]: UK Department for Education，*Generative artificial intelligence (AI) and data protection in schools*，页面更新至2026年7月9日。指引要求学校理解AI工具怎样收集、处理和保存个人数据，在隐私说明中披露，并在工具更新后持续评估风险。https://www.gov.uk/guidance/data-protection-in-schools/generative-artificial-intelligence-ai-and-data-protection-in-schools
-
-[^p4-royal-free]: UK Information Commissioner’s Office，关于Royal Free London NHS Foundation Trust与Google DeepMind事件的回顾页面，核验至2026年8月1日。ICO说明，该合作涉及约160万名患者的数据，并在2017年认定数据处理未充分遵守数据保护法；正文据此讨论受托机构在目的说明、影响评估与责任链上的义务。https://ico.org.uk/for-the-public/ico-40/google-deepmind-and-class-action-lawsuit/
-
-[^p4-who-lmm]: World Health Organization，*Ethics and governance of artificial intelligence for health: Guidance on large multi-modal models*，2024年1月18日。WHO建议大规模部署后开展独立审计和影响评估，并让患者、医务人员等直接和间接相关者参与设计。https://www.who.int/news/item/18-01-2024-who-releases-ai-ethics-and-governance-guidance-for-large-multi-modal-models
-
-[^p4-ofqual]: UK Office of Qualifications and Examinations Regulation，2020年夏季成绩后续分析与学生层平等分析。Ofqual报告约59%的成绩与教师评估相同、约39%低于教师评估，10.3%的考生累计被下调至少三个等级；其平等分析未发现计算成绩对特定受保护群体产生新的系统性差异证据。该系统是疫情下的统计标准化制度先例，不是生成式AI；也无法知道取消考试条件下哪种分数最接近个体真实表现。https://www.gov.uk/government/publications/evaluation-of-centre-assessment-grades-and-grading-gaps-in-summer-2020/grading-gaps-in-summer-2020-who-was-affected-by-differences-between-centre-assessment-grades-and-calculated-grades ；https://www.gov.uk/government/publications/student-level-equalities-analyses-for-gcse-and-a-level
-
-[^p4-alphafold3]: Josh Abramson等，*Accurate structure prediction of biomolecular interactions with AlphaFold 3*，*Nature*，2024年5月；*Nature*编辑说明与2024年11月论文增补；Google DeepMind官方代码仓库。论文初始发布主要提供受限服务器，随后公开推理代码并记录变化，模型参数与用途仍有许可边界。该事件体现开放科学、复现与商业权利冲突，不是研究不端案例，也不能在后续开放后继续称为“完全无法复现”。https://www.nature.com/articles/s41586-024-07487-w ；https://www.nature.com/articles/d41586-024-01463-0 ；https://www.nature.com/articles/s41586-024-08416-7 ；https://github.com/google-deepmind/alphafold3
-
-[^p4-science-data]: Cristian Bodnar等，*A foundation model for the Earth system*，*Nature*，2025年5月。Aurora在超过一百万小时、来源与分辨率不同的地球系统数据上预训练，并针对空气质量、海浪、热带气旋和高分辨率天气等任务微调。论文支持“科学基础模型可能需要原始、结构化和多模态观测，而不只是论文文本”的判断，不证明Aurora适用于所有学科，也不证明模型预测无需物理实验和独立检验。**置信度：同行评审论文已确认，跨学科推论属于本书有限外推。** https://doi.org/10.1038/s41586-025-09005-y
-
-[^p4-epic-sepsis]: Karandeep Singh等，*A Validated Model for Sudden Sepsis?*，*JAMA Internal Medicine*，2021年；Matthew J. Fralick等，Epic Sepsis Model第二版多中心前瞻性验证，*JAMA Network Open*，2026年。第一项研究在38,455次住院中报告建议阈值下漏掉约67%的脓毒症患者、约18%住院触发警报、住院层面AUC约0.63；第二项在四个医疗系统227,091次住院中报告AUROC约0.82—0.92、阳性预测值约0.13—0.26，并强调本地验证与警报工作流。性能研究不证明具体伤害或新版降低死亡率。https://pmc.ncbi.nlm.nih.gov/articles/PMC8218233/ ；https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2845595
-
-[^p4-unhcr-biometric]: UNHCR Jordan，*Biometrics in the registration and assistance process*，2022年2月。官方说明生物特征用于身份确认、防止重复登记、现金援助领取、身份续期、难民身份与安置程序；银行通过有限接口核验，不持有完整虹膜数据库。材料证明用途和核验网络扩大，不证明发生违法共享或滥用。https://help.unhcr.org/jordan/wp-content/uploads/sites/46/2022/02/Biometrics-EN-Edited-Feb2022.pdf
-
-[^p4-icrc-biometric]: International Committee of the Red Cross，*Innovation, protection and ICRC biometrics policy*，2019年10月18日。ICRC讨论把生物特征保存在受助者持有的卡片或令牌中、现场核验而不建立中心数据库的设计，并指出捐助方对反欺诈和端到端审计的要求会推动生物识别扩张。该方案是机构政策与架构选择，不代表所有行动中普遍实施或适用于全部场景。https://blogs.icrc.org/law-and-policy/2019/10/18/innovation-protection-icrc-biometrics-policy/
+[^p4-workload-federation]: SPIFFE，*SPIFFE Concepts*与*SPIFFE Federation*，核验至2026年8月5日。SPIFFE以独立信任域管理工作负载身份，概念文档把公司、云环境、部门或系统边界列为可能的信任域；联邦规范允许不同管理域交换信任包并验证彼此身份。它解决工作负载认证与信任联合，不自动提供业务授权、数据契约或AI安全。**置信度：官方规范已确认；用于部门AI域属于可验证的技术映射。** https://spiffe.io/docs/latest/spiffe/concepts/ ；https://spiffe.io/docs/latest/spiffe-specs/spiffe_federation/
 
 ## 第五章　企业：把智能变成可治理的能力
 
@@ -180,7 +158,7 @@
 
 [^p5-agent-payments]: Agent Payments Protocol，*AP2 Specification v0.2*，核验至2026年8月1日；Sonja Davidovic、Hervé Tourpe，*How Agentic AI Will Reshape Payments*，IMF Note 2026/004，2026年4月。AP2用购买授权、支付授权与收据为Agent交易提供可验证证据，区分人在场与自主模式，并要求验证和处理由确定性代码完成；当前规范明确把Agent间授权转委托，以及争议解决、材料留存与调取的具体机制置于范围之外。IMF论文提出意图与编排、控制与授权、结算三层分析框架，并提醒采用仍处早期，法律责任、可追溯性和相关性风险未解。IMF Note代表作者分析，不等于IMF执董会政策立场。**置信度：协议机制与分析框架已确认，规模化采用和法律效果待观察。** https://ap2-protocol.org/ap2/specification/ ；https://www.imf.org/en/-/media/files/publications/imf-notes/2026/english/insea2026004.pdf
 
-## 第六章　政府与国家：让智能沉淀为共同能力
+## 第六、七章　公共权力与国家能力
 
 [^p6-dpi-runtime]: OECD，*Digital Government Outlook 2026: Strengthening Digital Public Infrastructure and Data Governance*，2026年。报告把数字身份、数据共享、数字通知、支付和基础登记等视为数字公共基础设施，并强调组件、治理安排与跨机构采用共同决定端到端公共服务能力。报告属于跨国政策分析，不证明任何单一技术架构适用于所有国家。https://www.oecd.org/en/publications/2026/06/digital-government-outlook_4585678e/full-report/strengthening-digital-public-infrastructure-and-data-governance_2c7323c7.html
 
@@ -240,7 +218,7 @@
 
 [^p6-waico]: 中华人民共和国外交部，《成立世界人工智能合作组织协定签署仪式在上海举行》，2026年7月16日；习近平，《携手构建公正合理的全球人工智能治理体系——在2026世界人工智能大会暨人工智能全球治理高级别会议开幕式上的主旨讲话》，2026年7月17日；新华社，《世界人工智能合作组织未来将重点开展三方面工作》，2026年7月19日；国家发展改革委，《世界人工智能合作组织（WAICO）推进会成功召开》，2026年7月20日。官方材料确认二十九国签署协定、组织总部设在上海、王毅代表中国政府签署；主旨讲话承诺未来五年向发展中国家提供五千个人工智能专题研修名额，面向东盟、阿盟、非盟、拉共体、上合组织和金砖国家建设应用合作中心，并称“妈祖”气象预警系统已覆盖三十个国家。会后披露的工作方向包括能力建设，供需对接、应用与开源生态，以及落实《全球数字契约》并同联合国等机构合作。联合国大会第79/325号决议另行设立独立国际人工智能科学小组与全球人工智能治理对话；正文据此把科学评估、广泛对话与项目型能力合作区分为可能互补的功能，不断言组织间已建立正式分工。成立、目标和宣布的合作措施不等于成熟治理、项目绩效或广泛代表性。截至2026年8月1日，正文采用的官方公开口径仍为二十九个签署国；网络流传的“第二批八国、覆盖人口33.4亿”未获可核验的一手公告支持，未写入正文。**置信度：成立事实、五千名额与官方定位已确认；新增成员、运行成效及机构协同待持续观察。** https://www.fmprc.gov.cn/web/wjdt_674879/wjbxw_674885/202607/t20260716_11984399.shtml ；https://www.news.cn/politics/leaders/20260717/72728b6f94154d63b3eaaaf9808b51eb/c.html ；https://www.news.cn/world/20260719/9e49a03f5ce74864bd7b32f154aaad86/c.html ；https://www.ndrc.gov.cn/fggz/202607/t20260720_1406588.html ；https://docs.un.org/en/A/RES/79/325
 
-## 第七章　在依赖中保持自由
+## 第八章　在依赖中保持自由
 
 [^p7-mcp-control]: Model Context Protocol，*Tools Specification*与*Authorization Specification*，采用2025年11月25日稳定版本，核验至2026年8月1日。工具规范提醒工具属于可导致外部行动的能力，客户端应让用户看见并拒绝调用；授权规范要求令牌面向预期资源并禁止原样透传。协议提供互操作和授权机制，不证明工具自述或输出真实。https://modelcontextprotocol.io/specification/2025-11-25/server/tools ；https://modelcontextprotocol.io/specification/2025-11-25/basic/authorization
 

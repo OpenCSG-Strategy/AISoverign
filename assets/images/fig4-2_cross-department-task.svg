@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="920" viewBox="0 0 1600 920">
+  <rect width="1600" height="920" fill="#f6f3ec"/>
+  <style>.t{font-family:"PingFang SC","Noto Sans CJK SC",sans-serif;fill:#18322f}.h{font-size:38px;font-weight:700}.s{font-size:24px;font-weight:650}.b{font-size:19px}.box{fill:#fff;stroke:#1d8c80;stroke-width:3}.note{fill:#e8f4f1;stroke:#78a8a0;stroke-width:2}.line{stroke:#54706b;stroke-width:3;fill:none;marker-end:url(#a)}</style>
+  <defs><marker id="a" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#54706b"/></marker></defs>
+  <text x="800" y="58" text-anchor="middle" class="t h">产品发布任务：最小披露，属地执行</text>
+  <g transform="translate(65,120)"><rect width="270" height="170" rx="22" class="box"/><text x="135" y="48" text-anchor="middle" class="t s">产品域</text><text x="135" y="90" text-anchor="middle" class="t b">创建共同任务</text><text x="135" y="122" text-anchor="middle" class="t b">功能范围与目标市场</text></g>
+  <g transform="translate(420,120)"><rect width="270" height="170" rx="22" class="box"/><text x="135" y="48" text-anchor="middle" class="t s">法务域</text><text x="135" y="90" text-anchor="middle" class="t b">本地检索与审查</text><text x="135" y="122" text-anchor="middle" class="t b">返回批准条款与依据</text></g>
+  <g transform="translate(775,120)"><rect width="270" height="170" rx="22" class="box"/><text x="135" y="48" text-anchor="middle" class="t s">研发域</text><text x="135" y="90" text-anchor="middle" class="t b">本地测试与修复</text><text x="135" y="122" text-anchor="middle" class="t b">返回版本与测试制品</text></g>
+  <g transform="translate(1130,120)"><rect width="270" height="170" rx="22" class="box"/><text x="135" y="48" text-anchor="middle" class="t s">财务域</text><text x="135" y="90" text-anchor="middle" class="t b">本地预算判断</text><text x="135" y="122" text-anchor="middle" class="t b">返回阈值内／需升级</text></g>
+  <path d="M335 205 L420 205" class="line"/><path d="M690 205 L775 205" class="line"/><path d="M1045 205 L1130 205" class="line"/>
+  <rect x="190" y="380" width="1220" height="160" rx="26" class="note"/><text x="800" y="425" text-anchor="middle" class="t s">跨域协调层只持有</text><text x="800" y="470" text-anchor="middle" class="t b">共同任务编号　·　依赖状态　·　契约版本　·　批准制品　·　有效期限　·　下一责任方</text><text x="800" y="510" text-anchor="middle" class="t b">不持有：法务完整案件材料、研发完整代码、财务总账和各域永久凭证</text>
+  <path d="M800 540 L800 625" class="line"/>
+  <rect x="470" y="625" width="660" height="170" rx="24" class="box"/><text x="800" y="678" text-anchor="middle" class="t s">发布工具（属地执行）</text><text x="800" y="721" text-anchor="middle" class="t b">验证各部门制品、版本和期限</text><text x="800" y="754" text-anchor="middle" class="t b">满足策略才执行；否则暂停并进入人工仲裁</text>
+  <text x="800" y="865" text-anchor="middle" class="t b">协同由可验证的交接组成，而不是由全量上下文拼接组成</text>
+</svg>

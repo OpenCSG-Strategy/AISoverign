@@ -3,14 +3,14 @@ unit_type: "section"
 part: "第一部　看见依赖"
 chapter: "第一章"
 section: "第一章.2"
-title: "训练不是生产Token，而是在建厂"
+title: "训练阶段：模型怎样建成"
 order: 2
 editorial_stage: "待出版初审"
 fact_check: "沿用正文时间锚点，出版冻结前复核"
 artwork: "无预设；编辑审读时复核"
 ---
 
-## 训练不是生产Token，而是在建厂
+## 训练阶段：模型怎样建成
 
 人们常把训练和推理混在一起。理解AI产业，必须把它们分开。
 

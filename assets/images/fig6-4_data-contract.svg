@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<title>图6-4 数据契约 7 项 + 最小披露 4 方式</title><desc>《AI主权》原创信息图，v0.1，2026-08-06。把"数据契约先于数据流动"拆成两部分：上方 4 种最小披露方式（问题移动 / 属性 / 制品 / 属地执行），下方 7 项契约必备字段。两者缺一不可：前者控制范围，后者控制语义。数据来源：第六章正文 06.3。</desc>
+<rect width="100%" height="100%" fill="#fbfaf7"/>
+<style>text{font-family:Noto Sans CJK SC, PingFang SC, sans-serif;fill:#1f2933}
+.title{font-size:32px;font-weight:700}
+.label{font-size:22px;font-weight:700}
+.small{font-size:16px}
+.tiny{font-size:14px}
+.num{font-size:32px;font-weight:700;fill:#1f4e79}
+.box{stroke:#34495e;stroke-width:2;rx:12}
+.muted{fill:#f0eee8}
+.accent{fill:#dbeafe}
+.warm{fill:#fef3c7}
+.green{fill:#dcfce7}
+.line{stroke:#506273;stroke-width:3;fill:none}
+.thin{stroke:#506273;stroke-width:1.5;fill:none}
+</style>
+
+<text x="60" y="55" class="title" text-anchor="start">图6-4　数据契约 7 项 + 最小披露 4 方式</text>
+<text x="800" y="100" class="label" text-anchor="middle" fill="#1f4e79">控制范围 + 控制语义 — 两套都不可少</text>
+
+<!-- 上方：4 方式 -->
+<g>
+  <line x1="60" y1="125" x2="1540" y2="125" class="line"/>
+  <text x="800" y="160" class="label" text-anchor="middle">最小披露 4 种方式</text>
+
+  <rect x="60"  y="180" width="350" height="180" class="box accent"/>
+  <text x="100" y="220" class="num" text-anchor="start">①</text>
+  <text x="155" y="220" class="label" text-anchor="start">问题移动</text>
+  <text x="100" y="260" class="small" text-anchor="start">请求进入数据所属部门</text>
+  <text x="100" y="285" class="small" text-anchor="start">本地检索 + 本地计算</text>
+  <text x="100" y="310" class="small" text-anchor="start">只返回结论 + 必要证据</text>
+  <text x="100" y="345" class="tiny" text-anchor="start" fill="#1f4e79">原始数据不动</text>
+
+  <rect x="425" y="180" width="350" height="180" class="box accent"/>
+  <text x="465" y="220" class="num" text-anchor="start">②</text>
+  <text x="520" y="220" class="label" text-anchor="start">属性 / 区间</text>
+  <text x="465" y="260" class="small" text-anchor="start">是否满足资格</text>
+  <text x="465" y="285" class="small" text-anchor="start">是否在预算阈值内</text>
+  <text x="465" y="310" class="small" text-anchor="start">而非完整记录</text>
+  <text x="465" y="345" class="tiny" text-anchor="start" fill="#1f4e79">不返回原始行</text>
+
+  <rect x="790" y="180" width="350" height="180" class="box accent"/>
+  <text x="830" y="220" class="num" text-anchor="start">③</text>
+  <text x="885" y="220" class="label" text-anchor="start">可用制品</text>
+  <text x="830" y="260" class="small" text-anchor="start">法务交付：批准条款</text>
+  <text x="830" y="285" class="small" text-anchor="start">风险等级 + 引用依据</text>
+  <text x="830" y="310" class="small" text-anchor="start">不开放案件材料</text>
+  <text x="830" y="345" class="tiny" text-anchor="start" fill="#1f4e79">不暴露推理上下文</text>
+
+  <rect x="1155" y="180" width="350" height="180" class="box accent"/>
+  <text x="1195" y="220" class="num" text-anchor="start">④</text>
+  <text x="1250" y="220" class="label" text-anchor="start">属地执行</text>
+  <text x="1195" y="260" class="small" text-anchor="start">外部提交结构化请求</text>
+  <text x="1195" y="285" class="small" text-anchor="start">采购系统自己执行</text>
+  <text x="1195" y="310" class="small" text-anchor="start">不交出凭证</text>
+  <text x="1195" y="345" class="tiny" text-anchor="start" fill="#1f4e79">不交出供应商管理权限</text>
+</g>
+
+<!-- 下方：7 项契约 -->
+<g>
+  <line x1="60" y1="400" x2="1540" y2="400" class="line"/>
+  <text x="800" y="435" class="label" text-anchor="middle">跨域接口的 7 项数据契约（机器可读 + 人员可审）</text>
+
+  <rect x="60"  y="460" width="500" height="60" class="box warm"/>
+  <text x="100" y="498" class="small" text-anchor="start" font-weight="700">① 返回对象及字段含义</text>
+
+  <rect x="580" y="460" width="500" height="60" class="box warm"/>
+  <text x="620" y="498" class="small" text-anchor="start" font-weight="700">② 允许的用途与接收方</text>
+
+  <rect x="1100" y="460" width="440" height="60" class="box warm"/>
+  <text x="1140" y="498" class="small" text-anchor="start" font-weight="700">③ 数据来源 / 更新时间 / 适用范围</text>
+
+  <rect x="60"  y="540" width="500" height="60" class="box warm"/>
+  <text x="100" y="578" class="small" text-anchor="start" font-weight="700">④ 聚合 / 脱敏 / 推断方法</text>
+
+  <rect x="580" y="540" width="500" height="60" class="box warm"/>
+  <text x="620" y="578" class="small" text-anchor="start" font-weight="700">⑤ 保存期限 + 禁止二次使用</text>
+
+  <rect x="1100" y="540" width="440" height="60" class="box warm"/>
+  <text x="1140" y="578" class="small" text-anchor="start" font-weight="700">⑥ 无结果 / 过期 / 冲突如何表达</text>
+
+  <rect x="60"  y="620" width="1020" height="60" class="box warm"/>
+  <text x="100" y="658" class="small" text-anchor="start" font-weight="700">⑦ 谁负责变更版本 + 谁处理争议</text>
+</g>
+
+<!-- 底部：警示 -->
+<g>
+  <rect x="60" y="710" width="1480" height="160" class="box green"/>
+  <text x="800" y="745" class="label" text-anchor="middle" fill="#1f4e79">契约的价值不只是防泄露，还防止语义误用</text>
+  <text x="800" y="780" class="small" text-anchor="middle">销售字段 = "客户承诺金额" → 财务字段 = "已确认收入"</text>
+  <text x="800" y="805" class="small" text-anchor="middle">接口可连，含义不同</text>
+  <text x="800" y="835" class="small" text-anchor="middle" fill="#7c2d12">每次跨域输出 → 必须携带契约版本 + 时间戳 — 字段含义变化时调用方应拒绝旧接口</text>
+</g>
+
+<text x="60" y="895" class="tiny">原创信息图 · v0.1 · 2026-08-06 · 适配单色印刷 · 第六章正文 06.3</text>
+</svg>

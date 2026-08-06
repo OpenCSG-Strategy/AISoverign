@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<title>图4-5 从 DevOps 到 AgenticOps：管理半径的三段扩大</title><desc>《AI主权》原创信息图，v0.1，2026-08-06。把 DevOps / MLOps / AgenticOps 画成管理半径扩大的三段：DevOps 管代码/服务/基础设施；MLOps 加数据/实验/模型/漂移；AgenticOps 加任务/Agent/上下文/工具/权限/结果 —— 关注"机器是否在正确边界内完成了正确任务，并且可以停止、复盘和改进"。数据来源：第四章正文 + OpenCSG AgenticOps 实践 + NIST 2026 AI Agent 安全征求意见。</desc>
+<rect width="100%" height="100%" fill="#fbfaf7"/>
+<style>text{font-family:Noto Sans CJK SC, PingFang SC, sans-serif;fill:#1f2933}
+.title{font-size:32px;font-weight:700}
+.label{font-size:22px;font-weight:700}
+.small{font-size:16px}
+.tiny{font-size:14px}
+.num{font-size:34px;font-weight:700;fill:#1f4e79}
+.box{stroke:#34495e;stroke-width:2;rx:12}
+.muted{fill:#f0eee8}
+.accent{fill:#dbeafe}
+.warm{fill:#fef3c7}
+.green{fill:#dcfce7}
+.line{stroke:#506273;stroke-width:3;fill:none}
+.thin{stroke:#506273;stroke-width:1.5;fill:none}
+</style>
+<defs><marker id="arrow" markerWidth="12" markerHeight="12" refX="11" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 z" fill="#1f4e79"/></marker></defs>
+
+<text x="60" y="55" class="title" text-anchor="start">图4-5　从 DevOps 到 AgenticOps：管理半径的三段扩大</text>
+<text x="800" y="100" class="label" text-anchor="middle">每一段新增的不只是工具，而是新的责任对象 —— Agent 让软件开始自主选择路径</text>
+
+<!-- DevOps -->
+<rect x="60" y="150" width="460" height="500" class="box accent"/>
+<text x="290" y="190" class="label" text-anchor="middle">DevOps</text>
+<text x="290" y="220" class="small" text-anchor="middle" fill="#1f4e79" font-weight="700">代码 / 服务 / 基础设施</text>
+<line x1="100" y1="240" x2="480" y2="240" class="thin"/>
+<text x="100" y="270" class="num" text-anchor="start">管</text>
+<text x="140" y="270" class="small" text-anchor="start">源代码、构建、CI/CD</text>
+<text x="100" y="300" class="num" text-anchor="start">管</text>
+<text x="140" y="300" class="small" text-anchor="start">服务、配置、版本</text>
+<text x="100" y="330" class="num" text-anchor="start">管</text>
+<text x="140" y="330" class="small" text-anchor="start">基础设施（VM、容器、网络）</text>
+<text x="100" y="360" class="num" text-anchor="start">管</text>
+<text x="140" y="360" class="small" text-anchor="start">运行指标、日志、告警</text>
+
+<text x="100" y="430" class="label" text-anchor="start">最关心</text>
+<text x="100" y="455" class="small" text-anchor="start">能否稳定构建、发布、运行</text>
+
+<text x="100" y="510" class="label" text-anchor="start">留下的缺口</text>
+<text x="100" y="535" class="small" text-anchor="start" fill="#7c2d12">不判断概率输出 / 任务结果</text>
+<text x="100" y="555" class="small" text-anchor="start" fill="#7c2d12">是否正确</text>
+<text x="100" y="580" class="tiny" text-anchor="start" fill="#8795a1">"代码上线 ≠ 任务完成"</text>
+
+<!-- 箭头 -->
+<path d="M520,400 L580,400" class="line" marker-end="url(#arrow)"/>
+<text x="550" y="385" class="small" text-anchor="middle" fill="#1f4e79" font-weight="700">+</text>
+
+<!-- MLOps -->
+<rect x="580" y="150" width="460" height="500" class="box warm"/>
+<text x="810" y="190" class="label" text-anchor="middle">MLOps</text>
+<text x="810" y="220" class="small" text-anchor="middle" fill="#1f4e79" font-weight="700">数据 / 实验 / 模型 / 漂移</text>
+<line x1="620" y1="240" x2="1000" y2="240" class="thin"/>
+<text x="620" y="270" class="num" text-anchor="start">管</text>
+<text x="660" y="270" class="small" text-anchor="start">训练数据、标签、版本</text>
+<text x="620" y="300" class="num" text-anchor="start">管</text>
+<text x="660" y="300" class="small" text-anchor="start">实验追踪、超参</text>
+<text x="620" y="330" class="num" text-anchor="start">管</text>
+<text x="660" y="330" class="small" text-anchor="start">模型训练、评测、漂移</text>
+<text x="620" y="360" class="num" text-anchor="start">管</text>
+<text x="660" y="360" class="small" text-anchor="start">重新训练、灰度发布</text>
+
+<text x="620" y="430" class="label" text-anchor="start">最关心</text>
+<text x="620" y="455" class="small" text-anchor="start">模型能否被训练、验证、更新</text>
+
+<text x="620" y="510" class="label" text-anchor="start">留下的缺口</text>
+<text x="620" y="535" class="small" text-anchor="start" fill="#7c2d12">不覆盖完整工具链、</text>
+<text x="620" y="555" class="small" text-anchor="start" fill="#7c2d12">委托身份、外部副作用</text>
+<text x="620" y="580" class="tiny" text-anchor="start" fill="#8795a1">"模型更新 ≠ 任务可控"</text>
+
+<!-- 箭头 -->
+<path d="M1040,400 L1100,400" class="line" marker-end="url(#arrow)"/>
+<text x="1070" y="385" class="small" text-anchor="middle" fill="#1f4e79" font-weight="700">+</text>
+
+<!-- AgenticOps -->
+<rect x="1100" y="150" width="440" height="500" class="box green"/>
+<text x="1320" y="190" class="label" text-anchor="middle">AgenticOps</text>
+<text x="1320" y="220" class="small" text-anchor="middle" fill="#1f4e79" font-weight="700">任务 / Agent / 上下文 / 工具 / 权限 / 结果</text>
+<line x1="1140" y1="240" x2="1500" y2="240" class="thin"/>
+<text x="1140" y="270" class="num" text-anchor="start">管</text>
+<text x="1180" y="270" class="small" text-anchor="start">任务契约、状态、生命周期</text>
+<text x="1140" y="300" class="num" text-anchor="start">管</text>
+<text x="1180" y="300" class="small" text-anchor="start">身份 / 权限 / 凭证 / 再委托</text>
+<text x="1140" y="330" class="num" text-anchor="start">管</text>
+<text x="1180" y="330" class="small" text-anchor="start">工具 / 外部副作用 / 回滚</text>
+<text x="1140" y="360" class="num" text-anchor="start">管</text>
+<text x="1180" y="360" class="small" text-anchor="start">停止 / 接管 / 复盘 / 学习</text>
+
+<text x="1140" y="430" class="label" text-anchor="start">最关心</text>
+<text x="1140" y="455" class="small" text-anchor="start">机器是否在正确边界内</text>
+<text x="1140" y="478" class="small" text-anchor="start">完成正确任务，且可停止、复盘、改进</text>
+
+<text x="1140" y="510" class="label" text-anchor="start">不能替代</text>
+<text x="1140" y="535" class="small" text-anchor="start" fill="#7c2d12">法律、组织责任、</text>
+<text x="1140" y="555" class="small" text-anchor="start" fill="#7c2d12">具体领域判断</text>
+
+<!-- 底部 -->
+<rect x="60" y="700" width="1480" height="160" class="box muted"/>
+<text x="800" y="740" class="label" text-anchor="middle">AgenticOps 不抛弃软件工程 —— 把概率行为、外部内容、委托身份、现实后果接进原有工程纪律</text>
+<line x1="100" y1="760" x2="1500" y2="760" class="thin"/>
+<text x="100" y="795" class="num" text-anchor="start">→</text>
+<text x="160" y="795" class="label" text-anchor="start">OpenCSG AgenticOps：8 阶段（Prompt / Code / Build / Test / Release / Deploy / Operate / Retrain）</text>
+<text x="100" y="823" class="small" text-anchor="start">抓住"模型只是智能系统的部件，生产价值来自完整循环" —— 但仍要补"立项 / 长期负责人 / 身份 / 权限撤销 / 现实结果核验 / 退役"</text>
+
+<text x="60" y="880" class="tiny">原创信息图 · v0.1 · 2026-08-06 · 适配单色印刷 · 第四章正文 + OpenCSG AgenticOps 实践 + NIST 2026 AI Agent 安全征求意见</text>
+</svg>

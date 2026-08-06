@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<title>图序-4 模型竞赛转向能力体系竞争：5 层能力与不可替代</title><desc>《AI主权》原创信息图，v0.1，2026-08-06。把"能力体系"画成 5 层：研究 / 工程 / 吸收 / 治理 / 分配；每层标出"需要什么 / 可观察的长期指标 / 不能用什么替代"。模型领先只是研究层的一小段，无法替代完整体系。数据来源：序章正文表序-1（综合自 OECD AI 政策观察、ILO-世行 2024 报告）。</desc>
+<rect width="100%" height="100%" fill="#fbfaf7"/>
+<style>text{font-family:Noto Sans CJK SC, PingFang SC, sans-serif;fill:#1f2933}
+.title{font-size:32px;font-weight:700}
+.label{font-size:22px;font-weight:700}
+.small{font-size:16px}
+.tiny{font-size:14px}
+.num{font-size:34px;font-weight:700;fill:#1f4e79}
+.box{stroke:#34495e;stroke-width:2;rx:12}
+.muted{fill:#f0eee8}
+.accent{fill:#dbeafe}
+.warm{fill:#fef3c7}
+.green{fill:#dcfce7}
+.line{stroke:#506273;stroke-width:3;fill:none}
+.thin{stroke:#506273;stroke-width:1.5;fill:none}
+</style>
+
+<text x="60" y="55" class="title" text-anchor="start">图序-4　模型竞赛转向能力体系竞争：5 层能力与不可替代</text>
+<text x="800" y="100" class="label" text-anchor="middle">榜单成绩只是研究层的一小段；长期位置由"研究 + 工程 + 吸收 + 治理 + 分配"五层共同决定</text>
+
+<!-- 5 层金字塔（横向 5 列） -->
+<g>
+  <!-- Layer 1: 研究 -->
+  <rect x="60" y="140" width="290" height="220" class="box accent"/>
+  <text x="205" y="180" class="num" text-anchor="middle">①</text>
+  <text x="205" y="215" class="label" text-anchor="middle">研究能力</text>
+  <line x1="90" y1="235" x2="320" y2="235" class="thin"/>
+  <text x="80" y="265" class="small" text-anchor="start">· 人才、实验、算力</text>
+  <text x="80" y="290" class="small" text-anchor="start">· 数据、开放交流</text>
+  <text x="80" y="325" class="tiny" text-anchor="start" fill="#1f4e79" font-weight="700">长期指标：</text>
+  <text x="80" y="345" class="tiny" text-anchor="start">能否持续提出并验证新方法</text>
+
+  <!-- Layer 2: 工程 -->
+  <rect x="370" y="140" width="290" height="220" class="box warm"/>
+  <text x="515" y="180" class="num" text-anchor="middle">②</text>
+  <text x="515" y="215" class="label" text-anchor="middle">工程能力</text>
+  <line x1="400" y1="235" x2="630" y2="235" class="thin"/>
+  <text x="390" y="265" class="small" text-anchor="start">· 芯片、软件栈</text>
+  <text x="390" y="290" class="small" text-anchor="start">· 部署、运维、安全</text>
+  <text x="390" y="325" class="tiny" text-anchor="start" fill="#1f4e79" font-weight="700">长期指标：</text>
+  <text x="390" y="345" class="tiny" text-anchor="start">能否稳定运行并快速恢复</text>
+
+  <!-- Layer 3: 吸收 -->
+  <rect x="680" y="140" width="290" height="220" class="box green"/>
+  <text x="825" y="180" class="num" text-anchor="middle">③</text>
+  <text x="825" y="215" class="label" text-anchor="middle">吸收能力</text>
+  <line x1="710" y1="235" x2="940" y2="235" class="thin"/>
+  <text x="700" y="265" class="small" text-anchor="start">· 教育、场景</text>
+  <text x="700" y="290" class="small" text-anchor="start">· 组织流程、反馈</text>
+  <text x="700" y="325" class="tiny" text-anchor="start" fill="#1f4e79" font-weight="700">长期指标：</text>
+  <text x="700" y="345" class="tiny" text-anchor="start">能否把试点变成可复制能力</text>
+
+  <!-- Layer 4: 治理 -->
+  <rect x="990" y="140" width="290" height="220" class="box accent"/>
+  <text x="1135" y="180" class="num" text-anchor="middle">④</text>
+  <text x="1135" y="215" class="label" text-anchor="middle">治理能力</text>
+  <line x1="1020" y1="235" x2="1250" y2="235" class="thin"/>
+  <text x="1010" y="265" class="small" text-anchor="start">· 规则、审计、申诉</text>
+  <text x="1010" y="290" class="small" text-anchor="start">· 采购、退出</text>
+  <text x="1010" y="325" class="tiny" text-anchor="start" fill="#1f4e79" font-weight="700">长期指标：</text>
+  <text x="1010" y="345" class="tiny" text-anchor="start">能否解释、纠正和替换系统</text>
+
+  <!-- Layer 5: 分配 -->
+  <rect x="1300" y="140" width="240" height="220" class="box warm"/>
+  <text x="1420" y="180" class="num" text-anchor="middle">⑤</text>
+  <text x="1420" y="215" class="label" text-anchor="middle">分配能力</text>
+  <line x1="1320" y1="235" x2="1520" y2="235" class="thin"/>
+  <text x="1320" y="265" class="small" text-anchor="start">· 公共算力、基础设施</text>
+  <text x="1320" y="290" class="small" text-anchor="start">· 人才机会</text>
+  <text x="1320" y="325" class="tiny" text-anchor="start" fill="#1f4e79" font-weight="700">长期指标：</text>
+  <text x="1320" y="345" class="tiny" text-anchor="start">能否让更多主体参与学习</text>
+</g>
+
+<!-- 中间地带：什么不能替代什么 -->
+<rect x="60" y="380" width="1480" height="160" class="box muted"/>
+<text x="800" y="420" class="label" text-anchor="middle">不能用什么替代</text>
+<line x1="100" y1="440" x2="1500" y2="440" class="thin"/>
+<text x="100" y="475" class="small" text-anchor="start" fill="#7c2d12" font-weight="700">一次榜单领先  →  替代不了研究能力（Open-Weight 也能跑分）</text>
+<text x="100" y="500" class="small" text-anchor="start" fill="#7c2d12" font-weight="700">服务器采购量  →  替代不了工程能力（运行时稳定性要看运行能力）</text>
+<text x="100" y="525" class="small" text-anchor="start" fill="#7c2d12" font-weight="700">注册用户数    →  替代不了吸收能力（试点与日常使用差 100 倍）</text>
+
+<!-- 底部：体系为什么难复制 -->
+<rect x="60" y="565" width="1480" height="280" class="box green"/>
+<text x="800" y="605" class="label" text-anchor="middle">真正难复制的，是"持续制造下一次领先并把它转化为生产"的完整体系</text>
+<line x1="100" y1="625" x2="1500" y2="625" class="thin"/>
+
+<text x="100" y="660" class="num" text-anchor="start">→</text>
+<text x="160" y="660" class="label" text-anchor="start">论文会传播，人才会流动，开放权重会被下载</text>
+<text x="100" y="690" class="small" text-anchor="start">一个时间点的领先，不能保证下一代仍然领先</text>
+
+<text x="100" y="725" class="num" text-anchor="start">→</text>
+<text x="160" y="725" class="label" text-anchor="start">教师模型的部分行为可通过数据和蒸馏迁移</text>
+<text x="100" y="755" class="small" text-anchor="start">已被验证的能力还会进入更小、更便宜的系统</text>
+
+<text x="100" y="790" class="num" text-anchor="start" fill="#7c2d12">→</text>
+<text x="160" y="790" class="label" text-anchor="start">完整体系缺一不可</text>
+<text x="100" y="820" class="small" text-anchor="start">芯片与能源 · 研究与工程 · 企业场景与运行反馈 · 开源维护 · 公共监督 · 人才培养</text>
+
+<text x="60" y="870" class="tiny">原创信息图 · v0.1 · 2026-08-06 · 适配单色印刷 · 序章正文表序-1（OECD AI 政策观察、ILO-世行 2024）</text>
+</svg>

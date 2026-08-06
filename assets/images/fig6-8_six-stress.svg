@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<title>图6-8 冲突例外单 + 6 项压力测试</title><desc>《AI主权》原创信息图，v0.1，2026-08-06。把"冲突、例外"和"6 项压力测试"画在一起：左侧是临时仲裁的例外单 6 字段 + 紧急权限规则；右侧是 6 项压力测试（隔离 / 最小披露 / 语义 / 撤销 / 复盘 / 替换）。六项测试全部通过 = 部门既能守住本域又能交付可验证制品。数据来源：第六章正文 06.8。</desc>
+<rect width="100%" height="100%" fill="#fbfaf7"/>
+<style>text{font-family:Noto Sans CJK SC, PingFang SC, sans-serif;fill:#1f2933}
+.title{font-size:32px;font-weight:700}
+.label{font-size:22px;font-weight:700}
+.small{font-size:16px}
+.tiny{font-size:14px}
+.num{font-size:34px;font-weight:700;fill:#7c2d12}
+.box{stroke:#34495e;stroke-width:2;rx:12}
+.muted{fill:#f0eee8}
+.accent{fill:#dbeafe}
+.warm{fill:#fef3c7}
+.green{fill:#dcfce7}
+.red{fill:#fee2e2}
+.line{stroke:#506273;stroke-width:3;fill:none}
+.thin{stroke:#506273;stroke-width:1.5;fill:none}
+</style>
+
+<text x="60" y="55" class="title" text-anchor="start">图6-8　冲突例外单 + 6 项压力测试</text>
+<text x="800" y="100" class="label" text-anchor="middle" fill="#7c2d12">真正的边界要在出事时才看得见</text>
+
+<!-- 左侧：例外单 6 字段 -->
+<g>
+  <rect x="60" y="130" width="700" height="640" class="box warm"/>
+  <text x="100" y="170" class="label" text-anchor="start" fill="#7c2d12">临时仲裁 → 例外单 6 字段</text>
+
+  <rect x="100" y="195" width="620" height="60" class="box accent"/>
+  <text x="120" y="232" class="small" text-anchor="start" font-weight="700">① 冲突规则</text>
+  <text x="430" y="232" class="small" text-anchor="start" fill="#8795a1">哪两条互相排斥的策略</text>
+
+  <rect x="100" y="265" width="620" height="60" class="box accent"/>
+  <text x="120" y="302" class="small" text-anchor="start" font-weight="700">② 业务理由</text>
+  <text x="430" y="302" class="small" text-anchor="start" fill="#8795a1">为什么这次要破例</text>
+
+  <rect x="100" y="335" width="620" height="60" class="box accent"/>
+  <text x="120" y="372" class="small" text-anchor="start" font-weight="700">③ 受影响的数据 + 动作</text>
+  <text x="430" y="372" class="small" text-anchor="start" fill="#8795a1">扩到了哪些范围</text>
+
+  <rect x="100" y="405" width="620" height="60" class="box accent"/>
+  <text x="120" y="442" class="small" text-anchor="start" font-weight="700">④ 批准人</text>
+  <text x="430" y="442" class="small" text-anchor="start" fill="#8795a1">谁签字、谁可追问</text>
+
+  <rect x="100" y="475" width="620" height="60" class="box accent"/>
+  <text x="120" y="512" class="small" text-anchor="start" font-weight="700">⑤ 补偿控制</text>
+  <text x="430" y="512" class="small" text-anchor="start" fill="#8795a1">额外加了什么锁</text>
+
+  <rect x="100" y="545" width="620" height="60" class="box accent"/>
+  <text x="120" y="582" class="small" text-anchor="start" font-weight="700">⑥ 有效期限 + 复查条件</text>
+  <text x="430" y="582" class="small" text-anchor="start" fill="#8795a1">到期自动恢复 + 何时重审</text>
+
+  <!-- 紧急权限 -->
+  <rect x="100" y="625" width="620" height="130" class="box red"/>
+  <text x="120" y="660" class="label" text-anchor="start" fill="#7c2d12">紧急状态可以缩短流程</text>
+  <text x="120" y="690" class="small" text-anchor="start">· 范围限定在事件编号 + 时间窗口</text>
+  <text x="120" y="715" class="small" text-anchor="start">· 查询被完整记录</text>
+  <text x="120" y="740" class="small" text-anchor="start">· 事后由独立人员复核</text>
+  <text x="120" y="765" class="tiny" text-anchor="start" fill="#7c2d12">紧急权限若不自动到期，危机就会成为扩权借口</text>
+</g>
+
+<!-- 右侧：6 项压力测试 -->
+<g>
+  <rect x="800" y="130" width="740" height="640" class="box green"/>
+  <text x="830" y="170" class="label" text-anchor="start" fill="#1f4e79">6 项压力测试（架构图都画得漂亮，边界出事时才看得见）</text>
+
+  <rect x="830" y="195" width="350" height="160" class="box accent"/>
+  <text x="850" y="230" class="num" text-anchor="start" fill="#1f4e79">①</text>
+  <text x="900" y="230" class="label" text-anchor="start">隔离测试</text>
+  <text x="850" y="265" class="small" text-anchor="start">销售智能体被提示注入</text>
+  <text x="850" y="290" class="small" text-anchor="start">能否阻止横向读</text>
+  <text x="850" y="315" class="small" text-anchor="start">人力 / 财务 / 研发</text>
+  <text x="850" y="345" class="tiny" text-anchor="start" fill="#1f4e79">验证：横向隔离能力</text>
+
+  <rect x="1190" y="195" width="350" height="160" class="box accent"/>
+  <text x="1210" y="230" class="num" text-anchor="start" fill="#1f4e79">②</text>
+  <text x="1260" y="230" class="label" text-anchor="start">最小披露测试</text>
+  <text x="1210" y="265" class="small" text-anchor="start">跨部门任务能否用</text>
+  <text x="1210" y="290" class="small" text-anchor="start">属性 / 摘要 / 制品 / 属地</text>
+  <text x="1210" y="315" class="small" text-anchor="start">完成而不复制原始数据</text>
+  <text x="1210" y="345" class="tiny" text-anchor="start" fill="#1f4e79">验证：披露范围 + 到期</text>
+
+  <rect x="830" y="375" width="350" height="160" class="box accent"/>
+  <text x="850" y="410" class="num" text-anchor="start" fill="#1f4e79">③</text>
+  <text x="900" y="410" class="label" text-anchor="start">语义测试</text>
+  <text x="850" y="445" class="small" text-anchor="start">两部门字段定义不同</text>
+  <text x="850" y="470" class="small" text-anchor="start">系统会显式报告冲突？</text>
+  <text x="850" y="495" class="small" text-anchor="start">还是生成合理答案？</text>
+  <text x="850" y="525" class="tiny" text-anchor="start" fill="#1f4e79">验证：语义冲突显式化</text>
+
+  <rect x="1190" y="375" width="350" height="160" class="box accent"/>
+  <text x="1210" y="410" class="num" text-anchor="start" fill="#1f4e79">④</text>
+  <text x="1260" y="410" class="label" text-anchor="start">撤销测试</text>
+  <text x="1210" y="445" class="small" text-anchor="start">调岗 / 结束 / 异常 / 停用</text>
+  <text x="1210" y="470" class="small" text-anchor="start">新请求能否立即被拒？</text>
+  <text x="1210" y="495" class="small" text-anchor="start">缓存 + 临时凭证到期？</text>
+  <text x="1210" y="525" class="tiny" text-anchor="start" fill="#1f4e79">验证：快速失效</text>
+
+  <rect x="830" y="555" width="350" height="160" class="box accent"/>
+  <text x="850" y="590" class="num" text-anchor="start" fill="#1f4e79">⑤</text>
+  <text x="900" y="590" class="label" text-anchor="start">复盘测试</text>
+  <text x="850" y="625" class="small" text-anchor="start">不汇聚全部敏感日志</text>
+  <text x="850" y="650" class="small" text-anchor="start">能否沿任务编号还原</text>
+  <text x="850" y="675" class="small" text-anchor="start">委托链 / 版本 / 批准 / 制品</text>
+  <text x="850" y="705" class="tiny" text-anchor="start" fill="#1f4e79">验证：分布式可观测</text>
+
+  <rect x="1190" y="555" width="350" height="160" class="box accent"/>
+  <text x="1210" y="590" class="num" text-anchor="start" fill="#1f4e79">⑥</text>
+  <text x="1260" y="590" class="label" text-anchor="start">替换测试</text>
+  <text x="1210" y="625" class="small" text-anchor="start">换模型 / 换平台 / 换系统</text>
+  <text x="1210" y="650" class="small" text-anchor="start">其他部门只需遵守契约</text>
+  <text x="1210" y="675" class="small" text-anchor="start">不必带动全企业重建</text>
+  <text x="1210" y="705" class="tiny" text-anchor="start" fill="#1f4e79">验证：可替换性</text>
+</g>
+
+<!-- 底部 -->
+<g>
+  <rect x="60" y="790" width="1480" height="90" class="box muted"/>
+  <text x="800" y="830" class="label" text-anchor="middle" fill="#1f4e79">6 项测试 → 隔离 / 披露 / 语义 / 撤销 / 复盘 / 替换能力</text>
+  <text x="800" y="860" class="small" text-anchor="middle">全部通过后 — 部门既守住本域数据 + 行动权限，又能向企业共同任务交付可验证制品</text>
+</g>
+
+<text x="60" y="895" class="tiny">原创信息图 · v0.1 · 2026-08-06 · 适配单色印刷 · 第六章正文 06.8</text>
+</svg>

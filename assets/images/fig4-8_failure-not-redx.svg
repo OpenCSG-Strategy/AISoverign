@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<title>图4-8 失败不是一个红叉：5 类失败处理</title><desc>《AI主权》原创信息图，v0.1，2026-08-06。把"失败"拆成 5 类处理：重试（仅限幂等）/ 补偿（用新行动减轻）/ 接管（人拿到判断现场 + 权限 + 时间）/ 分层制动（5 级停止）/ 原因分析 + 业务补救。OpenAI Operator 系统卡自测：100 项任务有 13 次麻烦错误，607 项风险动作确认机制召回率 92%。数据来源：第四章正文 + OpenAI Operator 系统卡（2025）。</desc>
+<rect width="100%" height="100%" fill="#fbfaf7"/>
+<style>text{font-family:Noto Sans CJK SC, PingFang SC, sans-serif;fill:#1f2933}
+.title{font-size:32px;font-weight:700}
+.label{font-size:22px;font-weight:700}
+.small{font-size:16px}
+.tiny{font-size:14px}
+.num{font-size:34px;font-weight:700;fill:#1f4e79}
+.box{stroke:#34495e;stroke-width:2;rx:12}
+.muted{fill:#f0eee8}
+.accent{fill:#dbeafe}
+.warm{fill:#fef3c7}
+.green{fill:#dcfce7}
+.line{stroke:#506273;stroke-width:3;fill:none}
+.thin{stroke:#506273;stroke-width:1.5;fill:none}
+</style>
+
+<text x="60" y="55" class="title" text-anchor="start">图4-8　失败不是一个红叉：5 类失败处理</text>
+<text x="800" y="100" class="label" text-anchor="middle">"提交订单遇到超时，不知道订单没创建还是响应丢失" —— 重试可能解决问题，也可能重复下单</text>
+
+<!-- 5 类失败处理（垂直流） -->
+<g>
+  <rect x="60" y="140" width="730" height="140" class="box accent"/>
+  <text x="100" y="180" class="num" text-anchor="start">①</text>
+  <text x="160" y="180" class="label" text-anchor="start">重试（仅限幂等）</text>
+  <line x1="100" y1="200" x2="750" y2="200" class="thin"/>
+  <text x="100" y="230" class="small" text-anchor="start">执行一次与多次结果相同 → 可重试</text>
+  <text x="100" y="253" class="small" text-anchor="start">不可重试：付款 / 发送 / 修改主数据</text>
+  <text x="100" y="276" class="small" text-anchor="start" fill="#7c2d12">"二次提交" 不是默认动作 —— 需要业务编号 + 去重检查</text>
+
+  <rect x="60" y="300" width="730" height="140" class="box warm"/>
+  <text x="100" y="340" class="num" text-anchor="start">②</text>
+  <text x="160" y="340" class="label" text-anchor="start">补偿（用新行动减轻）</text>
+  <line x1="100" y1="360" x2="750" y2="360" class="thin"/>
+  <text x="100" y="390" class="small" text-anchor="start">数据库可回滚 / 包裹可拦截 / 扣款可退 / 错发可更正</text>
+  <text x="100" y="413" class="small" text-anchor="start" fill="#7c2d12" font-weight="700">补偿用新行动减轻后果，不能抹掉历史</text>
+
+  <rect x="60" y="460" width="730" height="160" class="box green"/>
+  <text x="100" y="500" class="num" text-anchor="start">③</text>
+  <text x="160" y="500" class="label" text-anchor="start">人工接管（不仅是按钮）</text>
+  <line x1="100" y1="520" x2="750" y2="520" class="thin"/>
+  <text x="100" y="550" class="small" text-anchor="start">需要：判断的现场 + 改变结果的权限 + 足够时间</text>
+  <text x="100" y="573" class="small" text-anchor="start">接手人能看到：目标 / 已采取步骤 / 外部状态 / 不确定之处</text>
+  <text x="100" y="596" class="small" text-anchor="start">接手人能够：暂停 / 撤回凭证 / 修改计划 / 启动补偿</text>
+  <text x="100" y="616" class="small" text-anchor="start" fill="#7c2d12" font-weight="700">"几秒内确认" ≠ 有效接管</text>
+
+  <rect x="810" y="140" width="730" height="220" class="box accent"/>
+  <text x="850" y="180" class="num" text-anchor="start">④</text>
+  <text x="910" y="180" class="label" text-anchor="start">分层制动（5 级）</text>
+  <line x1="850" y1="200" x2="1500" y2="200" class="thin"/>
+  <text x="850" y="230" class="num" text-anchor="start">L1</text>
+  <text x="900" y="230" class="small" text-anchor="start">暂停单个工具</text>
+  <text x="850" y="255" class="num" text-anchor="start">L2</text>
+  <text x="900" y="255" class="small" text-anchor="start">收回高风险权限</text>
+  <text x="850" y="280" class="num" text-anchor="start">L3</text>
+  <text x="900" y="280" class="small" text-anchor="start">降到只读 / 建议模式</text>
+  <text x="850" y="305" class="num" text-anchor="start">L4</text>
+  <text x="900" y="305" class="small" text-anchor="start">切换备用能力</text>
+  <text x="850" y="330" class="num" text-anchor="start" fill="#7c2d12">L5</text>
+  <text x="900" y="330" class="small" text-anchor="start" fill="#7c2d12" font-weight="700">完全停止 + 人工接管</text>
+
+  <rect x="810" y="380" width="730" height="240" class="box green"/>
+  <text x="850" y="420" class="num" text-anchor="start">⑤</text>
+  <text x="910" y="420" class="label" text-anchor="start">原因分析 + 业务补救</text>
+  <line x1="850" y1="440" x2="1500" y2="440" class="thin"/>
+  <text x="850" y="470" class="small" text-anchor="start">遏制以后再做归因：</text>
+  <text x="850" y="493" class="small" text-anchor="start">模型？知识？工具？权限？运行环境？人为配置？</text>
+<text x="850" y="525" class="small" text-anchor="start" fill="#8795a1">技术回退还不够</text>
+<text x="850" y="548" class="small" text-anchor="start" fill="#7c2d12" font-weight="700">已发出的邮件 / 完成的退款 / 受到影响的人</text>
+<text x="850" y="571" class="small" text-anchor="start" fill="#7c2d12" font-weight="700">需要业务补救</text>
+<text x="850" y="603" class="small" text-anchor="start" fill="#1f4e79">失败得"可见 / 有限 / 可恢复"</text>
+<text x="850" y="625" class="small" text-anchor="start" fill="#1f4e79">&gt; 承诺"永不失败"</text>
+</g>
+
+<!-- 底部：OpenAI 实证数据 -->
+<rect x="60" y="640" width="1480" height="220" class="box muted"/>
+<text x="800" y="680" class="label" text-anchor="middle">OpenAI Operator 系统卡（2025）把"安全"拆成具体权衡</text>
+<line x1="100" y1="700" x2="1500" y2="700" class="thin"/>
+
+<text x="100" y="740" class="num" text-anchor="start">100</text>
+<text x="160" y="740" class="label" text-anchor="start">项近似真实任务，厂商自测</text>
+<text x="100" y="765" class="small" text-anchor="start" fill="#7c2d12">13 次会造成麻烦的错误</text>
+<text x="100" y="788" class="small" text-anchor="start" fill="#7c2d12">其中 5 次较难逆转或可能较严重</text>
+
+<text x="600" y="740" class="num" text-anchor="start">607</text>
+<text x="660" y="740" class="label" text-anchor="start">项风险动作评测</text>
+<text x="600" y="765" class="small" text-anchor="start" fill="#1f4e79">要求用户确认的机制</text>
+<text x="600" y="788" class="small" text-anchor="start" fill="#1f4e79">召回率 ≈ 92%</text>
+
+<text x="1100" y="740" class="num" text-anchor="start">13 704</text>
+<text x="1180" y="740" class="label" text-anchor="start">个正常画面（提示注入监测）</text>
+<text x="1100" y="765" class="small" text-anchor="start" fill="#7c2d12">误报 46 次</text>
+<text x="1100" y="788" class="small" text-anchor="start" fill="#8795a1">误报率高 → 人会绕过防线</text>
+
+<text x="100" y="833" class="small" text-anchor="start" fill="#7c2d12" font-weight="700">一次确认挡住多少危险？漏掉的错误能走多远？误报是否会让人绕过防线？</text>
+
+<text x="60" y="880" class="tiny">原创信息图 · v0.1 · 2026-08-06 · 适配单色印刷 · 第四章正文 + OpenAI Operator 系统卡（2025）</text>
+</svg>

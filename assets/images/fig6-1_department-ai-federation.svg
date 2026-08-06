@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="980" viewBox="0 0 1600 980">
+  <rect width="1600" height="980" fill="#f6f3ec"/>
+  <style>
+    .t{font-family:"PingFang SC","Noto Sans CJK SC",sans-serif;fill:#18322f}.h{font-size:38px;font-weight:700}.s{font-size:25px;font-weight:600}.b{font-size:20px}.box{fill:#fff;stroke:#1d8c80;stroke-width:3}.local{fill:#e8f4f1;stroke:#1d8c80;stroke-width:2}.line{stroke:#54706b;stroke-width:3;fill:none;marker-end:url(#a)}
+  </style>
+  <defs><marker id="a" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#54706b"/></marker></defs>
+  <text x="800" y="62" text-anchor="middle" class="t h">组织层 AI 主权：部门自治，联邦协同</text>
+  <rect x="170" y="105" width="1260" height="170" rx="24" class="box"/>
+  <text x="800" y="150" text-anchor="middle" class="t s">企业联邦控制面</text>
+  <text x="800" y="194" text-anchor="middle" class="t b">身份与信任　·　能力目录　·　协议与数据契约　·　任务路由　·　跨域审计索引</text>
+  <text x="800" y="235" text-anchor="middle" class="t b">共享规则与状态，不汇聚全部原始数据、永久凭证和敏感上下文</text>
+  <path d="M400 275 L400 365" class="line"/><path d="M800 275 L800 365" class="line"/><path d="M1200 275 L1200 365" class="line"/>
+  <g transform="translate(80,365)"><rect width="560" height="500" rx="28" class="box"/><text x="280" y="55" text-anchor="middle" class="t s">研发 AI 域</text><rect x="45" y="90" width="470" height="72" rx="14" class="local"/><text x="280" y="135" text-anchor="middle" class="t b">代码、缺陷、技术路线</text><rect x="45" y="185" width="470" height="72" rx="14" class="local"/><text x="280" y="230" text-anchor="middle" class="t b">代码模型、知识库、评测集</text><rect x="45" y="280" width="470" height="72" rx="14" class="local"/><text x="280" y="325" text-anchor="middle" class="t b">测试、合并、发布工具</text><rect x="45" y="375" width="470" height="72" rx="14" class="local"/><text x="280" y="420" text-anchor="middle" class="t b">本地策略、密钥与详细日志</text></g>
+  <g transform="translate(680,365)"><rect width="360" height="500" rx="28" class="box"/><text x="180" y="55" text-anchor="middle" class="t s">法务 AI 域</text><rect x="35" y="90" width="290" height="72" rx="14" class="local"/><text x="180" y="135" text-anchor="middle" class="t b">合同与案件材料</text><rect x="35" y="185" width="290" height="72" rx="14" class="local"/><text x="180" y="230" text-anchor="middle" class="t b">引用与风险模型</text><rect x="35" y="280" width="290" height="72" rx="14" class="local"/><text x="180" y="325" text-anchor="middle" class="t b">审查与批准工具</text><rect x="35" y="375" width="290" height="72" rx="14" class="local"/><text x="180" y="420" text-anchor="middle" class="t b">本地策略与证据</text></g>
+  <g transform="translate(1080,365)"><rect width="440" height="500" rx="28" class="box"/><text x="220" y="55" text-anchor="middle" class="t s">财务 AI 域</text><rect x="35" y="90" width="370" height="72" rx="14" class="local"/><text x="220" y="135" text-anchor="middle" class="t b">预算、总账、未披露业绩</text><rect x="35" y="185" width="370" height="72" rx="14" class="local"/><text x="220" y="230" text-anchor="middle" class="t b">计算模型与财务口径</text><rect x="35" y="280" width="370" height="72" rx="14" class="local"/><text x="220" y="325" text-anchor="middle" class="t b">付款、冻结、审批工具</text><rect x="35" y="375" width="370" height="72" rx="14" class="local"/><text x="220" y="420" text-anchor="middle" class="t b">本地策略与审计记录</text></g>
+  <text x="800" y="925" text-anchor="middle" class="t b">跨域只交换任务所需的请求、受约束制品和执行凭证</text>
+</svg>

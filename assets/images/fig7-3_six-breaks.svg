@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<title>图7-3 一项生产任务的 6 断点 + 4 规模</title><desc>《AI主权》原创信息图，v0.1，2026-08-06。把"演示很好，生产突然变难"画成 6 断点（能力变化 / 流程停机 / 能力割裂 / 数据稀缺 / 治理不进入 / 成本脱节）+ 4 规模（数据规模 / 行动规模 / 时间规模 / 责任规模）。演示中的偶发错误，沿订单/代码/资金/供应链复制就改变性质。数据来源：第七章正文 07.2。</desc>
+<rect width="100%" height="100%" fill="#fbfaf7"/>
+<style>text{font-family:Noto Sans CJK SC, PingFang SC, sans-serif;fill:#1f2933}
+.title{font-size:32px;font-weight:700}
+.label{font-size:22px;font-weight:700}
+.small{font-size:16px}
+.tiny{font-size:14px}
+.num{font-size:30px;font-weight:700;fill:#7c2d12}
+.box{stroke:#34495e;stroke-width:2;rx:12}
+.muted{fill:#f0eee8}
+.accent{fill:#dbeafe}
+.warm{fill:#fef3c7}
+.green{fill:#dcfce7}
+.red{fill:#fee2e2}
+.line{stroke:#506273;stroke-width:3;fill:none}
+.thin{stroke:#506273;stroke-width:1.5;fill:none}
+</style>
+
+<text x="60" y="55" class="title" text-anchor="start">图7-3　一项生产任务的 6 断点 + 4 规模</text>
+<text x="800" y="100" class="label" text-anchor="middle" fill="#7c2d12">演示漂亮，生产突然变难 — 因为有 6 个连续断点 + 4 种规模</text>
+
+<!-- 6 断点 -->
+<g>
+  <line x1="60" y1="125" x2="1540" y2="125" class="line"/>
+  <text x="800" y="160" class="label" text-anchor="middle">6 个连续断点</text>
+
+  <rect x="60"  y="180" width="500" height="80" class="box red"/>
+  <text x="100" y="218" class="num" text-anchor="start" fill="#7c2d12">①</text>
+  <text x="155" y="218" class="label" text-anchor="start">底层能力持续变化</text>
+  <text x="100" y="245" class="small" text-anchor="start">模型 / 价格 / 接口 / 上下文 / 工具格式 / 访问政策都会更新</text>
+
+  <rect x="570" y="180" width="500" height="80" class="box red"/>
+  <text x="610" y="218" class="num" text-anchor="start" fill="#7c2d12">②</text>
+  <text x="665" y="218" class="label" text-anchor="start">生产流程不能停机</text>
+  <text x="610" y="245" class="small" text-anchor="start">客服 / 工厂 / 风控 / 软件发布 都有明确时限与状态</text>
+
+  <rect x="1080" y="180" width="460" height="80" class="box red"/>
+  <text x="1120" y="218" class="num" text-anchor="start" fill="#7c2d12">③</text>
+  <text x="1175" y="218" class="label" text-anchor="start">能力彼此割裂</text>
+  <text x="1120" y="245" class="small" text-anchor="start">订单 / 知识 / 模型 / 支付 — 不同身份和故障语义</text>
+
+  <rect x="60"  y="270" width="500" height="80" class="box red"/>
+  <text x="100" y="308" class="num" text-anchor="start" fill="#7c2d12">④</text>
+  <text x="155" y="308" class="label" text-anchor="start">数据既稀缺又有边界</text>
+  <text x="100" y="335" class="small" text-anchor="start">缺：高质量任务/结果/错误材料；多：个人信息/商业秘密</text>
+
+  <rect x="570" y="270" width="500" height="80" class="box red"/>
+  <text x="610" y="308" class="num" text-anchor="start" fill="#7c2d12">⑤</text>
+  <text x="665" y="308" class="label" text-anchor="start">治理不能事故后补装</text>
+  <text x="610" y="335" class="small" text-anchor="start">身份 / 最小权限 / 沙箱 / 审计 / 暂停 / 回滚 — 必须运行中强制</text>
+
+  <rect x="1080" y="270" width="460" height="80" class="box red"/>
+  <text x="1120" y="308" class="num" text-anchor="start" fill="#7c2d12">⑥</text>
+  <text x="1175" y="308" class="label" text-anchor="start">成本与效果脱节</text>
+  <text x="1120" y="335" class="small" text-anchor="start">Token 便宜 / 完成率高 ≠ 真实问题被解决</text>
+</g>
+
+<!-- 4 规模 -->
+<g>
+  <line x1="60" y1="380" x2="1540" y2="380" class="line"/>
+  <text x="800" y="415" class="label" text-anchor="middle" fill="#7c2d12">4 种规模：演示中的偶发错误 → 沿订单/代码/资金/供应链复制就改变性质</text>
+
+  <rect x="60"  y="440" width="350" height="200" class="box warm"/>
+  <text x="100" y="478" class="num" text-anchor="start" fill="#7c2d12">①</text>
+  <text x="155" y="478" class="label" text-anchor="start">数据规模</text>
+  <text x="100" y="510" class="small" text-anchor="start">· 客户 / 员工 / 产品 / 交易</text>
+  <text x="100" y="535" class="small" text-anchor="start">· 供应链</text>
+  <text x="100" y="560" class="small" text-anchor="start">· 一处权限错误 → 暴露完整关系网</text>
+  <text x="100" y="600" class="tiny" text-anchor="start" fill="#7c2d12">错误对象从 1 个 → 1 张网</text>
+
+  <rect x="425" y="440" width="350" height="200" class="box warm"/>
+  <text x="465" y="478" class="num" text-anchor="start" fill="#7c2d12">②</text>
+  <text x="520" y="478" class="label" text-anchor="start">行动规模</text>
+  <text x="465" y="510" class="small" text-anchor="start">· 同时发信息 / 改价格</text>
+  <text x="465" y="535" class="small" text-anchor="start">· 调度库存 / 生成合同</text>
+  <text x="465" y="560" class="small" text-anchor="start">· 一次误判可被复制上千次</text>
+  <text x="465" y="600" class="tiny" text-anchor="start" fill="#7c2d12">错误从 1 次 → 10000 次</text>
+
+  <rect x="790" y="440" width="350" height="200" class="box warm"/>
+  <text x="830" y="478" class="num" text-anchor="start" fill="#7c2d12">③</text>
+  <text x="885" y="478" class="label" text-anchor="start">时间规模</text>
+  <text x="830" y="510" class="small" text-anchor="start">· 错误进入标准流程</text>
+  <text x="830" y="535" class="small" text-anchor="start">· 在无人注意时持续运行</text>
+  <text x="830" y="560" class="small" text-anchor="start">· 长期排斥某类客户</text>
+  <text x="830" y="600" class="tiny" text-anchor="start" fill="#7c2d12">错误从一次性 → 永久性</text>
+
+  <rect x="1155" y="440" width="385" height="200" class="box warm"/>
+  <text x="1195" y="478" class="num" text-anchor="start" fill="#7c2d12">④</text>
+  <text x="1250" y="478" class="label" text-anchor="start">责任规模</text>
+  <text x="1195" y="510" class="small" text-anchor="start">· 业务 / 技术 / 法务 / 安全</text>
+  <text x="1195" y="535" class="small" text-anchor="start">· 采购 / 供应商</text>
+  <text x="1195" y="560" class="small" text-anchor="start">· 每个部门参与一段</text>
+  <text x="1195" y="600" class="tiny" text-anchor="start" fill="#7c2d12">责任从有人 → 没人拥有全貌</text>
+</g>
+
+<!-- 案例 -->
+<g>
+  <line x1="60" y1="660" x2="1540" y2="660" class="line"/>
+  <text x="800" y="695" class="label" text-anchor="middle">案例 — 美国 Rite Aid 人脸识别 2023</text>
+
+  <rect x="60" y="715" width="1480" height="155" class="box muted"/>
+  <text x="100" y="755" class="small" text-anchor="start" font-weight="700">数千次错误匹配 → 消费者被跟随 / 搜查 / 要求离店 / 面对警方</text>
+  <text x="100" y="780" class="small" text-anchor="start">· 黑人和亚裔社区门店误报更高</text>
+  <text x="100" y="800" class="small" text-anchor="start">· 一名 11 岁女孩因错误匹配被拦下和搜查</text>
+  <text x="100" y="830" class="small" text-anchor="start" fill="#7c2d12">问题不只是"平均准确率" — 而是错误落在谁身上 / 门店员工是否被提示改变行动 / 能否知道为何被标记 / 向谁纠正</text>
+</g>
+
+<text x="60" y="895" class="tiny">原创信息图 · v0.1 · 2026-08-06 · 适配单色印刷 · 第七章正文 07.2</text>
+</svg>

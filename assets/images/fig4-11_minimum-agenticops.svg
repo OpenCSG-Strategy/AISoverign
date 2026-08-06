@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<title>图4-11 最低可行 AgenticOps：4 个问题与朴素动作</title><desc>《AI主权》原创信息图，v0.1，2026-08-06。把"最低可行 AgenticOps"画成 4 个问题（看见什么 / 做什么 / 谁叫停 / 谁负责）+ 朴素动作清单（指定责任人 / 列出数据工具外部影响 / 高风险独立确认 / 最小证据 / 真实失败评测 / 备用路径真实流量 / 定期撤销演练）。AgenticOps 与 AI 主权不是两套框架，而是同一方法在不同层级的形态变化。数据来源：第四章正文 04.11。</desc>
+<rect width="100%" height="100%" fill="#fbfaf7"/>
+<style>text{font-family:Noto Sans CJK SC, PingFang SC, sans-serif;fill:#1f2933}
+.title{font-size:32px;font-weight:700}
+.label{font-size:22px;font-weight:700}
+.small{font-size:16px}
+.tiny{font-size:14px}
+.num{font-size:34px;font-weight:700;fill:#1f4e79}
+.box{stroke:#34495e;stroke-width:2;rx:12}
+.muted{fill:#f0eee8}
+.accent{fill:#dbeafe}
+.warm{fill:#fef3c7}
+.green{fill:#dcfce7}
+.line{stroke:#506273;stroke-width:3;fill:none}
+.thin{stroke:#506273;stroke-width:1.5;fill:none}
+</style>
+
+<text x="60" y="55" class="title" text-anchor="start">图4-11　最低可行 AgenticOps：4 个问题与朴素动作</text>
+<text x="800" y="100" class="label" text-anchor="middle">小团队可以从一张任务单、几个独立账号、一套真实测试、一次停止演练开始</text>
+
+<!-- 4 个问题 -->
+<rect x="60" y="140" width="1480" height="60" class="box warm"/>
+<text x="800" y="180" class="label" text-anchor="middle">最低实现必须持续回答 4 个问题</text>
+
+<g>
+  <rect x="60" y="220" width="350" height="200" class="box accent"/>
+  <text x="235" y="260" class="num" text-anchor="middle">①</text>
+  <text x="235" y="295" class="label" text-anchor="middle">看见什么</text>
+  <line x1="100" y1="315" x2="370" y2="315" class="thin"/>
+  <text x="100" y="345" class="small" text-anchor="start">数据 / 工具 /</text>
+  <text x="100" y="368" class="small" text-anchor="start">外部影响清单</text>
+  <text x="100" y="400" class="tiny" text-anchor="start" fill="#8795a1">最小披露原则</text>
+
+  <rect x="430" y="220" width="350" height="200" class="box warm"/>
+  <text x="605" y="260" class="num" text-anchor="middle">②</text>
+  <text x="605" y="295" class="label" text-anchor="middle">做什么</text>
+  <line x1="470" y1="315" x2="740" y2="315" class="thin"/>
+  <text x="470" y="345" class="small" text-anchor="start">高风险动作</text>
+  <text x="470" y="368" class="small" text-anchor="start">独立确认点</text>
+  <text x="470" y="400" class="tiny" text-anchor="start" fill="#8795a1">金额上限 / 工具白名单</text>
+
+  <rect x="800" y="220" width="350" height="200" class="box green"/>
+  <text x="975" y="260" class="num" text-anchor="middle">③</text>
+  <text x="975" y="295" class="label" text-anchor="middle">谁叫停</text>
+  <line x1="840" y1="315" x2="1110" y2="315" class="thin"/>
+  <text x="840" y="345" class="small" text-anchor="start">独立于 Agent</text>
+  <text x="840" y="368" class="small" text-anchor="start">真正有权按下</text>
+  <text x="840" y="400" class="tiny" text-anchor="start" fill="#8795a1">停止 / 接管 / 撤销演练</text>
+
+  <rect x="1170" y="220" width="370" height="200" class="box accent"/>
+  <text x="1355" y="260" class="num" text-anchor="middle">④</text>
+  <text x="1355" y="295" class="label" text-anchor="middle">谁负责</text>
+  <line x1="1210" y1="315" x2="1500" y2="315" class="thin"/>
+  <text x="1210" y="345" class="small" text-anchor="start">每个 Agent</text>
+  <text x="1210" y="368" class="small" text-anchor="start">有指定责任人</text>
+  <text x="1210" y="400" class="tiny" text-anchor="start" fill="#8795a1">不是"系统在跑"</text>
+</g>
+
+<!-- 朴素动作 -->
+<rect x="60" y="450" width="1480" height="60" class="box warm"/>
+<text x="800" y="490" class="label" text-anchor="middle">4 个问题展开 → 一组朴素动作</text>
+
+<g>
+  <rect x="60" y="530" width="730" height="160" class="box accent"/>
+  <text x="425" y="565" class="num" text-anchor="start">a</text>
+  <text x="465" y="565" class="label" text-anchor="start">给每个重要 Agent 指定责任人</text>
+  <line x1="100" y1="585" x2="750" y2="585" class="thin"/>
+  <text x="100" y="610" class="small" text-anchor="start">· 列出数据 / 工具 / 外部影响</text>
+  <text x="100" y="633" class="small" text-anchor="start">· 保存最小但足以复盘的版本与结果证据</text>
+  <text x="100" y="656" class="small" text-anchor="start">· 用真实失败建立小型评测集</text>
+  <text x="100" y="679" class="small" text-anchor="start" fill="#1f4e79" font-weight="700">登记册 &gt; 更多聊天窗口</text>
+
+  <rect x="810" y="530" width="730" height="160" class="box warm"/>
+  <text x="1185" y="565" class="num" text-anchor="start">b</text>
+  <text x="1225" y="565" class="label" text-anchor="start">让备用路径承担少量真实任务</text>
+  <line x1="850" y1="585" x2="1500" y2="585" class="thin"/>
+  <text x="850" y="610" class="small" text-anchor="start">· 高风险动作放在独立确认点</text>
+  <text x="850" y="633" class="small" text-anchor="start">· 定期撤销过期权限</text>
+  <text x="850" y="656" class="small" text-anchor="start">· 定期演练停止、接管、导出</text>
+  <text x="850" y="679" class="small" text-anchor="start" fill="#1f4e79" font-weight="700">备用路径必须真实承担流量</text>
+</g>
+
+<!-- 底部：与 4 主体层级对应 -->
+<rect x="60" y="720" width="1480" height="140" class="box muted"/>
+<text x="800" y="760" class="label" text-anchor="middle">方法相同，权力半径不同 —— 第二部会看它在 4 主体层级怎样改变形态</text>
+<line x1="100" y1="780" x2="1500" y2="780" class="thin"/>
+<text x="100" y="815" class="num" text-anchor="start" fill="#1f4e79">个人</text>
+<text x="160" y="815" class="small" text-anchor="start">记忆边界 / 账号权限 / 重要行动确认 / 资产可带走</text>
+<text x="100" y="838" class="num" text-anchor="start" fill="#1f4e79">组织</text>
+<text x="160" y="838" class="small" text-anchor="start">部门 AI 域 / 最小披露 / 跨域执行凭证</text>
+<text x="100" y="861" class="num" text-anchor="start" fill="#1f4e79">企业</text>
+<text x="160" y="861" class="small" text-anchor="start">能力网络 / 供应商管理 / 任务经济学 / 停机演练</text>
+<text x="850" y="815" class="num" text-anchor="start" fill="#1f4e79">国家/城市</text>
+<text x="910" y="815" class="small" text-anchor="start">法律授权 / 公共说明 / 申诉 / 共同基础设施 / 长期能力责任</text>
+<text x="850" y="838" class="tiny" text-anchor="start" fill="#7c2d12" font-weight="700">机器越能行动，主体越需要把选择留在运行之中</text>
+
+<text x="60" y="880" class="tiny">原创信息图 · v0.1 · 2026-08-06 · 适配单色印刷 · 第四章正文 04.11</text>
+</svg>

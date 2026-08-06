@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<title>图序-7 控制能力比模型排名更重要：5 个判断问题</title><desc>《AI主权》原创信息图，v0.1，2026-08-06。把"控制能力比模型排名重要"画成 5 个判断问题：能力由什么生产 / 机器代表谁行动 / 权限从哪里获得 / 资产向谁沉淀 / 出现错误谁停止+解释+补救 / 环境变化后是否仍有下一种选择。模型榜首会反复易位，这 6 个问题才稳定。数据来源：序章正文；OECD AI 治理建议 2019/2024 公共问责原则。</desc>
+<rect width="100%" height="100%" fill="#fbfaf7"/>
+<style>text{font-family:Noto Sans CJK SC, PingFang SC, sans-serif;fill:#1f2933}
+.title{font-size:32px;font-weight:700}
+.label{font-size:22px;font-weight:700}
+.small{font-size:16px}
+.tiny{font-size:14px}
+.num{font-size:34px;font-weight:700;fill:#1f4e79}
+.box{stroke:#34495e;stroke-width:2;rx:12}
+.muted{fill:#f0eee8}
+.accent{fill:#dbeafe}
+.warm{fill:#fef3c7}
+.green{fill:#dcfce7}
+.line{stroke:#506273;stroke-width:3;fill:none}
+.thin{stroke:#506273;stroke-width:1.5;fill:none}
+</style>
+<defs><marker id="arrow" markerWidth="12" markerHeight="12" refX="11" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 z" fill="#506273"/></marker></defs>
+
+<text x="60" y="55" class="title" text-anchor="start">图序-7　控制能力比模型排名更重要：5 个判断问题</text>
+<text x="800" y="100" class="label" text-anchor="middle">模型榜首反复易位；这 5 个问题才是一项 AI 任务真正要回答的</text>
+
+<!-- 5 个判断问题：垂直流向（5 个问题+箭头） -->
+<g>
+  <!-- Q1 -->
+  <rect x="60" y="140" width="1480" height="110" class="box accent"/>
+  <text x="100" y="180" class="num" text-anchor="start">①</text>
+  <text x="160" y="180" class="label" text-anchor="start">能力由什么生产？</text>
+  <text x="160" y="210" class="small" text-anchor="start">一次回答由什么设备、能源、软件、资本生产？一枚 Token 怎样从屏幕上的轻盈字变成一套重型工业系统的产品？</text>
+  <text x="100" y="235" class="tiny" text-anchor="start" fill="#1f4e79" font-weight="700">→ 第一章：走进 Token 工厂</text>
+
+  <!-- 箭头 -->
+  <path d="M800,250 L800,265" class="line" marker-end="url(#arrow)"/>
+
+  <!-- Q2 -->
+  <rect x="60" y="270" width="1480" height="110" class="box warm"/>
+  <text x="100" y="310" class="num" text-anchor="start">②</text>
+  <text x="160" y="310" class="label" text-anchor="start">机器代表谁行动？</text>
+  <text x="160" y="340" class="small" text-anchor="start">继承哪一档身份和权限？会改什么、提交什么、发出什么？失败后能否撤回、复原、追责？</text>
+  <text x="100" y="365" class="tiny" text-anchor="start" fill="#1f4e79" font-weight="700">→ 第二章：从模型到能力网络 / 第三章：行动 + 权限</text>
+
+  <path d="M800,380 L800,395" class="line" marker-end="url(#arrow)"/>
+
+  <!-- Q3 -->
+  <rect x="60" y="400" width="1480" height="110" class="box green"/>
+  <text x="100" y="440" class="num" text-anchor="start">③</text>
+  <text x="160" y="440" class="label" text-anchor="start">权限从哪里获得，运行产生的资产向谁沉淀？</text>
+  <text x="160" y="470" class="small" text-anchor="start">是临时借给 Agent 的，还是被静默上传到平台？是否可携带、可迁移、可带出？</text>
+  <text x="100" y="495" class="tiny" text-anchor="start" fill="#1f4e79" font-weight="700">→ 第四章 AgenticOps / 第五章 个人主权 / 第六章 组织主权</text>
+
+  <path d="M800,510 L800,525" class="line" marker-end="url(#arrow)"/>
+
+  <!-- Q4 -->
+  <rect x="60" y="530" width="1480" height="110" class="box accent"/>
+  <text x="100" y="570" class="num" text-anchor="start">④</text>
+  <text x="160" y="570" class="label" text-anchor="start">出现错误时，谁能停止、解释、补救？</text>
+  <text x="160" y="600" class="small" text-anchor="start">不是"会不会犯错"，而是"能不能停、能不能还原、能不能追责"。每一层是否都有与责任相称的能力？</text>
+  <text x="100" y="625" class="tiny" text-anchor="start" fill="#1f4e79" font-weight="700">→ 第七章 企业 / 第八章 政府 / 第九章 国家</text>
+
+  <path d="M800,640 L800,655" class="line" marker-end="url(#arrow)"/>
+
+  <!-- Q5 -->
+  <rect x="60" y="660" width="1480" height="110" class="box warm"/>
+  <text x="100" y="700" class="num" text-anchor="start" fill="#7c2d12">⑤</text>
+  <text x="160" y="700" class="label" text-anchor="start">环境变化后，是否仍有下一种选择？</text>
+  <text x="160" y="730" class="small" text-anchor="start">供应商涨价、断供、出口管制升级时，是否有可替换路径？是一次性依赖，还是可携带能力？</text>
+  <text x="100" y="755" class="tiny" text-anchor="start" fill="#1f4e79" font-weight="700">→ 第十章 在依赖中保持自由</text>
+</g>
+
+<!-- 底部：方法论 -->
+<rect x="60" y="790" width="1480" height="60" class="box muted"/>
+<text x="800" y="820" class="small" text-anchor="middle">项目方的承诺要与独立研究 / 公共文件 / 开放标准 / 可比较的运行结果分开看</text>
+<text x="800" y="843" class="small" text-anchor="middle" fill="#1f4e79" font-weight="700">答这 5 个问题，再决定是否相信一个"领先"</text>
+
+<text x="60" y="880" class="tiny">原创信息图 · v0.1 · 2026-08-06 · 适配单色印刷 · OECD AI 治理建议 2019/2024 公共问责原则</text>
+</svg>

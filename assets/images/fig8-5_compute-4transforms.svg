@@ -1,0 +1,137 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<title>图8-5 算力必须穿过四道转换</title>
+<desc>《AI主权》原创信息图，v0.1，2026-08-06。把"算力走进任务"画成 4 道转换（设备→资源→服务→场景→资产）+ 苏州/上海/武汉 3 城市政策工具 + 必须公开的 5 类数据。数据来源：第八章正文 08.4，截至 2026-08-06。</desc>
+<rect width="100%" height="100%" fill="#fbfaf7"/>
+<style>text{font-family:Noto Sans CJK SC, PingFang SC, sans-serif;fill:#1f2933}
+.title{font-size:32px;font-weight:700}
+.label{font-size:20px;font-weight:700}
+.small{font-size:15px}
+.tiny{font-size:13px}
+.num{font-size:30px;font-weight:700;fill:#1f4e79}
+.box{stroke:#34495e;stroke-width:2;rx:12}
+.muted{fill:#f0eee8}
+.accent{fill:#dbeafe}
+.warm{fill:#fef3c7}
+.green{fill:#dcfce7}
+.red{fill:#fee2e2}
+.line{stroke:#506273;stroke-width:3;fill:none}
+.thin{stroke:#506273;stroke-width:1.5;fill:none}
+</style>
+
+<text x="60" y="55" class="title" text-anchor="start">图8-5　算力必须走进任务，才会留下能力</text>
+<text x="800" y="100" class="label" text-anchor="middle" fill="#1f4e79">PFLOPS / GPU 数量 / 机架规模 ≠ 谁在用、排队多久、花了多少钱、留下什么</text>
+
+<!-- 4 道转换：横向流程 -->
+<g>
+  <text x="60" y="155" class="label">四道转换 — 算力走进任务的工程路径</text>
+
+  <!-- 1 设备 -->
+  <rect x="60"  y="180" width="340" height="160" class="box muted"/>
+  <text x="230" y="220" class="num" text-anchor="middle">① 设备</text>
+  <text x="230" y="250" class="small" text-anchor="middle">芯片 + 机架 + 电力 + 冷却</text>
+  <text x="80" y="280" class="small">• 异构芯片 / 不同云</text>
+  <text x="80" y="305" class="small">• 边缘节点 / 故障处理</text>
+  <text x="80" y="330" class="small" font-style="italic">问题："总算力"只是</text>
+  <text x="80" y="348" class="small" font-style="italic">不能相加的额定容量</text>
+
+  <!-- arrow 1 -->
+  <text x="405" y="265" class="label" text-anchor="middle" fill="#1f4e79">→</text>
+
+  <!-- 2 资源 -->
+  <rect x="430" y="180" width="340" height="160" class="box accent"/>
+  <text x="600" y="220" class="num" text-anchor="middle">② 资源</text>
+  <text x="600" y="250" class="small" text-anchor="middle">统一发现 + 计量 + 身份 + 调度</text>
+  <text x="450" y="280" class="small">• 异构统一调度</text>
+  <text x="450" y="305" class="small">• 可获得 / 可调度</text>
+  <text x="450" y="330" class="small" font-style="italic">问题：能按任务取到，</text>
+  <text x="450" y="348" class="small" font-style="italic">不必先成为运维专家</text>
+
+  <!-- arrow 2 -->
+  <text x="775" y="265" class="label" text-anchor="middle" fill="#1f4e79">→</text>
+
+  <!-- 3 服务 -->
+  <rect x="800" y="180" width="340" height="160" class="box warm"/>
+  <text x="970" y="220" class="num" text-anchor="middle">③ 服务</text>
+  <text x="970" y="250" class="small" text-anchor="middle">环境 + 模型 + 数据空间 + 工具</text>
+  <text x="820" y="280" class="small">• 公共部门 / 制造 / 医院</text>
+  <text x="820" y="305" class="small">• 大学 / OPC 提交真实问题</text>
+  <text x="820" y="330" class="small" font-style="italic">问题：开发缺的不是</text>
+  <text x="820" y="348" class="small" font-style="italic">一张卡，是组合预算</text>
+
+  <!-- arrow 3 -->
+  <text x="1145" y="265" class="label" text-anchor="middle" fill="#1f4e79">→</text>
+
+  <!-- 4 资产 -->
+  <rect x="1170" y="180" width="370" height="160" class="box green"/>
+  <text x="1355" y="220" class="num" text-anchor="middle">④ 资产</text>
+  <text x="1355" y="250" class="small" text-anchor="middle">评测 + 适配器 + 数据产品 + 故障 + 人才</text>
+  <text x="1190" y="280" class="small">• 适配器 / 评测 / 工作流</text>
+  <text x="1190" y="305" class="small">• 故障记录 / 维护人员</text>
+  <text x="1190" y="330" class="small" font-style="italic">问题：项目结束后</text>
+  <text x="1190" y="348" class="small" font-style="italic">留下本地能维护的东西</text>
+</g>
+
+<!-- 三城市政策 -->
+<g>
+  <text x="60" y="395" class="label">三城市政策工具 — 让小团队能起步</text>
+
+  <rect x="60"  y="415" width="490" height="200" class="box accent"/>
+  <text x="305" y="450" class="label" text-anchor="middle">苏州 — 2025 人工智能 + 城市</text>
+  <text x="80" y="480" class="small">• 到 2026 年底 17,000 PFLOPS 智算规模</text>
+  <text x="80" y="505" class="small">• 公共算力服务平台</text>
+  <text x="80" y="530" class="small">• 语料 + 模型 + 测评底座</text>
+  <text x="80" y="555" class="small">• 低代码智能体工具 + 开源生态</text>
+  <text x="80" y="580" class="small">• 200 个具有推广价值的典型场景</text>
+  <text x="80" y="605" class="tiny" font-style="italic">"承认算力 + 工具 + 社区 + 场景必须一起设计"</text>
+
+  <rect x="555" y="415" width="490" height="200" class="box warm"/>
+  <text x="800" y="450" class="label" text-anchor="middle">上海 — 2026 模塑申城 3 种券</text>
+  <text x="575" y="480" class="small">• 算力券 — 非关联方智算租用</text>
+  <text x="575" y="505" class="small">• 模型券 — 第三方 API / 私有化</text>
+  <text x="575" y="530" class="small">• 语料券 — 高质量语料采购</text>
+  <text x="575" y="555" class="small">• 覆盖：智能终端 / 自动驾驶 / 科智 / OPC / 治理</text>
+  <text x="575" y="580" class="small">• 三券不保证成功，但接近真实成本结构</text>
+  <text x="575" y="605" class="tiny" font-style="italic">"开发者可能缺的不是一张卡，是组合预算"</text>
+
+  <rect x="1050" y="415" width="490" height="200" class="box green"/>
+  <text x="1295" y="450" class="label" text-anchor="middle">武汉 — 2026 OPC 算力补助</text>
+  <text x="1070" y="480" class="small">• 算力服务费 50% 补助</text>
+  <text x="1070" y="505" class="small">• 单家最高 20 万 / 不超过 3 年</text>
+  <text x="1070" y="530" class="small">• 各区 OPC 生态社区</text>
+  <text x="1070" y="555" class="small">• 每家每年 ≥ 2,000 卡时免费算力</text>
+  <text x="1070" y="580" class="small">• 整合异构资源</text>
+  <text x="1070" y="605" class="tiny" font-style="italic">"让原本进不了训练 / 推理市场的小团队完成第一项真实任务"</text>
+</g>
+
+<!-- 底部：必须公开的 5 类数据 + 风险 -->
+<g>
+  <rect x="60" y="650" width="1480" height="180" class="box" fill="#f0eee8"/>
+  <text x="800" y="690" class="label" text-anchor="middle">城市不能只统计发券多少 / 纳管多少 P — 至少要公开 5 类数据</text>
+
+  <text x="100" y="730" class="label" fill="#1f4e79">① 资源利用率</text>
+  <text x="100" y="755" class="small">统一计算口径 + 跨厂商可比</text>
+  <text x="100" y="778" class="tiny" font-style="italic">否则利用率沦为纸面</text>
+
+  <text x="430" y="730" class="label" fill="#1f4e79">② 等待时间与实际价格</text>
+  <text x="430" y="755" class="small">不同主体的排队 + 实付</text>
+  <text x="430" y="778" class="tiny" font-style="italic">否则补贴 = 套利</text>
+
+  <text x="760" y="730" class="label" fill="#1f4e79">③ 任务完成率</text>
+  <text x="760" y="755" class="small">真实任务闭环 / 失败原因</text>
+  <text x="760" y="778" class="tiny" font-style="italic">否则发卡 ≠ 完成任务</text>
+
+  <text x="1050" y="730" class="label" fill="#1f4e79">④ 失败与迁移记录</text>
+  <text x="1050" y="755" class="small">事故 / 切换 / 退出</text>
+  <text x="1050" y="778" class="tiny" font-style="italic">否则没形成公共知识</text>
+
+  <text x="1340" y="730" class="label" fill="#1f4e79">⑤ 项目后资产</text>
+  <text x="1340" y="755" class="small">代码 / 适配 / 人才 / 文档</text>
+  <text x="1340" y="778" class="tiny" font-style="italic">否则只留下机房</text>
+
+  <text x="800" y="815" class="small" text-anchor="middle" font-weight="700" fill="#1f4e79">城市真正需要的不是"算力被消耗"，而是算力经过任务以后变成更多能解决问题的人 / 企业 / 公共能力</text>
+</g>
+
+<!-- footer -->
+<text x="60" y="880" class="tiny">原创信息图 · v0.1 · 2026-08-06 · 适配单色印刷 · 数据来源：第八章 04 节，截至 2026-08-06</text>
+<text x="1540" y="880" class="tiny" text-anchor="end">《AI主权》</text>
+</svg>

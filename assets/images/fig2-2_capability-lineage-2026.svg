@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<title>图2-2 二〇二六年的能力谱系：同一项目从百亿到万亿，把通用、端侧、蒸馏放进同一条链</title><desc>《AI主权》原创信息图，v0.1，2026-08-06。纸书黑白和彩色电子版均可使用。展示 2025–2026 年代表性项目把多尺寸、多形态模型放在同一产品家族中的事实，让"能力谱系"成为可观察的工程过程。数据来源：Apertus 官方发布（ETH Zurich / EPFL / CSCS，2025-09；Apertus 1.5 / Apertus-Mini，2026-06）；Qwen3 官方发布（2025-04-29）；Gemma 官方发布与 Gemma 3n 文档（Google）；DeepSeek-R1 技术报告与蒸馏模型卡（2025-01）。规格为项目方一手披露，性能与设备体验受作者评测、硬件、任务和评测条件限制。</desc>
+<rect width="100%" height="100%" fill="#fbfaf7"/>
+<style>text{font-family:Noto Sans CJK SC, PingFang SC, sans-serif;fill:#1f2933}
+.title{font-size:32px;font-weight:700}
+.label{font-size:22px;font-weight:700}
+.small{font-size:16px}
+.tiny{font-size:14px}
+.num{font-size:16px;font-weight:700;fill:#1f4e79}
+.numw{font-size:16px;font-weight:700;fill:#7c2d12}
+.box{stroke:#34495e;stroke-width:2;rx:12}
+.muted{fill:#f0eee8}
+.accent{fill:#dbeafe}
+.warm{fill:#fef3c7}
+.green{fill:#dcfce7}
+.line{stroke:#506273;stroke-width:3;fill:none}
+.thin{stroke:#506273;stroke-width:1.5;fill:none}
+</style>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#506273"/></marker></defs>
+
+<text x="60" y="55" class="title" text-anchor="start">图2-2　二〇二六年的能力谱系：同一项目从百亿到万亿，把通用、端侧、蒸馏放进同一条链</text>
+<text x="800" y="100" class="label" text-anchor="middle">不同项目沿同一条链展开：教师 → 蒸馏 → 量化 → 端侧切片；尺寸是工程过程，不是市场位次</text>
+
+<!-- 顶部：2026 前沿（万亿 / 千亿） -->
+<rect x="60" y="130" width="1480" height="50" class="box warm"/>
+<text x="80" y="161" class="small" text-anchor="start" font-weight="700">2026 前沿：</text>
+<text x="195" y="161" class="small" text-anchor="start">Kimi K3　2.8T / 104B 激活</text>
+<text x="510" y="161" class="small" text-anchor="start">DeepSeek V4-Pro　1.6T / 49B</text>
+<text x="830" y="161" class="small" text-anchor="start">V4-Flash　284B / ≈13B</text>
+<text x="1100" y="161" class="small" text-anchor="start">Qwen3-235B-A22B　235B / 22B</text>
+<text x="1370" y="161" class="small" text-anchor="start">Mistral Large 3　675B/41B</text>
+
+<!-- Row 1: Qwen3 家族 -->
+<text x="80" y="220" class="small" text-anchor="start" font-weight="700">Qwen3 家族</text>
+<text x="80" y="240" class="tiny" text-anchor="start" fill="#8795a1">稠密 0.6B→32B + MoE</text>
+<rect x="280" y="206" width="60" height="34" class="box accent"/><text x="310" y="228" class="num" text-anchor="middle">0.6B</text>
+<rect x="350" y="206" width="60" height="34" class="box accent"/><text x="380" y="228" class="num" text-anchor="middle">1.7B</text>
+<rect x="420" y="206" width="60" height="34" class="box accent"/><text x="450" y="228" class="num" text-anchor="middle">4B</text>
+<rect x="490" y="206" width="60" height="34" class="box accent"/><text x="520" y="228" class="num" text-anchor="middle">8B</text>
+<rect x="560" y="206" width="60" height="34" class="box accent"/><text x="590" y="228" class="num" text-anchor="middle">14B</text>
+<rect x="630" y="206" width="60" height="34" class="box accent"/><text x="660" y="228" class="num" text-anchor="middle">32B</text>
+<text x="700" y="228" class="tiny" text-anchor="start">| MoE |</text>
+<rect x="780" y="206" width="90" height="34" class="box warm"/><text x="825" y="228" class="num" text-anchor="middle">30B-A3B</text>
+<rect x="880" y="206" width="100" height="34" class="box warm"/><text x="930" y="228" class="num" text-anchor="middle">235B-A22B</text>
+<text x="990" y="228" class="tiny" text-anchor="start">→ 端侧 E2B/E4B · 语音 ASR 0.6B &amp; 1.7B · Omni 多模态 · VL 256K</text>
+
+<!-- Row 2: Gemma 家族 -->
+<text x="80" y="290" class="small" text-anchor="start" font-weight="700">Gemma 家族</text>
+<text x="80" y="310" class="tiny" text-anchor="start" fill="#8795a1">通用 + 端侧 E2B/E4B</text>
+<rect x="280" y="276" width="60" height="34" class="box accent"/><text x="310" y="298" class="num" text-anchor="middle">270M</text>
+<rect x="350" y="276" width="60" height="34" class="box accent"/><text x="380" y="298" class="num" text-anchor="middle">1B</text>
+<rect x="420" y="276" width="60" height="34" class="box accent"/><text x="450" y="298" class="num" text-anchor="middle">4B</text>
+<rect x="560" y="276" width="60" height="34" class="box accent"/><text x="590" y="298" class="num" text-anchor="middle">12B</text>
+<rect x="630" y="276" width="60" height="34" class="box accent"/><text x="660" y="298" class="num" text-anchor="middle">27B</text>
+<text x="700" y="298" class="tiny" text-anchor="start">| 端侧 |</text>
+<rect x="780" y="276" width="60" height="34" class="box warm"/><text x="810" y="298" class="num" text-anchor="middle">E2B</text>
+<rect x="850" y="276" width="60" height="34" class="box warm"/><text x="880" y="298" class="num" text-anchor="middle">E4B</text>
+<text x="920" y="298" class="tiny" text-anchor="start">→ 专用：函数调用 / 翻译 / 医疗 / 语音 · 26B MoE · 4 已发布</text>
+
+<!-- Row 3: Apertus 链 -->
+<text x="80" y="360" class="small" text-anchor="start" font-weight="700">Apertus 链</text>
+<text x="80" y="380" class="tiny" text-anchor="start" fill="#8795a1">教师 70B+8B → 学生 0.5B / 1.5B / 4B</text>
+<rect x="420" y="346" width="60" height="34" class="box warm"/><text x="450" y="368" class="num" text-anchor="middle">0.5B</text>
+<rect x="490" y="346" width="60" height="34" class="box warm"/><text x="520" y="368" class="num" text-anchor="middle">1.5B</text>
+<rect x="560" y="346" width="60" height="34" class="box warm"/><text x="590" y="368" class="num" text-anchor="middle">4B</text>
+<text x="630" y="368" class="tiny" text-anchor="start" fill="#16a34a">× 16 变体（基础+指令+多档量化）</text>
+<rect x="940" y="346" width="60" height="34" class="box accent"/><text x="970" y="368" class="num" text-anchor="middle">8B</text>
+<text x="1010" y="368" class="tiny" text-anchor="start">蒸馏 ←</text>
+<rect x="1080" y="346" width="60" height="34" class="box muted"/><text x="1110" y="368" class="num" text-anchor="middle">70B</text>
+<text x="1150" y="368" class="tiny" text-anchor="start">15T Token · 1000+ 语言 · 权重+训练代码+中间检查点</text>
+
+<!-- Row 4: DeepSeek-R1 蒸馏链 -->
+<text x="80" y="430" class="small" text-anchor="start" font-weight="700">DeepSeek-R1 蒸馏链</text>
+<text x="80" y="450" class="tiny" text-anchor="start" fill="#8795a1">教师 R1 → 学生（基座 Qwen / Llama）</text>
+<rect x="350" y="416" width="60" height="34" class="box warm"/><text x="380" y="438" class="num" text-anchor="middle">1.5B</text>
+<rect x="420" y="416" width="60" height="34" class="box warm"/><text x="450" y="438" class="num" text-anchor="middle">7B</text>
+<rect x="490" y="416" width="60" height="34" class="box warm"/><text x="520" y="438" class="num" text-anchor="middle">8B</text>
+<rect x="560" y="416" width="60" height="34" class="box warm"/><text x="590" y="438" class="num" text-anchor="middle">14B</text>
+<rect x="630" y="416" width="60" height="34" class="box warm"/><text x="660" y="438" class="num" text-anchor="middle">32B</text>
+<rect x="940" y="416" width="60" height="34" class="box warm"/><text x="970" y="438" class="num" text-anchor="middle">70B</text>
+<text x="1010" y="438" class="tiny" text-anchor="start" fill="#7c2d12">AIME 2024: 7B→55.5% · 32B→72.6% · MATH-500 32B→94.3%</text>
+<text x="1010" y="455" class="tiny" text-anchor="start" fill="#8795a1">R1 教师完整权重未公开 → 学生学到能力切片，不继承治理血缘</text>
+
+<!-- 中部分隔线 -->
+<line x1="60" y1="490" x2="1540" y2="490" class="thin"/>
+
+<!-- 左下：能力血缘 -->
+<rect x="60" y="510" width="720" height="320" class="box muted"/>
+<text x="90" y="550" class="label" text-anchor="start">能力血缘</text>
+<text x="90" y="585" class="small" text-anchor="start">学生从教师的输出和概率中学到什么</text>
+<text x="90" y="615" class="small" text-anchor="start">→ 决定学生在多少任务上接近教师</text>
+<text x="90" y="650" class="small" text-anchor="start" font-weight="700">蒸馏可部分传递：</text>
+<text x="90" y="675" class="small" text-anchor="start">　· 推理样式（R1 蒸馏链在 AIME / MATH 上的成绩）</text>
+<text x="90" y="700" class="small" text-anchor="start">　· 常见任务的稳定输出</text>
+<text x="90" y="725" class="small" text-anchor="start">　· 教师愿意展示的能力切片</text>
+<text x="90" y="760" class="small" text-anchor="start" font-weight="700">蒸馏不能复制：</text>
+<text x="90" y="785" class="small" text-anchor="start">　· 长尾行为、工具链、安全边界、持续更新团队</text>
+<text x="90" y="810" class="small" text-anchor="start">　· 完整概率分布、未公开的内部安全设计</text>
+
+<!-- 右下：治理血缘 -->
+<rect x="820" y="510" width="720" height="320" class="box muted"/>
+<text x="850" y="550" class="label" text-anchor="start">治理血缘</text>
+<text x="850" y="585" class="small" text-anchor="start">教师数据 / 训练记录 / 中间版本 / 维护团队</text>
+<text x="850" y="615" class="small" text-anchor="start">→ 决定学生能否被解释、修改和继续演进</text>
+<text x="850" y="650" class="small" text-anchor="start" font-weight="700">公开权重 ≠ 公开血缘：</text>
+<text x="850" y="675" class="small" text-anchor="start">　· Qwen3 公开权重 + 蒸馏链，但教师数据不全开放</text>
+<text x="850" y="700" class="small" text-anchor="start">　· R1 学生公开，但 R1 教师完整权重未公开</text>
+<text x="850" y="725" class="small" text-anchor="start">　· Apertus 保留教师 + 学生之间的可审计链</text>
+<text x="850" y="760" class="small" text-anchor="start" font-weight="700">治理血缘 = 依赖中的控制能力</text>
+<text x="850" y="785" class="small" text-anchor="start">决定一个社会能否在出现争议或新需求时，</text>
+<text x="850" y="810" class="small" text-anchor="start">继续修改、追溯并解释这些模型的来历</text>
+
+<text x="60" y="870" class="tiny">原创信息图 · v0.1 · 2026-08-06 · 适配单色印刷 · 数据来源：Apertus 官方发布与 1.5/Mini 公告、Qwen3 官方发布、Gemma 官方与 Gemma 3n 文档、DeepSeek-R1 技术报告</text>
+</svg>

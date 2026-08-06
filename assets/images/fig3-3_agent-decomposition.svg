@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<title>图3-3 一个 Agent 由什么组成：6 模块公式与责任归属</title><desc>《AI主权》原创信息图，v0.1，2026-08-06。把"Agent = 模型 + 上下文与记忆 + 工具 + 身份权限 + 行动循环 + 运行记录"画成 6 模块关系图；每模块标出"提供什么 / 谁负责"。换掉模型不等于换掉整套系统。数据来源：第三章正文；OpenAI Operator 系统卡（2025）。</desc>
+<rect width="100%" height="100%" fill="#fbfaf7"/>
+<style>text{font-family:Noto Sans CJK SC, PingFang SC, sans-serif;fill:#1f2933}
+.title{font-size:32px;font-weight:700}
+.label{font-size:22px;font-weight:700}
+.small{font-size:16px}
+.tiny{font-size:14px}
+.num{font-size:34px;font-weight:700;fill:#1f4e79}
+.box{stroke:#34495e;stroke-width:2;rx:12}
+.muted{fill:#f0eee8}
+.accent{fill:#dbeafe}
+.warm{fill:#fef3c7}
+.green{fill:#dcfce7}
+.line{stroke:#506273;stroke-width:3;fill:none}
+.thin{stroke:#506273;stroke-width:1.5;fill:none}
+</style>
+<defs><marker id="arrow" markerWidth="12" markerHeight="12" refX="11" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 z" fill="#506273"/></marker></defs>
+
+<text x="60" y="55" class="title" text-anchor="start">图3-3　一个 Agent 由什么组成：6 模块公式与责任归属</text>
+<text x="800" y="100" class="label" text-anchor="middle">Agent = 模型 + 上下文与记忆 + 工具 + 身份权限 + 行动循环 + 运行记录；换掉模型 ≠ 换掉整套系统</text>
+
+<!-- 中心：Agent -->
+<rect x="640" y="380" width="320" height="140" class="box green"/>
+<text x="800" y="425" class="label" text-anchor="middle">Agent</text>
+<text x="800" y="455" class="small" text-anchor="middle" fill="#1f4e79" font-weight="700">能自主选择路径并产生行动</text>
+<text x="800" y="485" class="small" text-anchor="middle">6 个组件共同决定其能力与风险</text>
+
+<!-- 6 模块环 -->
+<g>
+  <rect x="60" y="160" width="460" height="160" class="box accent"/>
+  <text x="290" y="200" class="num" text-anchor="middle">①</text>
+  <text x="290" y="235" class="label" text-anchor="middle">模型（推理）</text>
+  <line x1="100" y1="255" x2="480" y2="255" class="thin"/>
+  <text x="100" y="285" class="small" text-anchor="start">· 读输入 + 上下文</text>
+  <text x="100" y="308" class="small" text-anchor="start">· 逐 Token 生成</text>
+
+  <rect x="1080" y="160" width="460" height="160" class="box warm"/>
+  <text x="1310" y="200" class="num" text-anchor="middle">②</text>
+  <text x="1310" y="235" class="label" text-anchor="middle">上下文与记忆</text>
+  <line x1="1120" y1="255" x2="1500" y2="255" class="thin"/>
+  <text x="1120" y="285" class="small" text-anchor="start">· 检索增强 / 对话历史</text>
+  <text x="1120" y="308" class="small" text-anchor="start">· 长期记忆 / 知识库</text>
+
+  <rect x="60" y="580" width="460" height="160" class="box green"/>
+  <text x="290" y="620" class="num" text-anchor="middle">③</text>
+  <text x="290" y="655" class="label" text-anchor="middle">工具</text>
+  <line x1="100" y1="675" x2="480" y2="675" class="thin"/>
+  <text x="100" y="705" class="small" text-anchor="start">· 函数 / 接口 / 浏览器</text>
+  <text x="100" y="728" class="small" text-anchor="start">· 真正改变状态的是工具</text>
+
+  <rect x="1080" y="580" width="460" height="160" class="box accent"/>
+  <text x="1310" y="620" class="num" text-anchor="middle">④</text>
+  <text x="1310" y="655" class="label" text-anchor="middle">身份与权限</text>
+  <line x1="1120" y1="675" x2="1500" y2="675" class="thin"/>
+  <text x="1120" y="705" class="small" text-anchor="start">· 账号 / 角色 / 凭证</text>
+  <text x="1120" y="728" class="small" text-anchor="start">· 决定它能做什么</text>
+
+  <rect x="540" y="160" width="520" height="130" class="box warm"/>
+  <text x="800" y="200" class="num" text-anchor="middle">⑤</text>
+  <text x="800" y="235" class="label" text-anchor="middle">行动循环（ReAct）</text>
+  <line x1="580" y1="255" x2="1020" y2="255" class="thin"/>
+  <text x="580" y="280" class="small" text-anchor="start">读状态 → 选下一步 → 用工具 → 观察 → 调整（直到完成 / 失败 / 取消 / 接管）</text>
+
+  <rect x="540" y="610" width="520" height="130" class="box accent"/>
+  <text x="800" y="650" class="num" text-anchor="middle">⑥</text>
+  <text x="800" y="685" class="label" text-anchor="middle">运行记录（凭证 / 日志 / 审计）</text>
+  <line x1="580" y1="705" x2="1020" y2="705" class="thin"/>
+  <text x="580" y="730" class="small" text-anchor="start">每次调用 / 决策 / 行动 / 失败 / 撤回都要可追溯</text>
+</g>
+
+<!-- 中心到各模块连接 -->
+<path d="M640,450 L520,320" class="thin"/>
+<path d="M960,450 L1080,320" class="thin"/>
+<path d="M640,450 L520,580" class="thin"/>
+<path d="M960,450 L1080,580" class="thin"/>
+<path d="M800,380 L800,290" class="thin"/>
+<path d="M800,520 L800,610" class="thin"/>
+
+<!-- 底部：核心论断 -->
+<rect x="60" y="780" width="1480" height="80" class="box muted"/>
+<text x="800" y="815" class="label" text-anchor="middle" fill="#7c2d12">同一模型 + 只读搜索 ≠ 同一模型 + 付款 + 删除 + 部署 — 风险随 6 模块的组合放大</text>
+<text x="800" y="843" class="small" text-anchor="middle">治理对象必须从"一句回答"扩大到完整的委托关系</text>
+
+<text x="60" y="880" class="tiny">原创信息图 · v0.1 · 2026-08-06 · 适配单色印刷 · 第三章正文 + OpenAI Operator 系统卡（2025）</text>
+</svg>

@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<title>图5-9 最低可行的个人主权</title><desc>《AI主权》原创信息图，v0.1，2026-08-06。把个人主权拆成三块：上 4 个授权问题（每款 AI 请求权限时问一遍），中 3 档便利预算（不同后果用不同授权强度），下 5 项数字交接（系统交给未来的自己或可信的人）。原则：保护主权不是处处最高标准，是把注意力留给后果最大的边界。数据来源：第五章正文 05.9。</desc>
+<rect width="100%" height="100%" fill="#fbfaf7"/>
+<style>text{font-family:Noto Sans CJK SC, PingFang SC, sans-serif;fill:#1f2933}
+.title{font-size:32px;font-weight:700}
+.label{font-size:22px;font-weight:700}
+.small{font-size:16px}
+.tiny{font-size:14px}
+.num{font-size:34px;font-weight:700;fill:#1f4e79}
+.box{stroke:#34495e;stroke-width:2;rx:12}
+.muted{fill:#f0eee8}
+.accent{fill:#dbeafe}
+.warm{fill:#fef3c7}
+.green{fill:#dcfce7}
+.line{stroke:#506273;stroke-width:3;fill:none}
+.thin{stroke:#506273;stroke-width:1.5;fill:none}
+</style>
+<defs><marker id="arrow" markerWidth="12" markerHeight="12" refX="11" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 z" fill="#1f4e79"/></marker></defs>
+
+<text x="60" y="55" class="title" text-anchor="start">图5-9　最低可行的个人主权</text>
+<text x="800" y="100" class="label" text-anchor="middle">从 1 个周末 + 1 项"消失会停摆"的工作开始，分 3 块搭起最低主权</text>
+
+<!-- 上：4 个授权问题 -->
+<g>
+  <text x="60" y="145" class="label" text-anchor="start" fill="#1f4e79">① 每款 AI 请求新权限时，先问这 4 个问题</text>
+
+  <rect x="60"  y="170" width="360" height="130" class="box warm"/>
+  <text x="240" y="200" class="label" text-anchor="middle">Q1 它为什么需要</text>
+  <text x="240" y="235" class="small" text-anchor="middle">这些资料？</text>
+  <text x="240" y="270" class="tiny" text-anchor="middle" fill="#8795a1">回答不出的资料 = 不该给</text>
+
+  <rect x="430" y="170" width="360" height="130" class="box accent"/>
+  <text x="610" y="200" class="label" text-anchor="middle">Q2 它将用什么</text>
+  <text x="610" y="235" class="small" text-anchor="middle">身份采取行动？</text>
+  <text x="610" y="270" class="tiny" text-anchor="middle" fill="#8795a1">人 / 助手 / 系统？</text>
+
+  <rect x="800" y="170" width="360" height="130" class="box green"/>
+  <text x="980" y="200" class="label" text-anchor="middle">Q3 错了能否</text>
+  <text x="980" y="235" class="small" text-anchor="middle">及时看见和撤回？</text>
+  <text x="980" y="270" class="tiny" text-anchor="middle" fill="#8795a1">没有动作门 = 高风险</text>
+
+  <rect x="1170" y="170" width="370" height="130" class="box warm"/>
+  <text x="1355" y="200" class="label" text-anchor="middle">Q4 停用后</text>
+  <text x="1355" y="235" class="small" text-anchor="middle">我能带走什么？</text>
+  <text x="1355" y="270" class="tiny" text-anchor="middle" fill="#8795a1">可导出 = 真主权</text>
+
+  <text x="800" y="320" class="small" text-anchor="middle" fill="#7c2d12">答案含糊 → 缩到一次任务 → 观察 → 再决定是否扩大</text>
+</g>
+
+<!-- 中：3 档便利预算 -->
+<g>
+  <line x1="60" y1="345" x2="1540" y2="345" class="line"/>
+  <text x="60" y="380" class="label" text-anchor="start" fill="#1f4e79">② 给便利设一笔预算（3 档）</text>
+  <text x="60" y="405" class="small" text-anchor="start" fill="#8795a1">不要求每件事都警惕；把注意力留给后果最大的边界</text>
+
+  <rect x="60"  y="425" width="490" height="160" class="box accent"/>
+  <text x="305" y="455" class="label" text-anchor="middle" fill="#1f4e79">高便利 · 低风险</text>
+  <text x="305" y="485" class="small" text-anchor="middle">整理公开资料 / 调整排版 / 生成几个标题</text>
+  <text x="305" y="510" class="small" text-anchor="middle" fill="#8795a1">结果不理想也容易重来</text>
+  <text x="305" y="540" class="tiny" text-anchor="middle" font-weight="700">授权策略：长期 / 范围宽</text>
+
+  <rect x="555" y="425" width="490" height="160" class="box warm"/>
+  <text x="800" y="455" class="label" text-anchor="middle" fill="#7c2d12">收紧 · 涉及他人</text>
+  <text x="800" y="485" class="small" text-anchor="middle">私人记忆 / 客户资料 / 商业承诺</text>
+  <text x="800" y="510" class="small" text-anchor="middle" fill="#8795a1">多问一次 + 多确认一步</text>
+  <text x="800" y="540" class="tiny" text-anchor="middle" font-weight="700">授权策略：项目内 / 逐次确认</text>
+
+  <rect x="1050" y="425" width="490" height="160" class="box green"/>
+  <text x="1295" y="455" class="label" text-anchor="middle" fill="#7c2d12">预算最少 · 不可逆</text>
+  <text x="1295" y="485" class="small" text-anchor="middle">付款 / 公开表达 / 法律 / 健康</text>
+  <text x="1295" y="510" class="small" text-anchor="middle" fill="#8795a1">AI 准备证据和候选方案</text>
+  <text x="1295" y="540" class="tiny" text-anchor="middle" font-weight="700">授权策略：当下同意</text>
+</g>
+
+<!-- 下：5 项数字交接 -->
+<g>
+  <line x1="60" y1="605" x2="1540" y2="605" class="line"/>
+  <text x="60" y="640" class="label" text-anchor="start" fill="#1f4e79">③ 给未来的自己留一份数字交接（5 项）</text>
+  <text x="60" y="665" class="small" text-anchor="start" fill="#8795a1">突发疾病 / 设备损坏 / 长期离线 / 多年后忘记搭建 — 都可能让重要资料失去入口</text>
+
+  <text x="60"  y="710" class="num" text-anchor="start">1</text>
+  <text x="100" y="710" class="small" text-anchor="start" fill="#1f4e79">核心资产放在哪里</text>
+  <text x="360" y="710" class="num" text-anchor="start">2</text>
+  <text x="400" y="710" class="small" text-anchor="start" fill="#1f4e79">哪些账户承担关键业务</text>
+  <text x="700" y="710" class="num" text-anchor="start">3</text>
+  <text x="740" y="710" class="small" text-anchor="start" fill="#1f4e79">哪些自动化会持续行动</text>
+
+  <text x="60"  y="760" class="num" text-anchor="start">4</text>
+  <text x="100" y="760" class="small" text-anchor="start" fill="#7c2d12">谁在紧急情况下可以暂停</text>
+  <text x="400" y="760" class="num" text-anchor="start">5</text>
+  <text x="440" y="760" class="small" text-anchor="start" fill="#7c2d12">哪些资料应销毁而不是继承</text>
+
+  <text x="800" y="820" class="small" text-anchor="middle" fill="#8795a1">原则：业务连续性 ≠ 私人边界；使用独立密码管理 + 应急访问机制，定期确认被指定人仍愿意承担责任</text>
+</g>
+
+<text x="60" y="895" class="tiny">原创信息图 · v0.1 · 2026-08-06 · 适配单色印刷 · 第五章正文 05.9</text>
+</svg>

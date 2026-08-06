@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<title>图3-6 为什么成为主权问题：3 关键词三角</title><desc>《AI主权》原创信息图，v0.1，2026-08-06。把"AI 主权"的 3 关键词（委托 / 能力 / 责任）画成三角，每个关键词配反问。AI 主权不要求拒绝云服务 / 国际合作 / 商业模型，问题在于依赖能否治理；没有能力支撑的权利容易空洞；谁决定系统边界，谁就必须建立影响、申诉、修复程序。数据来源：第三章正文。</desc>
+<rect width="100%" height="100%" fill="#fbfaf7"/>
+<style>text{font-family:Noto Sans CJK SC, PingFang SC, sans-serif;fill:#1f2933}
+.title{font-size:32px;font-weight:700}
+.label{font-size:22px;font-weight:700}
+.small{font-size:16px}
+.tiny{font-size:14px}
+.num{font-size:34px;font-weight:700;fill:#1f4e79}
+.box{stroke:#34495e;stroke-width:2;rx:12}
+.muted{fill:#f0eee8}
+.accent{fill:#dbeafe}
+.warm{fill:#fef3c7}
+.green{fill:#dcfce7}
+.line{stroke:#506273;stroke-width:3;fill:none}
+.thin{stroke:#506273;stroke-width:1.5;fill:none}
+</style>
+
+<text x="60" y="55" class="title" text-anchor="start">图3-6　为什么成为主权问题：3 关键词三角</text>
+<text x="800" y="100" class="label" text-anchor="middle">安全 / 合规 / 质量 都不能替代主权 —— 主权追问"条件由谁决定，条件改变后谁还有能力拒绝、纠正和换一条路"</text>
+
+<!-- 中心三角 -->
+<polygon points="800,260 1100,560 500,560" class="box green" fill="#dcfce7" stroke="#1f4e79" stroke-width="3"/>
+<text x="800" y="450" class="label" text-anchor="middle">AI 主权</text>
+<text x="800" y="485" class="small" text-anchor="middle" fill="#1f4e79" font-weight="700">可验证的控制能力</text>
+<text x="800" y="510" class="tiny" text-anchor="middle" fill="#8795a1">个人 / 组织 / 企业 / 国家</text>
+
+<!-- 三个顶点 -->
+<rect x="640" y="200" width="320" height="160" class="box accent"/>
+<text x="800" y="240" class="num" text-anchor="middle">①</text>
+<text x="800" y="275" class="label" text-anchor="middle">委托</text>
+<line x1="680" y1="295" x2="920" y2="295" class="thin"/>
+<text x="800" y="320" class="small" text-anchor="middle" fill="#1f4e79" font-weight="700">问题不是"是否依赖"</text>
+<text x="800" y="345" class="small" text-anchor="middle" fill="#1f4e79" font-weight="700">而是"依赖能否治理"</text>
+
+<rect x="370" y="560" width="320" height="160" class="box warm"/>
+<text x="530" y="600" class="num" text-anchor="middle">②</text>
+<text x="530" y="635" class="label" text-anchor="middle">能力</text>
+<line x1="410" y1="655" x2="650" y2="655" class="thin"/>
+<text x="530" y="680" class="small" text-anchor="middle" fill="#1f4e79" font-weight="700">合同写着可以退出</text>
+<text x="530" y="705" class="small" text-anchor="middle" fill="#7c2d12" font-weight="700">≠ 资料能迁移 / 流程能重建</text>
+
+<rect x="910" y="560" width="320" height="160" class="box accent"/>
+<text x="1070" y="600" class="num" text-anchor="middle">③</text>
+<text x="1070" y="635" class="label" text-anchor="middle">责任</text>
+<line x1="950" y1="655" x2="1190" y2="655" class="thin"/>
+<text x="1070" y="680" class="small" text-anchor="middle" fill="#1f4e79" font-weight="700">谁决定边界</text>
+<text x="1070" y="705" class="small" text-anchor="middle" fill="#7c2d12" font-weight="700">谁就建立影响 / 申诉 / 修复</text>
+
+<!-- 底部 -->
+<rect x="60" y="760" width="1480" height="100" class="box muted"/>
+<text x="800" y="795" class="label" text-anchor="middle" fill="#7c2d12">能够行动而不承担后果 —— 不是主权，是失控</text>
+<line x1="100" y1="815" x2="1500" y2="815" class="thin"/>
+<text x="100" y="843" class="small" text-anchor="start">主权 = 委托边界 + 核验行动 + 纠正伤害 + 停止委托 + 承担责任的可验证能力</text>
+
+<text x="60" y="880" class="tiny">原创信息图 · v0.1 · 2026-08-06 · 适配单色印刷 · 第三章正文 + OECD AI 治理建议 2019/2024</text>
+</svg>

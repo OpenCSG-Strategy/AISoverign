@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<title>图8-3 三条国家路径：四道截面共同检验</title>
+<desc>《AI主权》原创信息图，v0.1，2026-08-06。把"三条国家路径"画成 3 条平行路径（中国/中东/东南亚）共用 4 道截面（用户/模型/算力/约束）做同一组检验：关键控制点仍由谁决定、项目结束后留下什么、能力能否进入城市主体、公民能否质疑。数据来源：第八章正文 08.2，截至 2026-08-06。</desc>
+<rect width="100%" height="100%" fill="#fbfaf7"/>
+<style>text{font-family:Noto Sans CJK SC, PingFang SC, sans-serif;fill:#1f2933}
+.title{font-size:32px;font-weight:700}
+.label{font-size:20px;font-weight:700}
+.small{font-size:15px}
+.tiny{font-size:13px}
+.num{font-size:30px;font-weight:700;fill:#1f4e79}
+.box{stroke:#34495e;stroke-width:2;rx:12}
+.muted{fill:#f0eee8}
+.accent{fill:#dbeafe}
+.warm{fill:#fef3c7}
+.green{fill:#dcfce7}
+.red{fill:#fee2e2}
+.line{stroke:#506273;stroke-width:3;fill:none}
+.thin{stroke:#506273;stroke-width:1.5;fill:none}
+</style>
+
+<text x="60" y="55" class="title" text-anchor="start">图8-3　三条国家路径，最后都要回答能力留在哪里</text>
+<text x="800" y="100" class="label" text-anchor="middle" fill="#1f4e79">起点不同 → 同一组检验：关键控制点 + 项目后留下什么 + 能力是否进入主体 + 公民能否质疑</text>
+
+<!-- 顶部：4 道截面 -->
+<g>
+  <text x="60" y="150" class="label">四道截面 — 共同检验</text>
+  <rect x="60"  y="170" width="360" height="80" class="box accent"/>
+  <text x="240" y="205" class="label" text-anchor="middle">① 用户规模</text>
+  <text x="240" y="232" class="small" text-anchor="middle">6.02 亿 / 42.8% / 748 备案</text>
+
+  <rect x="430" y="170" width="360" height="80" class="box warm"/>
+  <text x="610" y="205" class="label" text-anchor="middle">② 模型工程</text>
+  <text x="610" y="232" class="small" text-anchor="middle">V3 671B / R1 蒸馏链 / Falcon / ALLAM / SEA-LION</text>
+
+  <rect x="800" y="170" width="360" height="80" class="box green"/>
+  <text x="980" y="205" class="label" text-anchor="middle">③ 算力使用</text>
+  <text x="980" y="232" class="small" text-anchor="middle">H800 集群 / 1+M+N / Day 0 / G42 3.5 万 GB300</text>
+
+  <rect x="1170" y="170" width="360" height="80" class="box red"/>
+  <text x="1350" y="205" class="label" text-anchor="middle">④ 公共约束</text>
+  <text x="1350" y="232" class="small" text-anchor="middle">暂行办法 / G42 协议 / 出口许可 / 沙盒监管</text>
+</g>
+
+<!-- 三条路径：左中右 3 栏 -->
+<g>
+  <text x="60" y="295" class="label">三条国家路径 — 起点不同</text>
+
+  <!-- 中国 -->
+  <rect x="60"  y="320" width="490" height="320" class="box accent"/>
+  <text x="305" y="358" class="num" text-anchor="middle">中国</text>
+  <text x="80" y="395" class="label">超大市场 + 工程体系 + 开放扩散</text>
+  <line x1="80" y1="410" x2="530" y2="410" class="thin"/>
+  <text x="80" y="438" class="small">• 6.02 亿用户 + 748 备案</text>
+  <text x="80" y="462" class="small">• DeepSeek H800 + 昇腾 Day 0</text>
+  <text x="80" y="486" class="small">• 1+M+N 算力互联计划</text>
+  <text x="80" y="510" class="small">• 暂行办法 / PIPL 第 24 条</text>
+  <text x="80" y="540" class="small" font-weight="700" fill="#1f4e79">→ 检验：组织学习是否沉淀</text>
+  <text x="80" y="562" class="small" font-weight="700" fill="#1f4e79">→ 检验：供应商变化后能否继续</text>
+  <text x="80" y="584" class="small" font-weight="700" fill="#1f4e79">→ 检验：公民能否穿过平台申诉</text>
+  <text x="80" y="615" class="tiny" font-style="italic">"榜单衡量一次结果，吸收速度衡量一个社会是否仍有下一次选择"</text>
+
+  <!-- 中东 -->
+  <rect x="555" y="320" width="490" height="320" class="box warm"/>
+  <text x="800" y="358" class="num" text-anchor="middle">中东</text>
+  <text x="575" y="395" class="label">能源 + 资本 + 技术准入联盟</text>
+  <line x1="575" y1="410" x2="1025" y2="410" class="thin"/>
+  <text x="575" y="438" class="small">• 宣布 ≠ 签约 ≠ 获批 ≠ 在建 ≠ 上线</text>
+  <text x="575" y="462" class="small">• Stargate UAE 1 GW 阿布扎比</text>
+  <text x="575" y="486" class="small">• HUMAIN 集中编排 + 多厂商</text>
+  <text x="575" y="510" class="small">• 3.5 万 GB300 出口许可 / 报告</text>
+  <text x="575" y="540" class="small" font-weight="700" fill="#1f4e79">→ 检验：规则变化时能否切换</text>
+  <text x="575" y="562" class="small" font-weight="700" fill="#1f4e79">→ 检验：数据驻留与密钥控制</text>
+  <text x="575" y="584" class="small" font-weight="700" fill="#1f4e79">→ 检验：国家运营公司能否被监督</text>
+  <text x="575" y="615" class="tiny" font-style="italic">"越接近全球能力前沿，越需要接受更深的外部治理嵌入"</text>
+
+  <!-- 东南亚 -->
+  <rect x="1050" y="320" width="490" height="320" class="box green"/>
+  <text x="1295" y="358" class="num" text-anchor="middle">东南亚</text>
+  <text x="1070" y="395" class="label">语言适配 + 跨境互操作 + 退出能力</text>
+  <line x1="1070" y1="410" x2="1520" y2="410" class="thin"/>
+  <text x="1070" y="438" class="small">• SEA-LION / Sahabat-AI / PhoGPT</text>
+  <text x="1070" y="462" class="small">• VinAI 被收购，团队解散</text>
+  <text x="1070" y="486" class="small">• 新加坡—柔佛—巴淡岛算力</text>
+  <text x="1070" y="510" class="small">• 服务器在区域，控制是否也在</text>
+  <text x="1070" y="540" class="small" font-weight="700" fill="#1f4e79">→ 检验：基座变化时能否迁走</text>
+  <text x="1070" y="562" class="small" font-weight="700" fill="#1f4e79">→ 检验：开源后维护团队由谁承接</text>
+  <text x="1070" y="584" class="small" font-weight="700" fill="#1f4e79">→ 检验：中断后关键任务能否继续</text>
+  <text x="1070" y="615" class="tiny" font-style="italic">"开源给共同体留下继续工作的权利，不负责自动产生继续工作的人"</text>
+</g>
+
+<!-- 底部：共同警告 -->
+<g>
+  <rect x="60" y="670" width="1480" height="180" class="box" fill="#f0eee8"/>
+  <text x="800" y="710" class="label" text-anchor="middle">三条路不会自动收敛 — 都需要国家承担四种角色</text>
+
+  <text x="100" y="755" class="label" fill="#1f4e79">① 建设共同底座</text>
+  <text x="100" y="785" class="small">身份 / 目录 / 接口 / 测试 / 审计</text>
+  <text x="100" y="810" class="tiny" font-style="italic">替代市场选择所有模型，生态会失去探索</text>
+
+  <text x="490" y="755" class="label" fill="#1f4e79">② 组织多元生态</text>
+  <text x="490" y="785" class="small">大企业 + 大学 + OPC + 跨境合作</text>
+  <text x="490" y="810" class="tiny" font-style="italic">独占公共数据和控制层，社会会失去方向</text>
+
+  <text x="880" y="755" class="label" fill="#1f4e79">③ 保护长期学习资产</text>
+  <text x="880" y="785" class="small">评测 / 知识 / 故障 / 维护人员</text>
+  <text x="880" y="810" class="tiny" font-style="italic">运营主体只追求收入，基础设施会偏离目标</text>
+
+  <text x="1270" y="755" class="label" fill="#1f4e79">④ 约束公共权力</text>
+  <text x="1270" y="785" class="small">授权 / 边界 / 申诉 / 退出</text>
+  <text x="1270" y="810" class="tiny" font-style="italic">只讲权利却没有技术能力，规则变成依赖</text>
+</g>
+
+<!-- footer -->
+<text x="60" y="880" class="tiny">原创信息图 · v0.1 · 2026-08-06 · 适配单色印刷 · 数据来源：第八章 02 节，截至 2026-08-06</text>
+<text x="1540" y="880" class="tiny" text-anchor="end">《AI主权》</text>
+</svg>

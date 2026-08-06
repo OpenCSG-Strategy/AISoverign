@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<title>图1-2 Token 工厂有多重：三重反差让"轻"与"重"同时存在</title><desc>《AI主权》原创信息图，v0.1，2026-08-06。纸书黑白和彩色电子版均可使用。展示 2024-2030 年间全球数据中心用电与资本支出、推理价格、AI 模型生产集中度的具体数据：415→945 TWh（IEA）；4000+ 亿美元资本支出（IEA / 5 大科技企业 2025）；美国数据中心占全国用电 4.4%→6.7-12%（DOE / LBNL）；推理价格 20 USD→0.07 USD per 1M tokens（Stanford AI Index）；产业界生产了 2025 年 90%+ 代表性前沿模型（AI Index）；英国/欧洲 IaaS 市场 Microsoft + AWS 各占 30-40%，每年更换供应商的客户不足 1%（CMA 2025）。</desc>
+<rect width="100%" height="100%" fill="#fbfaf7"/>
+<style>text{font-family:Noto Sans CJK SC, PingFang SC, sans-serif;fill:#1f2933}
+.title{font-size:32px;font-weight:700}
+.label{font-size:22px;font-weight:700}
+.small{font-size:16px}
+.tiny{font-size:14px}
+.num{font-size:34px;font-weight:700;fill:#1f4e79}
+.numw{font-size:34px;font-weight:700;fill:#7c2d12}
+.box{stroke:#34495e;stroke-width:2;rx:12}
+.muted{fill:#f0eee8}
+.accent{fill:#dbeafe}
+.warm{fill:#fef3c7}
+.green{fill:#dcfce7}
+.line{stroke:#506273;stroke-width:3;fill:none}
+.thin{stroke:#506273;stroke-width:1.5;fill:none}
+</style>
+
+<text x="60" y="55" class="title" text-anchor="start">图1-2　Token 工厂有多重：数字轻与物理重同时存在</text>
+<text x="800" y="100" class="label" text-anchor="middle">每一枚 Token 都要穿过芯片、显存、网络、电力和冷却；单位成本越低，被调用的总次数越大，对底层基础设施的依赖反而越深</text>
+
+<!-- 顶部：副标题 / 三重反差概览 -->
+<rect x="60" y="130" width="1480" height="40" class="box warm"/>
+<text x="80" y="158" class="small" text-anchor="start" font-weight="700">三重反差：</text>
+<text x="200" y="158" class="small" text-anchor="start">① 数字轻 / 物理重  ·  ② 单位效率↑ / 总能耗↑  ·  ③ 单价↓ / 集中度↑</text>
+
+<!-- 左：反差 1 — 数字轻 / 物理重 -->
+<rect x="60" y="195" width="475" height="490" class="box accent"/>
+<text x="297" y="232" class="label" text-anchor="middle">① 数字轻 / 物理重</text>
+<text x="297" y="262" class="tiny" text-anchor="middle" fill="#8795a1">Token 没有重量；生产它的资源却是有限的</text>
+<line x1="100" y1="280" x2="495" y2="280" class="thin"/>
+<text x="100" y="312" class="small" text-anchor="start">屏幕上的回答 = 复制即可</text>
+<text x="100" y="340" class="small" text-anchor="start">· 复制成本接近于零</text>
+<text x="100" y="365" class="small" text-anchor="start">· 没有"被用完"的风险</text>
+<text x="100" y="395" class="small" text-anchor="start" font-weight="700">屏幕背后：</text>
+<text x="100" y="423" class="small" text-anchor="start">· 芯片在计算</text>
+<text x="100" y="448" class="small" text-anchor="start">· 显存在读写</text>
+<text x="100" y="473" class="small" text-anchor="start">· 网络在传输</text>
+<text x="100" y="498" class="small" text-anchor="start">· 电力在输入</text>
+<text x="100" y="523" class="small" text-anchor="start">· 冷却在排热</text>
+<text x="100" y="558" class="small" text-anchor="start" font-weight="700">扩展时缺的：</text>
+<text x="100" y="585" class="small" text-anchor="start">高带宽内存、交换芯片、</text>
+<text x="100" y="610" class="small" text-anchor="start">光模块、液冷、变压器、</text>
+<text x="100" y="635" class="small" text-anchor="start">备用电源、土地、电网接入</text>
+<text x="100" y="670" class="small" text-anchor="start" fill="#7c2d12" font-weight="700">→ 数字可复制，物理不可复制</text>
+
+<!-- 中：反差 2 — 单位效率↑ / 总能耗↑ -->
+<rect x="563" y="195" width="475" height="490" class="box warm"/>
+<text x="800" y="232" class="label" text-anchor="middle">② 单位效率↑ / 总能耗↑</text>
+<text x="800" y="262" class="tiny" text-anchor="middle" fill="#8795a1">单次任务更省；总任务量增长得更快</text>
+<line x1="603" y1="280" x2="998" y2="280" class="thin"/>
+<text x="603" y="312" class="small" text-anchor="start">全球数据中心用电 (TWh):</text>
+<text x="603" y="360" class="num" text-anchor="start">415</text>
+<text x="780" y="360" class="small" text-anchor="start" fill="#8795a1">2024</text>
+<text x="850" y="360" class="num" text-anchor="start">→ 945</text>
+<text x="990" y="360" class="small" text-anchor="start" fill="#8795a1">2030 (IEA 预测)</text>
+<line x1="603" y1="378" x2="998" y2="378" class="thin"/>
+<text x="603" y="408" class="small" text-anchor="start">美国数据中心占全国用电:</text>
+<text x="603" y="448" class="num" text-anchor="start">4.4%</text>
+<text x="780" y="448" class="small" text-anchor="start" fill="#8795a1">2023</text>
+<text x="850" y="448" class="num" text-anchor="start">→ 6.7-12%</text>
+<text x="980" y="448" class="small" text-anchor="start" fill="#8795a1">2028 (DOE / LBNL 区间)</text>
+<line x1="603" y1="466" x2="998" y2="466" class="thin"/>
+<text x="603" y="495" class="small" text-anchor="start">5 大科技企业 2025 资本支出:</text>
+<text x="603" y="535" class="numw" text-anchor="start">4 000+ 亿美元</text>
+<text x="940" y="535" class="small" text-anchor="start" fill="#8795a1">2026 仍继续</text>
+<line x1="603" y1="555" x2="998" y2="555" class="thin"/>
+<text x="603" y="588" class="small" text-anchor="start">2025 全球数据中心用电增长 17%</text>
+<text x="603" y="613" class="small" text-anchor="start" fill="#7c2d12" font-weight="700">→ 单次省电 + 总能耗上升</text>
+<text x="603" y="640" class="small" text-anchor="start" fill="#7c2d12" font-weight="700">  这两件事可以同时发生</text>
+
+<!-- 右：反差 3 — 单价↓ / 集中度↑ -->
+<rect x="1066" y="195" width="475" height="490" class="box green"/>
+<text x="1303" y="232" class="label" text-anchor="middle">③ 单价↓ / 集中度↑</text>
+<text x="1303" y="262" class="tiny" text-anchor="middle" fill="#8795a1">调用越来越便宜，调用越来越离不开少数平台</text>
+<line x1="1106" y1="280" x2="1501" y2="280" class="thin"/>
+<text x="1106" y="312" class="small" text-anchor="start">GPT-3.5 能力门槛下</text>
+<text x="1106" y="338" class="small" text-anchor="start">每百万 Token 公开价格 (USD):</text>
+<text x="1106" y="385" class="numw" text-anchor="start">$20</text>
+<text x="1250" y="385" class="small" text-anchor="start" fill="#8795a1">2022-11</text>
+<text x="1320" y="385" class="num" text-anchor="start">→ $0.07</text>
+<text x="1500" y="385" class="small" text-anchor="start" fill="#8795a1">2024-10</text>
+<text x="1106" y="410" class="small" text-anchor="start" fill="#7c2d12" font-weight="700">约 1/286  （Stanford AI Index）</text>
+<line x1="1106" y1="430" x2="1501" y2="430" class="thin"/>
+<text x="1106" y="460" class="small" text-anchor="start">2025 全球代表性前沿模型:</text>
+<text x="1106" y="500" class="num" text-anchor="start">≥ 90%</text>
+<text x="1340" y="500" class="small" text-anchor="start">由产业界生产</text>
+<text x="1106" y="525" class="small" text-anchor="start" fill="#8795a1">(AI Index 2026)</text>
+<line x1="1106" y1="545" x2="1501" y2="545" class="thin"/>
+<text x="1106" y="575" class="small" text-anchor="start">英国/欧洲 IaaS 市场份额:</text>
+<text x="1106" y="610" class="small" text-anchor="start" font-weight="700">Microsoft + AWS 各 30-40%</text>
+<text x="1106" y="640" class="small" text-anchor="start">每年更换云供应商的客户 &lt; 1%</text>
+<text x="1106" y="665" class="small" text-anchor="start" fill="#7c2d12" font-weight="700">→ 聊天窗口 100 个品牌</text>
+<text x="1106" y="688" class="small" text-anchor="start" fill="#7c2d12" font-weight="700">  底下云/芯片/接口高度重合</text>
+
+<!-- 底部：结论 -->
+<rect x="60" y="710" width="1480" height="110" class="box muted"/>
+<text x="90" y="745" class="label" text-anchor="start">结论：Token 工厂的边界</text>
+<text x="90" y="775" class="small" text-anchor="start">它能生产模型能力和 Token，不能自动保证任务结果可信；它能让调用越来越便宜，</text>
+<text x="90" y="798" class="small" text-anchor="start">也可能让社会对少数重型基础设施依赖得更深。Token 可以计量生产过程，却不能替代对结果的判断。</text>
+
+<text x="60" y="870" class="tiny">原创信息图 · v0.1 · 2026-08-06 · 适配单色印刷 · 数据来源：IEA《Key Questions on Energy and AI》2026-04；Stanford AI Index 2026；US DOE / LBNL 数据中心用电预测 2024；UK CMA《Cloud Services Market Investigation》2025-07</text>
+</svg>

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <title>图4-1 AgenticOps的三个循环和一个控制面</title>
+  <desc>《AI主权》原创信息图，v0.1，2026-08-06。纸书黑白和彩色电子版均可使用。</desc>
+  <rect width="1600" height="900" fill="#fbfaf7"/>
+  <style>
+    text{font-family:Noto Sans CJK SC,PingFang SC,sans-serif;fill:#1f2933}
+    .title{font-size:34px;font-weight:700}.head{font-size:25px;font-weight:700}.body{font-size:19px}.small{font-size:16px}
+    .loop{stroke:#34495e;stroke-width:3;rx:22}.line{stroke:#506273;stroke-width:4;fill:none}.dash{stroke:#8795a1;stroke-width:3;stroke-dasharray:10 9;fill:none}
+  </style>
+  <defs><marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 z" fill="#506273"/></marker></defs>
+  <text x="60" y="65" class="title">图4-1　AgenticOps的三个循环和一个控制面</text>
+
+  <rect x="85" y="155" width="420" height="235" class="loop" fill="#dbeafe"/>
+  <text x="295" y="205" class="head" text-anchor="middle">交付循环</text>
+  <text x="295" y="250" class="body" text-anchor="middle">立项 → 设计 → 构建</text>
+  <text x="295" y="290" class="body" text-anchor="middle">评测 → 影子运行 → 发布</text>
+  <text x="295" y="340" class="small" text-anchor="middle">回答：什么版本有资格进入运行？</text>
+
+  <rect x="1095" y="155" width="420" height="235" class="loop" fill="#fef3c7"/>
+  <text x="1305" y="205" class="head" text-anchor="middle">运行循环</text>
+  <text x="1305" y="250" class="body" text-anchor="middle">授权 → 执行 → 观察</text>
+  <text x="1305" y="290" class="body" text-anchor="middle">介入 → 验证 → 结束</text>
+  <text x="1305" y="340" class="small" text-anchor="middle">回答：这一项任务此刻还能继续吗？</text>
+
+  <rect x="590" y="535" width="420" height="235" class="loop" fill="#dcfce7"/>
+  <text x="800" y="585" class="head" text-anchor="middle">学习循环</text>
+  <text x="800" y="630" class="body" text-anchor="middle">反馈 → 事故 → 分析</text>
+  <text x="800" y="670" class="body" text-anchor="middle">变更 → 重评 → 退役</text>
+  <text x="800" y="720" class="small" text-anchor="middle">回答：系统应改变什么，而不该自动学什么？</text>
+
+  <rect x="565" y="190" width="470" height="260" rx="28" fill="#ece8df" stroke="#1f2933" stroke-width="4"/>
+  <text x="800" y="240" class="head" text-anchor="middle">共同控制面</text>
+  <text x="800" y="288" class="body" text-anchor="middle">任务 · 身份 · 权限 · 版本</text>
+  <text x="800" y="330" class="body" text-anchor="middle">策略 · 证据 · 成本 · 停止</text>
+  <text x="800" y="382" class="small" text-anchor="middle">贯穿三个循环；记录变化，也保留退出能力</text>
+
+  <path d="M505,275 C535,275 535,275 565,275" class="line" marker-end="url(#arrow)"/>
+  <path d="M1035,275 C1065,275 1065,275 1095,275" class="line" marker-end="url(#arrow)"/>
+  <path d="M800,450 L800,535" class="line" marker-end="url(#arrow)"/>
+  <path d="M1095,365 C1035,490 980,520 940,535" class="dash" marker-end="url(#arrow)"/>
+  <path d="M660,535 C560,490 510,430 470,390" class="dash" marker-end="url(#arrow)"/>
+
+  <text x="60" y="855" class="small">原创信息图 · v0.1 · 2026-08-06 · 三个循环并非自动流水线，任一环节都可以暂停、回滚或退役</text>
+</svg>

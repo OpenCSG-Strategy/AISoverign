@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<title>图5-5 注意力也是一种权限：4 个备份 + 3 类能力</title><desc>《AI主权》原创信息图，v0.1，2026-08-06。把"注意力"画成 4 个备份锚点（每日先写 / 每周不推荐 / 重要联系人亲自查 / 偶尔读原文）+ 3 类能力分工（可外包 / 保留检验 / 必须亲自形成）。数据来源：第五章 05.4 正文。</desc>
+<rect width="100%" height="100%" fill="#fbfaf7"/>
+<style>text{font-family:Noto Sans CJK SC, PingFang SC, sans-serif;fill:#1f2933}
+.title{font-size:32px;font-weight:700}
+.label{font-size:22px;font-weight:700}
+.small{font-size:16px}
+.tiny{font-size:14px}
+.num{font-size:34px;font-weight:700;fill:#1f4e79}
+.box{stroke:#34495e;stroke-width:2;rx:12}
+.muted{fill:#f0eee8}
+.accent{fill:#dbeafe}
+.warm{fill:#fef3c7}
+.green{fill:#dcfce7}
+.line{stroke:#506273;stroke-width:3;fill:none}
+.thin{stroke:#506273;stroke-width:1.5;fill:none}
+</style>
+
+<text x="60" y="55" class="title" text-anchor="start">图5-5　注意力也是一种权限：4 个备份 + 3 类能力</text>
+<text x="800" y="100" class="label" text-anchor="middle">决定什么先出现在你眼前，比读取文件更安静、影响更深</text>
+
+<!-- 顶部：注意力机制 -->
+<rect x="60" y="140" width="1480" height="80" class="box warm"/>
+<text x="800" y="175" class="label" text-anchor="middle">模型先决定什么值得看 → 后面的工具把这个判断写进现实</text>
+
+<!-- 4 个备份锚点 -->
+<rect x="60" y="240" width="1480" height="60" class="box accent"/>
+<text x="800" y="280" class="label" text-anchor="middle">4 个人工锚点 —— 给注意力系统设的"备份"</text>
+
+<g>
+  <rect x="60" y="320" width="350" height="170" class="box accent"/>
+  <text x="235" y="360" class="num" text-anchor="middle">①</text>
+  <text x="235" y="395" class="label" text-anchor="middle">每日先写</text>
+  <line x1="100" y1="415" x2="370" y2="415" class="thin"/>
+<text x="100" y="445" class="small" text-anchor="start">每天最重要的任务</text>
+<text x="100" y="468" class="small" text-anchor="start">由自己先写</text>
+<text x="100" y="478" class="small" text-anchor="start" />
+  <text x="100" y="478" class="tiny" text-anchor="start" fill="#1f4e79" font-weight="700">再让 AI 排序</text>
+
+  <rect x="430" y="320" width="350" height="170" class="box warm"/>
+  <text x="605" y="360" class="num" text-anchor="middle">②</text>
+  <text x="605" y="395" class="label" text-anchor="middle">每周不推荐</text>
+  <line x1="470" y1="415" x2="740" y2="415" class="thin"/>
+<text x="470" y="445" class="small" text-anchor="start">保留一段时间</text>
+<text x="470" y="468" class="small" text-anchor="start">不接受推荐的阅读</text>
+<text x="470" y="478" class="tiny" text-anchor="start" fill="#1f4e79" font-weight="700">防止默认值接管方向</text>
+
+  <rect x="800" y="320" width="350" height="170" class="box green"/>
+  <text x="975" y="360" class="num" text-anchor="middle">③</text>
+  <text x="975" y="395" class="label" text-anchor="middle">亲自查重要联系人</text>
+  <line x1="840" y1="415" x2="1110" y2="415" class="thin"/>
+<text x="840" y="445" class="small" text-anchor="start">重要联系人和</text>
+<text x="840" y="468" class="small" text-anchor="start">长期目标</text>
+<text x="840" y="478" class="tiny" text-anchor="start" fill="#1f4e79" font-weight="700">不完全依赖系统提醒</text>
+
+  <rect x="1170" y="320" width="370" height="170" class="box accent"/>
+  <text x="1355" y="360" class="num" text-anchor="middle">④</text>
+  <text x="1355" y="395" class="label" text-anchor="middle">偶尔读原文</text>
+  <line x1="1210" y1="415" x2="1500" y2="415" class="thin"/>
+<text x="1210" y="445" class="small" text-anchor="start">当 AI 总结一场争论时</text>
+<text x="1210" y="468" class="small" text-anchor="start">偶尔阅读双方的</text>
+<text x="1210" y="478" class="small" text-anchor="start" />
+  <text x="1210" y="478" class="tiny" text-anchor="start" fill="#1f4e79" font-weight="700">原始表达</text>
+</g>
+
+<!-- 3 类能力 -->
+<rect x="60" y="520" width="1480" height="60" class="box warm"/>
+<text x="800" y="560" class="label" text-anchor="middle">个人能力 3 类 —— AI 越强这种区分越重要</text>
+
+<g>
+  <rect x="60" y="600" width="470" height="180" class="box accent"/>
+  <text x="295" y="640" class="num" text-anchor="middle">a</text>
+  <text x="295" y="675" class="label" text-anchor="middle">可完全外包的动作</text>
+  <line x1="100" y1="695" x2="490" y2="695" class="thin"/>
+<text x="100" y="725" class="small" text-anchor="start">机械转写</text>
+<text x="100" y="748" class="small" text-anchor="start">排版 / 检索 / 摘要</text>
+<text x="100" y="775" class="tiny" text-anchor="start" fill="#8795a1">"算出来"不需要保留能力</text>
+
+  <rect x="550" y="600" width="470" height="180" class="box warm"/>
+  <text x="785" y="640" class="num" text-anchor="middle">b</text>
+  <text x="785" y="675" class="label" text-anchor="middle">保留检验能力的技能</text>
+  <line x1="590" y1="695" x2="980" y2="695" class="thin"/>
+<text x="590" y="725" class="small" text-anchor="start">核验事实</text>
+<text x="590" y="748" class="small" text-anchor="start">检查合同 / 理解现金流</text>
+<text x="590" y="775" class="tiny" text-anchor="start" fill="#1f4e79" font-weight="700">AI 错了能被立刻发现</text>
+
+  <rect x="1040" y="600" width="500" height="180" class="box green"/>
+  <text x="1290" y="640" class="num" text-anchor="middle" fill="#7c2d12">c</text>
+  <text x="1290" y="675" class="label" text-anchor="start" fill="#7c2d12">必须亲自形成的判断</text>
+  <line x1="1080" y1="695" x2="1500" y2="695" class="thin"/>
+<text x="1080" y="725" class="small" text-anchor="start">决定愿意成为什么样的人</text>
+<text x="1080" y="748" class="small" text-anchor="start">接受什么代价 / 对谁作出承诺</text>
+<text x="1080" y="775" class="tiny" text-anchor="start" fill="#7c2d12" font-weight="700">不可外包给算法</text>
+</g>
+
+<!-- 底部 -->
+<rect x="60" y="800" width="1480" height="60" class="box muted"/>
+<text x="800" y="833" class="small" text-anchor="middle" fill="#7c2d12">不必证明人能在所有任务上战胜机器，只需保留足够能力，知道何时机器已离开我们真正的意图</text>
+
+<text x="60" y="880" class="tiny">原创信息图 · v0.1 · 2026-08-06 · 适配单色印刷 · 第五章 05.4 正文</text>
+</svg>

@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<title>图3-8 主权必须在运行中成立：4 动作循环</title><desc>《AI主权》原创信息图，v0.1，2026-08-06。把"运行时主权"画成 4 动作循环：声明边界 → 强制边界 → 观察真实运行 → 验证控制有效。4 个动作缺一不可 —— 缺声明 = 系统可越界 / 缺强制 = 控制失效无人知 / 缺日志 = 事故无法补救 / 缺测试 = 外部无法判断真假。主权更像消防能力，不是房产证。数据来源：第三章正文 + 序章-5 主权重新出现。</desc>
+<rect width="100%" height="100%" fill="#fbfaf7"/>
+<style>text{font-family:Noto Sans CJK SC, PingFang SC, sans-serif;fill:#1f2933}
+.title{font-size:32px;font-weight:700}
+.label{font-size:22px;font-weight:700}
+.small{font-size:16px}
+.tiny{font-size:14px}
+.num{font-size:34px;font-weight:700;fill:#1f4e79}
+.box{stroke:#34495e;stroke-width:2;rx:12}
+.muted{fill:#f0eee8}
+.accent{fill:#dbeafe}
+.warm{fill:#fef3c7}
+.green{fill:#dcfce7}
+.line{stroke:#506273;stroke-width:3;fill:none}
+.thin{stroke:#506273;stroke-width:1.5;fill:none}
+</style>
+<defs><marker id="arrow" markerWidth="14" markerHeight="14" refX="11" refY="7" orient="auto"><path d="M0,0 L14,7 L0,14 z" fill="#506273"/></marker></defs>
+
+<text x="60" y="55" class="title" text-anchor="start">图3-8　主权必须在运行中成立：4 动作循环</text>
+<text x="800" y="100" class="label" text-anchor="middle">主权更像消防能力 —— 只有在报警 / 疏散 / 断电 / 供水 / 指挥真正协同时才存在</text>
+
+<!-- 4 步骤环 -->
+<g>
+  <!-- Step 1 -->
+  <rect x="80" y="180" width="380" height="200" class="box accent"/>
+  <text x="270" y="220" class="num" text-anchor="middle">①</text>
+  <text x="270" y="255" class="label" text-anchor="middle">声明边界</text>
+  <line x1="120" y1="275" x2="420" y2="275" class="thin"/>
+  <text x="120" y="305" class="small" text-anchor="start">· 公开承诺 / 使用条款</text>
+  <text x="120" y="328" class="small" text-anchor="start">· 模型版本 / 工具白名单</text>
+  <text x="120" y="351" class="small" text-anchor="start">· 数据范围 / 退出方式</text>
+  <text x="120" y="375" class="tiny" text-anchor="start" fill="#1f4e79" font-weight="700">只声明 → 系统仍可越界</text>
+
+  <!-- Step 2 -->
+  <rect x="1140" y="180" width="380" height="200" class="box warm"/>
+  <text x="1330" y="220" class="num" text-anchor="middle">②</text>
+  <text x="1330" y="255" class="label" text-anchor="middle">强制边界</text>
+  <line x1="1180" y1="275" x2="1480" y2="275" class="thin"/>
+  <text x="1180" y="305" class="small" text-anchor="start">· 身份 / 权限 / 凭证</text>
+  <text x="1180" y="328" class="small" text-anchor="start">· 参数校验 / 沙箱 / 限额</text>
+  <text x="1180" y="351" class="small" text-anchor="start">· 独立确认点</text>
+  <text x="1180" y="375" class="tiny" text-anchor="start" fill="#1f4e79" font-weight="700">只强制 → 失效后无人知</text>
+
+  <!-- Step 3 -->
+  <rect x="80" y="450" width="380" height="200" class="box green"/>
+  <text x="270" y="490" class="num" text-anchor="middle">③</text>
+  <text x="270" y="525" class="label" text-anchor="middle">观察真实运行</text>
+  <line x1="120" y1="545" x2="420" y2="545" class="thin"/>
+  <text x="120" y="575" class="small" text-anchor="start">· 完整运行记录</text>
+  <text x="120" y="598" class="small" text-anchor="start">· 任务 / 凭证 / 工具 / 结果</text>
+  <text x="120" y="621" class="small" text-anchor="start">· 越界能被看见</text>
+  <text x="120" y="645" class="tiny" text-anchor="start" fill="#1f4e79" font-weight="700">只有日志 → 不能证明可补救</text>
+
+  <!-- Step 4 -->
+  <rect x="1140" y="450" width="380" height="200" class="box accent"/>
+  <text x="1330" y="490" class="num" text-anchor="middle">④</text>
+  <text x="1330" y="525" class="label" text-anchor="middle">验证控制有效</text>
+  <line x1="1180" y1="545" x2="1480" y2="545" class="thin"/>
+  <text x="1180" y="575" class="small" text-anchor="start">· 演练 / 渗透 / 审计</text>
+  <text x="1180" y="598" class="small" text-anchor="start">· 申诉结果 / 公开报告</text>
+  <text x="1180" y="621" class="small" text-anchor="start">· 外部独立复核</text>
+  <text x="1180" y="645" class="tiny" text-anchor="start" fill="#1f4e79" font-weight="700">只有保证报告 → 外部无法判断</text>
+</g>
+
+<!-- 中心：闭环 -->
+<circle cx="800" cy="430" r="160" class="box muted" fill="#f0eee8" stroke="#1f4e79" stroke-width="3"/>
+<text x="800" y="400" class="label" text-anchor="middle">4 动作闭环</text>
+<text x="800" y="430" class="small" text-anchor="middle" fill="#1f4e79" font-weight="700">缺一环 = 治理失效</text>
+<text x="800" y="455" class="small" text-anchor="middle">声明 / 强制 / 观察 / 验证</text>
+<text x="800" y="480" class="tiny" text-anchor="middle" fill="#8795a1">持续运行而非一次审计</text>
+
+<!-- 箭头连接 -->
+<path d="M460,280 L640,360" class="line" marker-end="url(#arrow)"/>
+<path d="M960,360 L1140,280" class="line" marker-end="url(#arrow)"/>
+<path d="M1140,580 L960,500" class="line" marker-end="url(#arrow)"/>
+<path d="M640,500 L460,580" class="line" marker-end="url(#arrow)"/>
+
+<!-- 底部 -->
+<rect x="60" y="700" width="1480" height="150" class="box muted"/>
+<text x="800" y="740" class="label" text-anchor="middle">控制强度应随任务变化 —— 不是给 Agent 贴"可信"标签，而是在每个状态只开放当时必要的能力</text>
+<line x1="100" y1="760" x2="1500" y2="760" class="thin"/>
+<text x="100" y="795" class="num" text-anchor="start" fill="#7c2d12">→</text>
+<text x="160" y="795" class="label" text-anchor="start">差旅 Agent 在不同状态需要不同权限</text>
+<text x="100" y="823" class="small" text-anchor="start">比较方案 → 只读公开票价 / 锁定座位 → 旅客信息 / 支付 → 一次性金额凭证 / 任务结束 → 临时权限全部收回</text>
+
+<text x="60" y="870" class="tiny">原创信息图 · v0.1 · 2026-08-06 · 适配单色印刷 · 第三章正文 + 序章-5 主权重新出现</text>
+</svg>

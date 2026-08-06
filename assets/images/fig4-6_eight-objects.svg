@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<title>图4-6 管理 8 类相互关联的对象</title><desc>《AI主权》原创信息图，v0.1，2026-08-06。把 AgenticOps 必须管理的 8 类对象画成 8 角关系图（中心 = 一次任务）：目标 / 主体 / 上下文 / 系统版本 / 工具 / 权限凭证 / 任务状态 / 外部结果。任意一项脱离其他部分都制造责任断点。数据来源：第四章正文。</desc>
+<rect width="100%" height="100%" fill="#fbfaf7"/>
+<style>text{font-family:Noto Sans CJK SC, PingFang SC, sans-serif;fill:#1f2933}
+.title{font-size:32px;font-weight:700}
+.label{font-size:22px;font-weight:700}
+.small{font-size:16px}
+.tiny{font-size:14px}
+.num{font-size:34px;font-weight:700;fill:#1f4e79}
+.box{stroke:#34495e;stroke-width:2;rx:12}
+.muted{fill:#f0eee8}
+.accent{fill:#dbeafe}
+.warm{fill:#fef3c7}
+.green{fill:#dcfce7}
+.line{stroke:#506273;stroke-width:3;fill:none}
+.thin{stroke:#506273;stroke-width:1.5;fill:none}
+</style>
+
+<text x="60" y="55" class="title" text-anchor="start">图4-6　管理 8 类相互关联的对象</text>
+<text x="800" y="100" class="label" text-anchor="middle">传统平台只登记"模型 + 数据 + 实验"；AgenticOps 把行动两端也纳入同一条关系</text>
+
+<!-- 中心 -->
+<circle cx="800" cy="450" r="120" class="box green" fill="#dcfce7" stroke="#1f4e79" stroke-width="3"/>
+<text x="800" y="430" class="label" text-anchor="middle">一次任务</text>
+<text x="800" y="460" class="small" text-anchor="middle" fill="#1f4e79" font-weight="700">8 类对象共同决定</text>
+<text x="800" y="483" class="small" text-anchor="middle">责任是否完整</text>
+
+<!-- 8 个对象分布在圆外 -->
+<g>
+  <!-- 1. 目标 top -->
+  <rect x="700" y="140" width="200" height="80" class="box accent"/>
+  <text x="800" y="170" class="num" text-anchor="middle">①</text>
+  <text x="800" y="195" class="label" text-anchor="middle">目标</text>
+  <text x="700" y="215" class="tiny" text-anchor="start">谁定义 / 成功 / 禁止条件</text>
+
+  <!-- 2. 主体 top-right -->
+  <rect x="1000" y="180" width="220" height="80" class="box warm"/>
+  <text x="1110" y="210" class="num" text-anchor="middle">②</text>
+  <text x="1110" y="235" class="label" text-anchor="middle">主体</text>
+  <text x="1000" y="255" class="tiny" text-anchor="start">人 / 组织 / Agent / 外部服务</text>
+
+  <!-- 3. 上下文 right -->
+  <rect x="1280" y="320" width="220" height="80" class="box green"/>
+  <text x="1390" y="350" class="num" text-anchor="middle">③</text>
+  <text x="1390" y="375" class="label" text-anchor="middle">上下文</text>
+  <text x="1280" y="395" class="tiny" text-anchor="start">新鲜 / 完整 / 可信 / 必要范围</text>
+
+  <!-- 4. 系统版本 bottom-right -->
+  <rect x="1280" y="500" width="220" height="80" class="box accent"/>
+  <text x="1390" y="530" class="num" text-anchor="middle">④</text>
+  <text x="1390" y="555" class="label" text-anchor="middle">系统版本</text>
+  <text x="1280" y="575" class="tiny" text-anchor="start">模型 / 提示 / 知识 / 工具描述 / 运行环境</text>
+
+  <!-- 5. 工具 bottom -->
+  <rect x="900" y="680" width="200" height="80" class="box warm"/>
+  <text x="1000" y="710" class="num" text-anchor="middle">⑤</text>
+  <text x="1000" y="735" class="label" text-anchor="middle">工具</text>
+  <text x="900" y="755" class="tiny" text-anchor="start">谁提供 / 版本 / 参数 / 可逆性</text>
+
+  <!-- 6. 权限 bottom-left -->
+  <rect x="500" y="680" width="200" height="80" class="box green"/>
+  <text x="600" y="710" class="num" text-anchor="middle">⑥</text>
+  <text x="600" y="735" class="label" text-anchor="middle">权限 / 凭证</text>
+  <text x="500" y="755" class="tiny" text-anchor="start">访问 / 动作 / 期限 / 撤回</text>
+
+  <!-- 7. 任务状态 left -->
+  <rect x="100" y="500" width="220" height="80" class="box accent"/>
+  <text x="210" y="530" class="num" text-anchor="middle">⑦</text>
+  <text x="210" y="555" class="label" text-anchor="middle">任务状态</text>
+  <text x="100" y="575" class="tiny" text-anchor="start">执行中 / 等输入 / 失败 / 取消 / 完成</text>
+
+  <!-- 8. 外部结果 top-left -->
+  <rect x="100" y="320" width="220" height="80" class="box warm"/>
+  <text x="210" y="350" class="num" text-anchor="middle">⑧</text>
+  <text x="210" y="375" class="label" text-anchor="middle">外部结果</text>
+  <text x="100" y="395" class="tiny" text-anchor="start">哪些现实状态已变 / 能否撤销</text>
+</g>
+
+<!-- 连接线（细） -->
+<line x1="800" y1="220" x2="800" y2="330" class="thin"/>
+<line x1="1110" y1="260" x2="900" y2="380" class="thin"/>
+<line x1="1280" y1="360" x2="900" y2="420" class="thin"/>
+<line x1="1280" y1="540" x2="900" y2="480" class="thin"/>
+<line x1="1000" y1="680" x2="870" y2="555" class="thin"/>
+<line x1="600" y1="680" x2="730" y2="555" class="thin"/>
+<line x1="320" y1="540" x2="700" y2="480" class="thin"/>
+<line x1="320" y1="360" x2="700" y2="420" class="thin"/>
+
+<!-- 底部 -->
+<rect x="60" y="800" width="1480" height="60" class="box muted"/>
+<text x="800" y="833" class="small" text-anchor="middle" fill="#7c2d12" font-weight="700">任意一项脱离其他部分 = 责任断点 —— AgenticOps 负责让 8 类对象在一次任务中保持关联</text>
+
+<text x="60" y="880" class="tiny">原创信息图 · v0.1 · 2026-08-06 · 适配单色印刷 · 第四章正文</text>
+</svg>

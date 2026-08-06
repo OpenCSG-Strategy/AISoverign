@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<title>图2-5 本地与云端组合部署：3 个压力测试</title><desc>《AI主权》原创信息图，v0.1，2026-08-06。把"本地 vs 云端"画成一条连续谱，标出真正决定主权松紧的 3 个压力测试：断网测试 / 迁移测试 / 接管测试。同一项测试也适用于个人（聊天记录能否导出 / 长期记忆能否删除 / 智能体权限能否撤销）。数据来源：第二章正文；英国 2025 国家安全战略；AWS AI Factories 产品文档。</desc>
+<rect width="100%" height="100%" fill="#fbfaf7"/>
+<style>text{font-family:Noto Sans CJK SC, PingFang SC, sans-serif;fill:#1f2933}
+.title{font-size:32px;font-weight:700}
+.label{font-size:22px;font-weight:700}
+.small{font-size:16px}
+.tiny{font-size:14px}
+.num{font-size:34px;font-weight:700;fill:#1f4e79}
+.box{stroke:#34495e;stroke-width:2;rx:12}
+.muted{fill:#f0eee8}
+.accent{fill:#dbeafe}
+.warm{fill:#fef3c7}
+.green{fill:#dcfce7}
+.line{stroke:#506273;stroke-width:3;fill:none}
+.thin{stroke:#506273;stroke-width:1.5;fill:none}
+</style>
+<defs><marker id="arrow" markerWidth="12" markerHeight="12" refX="11" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 z" fill="#506273"/></marker></defs>
+
+<text x="60" y="55" class="title" text-anchor="start">图2-5　本地与云端组合部署：3 个压力测试</text>
+<text x="800" y="100" class="label" text-anchor="middle">真实选择是一条连续谱；判断一项部署是否真正增加选择，要看它能否通过 3 个压力测试</text>
+
+<!-- 顶部：连续谱 -->
+<rect x="60" y="140" width="1480" height="130" class="box accent"/>
+<text x="800" y="175" class="label" text-anchor="middle">本地 ←—————————— 连续谱 ——————————→ 云端</text>
+<line x1="100" y1="195" x2="1500" y2="195" class="thin"/>
+<text x="100" y="225" class="small" text-anchor="start">· 个人电脑 / 手机</text>
+<text x="380" y="225" class="small" text-anchor="start">· 内部机房 / 受控云区域</text>
+<text x="700" y="225" class="small" text-anchor="start">· 专属云 / 行业云</text>
+<text x="1020" y="225" class="small" text-anchor="start">· 公共云 / 主流厂商</text>
+<text x="1300" y="225" class="small" text-anchor="start">· 多云组合</text>
+<text x="100" y="250" class="tiny" text-anchor="start" fill="#1f4e79" font-weight="700">"机器在我这里"不等于完全控制 —— 芯片 / 驱动 / OS / 权重 / 运维都可能来自外部</text>
+
+<!-- 3 个压力测试 -->
+<g>
+  <!-- 1. 断网测试 -->
+  <rect x="60" y="300" width="480" height="380" class="box warm"/>
+  <text x="300" y="340" class="num" text-anchor="middle">①</text>
+  <text x="300" y="375" class="label" text-anchor="middle">断网测试</text>
+  <line x1="100" y1="395" x2="500" y2="395" class="thin"/>
+  <text x="300" y="425" class="small" text-anchor="middle" fill="#1f4e79" font-weight="700">外部服务中断一天</text>
+  <text x="100" y="460" class="small" text-anchor="start">问 1：哪些任务立即停摆？</text>
+  <text x="100" y="485" class="small" text-anchor="start">问 2：哪些可以降级运行？</text>
+  <text x="100" y="510" class="small" text-anchor="start">问 3：哪些数据会堆积等待？</text>
+  <text x="100" y="555" class="tiny" text-anchor="start" fill="#8795a1">不需要"所有业务永远离线"</text>
+  <text x="100" y="575" class="tiny" text-anchor="start" fill="#8795a1">需要的是"断开以后会发生什么"</text>
+  <text x="100" y="600" class="tiny" text-anchor="start" fill="#8795a1">提前知道 → 可分层设计关键路径</text>
+  <text x="100" y="640" class="small" text-anchor="start" fill="#1f4e79" font-weight="700">个人版：断网时智能体还在执行哪些动作？</text>
+  <text x="100" y="663" class="small" text-anchor="start" fill="#1f4e79" font-weight="700">国家版：公共服务依赖能否继续运行？</text>
+
+  <!-- 2. 迁移测试 -->
+  <rect x="560" y="300" width="480" height="380" class="box green"/>
+  <text x="800" y="340" class="num" text-anchor="middle">②</text>
+  <text x="800" y="375" class="label" text-anchor="middle">迁移测试</text>
+  <line x1="600" y1="395" x2="1000" y2="395" class="thin"/>
+  <text x="800" y="425" class="small" text-anchor="middle" fill="#1f4e79" font-weight="700">3 个月后当前服务停了</text>
+  <text x="600" y="460" class="small" text-anchor="start">需要带走的东西：</text>
+  <text x="600" y="485" class="small" text-anchor="start">· 提示模板 / 评测集</text>
+  <text x="600" y="510" class="small" text-anchor="start">· 知识库 / 日志 / 适配器</text>
+  <text x="600" y="535" class="small" text-anchor="start">· 工具接口 / 路由策略</text>
+  <text x="600" y="580" class="tiny" text-anchor="start" fill="#8795a1">只导出文件还不够</text>
+  <text x="600" y="600" class="tiny" text-anchor="start" fill="#8795a1">迁移对象 = 一整套工作方式</text>
+  <text x="600" y="640" class="small" text-anchor="start" fill="#1f4e79" font-weight="700">个人版：聊天记录 / 长期记忆 / 订阅取消</text>
+  <text x="600" y="663" class="small" text-anchor="start" fill="#1f4e79" font-weight="700">国家版：关键行业是否知道自己的依赖</text>
+
+  <!-- 3. 接管测试 -->
+  <rect x="1060" y="300" width="480" height="380" class="box accent"/>
+  <text x="1300" y="340" class="num" text-anchor="middle">③</text>
+  <text x="1300" y="375" class="label" text-anchor="middle">接管测试</text>
+  <line x1="1100" y1="395" x2="1500" y2="395" class="thin"/>
+  <text x="1300" y="425" class="small" text-anchor="middle" fill="#1f4e79" font-weight="700">决定把系统移回本地</text>
+  <text x="1100" y="460" class="small" text-anchor="start">问 1：是否有人能维护驱动？</text>
+  <text x="1100" y="485" class="small" text-anchor="start">问 2：运行时 + 安全补丁谁打？</text>
+  <text x="1100" y="510" class="small" text-anchor="start">问 3：监控 + 故障响应谁做？</text>
+  <text x="1100" y="555" class="tiny" text-anchor="start" fill="#8795a1">如果答案都是"否"</text>
+  <text x="1100" y="575" class="tiny" text-anchor="start" fill="#8795a1">本地设备 = 地理上的拥有</text>
+  <text x="1100" y="595" class="tiny" text-anchor="start" fill="#8795a1">≠ 操作上的控制</text>
+  <text x="1100" y="640" class="small" text-anchor="start" fill="#1f4e79" font-weight="700">个人版：智能体曾获权限是否全部撤销？</text>
+  <text x="1100" y="663" class="small" text-anchor="start" fill="#1f4e79" font-weight="700">国家版：科研 / 中小企业最低公共算力？</text>
+</g>
+
+<!-- 底部论断 -->
+<rect x="60" y="710" width="1480" height="130" class="box muted"/>
+<text x="800" y="750" class="label" text-anchor="middle">云端部署不必然放弃主权，本地部署也不自动产生主权</text>
+<line x1="100" y1="770" x2="1500" y2="770" class="thin"/>
+<text x="100" y="800" class="small" text-anchor="start">· 部署者需要知道：依赖在哪里 / 能否验证边界 / 是否保留替代路径 / 能否承担接管后的责任</text>
+<text x="100" y="825" class="small" text-anchor="start" fill="#7c2d12" font-weight="700">· Token 工厂可以建在远方，也可以放在身边；更常见的未来，是同一条生产线跨越设备、机房与云</text>
+
+<text x="60" y="870" class="tiny">原创信息图 · v0.1 · 2026-08-06 · 适配单色印刷 · 英国 2025《国家安全战略》；AWS AI Factories 产品文档</text>
+</svg>

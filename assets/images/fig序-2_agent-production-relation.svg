@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<title>图序-2 智能从答案进入生产关系：身份、权限与委托</title><desc>《AI主权》原创信息图，v0.1，2026-08-06。把"AI 改变任务关系"画成一条升级路径：聊天机器人主要改变信息生产（人在行动链末端），Agent 接管邮箱/代码/数据库/支付后开始用某主体身份连续行动。生产关系的核心三问：使用谁的身份、继承哪些权限、失败后怎样恢复。数据来源：OpenAI Operator 系统卡（2025）；第三章 工具与 Agent 章节。</desc>
+<rect width="100%" height="100%" fill="#fbfaf7"/>
+<style>text{font-family:Noto Sans CJK SC, PingFang SC, sans-serif;fill:#1f2933}
+.title{font-size:32px;font-weight:700}
+.label{font-size:22px;font-weight:700}
+.small{font-size:16px}
+.tiny{font-size:14px}
+.num{font-size:34px;font-weight:700;fill:#1f4e79}
+.box{stroke:#34495e;stroke-width:2;rx:12}
+.muted{fill:#f0eee8}
+.accent{fill:#dbeafe}
+.warm{fill:#fef3c7}
+.green{fill:#dcfce7}
+.line{stroke:#506273;stroke-width:3;fill:none}
+.thin{stroke:#506273;stroke-width:1.5;fill:none}
+</style>
+<defs><marker id="arrow" markerWidth="12" markerHeight="12" refX="11" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 z" fill="#506273"/></marker></defs>
+
+<text x="60" y="55" class="title" text-anchor="start">图序-2　智能从答案进入生产关系：身份、权限与委托</text>
+<text x="800" y="100" class="label" text-anchor="middle">聊天改变信息生产，Agent 改变任务关系；任务一旦以主体身份连入系统，就必须回答身份、权限与责任</text>
+
+<!-- 左侧：聊天阶段 -->
+<rect x="60" y="140" width="540" height="380" class="box accent"/>
+<text x="330" y="180" class="label" text-anchor="middle">阶段 1：聊天机器人（信息生产）</text>
+<line x1="100" y1="200" x2="560" y2="200" class="thin"/>
+<text x="100" y="240" class="num" text-anchor="start">问</text>
+<text x="160" y="240" class="small" text-anchor="start">用户 → 模型：给一段草稿 / 答一个问题</text>
+<text x="100" y="275" class="num" text-anchor="start">答</text>
+<text x="160" y="275" class="small" text-anchor="start">模型 → 用户：返回文字，停在屏幕上</text>
+<text x="100" y="320" class="small" text-anchor="start">人仍处在行动链末端：</text>
+<text x="100" y="345" class="small" text-anchor="start">· 阅读 → 修改 → 复制 → 亲自发送</text>
+<text x="100" y="370" class="small" text-anchor="start">· 错误止于一段文字，不直接触发外部动作</text>
+<text x="100" y="410" class="small" text-anchor="start" fill="#1f4e79" font-weight="700">责任完全在人，组织问题最小</text>
+<text x="100" y="450" class="tiny" text-anchor="start" fill="#8795a1">错误成本：错别字、引用错误、措辞不达意</text>
+<text x="100" y="470" class="tiny" text-anchor="start" fill="#8795a1">修复路径：编辑、删改、重发</text>
+<text x="100" y="495" class="tiny" text-anchor="start" fill="#8795a1">不进入生产关系 → 暂无身份/权限问题</text>
+
+<!-- 右侧：Agent 阶段 -->
+<rect x="640" y="140" width="900" height="380" class="box warm"/>
+<text x="1090" y="180" class="label" text-anchor="middle">阶段 2：Agent（任务关系）</text>
+<line x1="680" y1="200" x2="1500" y2="200" class="thin"/>
+<text x="680" y="240" class="num" text-anchor="start">动</text>
+<text x="740" y="240" class="small" text-anchor="start">模型 + 邮箱 / 代码 / 数据库 / 支付 / 浏览器</text>
+<text x="680" y="275" class="num" text-anchor="start">行</text>
+<text x="740" y="275" class="small" text-anchor="start">查资料、拆任务、调系统、等反馈、根据结果继续行动</text>
+<text x="680" y="320" class="small" text-anchor="start">可能以某主体身份连续行动：</text>
+<text x="680" y="345" class="small" text-anchor="start">· 用谁的账号登录</text>
+<text x="680" y="370" class="small" text-anchor="start">· 看到哪一档数据</text>
+<text x="680" y="395" class="small" text-anchor="start">· 能改哪些字段、提交哪些单子</text>
+<text x="1020" y="345" class="small" text-anchor="start">· 失败后能否撤回 / 重复 / 兜底</text>
+<text x="1020" y="370" class="small" text-anchor="start">· 何时必须停下来等确认</text>
+<text x="1020" y="395" class="small" text-anchor="start">· 谁保留最终签发权</text>
+<text x="680" y="445" class="small" text-anchor="start" fill="#7c2d12" font-weight="700">责任最终仍由人和组织承担，机器委托链却已经真实存在</text>
+<text x="680" y="475" class="tiny" text-anchor="start" fill="#8795a1">错误成本：发错邮件 / 错改字段 / 错付订单 / 公开未脱敏资料</text>
+<text x="680" y="495" class="tiny" text-anchor="start" fill="#8795a1">修复路径：身份回收、权限收紧、回滚补丁、人工兜底</text>
+
+<!-- 箭头连接 -->
+<path d="M600,330 L640,330" class="line" marker-end="url(#arrow)"/>
+<text x="620" y="320" class="small" text-anchor="middle" fill="#1f4e79" font-weight="700">升级</text>
+
+<!-- 底部：3 个必须回答的问题 -->
+<rect x="60" y="555" width="1480" height="270" class="box muted"/>
+<text x="800" y="595" class="label" text-anchor="middle">进入生产关系以后，组织必须回答三件事</text>
+<line x1="100" y1="615" x2="1500" y2="615" class="thin"/>
+
+<text x="100" y="660" class="num" text-anchor="start">①</text>
+<text x="160" y="660" class="label" text-anchor="start">它使用谁的身份？</text>
+<text x="100" y="690" class="small" text-anchor="start">是员工助理（继承员工权限）？租户账号（受限沙箱）？还是独立主体（需独立身份）？</text>
+
+<text x="100" y="730" class="num" text-anchor="start">②</text>
+<text x="160" y="730" class="label" text-anchor="start">它继承哪些权限？</text>
+<text x="100" y="760" class="small" text-anchor="start">默认应当最小化 + 可撤销；关键动作（发送、支付、发布、删除）必须经人类确认</text>
+
+<text x="100" y="800" class="num" text-anchor="start" fill="#7c2d12">③</text>
+<text x="160" y="800" class="label" text-anchor="start">失败后怎样恢复？</text>
+<text x="100" y="830" class="small" text-anchor="start">每一次行动留下可审计、可回滚、可解释的证据；问题不是"会不会犯错"，而是"能不能停、能不能还原、能不能追责"</text>
+
+<text x="60" y="870" class="tiny">原创信息图 · v0.1 · 2026-08-06 · 适配单色印刷 · OpenAI Operator 系统卡（2025）· 第三章 工具与 Agent</text>
+</svg>

@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<title>图7-4 模型不是系统 — 4 案例的控制边界</title><desc>《AI主权》原创信息图，v0.1，2026-08-06。把"模型不是系统"用 4 个真实案例画出控制边界：制造业 thyssenkrupp/Siemens（控制网关放在智能体和 PLC 之间）/ 金融业 Knight Capital 2012（45 分钟 4 亿美元）/ 金融业 Morgan Stanley（先停在草稿）/ 退款智能体（4 个完全不同的问题）。机器输出变成现实的环节决定边界位置。数据来源：第七章正文 07.3。</desc>
+<rect width="100%" height="100%" fill="#fbfaf7"/>
+<style>text{font-family:Noto Sans CJK SC, PingFang SC, sans-serif;fill:#1f2933}
+.title{font-size:32px;font-weight:700}
+.label{font-size:22px;font-weight:700}
+.small{font-size:16px}
+.tiny{font-size:14px}
+.num{font-size:30px;font-weight:700;fill:#1f4e79}
+.box{stroke:#34495e;stroke-width:2;rx:12}
+.muted{fill:#f0eee8}
+.accent{fill:#dbeafe}
+.warm{fill:#fef3c7}
+.green{fill:#dcfce7}
+.red{fill:#fee2e2}
+.line{stroke:#506273;stroke-width:3;fill:none}
+.thin{stroke:#506273;stroke-width:1.5;fill:none}
+</style>
+<defs><marker id="arrow" markerWidth="12" markerHeight="12" refX="11" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 z" fill="#1f4e79"/></marker></defs>
+
+<text x="60" y="55" class="title" text-anchor="start">图7-4　模型不是系统 — 4 案例的控制边界</text>
+<text x="800" y="100" class="label" text-anchor="middle" fill="#1f4e79">机器输出进入现实的环节 — 决定边界在哪</text>
+
+<!-- 4 案例横排 -->
+<g>
+  <!-- 案例 1: thyssenkrupp/Siemens -->
+  <rect x="60" y="140" width="360" height="320" class="box accent"/>
+  <text x="100" y="180" class="num" text-anchor="start">①</text>
+  <text x="155" y="180" class="label" text-anchor="start">工厂 AI</text>
+  <text x="100" y="210" class="small" text-anchor="start" font-weight="700">thyssenkrupp + Siemens</text>
+  <text x="100" y="235" class="small" text-anchor="start">2024 — 电池质量检测</text>
+  <text x="100" y="270" class="small" text-anchor="start">· 自然语言 → 结构化控制代码</text>
+  <text x="100" y="295" class="small" text-anchor="start">· 读取焊接设备错误</text>
+  <text x="100" y="335" class="tiny" text-anchor="start" fill="#1f4e79">控制边界：</text>
+  <text x="100" y="355" class="tiny" text-anchor="start">政策与控制网关在智能体和 PLC 之间</text>
+  <text x="100" y="375" class="tiny" text-anchor="start">机器状态 / 联锁 / 岗位 / 工厂规则</text>
+  <text x="100" y="410" class="tiny" text-anchor="start" fill="#7c2d12">建议到达设备前必须校验</text>
+  <text x="100" y="430" class="tiny" text-anchor="start" fill="#7c2d12">不是"允许使用 AI"的总开关</text>
+
+  <!-- 案例 2: Knight Capital -->
+  <rect x="430" y="140" width="360" height="320" class="box red"/>
+  <text x="470" y="180" class="num" text-anchor="start">②</text>
+  <text x="525" y="180" class="label" text-anchor="start">金融 AI</text>
+  <text x="470" y="210" class="small" text-anchor="start" font-weight="700">Knight Capital 2012</text>
+  <text x="470" y="235" class="small" text-anchor="start">8 月 1 日开盘 45 分钟</text>
+  <text x="470" y="270" class="small" text-anchor="start">· 应废弃旧功能被部分服务器触发</text>
+  <text x="470" y="295" class="small" text-anchor="start">· 400 万条指令 / 3.97 亿股 / $4.6 亿损失</text>
+  <text x="470" y="335" class="tiny" text-anchor="start" fill="#1f4e79">教训：</text>
+  <text x="470" y="355" class="tiny" text-anchor="start">· 发布必须可验证</text>
+  <text x="470" y="375" class="tiny" text-anchor="start">· 风险必须有上限</text>
+  <text x="470" y="395" class="tiny" text-anchor="start">· 警报必须对应负责人</text>
+  <text x="470" y="410" class="tiny" text-anchor="start" fill="#7c2d12">高速自动化必须有</text>
+  <text x="470" y="430" class="tiny" text-anchor="start" fill="#7c2d12">独立于自身的停止机制</text>
+
+  <!-- 案例 3: Morgan Stanley -->
+  <rect x="800" y="140" width="360" height="320" class="box green"/>
+  <text x="840" y="180" class="num" text-anchor="start">③</text>
+  <text x="895" y="180" class="label" text-anchor="start">金融 AI</text>
+  <text x="840" y="210" class="small" text-anchor="start" font-weight="700">Morgan Stanley 2023-2024</text>
+  <text x="840" y="235" class="small" text-anchor="start">先停在草稿</text>
+  <text x="840" y="270" class="small" text-anchor="start">· 检索 + 综合内部知识</text>
+  <text x="840" y="295" class="small" text-anchor="start">· Debrief 会议记录：客户同意后整理</text>
+  <text x="840" y="335" class="tiny" text-anchor="start" fill="#1f4e79">保留：</text>
+  <text x="840" y="355" class="tiny" text-anchor="start">· 用例边界 + 知识库</text>
+  <text x="840" y="375" class="tiny" text-anchor="start">· 评测集 + 客户同意 + 最终发送权</text>
+  <text x="840" y="410" class="tiny" text-anchor="start" fill="#1f4e79">FINRA 2024：</text>
+  <text x="840" y="430" class="tiny" text-anchor="start">监督规则对生成式 AI 技术中立</text>
+
+  <!-- 案例 4: 退款智能体 -->
+  <rect x="1170" y="140" width="370" height="320" class="box warm"/>
+  <text x="1210" y="180" class="num" text-anchor="start">④</text>
+  <text x="1265" y="180" class="label" text-anchor="start">退款智能体</text>
+  <text x="1210" y="210" class="small" text-anchor="start" font-weight="700">4 个完全不同的问题</text>
+  <text x="1210" y="245" class="small" text-anchor="start">· 邮件 → 知识库 → 订单系统 → 支付</text>
+  <text x="1210" y="280" class="tiny" text-anchor="start" font-weight="700">模型有没有理解邮件？</text>
+  <text x="1210" y="305" class="tiny" text-anchor="start" font-weight="700">知识库是否提供最新政策？</text>
+  <text x="1210" y="330" class="tiny" text-anchor="start" font-weight="700">客户身份是否与订单匹配？</text>
+  <text x="1210" y="355" class="tiny" text-anchor="start" font-weight="700">支付工具是否允许超限额？</text>
+  <text x="1210" y="395" class="tiny" text-anchor="start" fill="#7c2d12">只评测第 1 项 → 剩 3 项仍失败</text>
+  <text x="1210" y="420" class="tiny" text-anchor="start" fill="#7c2d12">AI 事故被统称为"模型出错"是误判</text>
+</g>
+
+<!-- 4 行业控制边界 -->
+<g>
+  <line x1="60" y1="490" x2="1540" y2="490" class="line"/>
+  <text x="800" y="525" class="label" text-anchor="middle">行业差异：机器输出进入现实的环节不同</text>
+
+  <rect x="60"  y="550" width="350" height="100" class="box muted"/>
+  <text x="100" y="585" class="label" text-anchor="start" fill="#1f4e79">制造业</text>
+  <text x="100" y="615" class="small" text-anchor="start">控制边界 → 物理产品 / 设备</text>
+
+  <rect x="425" y="550" width="350" height="100" class="box muted"/>
+  <text x="465" y="585" class="label" text-anchor="start" fill="#1f4e79">金融业</text>
+  <text x="465" y="615" class="small" text-anchor="start">控制边界 → 资本 / 机会</text>
+
+  <rect x="790" y="550" width="350" height="100" class="box muted"/>
+  <text x="830" y="585" class="label" text-anchor="start" fill="#1f4e79">软件业</text>
+  <text x="830" y="615" class="small" text-anchor="start">控制边界 → 构建 / 分发链</text>
+
+  <rect x="1155" y="550" width="385" height="100" class="box muted"/>
+  <text x="1195" y="585" class="label" text-anchor="start" fill="#1f4e79">能源行业</text>
+  <text x="1195" y="615" class="small" text-anchor="start">概率优化 ⊆ 物理规律 + 确定性保护 + 本地接管</text>
+</g>
+
+<!-- 底部 -->
+<g>
+  <rect x="60" y="680" width="1480" height="180" class="box green"/>
+  <text x="800" y="720" class="label" text-anchor="middle" fill="#1f4e79">"别把模型当成系统"</text>
+  <text x="800" y="755" class="small" text-anchor="middle">模型只是系统中负责概率判断的一层</text>
+  <text x="800" y="785" class="small" text-anchor="middle">周围还有：数据 / 身份 / 权限 / 提示与规则 / 工具 / 工作流 / 日志 / 人工决策 / 供应商服务</text>
+  <text x="800" y="815" class="small" text-anchor="middle" fill="#7c2d12">任何一层失控，都可能让先进模型产生糟糕结果</text>
+  <text x="800" y="845" class="label" text-anchor="middle" fill="#1f4e79">可治理架构首先要把这些层分开 — 让问题能够被定位</text>
+</g>
+
+<text x="60" y="895" class="tiny">原创信息图 · v0.1 · 2026-08-06 · 适配单色印刷 · 第七章正文 07.3</text>
+</svg>

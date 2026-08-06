@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<title>图5-7 判断可借助责任不可转包：认知外包 + 能力储备 + 默认权</title><desc>《AI主权》原创信息图，v0.1，2026-08-06。把"判断/责任"画成 3 张图：① 认知外包（保留什么） ② 能力储备（手动里程） ③ 默认权转移（人在哪一步参与）。"我批准了" ≠ "我决定了"。数据来源：第五章 05.6 正文 + 2025 知识工作现场实验。</desc>
+<rect width="100%" height="100%" fill="#fbfaf7"/>
+<style>text{font-family:Noto Sans CJK SC, PingFang SC, sans-serif;fill:#1f2933}
+.title{font-size:32px;font-weight:700}
+.label{font-size:22px;font-weight:700}
+.small{font-size:16px}
+.tiny{font-size:14px}
+.num{font-size:34px;font-weight:700;fill:#1f4e79}
+.box{stroke:#34495e;stroke-width:2;rx:12}
+.muted{fill:#f0eee8}
+.accent{fill:#dbeafe}
+.warm{fill:#fef3c7}
+.green{fill:#dcfce7}
+.line{stroke:#506273;stroke-width:3;fill:none}
+.thin{stroke:#506273;stroke-width:1.5;fill:none}
+</style>
+
+<text x="60" y="55" class="title" text-anchor="start">图5-7　判断可借助责任不可转包：3 张图</text>
+<text x="800" y="100" class="label" text-anchor="middle">有效把关至少 3 件事：知道检查什么 / 拥有独立材料 / 愿在压力下拒绝漂亮结果</text>
+
+<!-- 3 张图：认知外包 / 能力储备 / 默认权 -->
+<g>
+  <rect x="60" y="140" width="460" height="600" class="box accent"/>
+  <text x="290" y="180" class="label" text-anchor="middle">① 认知外包</text>
+  <text x="290" y="210" class="small" text-anchor="middle" fill="#1f4e79" font-weight="700">检索 / 比较 / 归纳 / 初步判断交给系统</text>
+  <line x1="100" y1="230" x2="480" y2="230" class="thin"/>
+
+  <text x="100" y="265" class="num" text-anchor="start">风险</text>
+  <text x="160" y="265" class="small" text-anchor="start" fill="#7c2d12" font-weight="700">长期不接触原始材料</text>
+  <text x="100" y="290" class="small" text-anchor="start">→ 失去发现异常所需的基准</text>
+
+  <text x="100" y="335" class="label" text-anchor="start">应保留</text>
+  <line x1="100" y1="355" x2="480" y2="355" class="thin"/>
+  <text x="100" y="385" class="small" text-anchor="start">· 检查标准（自己能改）</text>
+  <text x="100" y="408" class="small" text-anchor="start">· 抽样复核高影响结果</text>
+  <text x="100" y="431" class="small" text-anchor="start">· 从独立来源重做关键结论</text>
+
+  <text x="100" y="475" class="label" text-anchor="start">CHANG 研究（319 人 / 930 用例）</text>
+  <line x1="100" y1="495" x2="480" y2="495" class="thin"/>
+  <text x="100" y="525" class="tiny" text-anchor="start">对 AI 越有信心 → 报告的批判性思考越少</text>
+  <text x="100" y="548" class="tiny" text-anchor="start">对自己越有信心 → 报告的批判性思考越多</text>
+  <text x="100" y="571" class="tiny" text-anchor="start" fill="#1f4e79">思考 = 设定目标 / 核验 / 整合 / 看管</text>
+  <text x="100" y="595" class="tiny" text-anchor="start" fill="#1f4e79">而非"亲自生成内容"</text>
+
+  <rect x="540" y="140" width="460" height="600" class="box warm"/>
+  <text x="770" y="180" class="label" text-anchor="middle">② 能力储备（手动里程）</text>
+  <text x="770" y="210" class="small" text-anchor="middle" fill="#1f4e79" font-weight="700">大公司靠同事互校 → OPC 只能自己</text>
+  <line x1="580" y1="230" x2="960" y2="230" class="thin"/>
+
+  <text x="580" y="265" class="label" text-anchor="start">定期手动做一遍：</text>
+  <line x1="580" y1="285" x2="960" y2="285" class="thin"/>
+  <text x="580" y="315" class="small" text-anchor="start">· 从原始材料重做一份报价</text>
+  <text x="580" y="338" class="small" text-anchor="start">· 亲自复核一个客户项目</text>
+  <text x="580" y="361" class="small" text-anchor="start">· 空白建立一次研究框架</text>
+  <text x="580" y="384" class="small" text-anchor="start">· 备用工具走完最小交付</text>
+
+  <text x="580" y="425" class="label" text-anchor="start">目标不是变慢</text>
+  <line x1="580" y1="445" x2="960" y2="445" class="thin"/>
+  <text x="580" y="475" class="small" text-anchor="start">而是验证：AI 离开我还能继续</text>
+  <text x="580" y="498" class="small" text-anchor="start">航空不会因自动驾驶稳定</text>
+  <text x="580" y="521" class="small" text-anchor="start">就取消全部手动训练</text>
+
+  <text x="580" y="575" class="label" text-anchor="start">能力储备放在任务最关键部位</text>
+  <line x1="580" y1="595" x2="960" y2="595" class="thin"/>
+  <text x="580" y="625" class="small" text-anchor="start">· 定价依据 / 事实核验 / 客户承诺</text>
+  <text x="580" y="648" class="small" text-anchor="start">· 法律提交 / 现金流判断</text>
+  <text x="580" y="671" class="small" text-anchor="start" fill="#1f4e79" font-weight="700">排版 / 转录 / 格式整理 → 可高外包</text>
+
+  <rect x="1020" y="140" width="500" height="600" class="box green"/>
+  <text x="1270" y="180" class="label" text-anchor="middle" fill="#7c2d12">③ 默认权转移</text>
+  <text x="1270" y="210" class="small" text-anchor="middle" fill="#7c2d12" font-weight="700">"我批准了" ≠ "我决定了"</text>
+  <line x1="1060" y1="230" x2="1500" y2="230" class="thin"/>
+
+  <text x="1060" y="265" class="label" text-anchor="start">默认权悄悄转移的 4 步</text>
+  <line x1="1060" y1="285" x2="1500" y2="285" class="thin"/>
+  <text x="1060" y="315" class="num" text-anchor="start">1</text>
+  <text x="1100" y="315" class="small" text-anchor="start">系统给出完成度很高的默认选项</text>
+  <text x="1060" y="345" class="num" text-anchor="start">2</text>
+  <text x="1100" y="345" class="small" text-anchor="start">修改它需要额外时间</text>
+  <text x="1060" y="375" class="num" text-anchor="start">3</text>
+  <text x="1100" y="375" class="small" text-anchor="start">拒绝它还要说明理由</text>
+  <text x="1060" y="405" class="num" text-anchor="start">4</text>
+  <text x="1100" y="405" class="small" text-anchor="start">人仍在批准，却很少主动提出方向</text>
+
+  <text x="1060" y="455" class="label" text-anchor="start">抵抗方法</text>
+  <line x1="1060" y1="475" x2="1500" y2="475" class="thin"/>
+  <text x="1060" y="505" class="small" text-anchor="start">· 偶尔从空白开始</text>
+  <text x="1060" y="528" class="small" text-anchor="start">· 主动提出候选方案</text>
+  <text x="1060" y="551" class="small" text-anchor="start">· 要求 AI 展示另一条路径</text>
+  <text x="1060" y="574" class="small" text-anchor="start">· 追问它遗漏了什么</text>
+  <text x="1060" y="600" class="tiny" text-anchor="start" fill="#1f4e79">有意义的人类参与在最初几分钟</text>
+  <text x="1060" y="622" class="tiny" text-anchor="start" fill="#1f4e79">不在流程最后一秒</text>
+</g>
+
+<text x="60" y="880" class="tiny">原创信息图 · v0.1 · 2026-08-06 · 适配单色印刷 · 第五章 05.6 正文 + 2025 知识工作现场实验 + CHI 2025</text>
+</svg>

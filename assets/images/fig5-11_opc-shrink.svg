@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<title>图5-11 OPC：知识型生产的最小有效组织规模正在下降</title><desc>《AI主权》原创信息图，v0.1，2026-08-06。把"OPC 趋势"画成 4 个证据：① 写作实验（时间↓质量↑） ② 客服研究（生产率↑新手更明显） ③ METR 16 人 / 246 任务实验（时间↑19%） ④ 英国 2 万人调查（每天省 26 分钟）。共同结论：知识型生产最小规模下降，但不会让所有公司变 1 人。数据来源：第五章 05.11 正文。</desc>
+<rect width="100%" height="100%" fill="#fbfaf7"/>
+<style>text{font-family:Noto Sans CJK SC, PingFang SC, sans-serif;fill:#1f2933}
+.title{font-size:32px;font-weight:700}
+.label{font-size:22px;font-weight:700}
+.small{font-size:16px}
+.tiny{font-size:14px}
+.num{font-size:34px;font-weight:700;fill:#1f4e79}
+.box{stroke:#34495e;stroke-width:2;rx:12}
+.muted{fill:#f0eee8}
+.accent{fill:#dbeafe}
+.warm{fill:#fef3c7}
+.green{fill:#dcfce7}
+.line{stroke:#506273;stroke-width:3;fill:none}
+.thin{stroke:#506273;stroke-width:1.5;fill:none}
+</style>
+
+<text x="60" y="55" class="title" text-anchor="start">图5-11　OPC：知识型生产的最小有效组织规模正在下降</text>
+<text x="800" y="100" class="label" text-anchor="middle">责任中心很小，能力网络可以很大 —— 但不会让所有公司都缩成一个人</text>
+
+<!-- 4 块证据 -->
+<g>
+  <rect x="60" y="140" width="730" height="180" class="box accent"/>
+  <text x="100" y="180" class="num" text-anchor="start">①</text>
+  <text x="160" y="180" class="label" text-anchor="start">专业写作实验</text>
+  <line x1="100" y1="200" x2="750" y2="200" class="thin"/>
+<text x="100" y="230" class="small" text-anchor="start">生成式 AI 在特定写作实验中</text>
+<text x="100" y="253" class="small" text-anchor="start" fill="#1f4e79" font-weight="700">平均完成时间 ↓ / 质量 ↑</text>
+<text x="100" y="285" class="small" text-anchor="start">个案证据：写作任务被压缩</text>
+
+  <rect x="810" y="140" width="730" height="180" class="box warm"/>
+  <text x="850" y="180" class="num" text-anchor="start">②</text>
+  <text x="910" y="180" class="label" text-anchor="start">客服研究 5 000+ 人</text>
+  <line x1="850" y1="200" x2="1500" y2="200" class="thin"/>
+<text x="850" y="230" class="small" text-anchor="start">AI 助手 → 平均生产率 ↑</text>
+<text x="850" y="253" class="small" text-anchor="start" fill="#1f4e79" font-weight="700">新手受益更明显</text>
+<text x="850" y="285" class="small" text-anchor="start">经验差距被部分压缩</text>
+
+  <rect x="60" y="340" width="730" height="180" class="box green"/>
+  <text x="100" y="380" class="num" text-anchor="start" fill="#7c2d12">③</text>
+  <text x="160" y="380" class="label" text-anchor="start" fill="#7c2d12">METR 实验（16 人 / 246 任务）</text>
+  <line x1="100" y1="400" x2="750" y2="400" class="thin"/>
+<text x="100" y="430" class="small" text-anchor="start">熟悉成熟开源项目的开发者</text>
+<text x="100" y="453" class="small" text-anchor="start" fill="#7c2d12" font-weight="700">预计省时间 / 实际 +19%</text>
+<text x="100" y="485" class="small" text-anchor="start" fill="#1f4e79" font-weight="700">经验越深 → AI 帮助越少</text>
+
+  <rect x="810" y="340" width="730" height="180" class="box accent"/>
+  <text x="850" y="380" class="num" text-anchor="start">④</text>
+  <text x="910" y="380" class="label" text-anchor="start">英国政府 2 万人调查</text>
+  <line x1="850" y1="400" x2="1500" y2="400" class="thin"/>
+<text x="850" y="430" class="small" text-anchor="start">平均每天节省</text>
+<text x="850" y="450" class="num" text-anchor="start" fill="#1f4e79">26min</text>
+<text x="900" y="450" class="small" text-anchor="start" fill="#1f4e79" font-weight="700">/ 每天</text>
+<text x="850" y="480" class="small" text-anchor="start">收益随任务结构 / 反馈速度 / 复核变化</text>
+</g>
+
+<!-- 共同结论 -->
+<rect x="60" y="540" width="1480" height="80" class="box warm"/>
+<text x="800" y="580" class="label" text-anchor="middle">共同结论：知识型生产的最小有效组织规模正在下降，但不会让所有公司都缩成 1 人</text>
+
+<!-- 两极化：上游 + 下游 -->
+<g>
+  <rect x="60" y="640" width="730" height="180" class="box accent"/>
+  <text x="425" y="680" class="label" text-anchor="middle">上游：基础设施更庞大</text>
+  <line x1="100" y1="700" x2="750" y2="700" class="thin"/>
+  <text x="100" y="730" class="small" text-anchor="start">云 / 芯片 / 支付 / 应用商店</text>
+<text x="100" y="753" class="small" text-anchor="start">基础模型 / 模型路由</text>
+<text x="100" y="785" class="small" text-anchor="start" fill="#1f4e79" font-weight="700">进一步集中</text>
+<text x="100" y="808" class="tiny" text-anchor="start" fill="#8795a1">承担全球性的能力底座</text>
+
+  <rect x="810" y="640" width="730" height="180" class="box green"/>
+  <text x="1175" y="680" class="label" text-anchor="middle">下游：生产单元更微小</text>
+  <line x1="850" y1="700" x2="1500" y2="700" class="thin"/>
+<text x="850" y="730" class="small" text-anchor="start">OPC / 微团队 / 个人 + 多个 Agent</text>
+<text x="850" y="753" class="small" text-anchor="start">更贴近具体行业和客户</text>
+<text x="850" y="785" class="small" text-anchor="start" fill="#1f4e79" font-weight="700">承担场景和责任</text>
+<text x="850" y="808" class="tiny" text-anchor="start" fill="#8795a1">用市场或公共基础设施连接</text>
+</g>
+
+<!-- 底部：单点风险 -->
+<rect x="60" y="840" width="1480" height="40" class="box muted"/>
+<text x="800" y="867" class="small" text-anchor="middle" fill="#7c2d12" font-weight="700">OPC 单点失效 = 平台 / 账户 / 创始人本人任一故障同时影响多个业务环节</text>
+
+<text x="60" y="895" class="tiny">原创信息图 · v0.1 · 2026-08-06 · 适配单色印刷 · 第五章 05.11 正文 + 2025/2026 现场实验与调查</text>
+</svg>

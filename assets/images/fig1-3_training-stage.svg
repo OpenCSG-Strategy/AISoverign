@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<title>图1-3 训练阶段：模型怎样建成</title><desc>《AI主权》原创信息图，v0.1，2026-08-06。纸书黑白和彩色电子版均可使用。展示训练 vs 推理的分工、OLMo 2 32B 公开训练规模（6T tokens, 160 节点 × 8 H100 ≈ 1280 GPU）、Chinchilla 配比、以及后训练/微调/蒸馏/量化的位置。数据来源：OLMo 2 32B 官方训练材料；Chinchilla 论文；Stanford AI Index 2026。</desc>
+<rect width="100%" height="100%" fill="#fbfaf7"/>
+<style>text{font-family:Noto Sans CJK SC, PingFang SC, sans-serif;fill:#1f2933}
+.title{font-size:32px;font-weight:700}
+.label{font-size:22px;font-weight:700}
+.small{font-size:16px}
+.tiny{font-size:14px}
+.num{font-size:32px;font-weight:700;fill:#1f4e79}
+.box{stroke:#34495e;stroke-width:2;rx:12}
+.muted{fill:#f0eee8}
+.accent{fill:#dbeafe}
+.warm{fill:#fef3c7}
+.green{fill:#dcfce7}
+.line{stroke:#506273;stroke-width:3;fill:none}
+.thin{stroke:#506273;stroke-width:1.5;fill:none}
+.dash{stroke:#8795a1;stroke-width:2;stroke-dasharray:8 6;fill:none}
+</style>
+
+<text x="60" y="55" class="title" text-anchor="start">图1-3　训练阶段：模型是怎样建成的</text>
+<text x="800" y="100" class="label" text-anchor="middle">预训练 = 建厂；推理 = 日常生产；后训练/微调/蒸馏/量化 = 改线与压缩；同一条生产线，五道不同的工序</text>
+
+<!-- 顶部：训练 vs 推理 对照 -->
+<rect x="60" y="135" width="1480" height="160" class="box accent"/>
+<text x="800" y="170" class="label" text-anchor="middle">训练 vs 推理：建厂与日常生产</text>
+<line x1="100" y1="188" x2="1500" y2="188" class="thin"/>
+<text x="400" y="218" class="label" text-anchor="middle" fill="#1f4e79">训练（建厂）</text>
+<text x="100" y="252" class="small" text-anchor="start">· 让模型接触海量 Token，调整参数</text>
+<text x="100" y="278" class="small" text-anchor="start">· 消耗芯片、显存、网络、电力、工程时间</text>
+
+<text x="1200" y="218" class="label" text-anchor="middle" fill="#7c2d12">推理（生产）</text>
+<text x="900" y="252" class="small" text-anchor="start">· 每次调用运行模型权重，逐步生成输出</text>
+<text x="900" y="278" class="small" text-anchor="start">· 单次成本远低于训练；规模化后变成"长期生产"</text>
+
+<!-- 中部：OLMo 2 32B 公开训练规模 -->
+<rect x="60" y="320" width="980" height="380" class="box warm"/>
+<text x="550" y="355" class="label" text-anchor="middle">公开样本：OLMo 2 32B 训练规模</text>
+<text x="550" y="378" class="tiny" text-anchor="middle" fill="#8795a1">Ai2 公开训练材料、配方、中间检查点和日志</text>
+<line x1="100" y1="395" x2="1000" y2="395" class="thin"/>
+
+<text x="100" y="430" class="small" text-anchor="start">预训练 Token：</text>
+<text x="320" y="430" class="num" text-anchor="start">≈ 6 万亿</text>
+<text x="100" y="470" class="small" text-anchor="start">训练节点：</text>
+<text x="320" y="470" class="num" text-anchor="start">160 节点</text>
+<text x="100" y="510" class="small" text-anchor="start">单节点 GPU：</text>
+<text x="320" y="510" class="num" text-anchor="start">8 × H100</text>
+<text x="100" y="550" class="small" text-anchor="start">总 GPU：</text>
+<text x="320" y="550" class="num" text-anchor="start">≈ 1 280 张</text>
+<text x="100" y="595" class="small" text-anchor="start" fill="#7c2d12" font-weight="700">→ 开放权重 ≠ 训练零成本</text>
+<text x="100" y="618" class="small" text-anchor="start">千卡级训练 / 数据清洗 / 训练稳定性</text>
+<text x="100" y="641" class="small" text-anchor="start">仍是普通个人无法无成本复制的工作</text>
+<text x="100" y="678" class="tiny" text-anchor="start" fill="#8795a1">来源：OLMo 2 32B 官方训练材料（Ai2）</text>
+
+<!-- 右：Chinchilla 配比 -->
+<rect x="1066" y="320" width="475" height="180" class="box green"/>
+<text x="1303" y="352" class="label" text-anchor="middle">Chinchilla 配比</text>
+<line x1="1106" y1="370" x2="1501" y2="370" class="thin"/>
+<text x="1106" y="400" class="small" text-anchor="start">参数、数据、计算</text>
+<text x="1106" y="425" class="small" text-anchor="start">三者需合理配比</text>
+<text x="1106" y="450" class="small" text-anchor="start">· 单纯堆参数 ≠ 提升能力</text>
+<text x="1106" y="475" class="small" text-anchor="start" fill="#7c2d12" font-weight="700">→ 训练也有生产函数</text>
+
+<!-- 右下：后训练/微调/蒸馏/量化 -->
+<rect x="1066" y="520" width="475" height="180" class="box muted"/>
+<text x="1303" y="552" class="label" text-anchor="middle">改线与压缩</text>
+<line x1="1106" y1="570" x2="1501" y2="570" class="thin"/>
+<text x="1106" y="598" class="small" text-anchor="start">· 后训练：让模型更对齐 / 更安全</text>
+<text x="1106" y="623" class="small" text-anchor="start">· 微调：适应特定任务或行业</text>
+<text x="1106" y="648" class="small" text-anchor="start">· 蒸馏：把大模型能力转移到小模型</text>
+<text x="1106" y="673" class="small" text-anchor="start">· 量化：低精度表示权重，降低显存</text>
+
+<!-- 底部：长期推理 vs 一次训练 -->
+<rect x="60" y="720" width="1480" height="120" class="box accent"/>
+<text x="90" y="755" class="label" text-anchor="start">长期推理 vs 一次训练</text>
+<text x="90" y="788" class="small" text-anchor="start">大规模应用以后，企业每天面对的生产问题不再是"何时训练一次"，而是：</text>
+<text x="90" y="813" class="small" text-anchor="start">怎样排队 / 怎样批处理 / 怎样在响应速度、吞吐量、质量和成本之间取舍 —— 这些都是推理循环里的工程问题。</text>
+
+<text x="60" y="870" class="tiny">原创信息图 · v0.1 · 2026-08-06 · 适配单色印刷 · 数据来源：OLMo 2 32B 官方训练材料（Ai2）；Chinchilla 论文（DeepMind 2022）；Stanford AI Index 2026</text>
+</svg>

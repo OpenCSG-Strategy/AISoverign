@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<title>图2-6 从 Token 到行动：AI 输出的三阶段升级</title><desc>《AI主权》原创信息图，v0.1，2026-08-06。把"AI 从模型变成基础设施"画成 3 阶段：① AI 生产文字 → ② AI 生产判断建议 → ③ AI 输出触发行动改变外部状态。每一阶段，质量问题的性质发生改变：从"对不对"到"对+是否可控"。到第三阶段，必须以主体身份接入、获得权限、可以被停止和恢复。数据来源：第二章正文；OpenAI Operator 系统卡（2025）。</desc>
+<rect width="100%" height="100%" fill="#fbfaf7"/>
+<style>text{font-family:Noto Sans CJK SC, PingFang SC, sans-serif;fill:#1f2933}
+.title{font-size:32px;font-weight:700}
+.label{font-size:22px;font-weight:700}
+.small{font-size:16px}
+.tiny{font-size:14px}
+.num{font-size:34px;font-weight:700;fill:#1f4e79}
+.box{stroke:#34495e;stroke-width:2;rx:12}
+.muted{fill:#f0eee8}
+.accent{fill:#dbeafe}
+.warm{fill:#fef3c7}
+.green{fill:#dcfce7}
+.line{stroke:#506273;stroke-width:3;fill:none}
+.thin{stroke:#506273;stroke-width:1.5;fill:none}
+</style>
+<defs><marker id="arrow" markerWidth="12" markerHeight="12" refX="11" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 z" fill="#506273"/></marker></defs>
+
+<text x="60" y="55" class="title" text-anchor="start">图2-6　从 Token 到行动：AI 输出的三阶段升级</text>
+<text x="800" y="100" class="label" text-anchor="middle">模型仍然在预测 Token，但其中一部分 Token 不再只显示给人看，而会被软件解释成工具名称、参数和操作</text>
+
+<!-- 三阶段水平布局 -->
+<g>
+  <!-- 阶段 1 -->
+  <rect x="60" y="160" width="480" height="380" class="box accent"/>
+  <text x="300" y="200" class="num" text-anchor="middle">①</text>
+  <text x="300" y="235" class="label" text-anchor="middle">第一阶段</text>
+  <line x1="100" y1="255" x2="500" y2="255" class="thin"/>
+  <text x="300" y="290" class="label" text-anchor="middle" fill="#1f4e79">AI 生产文字</text>
+  <text x="100" y="325" class="small" text-anchor="start">· 草稿、报告、邮件、代码、翻译</text>
+  <text x="100" y="350" class="small" text-anchor="start">· Token 停在屏幕上</text>
+  <text x="100" y="375" class="small" text-anchor="start">· 人在行动链末端：阅读 → 修改 → 发送</text>
+  <text x="100" y="425" class="small" text-anchor="start" fill="#1f4e79" font-weight="700">质量问题："这句话对不对？"</text>
+  <text x="100" y="450" class="small" text-anchor="start">修复路径：编辑 / 删改 / 重发</text>
+  <text x="100" y="475" class="small" text-anchor="start">责任完全在人，组织问题最小</text>
+  <text x="100" y="510" class="tiny" text-anchor="start" fill="#8795a1">第一章工厂交付的"产品"是这种 Token</text>
+
+  <!-- 阶段 2 -->
+  <rect x="560" y="160" width="480" height="380" class="box warm"/>
+  <text x="800" y="200" class="num" text-anchor="middle">②</text>
+  <text x="800" y="235" class="label" text-anchor="middle">第二阶段</text>
+  <line x1="600" y1="255" x2="1000" y2="255" class="thin"/>
+  <text x="800" y="290" class="label" text-anchor="middle" fill="#1f4e79">AI 生产判断建议</text>
+  <text x="600" y="325" class="small" text-anchor="start">· 简历排序 / 投资评分 / 病历初判</text>
+  <text x="600" y="350" class="small" text-anchor="start">· 建议进入流程，等待人决策</text>
+  <text x="600" y="375" class="small" text-anchor="start">· 模型结论 = 决策的输入</text>
+  <text x="600" y="425" class="small" text-anchor="start" fill="#1f4e79" font-weight="700">质量问题："建议的根据是什么？"</text>
+  <text x="600" y="450" class="small" text-anchor="start">修复路径：质疑 / 复盘 / 撤换建议</text>
+  <text x="600" y="475" class="small" text-anchor="start">责任在人，但判断过程被外包</text>
+  <text x="600" y="510" class="tiny" text-anchor="start" fill="#8795a1">新问题：模型偏见 / 评测偏差 / 解释能力</text>
+
+  <!-- 阶段 3 -->
+  <rect x="1060" y="160" width="480" height="380" class="box green"/>
+  <text x="1300" y="200" class="num" text-anchor="middle">③</text>
+  <text x="1300" y="235" class="label" text-anchor="middle">第三阶段</text>
+  <line x1="1100" y1="255" x2="1500" y2="255" class="thin"/>
+  <text x="1300" y="290" class="label" text-anchor="middle" fill="#7c2d12" font-weight="700">AI 输出触发行动</text>
+  <text x="1100" y="325" class="small" text-anchor="start">· Token = 工具名 / 参数 / 目标</text>
+  <text x="1100" y="350" class="small" text-anchor="start">· 改变外部状态：订单 / 邮件 / 代码 / 审批 / 调度</text>
+  <text x="1100" y="375" class="small" text-anchor="start">· 以主体身份接入系统</text>
+  <text x="1100" y="425" class="small" text-anchor="start" fill="#7c2d12" font-weight="700">质量问题：以谁的身份 / 看见什么 / 何时停止 / 能否恢复</text>
+  <text x="1100" y="450" class="small" text-anchor="start">修复路径：身份回收 / 权限收紧 / 回滚 / 人工兜底</text>
+  <text x="1100" y="475" class="small" text-anchor="start">责任仍由组织承担，机器委托链真实存在</text>
+  <text x="1100" y="510" class="tiny" text-anchor="start" fill="#8795a1">不是政治强加 —— 是技术结构本身推出</text>
+</g>
+
+<!-- 箭头 -->
+<path d="M540,350 L560,350" class="line" marker-end="url(#arrow)"/>
+<path d="M1040,350 L1060,350" class="line" marker-end="url(#arrow)"/>
+
+<!-- 底部 -->
+<rect x="60" y="580" width="1480" height="260" class="box muted"/>
+<text x="800" y="620" class="label" text-anchor="middle">当 Token 能变成订单、邮件、代码、审批和资源调度 —— 决定权从"对不对"升级为"以谁身份 / 看见什么 / 何时停止 / 能否恢复"</text>
+<line x1="100" y1="640" x2="1500" y2="640" class="thin"/>
+
+<text x="100" y="680" class="num" text-anchor="start">→</text>
+<text x="160" y="680" class="label" text-anchor="start">"AI 的输出" 与 "AI 触发的行动" 是两种不同的产品</text>
+<text x="100" y="710" class="small" text-anchor="start">前者是工厂交付的 Token；后者是 Token 进入软件、数据库和支付后产生的现实变化</text>
+
+<text x="100" y="745" class="num" text-anchor="start" fill="#7c2d12">→</text>
+<text x="160" y="745" class="label" text-anchor="start">第三阶段不是技术之外强加的政治问题</text>
+<text x="100" y="775" class="small" text-anchor="start" fill="#7c2d12" font-weight="700">是 AI 从模型变成基础设施以后，由技术结构本身推出的问题</text>
+<text x="100" y="805" class="small" text-anchor="start">需要身份 / 权限 / 可停止 / 可恢复 / 可解释 / 可追责 —— 一整套 AgenticOps 机制</text>
+
+<text x="60" y="870" class="tiny">原创信息图 · v0.1 · 2026-08-06 · 适配单色印刷 · 第二章正文 + OpenAI Operator 系统卡（2025）</text>
+</svg>

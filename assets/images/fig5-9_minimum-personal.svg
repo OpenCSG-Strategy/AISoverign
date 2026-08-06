@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<title>图5-9 最低可行个人主权：周末起步 + 4 问 + 便利预算</title><desc>《AI主权》原创信息图，v0.1，2026-08-06。把"最低可行个人主权"画成 3 块：① 周末起步（挑 1 项 → 导出 → 写流程 → 走一遍） ② 4 问（每款 AI 请求新权限时问） ③ 便利预算（按后果分配）。不是一次性工程，是定期恢复。数据来源：第五章 05.9 正文。</desc>
+<rect width="100%" height="100%" fill="#fbfaf7"/>
+<style>text{font-family:Noto Sans CJK SC, PingFang SC, sans-serif;fill:#1f2933}
+.title{font-size:32px;font-weight:700}
+.label{font-size:22px;font-weight:700}
+.small{font-size:16px}
+.tiny{font-size:14px}
+.num{font-size:34px;font-weight:700;fill:#1f4e79}
+.box{stroke:#34495e;stroke-width:2;rx:12}
+.muted{fill:#f0eee8}
+.accent{fill:#dbeafe}
+.warm{fill:#fef3c7}
+.green{fill:#dcfce7}
+.line{stroke:#506273;stroke-width:3;fill:none}
+.thin{stroke:#506273;stroke-width:1.5;fill:none}
+</style>
+<defs><marker id="arrow" markerWidth="14" markerHeight="14" refX="11" refY="7" orient="auto"><path d="M0,0 L14,7 L0,14 z" fill="#506273"/></marker></defs>
+
+<text x="60" y="55" class="title" text-anchor="start">图5-9　最低可行个人主权：周末起步 + 4 问 + 便利预算</text>
+<text x="800" y="100" class="label" text-anchor="middle">不必把多年数据全部整理一遍 —— 个人主权可以从一个周末完成的最小版本开始</text>
+
+<!-- 顶部：周末起步 4 步 -->
+<rect x="60" y="140" width="1480" height="60" class="box warm"/>
+<text x="800" y="180" class="label" text-anchor="middle">挑 1 项"如果明天消失会让我真正停摆"的工作 → 4 步</text>
+
+<g>
+  <rect x="60" y="220" width="350" height="180" class="box accent"/>
+  <text x="235" y="260" class="num" text-anchor="middle">1</text>
+  <text x="235" y="295" class="label" text-anchor="middle">选一项工作</text>
+<line x1="100" y1="315" x2="370" y2="315" class="thin"/>
+<text x="100" y="345" class="small" text-anchor="start">客户通讯录 / 创作素材</text>
+<text x="100" y="368" class="small" text-anchor="start">账务流程 / 课程资料</text>
+<text x="100" y="395" class="tiny" text-anchor="start" fill="#1f4e79" font-weight="700">只选 1 项就够</text>
+
+  <path d="M410,310 L430,310" class="line" marker-end="url(#arrow)"/>
+
+  <rect x="430" y="220" width="350" height="180" class="box warm"/>
+  <text x="605" y="260" class="num" text-anchor="middle">2</text>
+  <text x="605" y="295" class="label" text-anchor="middle">导出 + 独立副本</text>
+<line x1="470" y1="315" x2="740" y2="315" class="thin"/>
+<text x="470" y="345" class="small" text-anchor="start">自己能够打开的格式</text>
+<text x="470" y="368" class="small" text-anchor="start">保留一份独立副本</text>
+<text x="470" y="395" class="tiny" text-anchor="start" fill="#1f4e79" font-weight="700">不只是云端下载</text>
+
+  <path d="M780,310 L800,310" class="line" marker-end="url(#arrow)"/>
+
+  <rect x="800" y="220" width="350" height="180" class="box green"/>
+  <text x="975" y="260" class="num" text-anchor="middle">3</text>
+  <text x="975" y="295" class="label" text-anchor="middle">写一页流程</text>
+<line x1="840" y1="315" x2="1110" y2="315" class="thin"/>
+<text x="840" y="345" class="small" text-anchor="start">开始 → 步骤</text>
+<text x="840" y="368" class="small" text-anchor="start">标出必须由本人确认的节点</text>
+<text x="840" y="395" class="tiny" text-anchor="start" fill="#1f4e79" font-weight="700">强迫发现是否真清楚</text>
+
+  <path d="M1150,310 L1170,310" class="line" marker-end="url(#arrow)"/>
+
+  <rect x="1170" y="220" width="370" height="180" class="box accent"/>
+  <text x="1355" y="260" class="num" text-anchor="middle">4</text>
+  <text x="1355" y="295" class="label" text-anchor="middle">用替代工具走一遍</text>
+<line x1="1210" y1="315" x2="1500" y2="315" class="thin"/>
+<text x="1210" y="345" class="small" text-anchor="start">另一款工具</text>
+<text x="1210" y="368" class="small" text-anchor="start">或纯手工</text>
+<text x="1210" y="395" class="tiny" text-anchor="start" fill="#1f4e79" font-weight="700">目标不是同速 —— 是"仍能继续"</text>
+</g>
+
+<!-- 4 问 -->
+<rect x="60" y="430" width="1480" height="60" class="box warm"/>
+<text x="800" y="470" class="label" text-anchor="middle">每当一款 AI 请求新访问权限时问 4 个问题</text>
+
+<g>
+  <rect x="60" y="510" width="350" height="160" class="box accent"/>
+  <text x="235" y="550" class="num" text-anchor="start">①</text>
+  <text x="235" y="585" class="label" text-anchor="middle">它为什么需要这些资料？</text>
+  <line x1="100" y1="605" x2="370" y2="605" class="thin"/>
+  <text x="100" y="635" class="tiny" text-anchor="start" fill="#1f4e79" font-weight="700">真实需求 vs 默认全开</text>
+
+  <rect x="430" y="510" width="350" height="160" class="box warm"/>
+  <text x="605" y="550" class="num" text-anchor="middle">②</text>
+  <text x="605" y="585" class="label" text-anchor="middle">它将用什么身份采取行动？</text>
+  <line x1="470" y1="605" x2="740" y2="605" class="thin"/>
+<text x="470" y="635" class="tiny" text-anchor="start" fill="#1f4e79" font-weight="700">员工 / 租户 / 独立身份</text>
+
+  <rect x="800" y="510" width="350" height="160" class="box green"/>
+  <text x="975" y="550" class="num" text-anchor="start">③</text>
+  <text x="975" y="585" class="label" text-anchor="middle">判断错了能否及时撤回？</text>
+<line x1="840" y1="605" x2="1110" y2="605" class="thin"/>
+<text x="840" y="635" class="tiny" text-anchor="start" fill="#1f4e79" font-weight="700">发现 + 撤销 + 解释</text>
+
+  <rect x="1170" y="510" width="370" height="160" class="box accent"/>
+  <text x="1355" y="550" class="num" text-anchor="start" fill="#7c2d12">④</text>
+  <text x="1355" y="585" class="label" text-anchor="start" fill="#7c2d12">停止使用后能带走什么？</text>
+  <line x1="1210" y1="605" x2="1500" y2="605" class="thin"/>
+<text x="1210" y="635" class="tiny" text-anchor="start" fill="#7c2d12" font-weight="700">数据 + 记忆 + 工作流 + 关系</text>
+</g>
+
+<!-- 底部：便利预算 -->
+<rect x="60" y="700" width="1480" height="160" class="box muted"/>
+<text x="800" y="740" class="label" text-anchor="middle">给便利设一笔预算 —— 不必处处采用最高标准</text>
+<line x1="100" y1="760" x2="1500" y2="760" class="thin"/>
+
+<text x="100" y="795" class="num" text-anchor="start" fill="#1f4e79">高便利</text>
+<text x="220" y="795" class="small" text-anchor="start">整理公开资料 / 排版 / 生成标题</text>
+<text x="100" y="820" class="small" text-anchor="start" fill="#8795a1">错了容易重来</text>
+
+<text x="800" y="795" class="num" text-anchor="start" fill="#7c2d12">中便利</text>
+<text x="920" y="795" class="small" text-anchor="start">私人记忆 / 他人资料 / 商业承诺</text>
+<text x="800" y="820" class="small" text-anchor="start" fill="#8795a1">系统多问一次 / 本人多确认一步</text>
+
+<text x="100" y="845" class="num" text-anchor="start" fill="#7c2d12">最低便利</text>
+<text x="240" y="845" class="small" text-anchor="start" fill="#7c2d12" font-weight="700">付款 / 公开表达 / 法律 / 健康</text>
+<text x="800" y="845" class="small" text-anchor="start" fill="#7c2d12" font-weight="700">AI 准备证据 → 行动仍应贴近当下同意</text>
+
+<text x="60" y="880" class="tiny">原创信息图 · v0.1 · 2026-08-06 · 适配单色印刷 · 第五章 05.9 正文</text>
+</svg>

@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<title>图3-4 请求 vs 任务：从一段文字到一件正在发生的事</title><desc>《AI主权》原创信息图，v0.1，2026-08-06。把"请求 vs 任务"画成 8 维对照：内容 / 唯一 ID / 目标 / 状态 / 授权 / 工具 / 失败处理 / 交付物。请求关注接口，任务关注过程；A2A 协议把 Task 定义为有唯一标识和生命周期的工作单位。数据来源：A2A Protocol 任务定义；第三章正文。</desc>
+<rect width="100%" height="100%" fill="#fbfaf7"/>
+<style>text{font-family:Noto Sans CJK SC, PingFang SC, sans-serif;fill:#1f2933}
+.title{font-size:32px;font-weight:700}
+.label{font-size:22px;font-weight:700}
+.small{font-size:16px}
+.tiny{font-size:14px}
+.num{font-size:34px;font-weight:700;fill:#1f4e79}
+.box{stroke:#34495e;stroke-width:2;rx:12}
+.muted{fill:#f0eee8}
+.accent{fill:#dbeafe}
+.warm{fill:#fef3c7}
+.green{fill:#dcfce7}
+.line{stroke:#506273;stroke-width:3;fill:none}
+.thin{stroke:#506273;stroke-width:1.5;fill:none}
+</style>
+
+<text x="60" y="55" class="title" text-anchor="start">图3-4　请求 vs 任务：从一段文字到一件正在发生的事</text>
+<text x="800" y="100" class="label" text-anchor="middle">"查一下明天的天气"和"安排下周去北京的出差"不是同一种工作；治理的单位也必须升级</text>
+
+<!-- 左：Request -->
+<rect x="60" y="140" width="640" height="500" class="box accent"/>
+<text x="380" y="180" class="label" text-anchor="middle">Request（请求）</text>
+<line x1="100" y1="200" x2="660" y2="200" class="thin"/>
+<text x="100" y="240" class="num" text-anchor="start">①</text>
+<text x="160" y="240" class="small" text-anchor="start">内容：明确输入 + 一次性回答</text>
+<text x="100" y="275" class="num" text-anchor="start">②</text>
+<text x="160" y="275" class="small" text-anchor="start">ID：通常无（chat 一次性）</text>
+<text x="100" y="310" class="num" text-anchor="start">③</text>
+<text x="160" y="310" class="small" text-anchor="start">目标：问什么答什么</text>
+<text x="100" y="345" class="num" text-anchor="start">④</text>
+<text x="160" y="345" class="small" text-anchor="start">状态：发出 → 收到</text>
+<text x="100" y="380" class="num" text-anchor="start">⑤</text>
+<text x="160" y="380" class="small" text-anchor="start">授权：接口级（普通用户）</text>
+<text x="100" y="415" class="num" text-anchor="start">⑥</text>
+<text x="160" y="415" class="small" text-anchor="start">工具：基本不用或只读</text>
+<text x="100" y="450" class="num" text-anchor="start">⑦</text>
+<text x="160" y="450" class="small" text-anchor="start">失败：重问 / 不满意</text>
+<text x="100" y="485" class="num" text-anchor="start">⑧</text>
+<text x="160" y="485" class="small" text-anchor="start">交付：屏幕上的文字</text>
+<text x="100" y="540" class="small" text-anchor="start" fill="#1f4e79" font-weight="700">关注接口："问了什么，答了什么"</text>
+<text x="100" y="580" class="small" text-anchor="start" fill="#8795a1">责任完全在人；组织问题最小</text>
+
+<!-- 右：Task -->
+<rect x="720" y="140" width="820" height="500" class="box warm"/>
+<text x="1130" y="180" class="label" text-anchor="middle">Task（任务）— A2A 等智能体协议的工作单位</text>
+<line x1="760" y1="200" x2="1500" y2="200" class="thin"/>
+<text x="760" y="240" class="num" text-anchor="start">①</text>
+<text x="820" y="240" class="small" text-anchor="start">内容：自然语言只列愿望，边界需另写契约</text>
+<text x="760" y="275" class="num" text-anchor="start">②</text>
+<text x="820" y="275" class="small" text-anchor="start">ID：有唯一标识与状态机（pending / running / awaiting / done / failed）</text>
+<text x="760" y="310" class="num" text-anchor="start">③</text>
+<text x="820" y="310" class="small" text-anchor="start">目标：完成什么、不能做什么、完成后如何验收</text>
+<text x="760" y="345" class="num" text-anchor="start">④</text>
+<text x="820" y="345" class="small" text-anchor="start">状态：执行中 / 等输入 / 等批准 / 完成 / 失败 / 取消 / 拒绝 / 重试中</text>
+<text x="760" y="380" class="num" text-anchor="start">⑤</text>
+<text x="820" y="380" class="small" text-anchor="start">授权：基于任务签发凭证（短期/受限/可撤销）</text>
+<text x="760" y="415" class="num" text-anchor="start">⑥</text>
+<text x="820" y="415" class="small" text-anchor="start">工具：白名单 + 参数校验 + 输出检查</text>
+<text x="760" y="450" class="num" text-anchor="start">⑦</text>
+<text x="820" y="450" class="small" text-anchor="start">失败：重试 / 换方案 / 补偿 / 退回人 / 终止</text>
+<text x="760" y="485" class="num" text-anchor="start">⑧</text>
+<text x="820" y="485" class="small" text-anchor="start">交付：现实状态的改变（订单/邮件/代码/审批）</text>
+<text x="760" y="540" class="small" text-anchor="start" fill="#7c2d12" font-weight="700">关注过程："进行到哪一步、产生了什么副作用、失败后由谁接手"</text>
+<text x="760" y="580" class="small" text-anchor="start" fill="#8795a1">责任链沿任务 + 凭证 + 工具 + 结果展开</text>
+
+<!-- 底部 -->
+<rect x="60" y="680" width="1480" height="170" class="box muted"/>
+<text x="800" y="720" class="label" text-anchor="middle">一次请求变成一项任务 —— AI 从"内容工具"升级为"被委托的行动者"</text>
+<line x1="100" y1="740" x2="1500" y2="740" class="thin"/>
+<text x="100" y="780" class="small" text-anchor="start">· 自然语言只表达愿望，不会列出全部边界（"把会议安排好"没说能否邀请外部人员）</text>
+<text x="100" y="805" class="small" text-anchor="start">· 人类同事靠组织常识补齐；Agent 可能按训练中常见模式补齐</text>
+<text x="100" y="830" class="small" text-anchor="start" fill="#7c2d12" font-weight="700">· 补对是方便，补错就是未经授权替人作了决定</text>
+
+<text x="60" y="870" class="tiny">原创信息图 · v0.1 · 2026-08-06 · 适配单色印刷 · A2A Protocol 任务定义 + 第三章正文</text>
+</svg>

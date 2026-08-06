@@ -2,7 +2,7 @@
 
 本书有意控制正文中的数字和机构名称。尾注只保留三类材料：支撑核心判断的一手文件、能够显示制度后果的可靠案例，以及供读者继续深入的经典研究。
 
-所有涉及现行政策、技术倡议和机构页面的材料，均核验至二〇二六年八月四日。法规时间表和进行中的标准工作仍可能变化，正式出版前应再次复核。
+所有涉及现行政策、技术倡议和机构页面的材料，均核验至二〇二六年八月六日。法规时间表和进行中的标准工作仍可能变化，正式出版前应再次复核。
 
 ## 序章　智能权力的重新分配
 
@@ -16,6 +16,8 @@
 
 [^p1-ai-factory]: NVIDIA，*AI Factories: The New Infrastructure of Intelligence*，2026年5月27日；以及NVIDIA AI Factory官方架构页面，核验至2026年7月31日。相关材料把AI工厂描述为以算力、电力、网络和软件持续生产Token的系统，并使用每秒Token、每瓦Token、单位Token成本、利用率和可用性等运营指标。正文将其视为产业工程框架与经济比喻，而非中立学术定义；厂商宣称的性能倍数未作为科学结论采用。https://blogs.nvidia.com/blog/ai-factories-the-new-infrastructure-of-intelligence/ ；https://www.nvidia.com/en-us/solutions/ai-factories/
 
+[^p1-token-factory-builds]: NVIDIA，*NVIDIA Ethernet Networking Accelerates World’s Largest AI Supercomputer, Built by xAI*，2024年10月28日；Microsoft，*Inside the World’s Most Powerful AI Datacenter*与*Made in Wisconsin*，2025年9月18日；Brad Smith，*The Golden Opportunity for American AI*，Microsoft，2025年1月3日。NVIDIA披露xAI Colossus第一阶段包含10万张Hopper GPU，设施和系统约122天建成，首批机架安装后19天开始训练，并报告网络约95%数据吞吐；Microsoft披露Fairwater园区约315英亩、三栋建筑合计约120万平方英尺，使用约2650万磅结构钢、120英里中压地下电缆、72.6英里机械管线，初始投资承诺33亿美元，并表示2025财年计划投入约800亿美元建设AI数据中心。以上均为项目方或合作供应商一手披露，能够证明建设规模、工程构成和投资计划，不等于独立审计的最终成本、利用率、能效或投资回报；“世界最大/最强”等宣传性排名不作为正文结论。**截至：2026-08-06；置信度：项目规模与计划已由一手页面确认，运营成效和最终投入需继续观察。** https://nvidianews.nvidia.com/news/spectrum-x-ethernet-networking-xai-colossus ；https://blogs.microsoft.com/blog/2025/09/18/inside-the-worlds-most-powerful-ai-datacenter/ ；https://blogs.microsoft.com/on-the-issues/2025/09/18/made-in-wisconsin-the-worlds-most-powerful-ai-datacenter/ ；https://blogs.microsoft.com/on-the-issues/2025/01/03/the-golden-opportunity-for-american-ai/
+
 [^p1-tokenizer]: Hugging Face，*Summary of the tokenizers*，Transformers文档，核验至2026年7月31日；Taku Kudo、John Richardson，*SentencePiece: A simple and language independent subword tokenizer and detokenizer for Neural Text Processing*，EMNLP 2018。两份材料说明Token通常是由分词器产生并映射为词表编号的字符或子词片段；不同模型、分词算法和语言的Token数量并不统一。https://huggingface.co/docs/transformers/tokenizer_summary ；https://arxiv.org/abs/1808.06226
 
 [^p1-transformer]: Ashish Vaswani等，*Attention Is All You Need*，NeurIPS 2017。论文提出以自注意力为核心的Transformer架构，是现代大语言模型的关键技术基础。论文不支持把大模型全部能力简化成单一注意力机制，也不证明生成内容天然真实。https://proceedings.neurips.cc/paper_files/paper/2017/hash/3f5ee243547dee91fbd053c1c4a845aa-Abstract.html
@@ -24,9 +26,13 @@
 
 [^p2-distillation]: Geoffrey Hinton、Oriol Vinyals、Jeff Dean，*Distilling the Knowledge in a Neural Network*，2015年；Victor Sanh等，*DistilBERT, a distilled version of BERT*，2019年；DeepSeek-AI，*DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning*，2025年1月22日。三组研究分别显示模型集成的行为可以迁移到单模型、BERT可以在特定基准上压缩，以及R1生成的推理样本可以训练基于Qwen与Llama的较小模型。它们不证明学生无损取得教师全部知识、权重、训练数据、长尾行为或安全属性；DeepSeek结果为作者技术报告中的基准数据。https://arxiv.org/abs/1503.02531 ；https://arxiv.org/abs/1910.01108 ；https://arxiv.org/abs/2501.12948
 
+[^p2-distillation-dispute]: Anthropic，*Detecting and preventing distillation attacks*，2026年2月23日；Anthropic，*Commercial Terms of Service*，核验至2026年8月6日。Anthropic称DeepSeek、Moonshot AI与MiniMax通过约24,000个虚假账户与Claude进行超过1,600万次交互，其中DeepSeek超过15万次、Moonshot超过340万次、MiniMax超过1,300万次，目标包括推理、编程、工具使用、计算机操作与奖励模型任务；其商业条款禁止客户访问服务以建立竞争产品，包括训练竞争模型。Anthropic同时明确承认，用自有教师蒸馏较小模型是广泛使用的正当方法。上述活动规模、主体归因和训练用途均为Anthropic依据IP地址、请求元数据、基础设施指标及合作方线索作出的公司披露；公开材料未提供可供外部完整复核的原始请求记录，正文不把它表述为司法认定，也不据此推算相关模型有多少能力来自Claude。https://www.anthropic.com/news/detecting-and-preventing-distillation-attacks ；https://www.anthropic.com/legal/commercial-terms
+
+[^p2-distillation-law]: *Thomson Reuters Enterprise Centre GmbH v. Ross Intelligence Inc.*，美国特拉华联邦地区法院，2025年2月11日；*Bartz v. Anthropic PBC*，美国加利福尼亚北区联邦地区法院，2025年6月23日，以及2026年7月20日最终批准的集体和解。前案在Ross用于训练竞争性法律搜索工具的材料中认定2,243条与Westlaw受版权保护判例摘要实质相似，并否定合理使用抗辩；后案区分训练用途与材料取得方式，认定用依法购买并扫描的书籍训练大模型属于合理使用，但从LibGen与PiLiMi下载并建立盗版书库不属于合理使用。十五亿美元和解解决的是截至2025年8月25日的特定输入端取得与复制索赔，不处理AI输出索赔，也不构成对大模型输出蒸馏合法性的判决。两案事实、作品类型与市场关系不同，不能拼成普遍规则；正文只据此说明来源、取得方式、合同与竞争替代会分别影响法律判断。https://storage.courtlistener.com/recap/gov.uscourts.ded.72109/gov.uscourts.ded.72109.770.0.pdf ；https://www.courtlistener.com/docket/69058235/231/bartz-v-anthropic-pbc/ ；https://law.justia.com/cases/federal/district-courts/california/candce/4%3A2024cv05417/434709/680/
+
 [^p2-synthetic-data]: Yizhong Wang等，*Self-Instruct: Aligning Language Models with Self-Generated Instructions*，ACL 2023；Ilia Shumailov等，*AI models collapse when trained on recursively generated data*，Nature 631，2024年7月24日。前者说明经过生成、过滤和微调的合成指令可以提升特定任务表现；后者显示，在其实验与理论设定中，无差别地用前代生成数据递归替代真实数据会逐渐丢失原分布长尾。两者共同说明合成数据的效果取决于真实数据锚点、筛选、任务设计和验证，不能概括为“合成数据必然有效”或“必然坍塌”。https://aclanthology.org/2023.acl-long.754/ ；https://www.nature.com/articles/s41586-024-07566-y
 
-[^p2-two-frontiers]: Jared Kaplan等，*Scaling Laws for Neural Language Models*，2020年；Zhuohan Li等，*Train Large, Then Compress*，2020年；Stanford HAI，*AI Index 2025: Technical Performance*；Microsoft，*Phi-3 Technical Report*，2024年；GPTQ、AWQ与QLoRA原始论文。相关研究分别讨论扩大能力边界、训练后压缩、同一基准门槛所需模型规模下降、端侧小模型和低比特部署或高效微调。AI Index所述从5400亿到38亿参数的142倍变化只针对MMLU百分之六十门槛；各压缩论文的性能与速度也受模型、硬件和评测条件限制。https://arxiv.org/abs/2001.08361 ；https://arxiv.org/abs/2002.11794 ；https://hai.stanford.edu/ai-index/2025-ai-index-report/technical-performance ；https://arxiv.org/abs/2404.14219 ；https://arxiv.org/abs/2210.17323 ；https://arxiv.org/abs/2306.00978 ；https://arxiv.org/abs/2305.14314
+[^p2-two-frontiers]: Jared Kaplan等，*Scaling Laws for Neural Language Models*，2020年；Jordan Hoffmann等，*Training Compute-Optimal Large Language Models*，NeurIPS 2022；Zhuohan Li等，*Train Large, Then Compress*，2020年；Stanford HAI，*AI Index 2025: Technical Performance*；Microsoft，*Phi-3 Technical Report*，2024年；GPTQ、AWQ与QLoRA原始论文。Kaplan等人在实验范围内观察到模型损失随参数、数据和计算按幂律下降；Chinchilla进一步显示扩大需要合理分配参数和训练Token，不支持“只加参数就会更强”。AI Index所述从5400亿到38亿参数的约142倍变化，只针对MMLU百分之六十这一门槛；各压缩论文的性能与速度也受模型、硬件和评测条件限制。https://arxiv.org/abs/2001.08361 ；https://papers.neurips.cc/paper_files/paper/2022/hash/c1e2faff6f588870935f114ebe04a3e5-Abstract.html ；https://arxiv.org/abs/2002.11794 ；https://hai.stanford.edu/ai-index/2025-ai-index-report/technical-performance ；https://arxiv.org/abs/2404.14219 ；https://arxiv.org/abs/2210.17323 ；https://arxiv.org/abs/2306.00978 ；https://arxiv.org/abs/2305.14314
 
 [^p2-apertus]: ETH Zurich、EPFL与Swiss National Supercomputing Centre，*Apertus: a fully open, transparent, multilingual language model*，2025年9月2日；Apertus研究论文。项目发布8B与70B模型，使用约15万亿Token，覆盖一千多种语言并公开权重、数据准备材料、训练与评测代码和中间检查点。模型表现与“主权AI”价值主张主要来自项目方，正文只把它作为公共算力、完整开放和可追溯训练谱系的工程案例。https://ethz.ch/en/news-and-events/eth-news/news/2025/09/press-release-apertus-a-fully-open-transparent-multilingual-language-model.html ；https://doi.org/10.48550/arXiv.2509.14233
 
@@ -60,7 +66,7 @@
 
 [^p1-cma-cloud]: UK Competition and Markets Authority，*Cloud Services Market Investigation: Summary of Final Decision*，2025年7月31日。CMA认定英国及欧洲经济区IaaS市场高度集中，Microsoft与AWS在2024年各占约百分之三十至四十；每年更换云服务商的客户不足百分之一。调查把资本门槛、规模经济、迁出费用、接口差异和技能不可转移等列为进入、切换与多云障碍，并指出云服务支撑AI模型开发和部署。数据针对英国及欧洲经济区云市场，不能直接当作全球市场份额。https://assets.publishing.service.gov.uk/media/688b20e6ff8c05468cb7b120/summary_of_final_decision.pdf
 
-[^p2-device-models]: Microsoft，*Phi-3 Technical Report*，2024年4月；Google，*Gemma 3n*技术说明，核验至2026年8月3日；Apple，*Apple Intelligence Foundation Language Models*技术报告，2025年8月。Phi-3-mini报告3.8B参数、约3.3万亿训练Token、MMLU约69%，并讨论现代手机端运行；Gemma 3n E2B名义参数超过5B，但通过参数跳过和分层嵌入缓存使有效内存负载约1.91B；Apple端侧模型约3B参数，采用蒸馏、稀疏化和2-bit量化感知训练，定位于摘要、实体抽取、文本理解和短对话等任务。上述材料说明端侧扩散是任务型、压缩型能力扩散，不证明手机模型与云端通用模型等价。**置信度：项目方技术报告与官方文档已确认；性能和设备体验受作者评测、硬件与任务限制。** https://arxiv.org/abs/2404.14219 ；https://ai.google.dev/gemma/docs/gemma-3n ；https://arxiv.org/abs/2507.13575
+[^p2-device-models]: Microsoft，*Phi-3 Technical Report*，2024年4月；Google，*Gemma 3n*技术说明，核验至2026年8月3日；Apple，*Introducing Apple’s On-Device and Server Foundation Models*，2024年6月，以及*Apple Intelligence Foundation Language Models*技术报告，2025年7月。Phi-3-mini报告3.8B参数、约3.3万亿训练Token、MMLU约69%，并讨论现代手机端运行；Apple官方材料称2024年约3B端侧模型在iPhone 15 Pro上达到约每秒30个Token，2025年版继续采用蒸馏和2-bit量化感知训练，定位于摘要、实体抽取、文本理解和短对话等任务；Gemma 3n E2B标准执行时加载超过5B参数，但通过参数跳过和分层嵌入缓存使有效内存负载约1.91B。上述材料说明端侧扩散是任务型、压缩型能力扩散，不证明手机模型与云端通用模型等价。**置信度：项目方技术报告与官方文档已确认；性能和设备体验受作者评测、硬件与任务限制。** https://arxiv.org/abs/2404.14219 ；https://machinelearning.apple.com/research/introducing-apple-foundation-models ；https://machinelearning.apple.com/research/apple-foundation-models-2025-updates ；https://ai.google.dev/gemma/docs/gemma-3n
 
 [^p2-frontier-models-2026]: Moonshot AI，*Kimi K3*官方仓库与技术报告，2026年7月；DeepSeek，*DeepSeek V4*官方发布与产品文档，2026年4月，核验至2026年8月4日。Kimi K3项目方披露2.8万亿总参数、约1040亿激活参数、896个专家、每Token选择16个专家、约1,048,576上下文，并使用MXFP4权重与MXFP8激活；DeepSeek V4官方披露V4-Pro为1.6万亿总参数/49B激活、V4-Flash为284B总参数/约13B激活，并支持1M上下文。参数、架构、上下文和量化规格是项目方资料；基准、速度、价格和“领先”结论受模型、硬件、harness与推理强度影响，不能用公开总参数直接判断能力超过未公开参数的GPT系列。**置信度：规格为官方/作者一手披露已确认；跨模型能力比较为条件性结果。** https://github.com/MoonshotAI/Kimi-K3 ；https://arxiv.org/abs/2607.24653 ；https://api-docs.deepseek.com/news/news260424/ ；https://api-docs.deepseek.com/quick_start/pricing/
 
@@ -76,7 +82,6 @@
 
 [^p4-argentina-ai]: 世界银行工作论文与NBER Working Paper 34851，*Does Generative AI Narrow Skill Productivity Gaps?*，2026年。阿根廷1,174名25—45岁成年人随机完成带激励的商业问题分析任务；GPT-4.1使低/高技能组分差从0.548个标准差降至0.139个标准差，低技能者处理效应比高技能者高0.408个标准差，约闭合74%的基线差距。任务为一次性自包含情境，工作论文的评分和长期外部有效性仍有限，不能直接外推到企业长期绩效、收入或就业。**截至：2026-08-03；置信度：随机实验和样本规模已确认，长期机制待验证。** https://thedocs.worldbank.org/en/doc/5fa3b40f263a4a22e1572954980189c9-0370012026/original/5-Does-Generative-AI-narrow-skill-productivity-gaps.pdf ；https://www.nber.org/papers/w34851
 
-[^p4-ai-marketing]: *The power of generative marketing*，*International Journal of Research in Marketing*，2025年，DOI 10.1016/j.ijresmar.2024.09.002。研究比较10,320张AI合成营销图片、2,400张人工图片和254,400次人工评价，并观察超过173,000次现场广告曝光；特定横幅广告场景中，最佳AI图像点击率比人工图库图高50%。该结果只支持营销素材场景的点击差异，不等于品牌长期资产、销售利润或公共内容质量全面改善。**截至：2026-08-03；置信度：同行评审和现场曝光研究已确认，外部有效性受场景限制。** https://doi.org/10.1016/j.ijresmar.2024.09.002
 
 [^p7-uk-government-ai]: UK Government Digital Service，*Microsoft 365 Copilot Experiment: Cross-Government Findings Report*，2025年6月2日；Department for Science, Innovation and Technology、Government Digital Service，*AI coding assistant trial*，2025年9月12日。前者在2024年9月至12月覆盖12个政府组织、约20000名员工，评估文档、邮件、表格、演示和会议中的效率、质量与满意度；后者在2024年11月至2025年2月向中央政府组织提供2500个代码助手许可，并收集遥测、满意度与退出调查。部署规模与试验设计已由政府文件确认，但不等于财政节省、公共服务质量改善或长期生产率提升。**置信度：政府一手文件已确认；结果指标和跨部门外部有效性需按报告方法解释。** https://www.gov.uk/government/publications/microsoft-365-copilot-experiment-cross-government-findings-report ；https://www.gov.uk/government/publications/ai-coding-assistant-trial
 
@@ -90,7 +95,6 @@
 
 [^p3-a2a-task]: A2A Project，*Agent2Agent Protocol Specification*，核验至2026年8月1日。规范把Task定义为具有唯一标识、状态与生命周期的工作单位，支持执行中、等待输入或授权、完成、失败、取消和拒绝等状态以及异步更新与Artifact交付。协议仍需具体实现身份、权限和业务补救。https://github.com/a2aproject/A2A/blob/main/docs/specification.md
 
-[^p3-mcp-auth]: Model Context Protocol，*Authorization Specification*，2025年11月25日稳定版本，核验至2026年8月1日。规范以OAuth机制表达面向特定资源的访问，强调资源绑定、最小权限和在需要时逐步提升授权，并禁止把收到的令牌原样透传给下游服务。规范仍在演进，不能替代应用自己的权限策略。https://modelcontextprotocol.io/specification/2025-11-25/basic/authorization
 
 [^p1-gdpr]: Regulation (EU) 2016/679，Article 20。在条文规定的适用条件下，数据主体有权以结构化、常用且机器可读的格式接收其提供的个人数据，并将数据传给另一控制者。https://eur-lex.europa.eu/eli/reg/2016/679/oj
 
@@ -100,7 +104,27 @@
 
 [^p3-tech-sovereignty]: Christoph March、Ina Schieferdecker，*Technological Sovereignty as Ability, Not Autarky*，*International Studies Review* 25(2)，2023年。论文把技术主权界定为理解、评价、选择、获取、改造和使用关键技术的能力，明确区分主权与技术自给自足。Stéphane Couture与Sophie Toupin对数字、网络和技术主权用法的研究也显示，该概念既被国家使用，也被公民技术共同体用于表达替代性实践。https://doi.org/10.1093/isr/viad012 ；https://doi.org/10.1177/1461444819865984
 
-## 第四章　个人：AI主权从自己开始
+## 第四章　AgenticOps：管理会行动的AI
+
+[^p4-agenticops-origin]: OpenCSG，*AgenticOps: The Missing Operating System for Enterprise AI*，2025年7月24日。文章把AgenticOps定义为构建、部署、运行和持续改进AI智能体及其应用的端到端方法，提出Prompt、Code、Build、Test、Release、Deploy、Operate、Retrain八个阶段，以及系统优先、运行数据、自动化和人在回路等原则。该文是OpenCSG对自身实践的方法总结，产品能力、客户采用与效率数字属于项目方口径，正文只采用可跨厂商检验的方法起点，不据此证明平台效果。**截至：2026-08-06；置信度：概念来源已确认，商业成效未作独立验证。** https://medium.com/@OpenCSG/agenticops-the-missing-operating-system-for-enterprise-ai-4f536de1a844
+
+[^p4-agentops-landscape]: Liming Dong、Qinghua Lu、Liming Zhu，*AgentOps: Enabling Observability of LLM Agents*，2024年；AWS，*AgentOps: Operationalize agentic AI at scale with Amazon Bedrock AgentCore*，2026年6月1日。前者通过工具系统映射研究提出智能体生命周期可观测性分类，后者把AgentOps概括为治理与安全、构建与运行、评测、可观测性四个支柱。两者证明业界对术语范围尚不统一；AWS材料是厂商参考架构，不证明具体服务普遍有效。**截至：2026-08-06；置信度：论文与厂商一手方法已确认，统一行业定义尚未形成。** https://arxiv.org/abs/2411.05285 ；https://aws.amazon.com/blogs/machine-learning/agentops-operationalize-agentic-ai-at-scale-with-amazon-bedrock-agentcore/
+
+[^p4-agent-security-2026]: Jared Riggs等，NIST，*Summary Analysis of Responses to the Request for Information Regarding Security Considerations for AI Agents*，NIST Trustworthy and Responsible AI 800-5，2026年5月18日。报告称，回应者广泛同意AI Agent带来新的安全威胁并形成采用障碍；传统网络安全原则仍然相关，但需要适配智能体系统。征求意见汇总反映参与者观点，不是事故率测量，也不等于最终强制标准。**置信度：NIST正式汇总已确认；代表性受自愿回应范围限制。** https://www.nist.gov/publications/summary-analysis-responses-request-information-regarding-security-considerations-ai
+
+[^p4-agent-engineering-methods-2026]: Anthropic，*Effective Context Engineering for AI Agents*，2025年9月29日；Anthropic，*Writing Effective Tools for AI Agents—Using AI Agents*，2025年9月11日；Anthropic，*Demystifying Evals for AI Agents*，2026年1月9日；Microsoft Research，*Retrospective Harness Optimization: Improving LLM Agents via Self-Preference over Trajectory Rollouts*，2026年6月。前三份工程材料分别把上下文工程界定为对每轮推理信息的动态选择，把工具工程界定为面向Agent而非只面向传统开发者的接口设计，并提出评测驱动开发；RHO论文以历史轨迹重放和候选harness比较进行自监督优化。正文“六类方法”是作者为解释概念层级所作的综合分类，不是已经形成共识的行业标准；RHO效果来自作者在特定基准上的实验，未据此主张普遍增益。**截至：2026-08-06；置信度：方法来源已确认，综合分类与外部有效性为条件性判断。** https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents ；https://www.anthropic.com/engineering/writing-tools-for-agents ；https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents ；https://www.microsoft.com/en-us/research/publication/retrospective-harness-optimization-improving-llm-agents-via-self-preference-over-trajectory-rollouts/
+
+[^p4-harness-engineering-2026]: Anthropic，*Effective Harnesses for Long-Running Agents*，2025年11月26日，以及*Harness Design for Long-Running Application Development*，2026年3月24日；OpenAI，*Harness Engineering: Leveraging Codex in an Agent-First World*，2026年2月11日；Microsoft Agent Framework，*The Microsoft Agent Framework Harness Is Now Released*，2026年7月22日。Anthropic披露任务拆分、结构化交接、上下文延续与生成—评估循环；OpenAI把仓库知识、Agent可读性、架构约束、验证和持续清理作为harness工程的一部分；Microsoft把循环、计划、记忆、上下文管理、批准与遥测归入通用Agent harness。多家材料共同支持“工程对象是模型与运行环境的组合”，但它们来自各厂商自身系统，不证明某一种harness结构最优。Microsoft同名产品也说明harness既可指工程方法与运行装置，也可被产品化，正文不以产品定义代替通用概念。**截至：2026-08-06；置信度：厂商一手工程披露多源一致；术语边界仍在形成。** https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents ；https://www.anthropic.com/engineering/harness-design-long-running-apps ；https://openai.com/index/harness-engineering/ ；https://devblogs.microsoft.com/agent-framework/the-microsoft-agent-framework-harness-is-now-released/
+
+[^p4-managed-agents-2026]: Anthropic，*Scaling Managed Agents: Decoupling the Brain from the Hands*，2026年4月8日。工程材料把长任务系统拆为持久会话记录、Agent harness与沙箱/工具，并通过接口使模型、运行循环和执行环境可以独立变化或恢复。它是单一厂商的架构实践，支持“稳定接口应与快速变化的模型解耦”这一机制判断，不证明该实现是唯一或最优方案。**置信度：厂商工程披露已确认；跨平台外部有效性有限。** https://www.anthropic.com/engineering/managed-agents
+
+[^p4-agent-evals-2026]: Anthropic，*Demystifying Evals for AI Agents*，2026年1月9日；Anthropic，*Quantifying Infrastructure Noise in Agentic Coding Evals*，2026年2月5日。前者把Agent评测对象界定为模型与harness共同组成的系统，并主张组合代码、模型和人工评分；后者在Terminal-Bench 2.0内部实验中报告，保持模型、任务和harness不变时，最严格与无限额资源设置的成功率相差6个百分点（p<0.01），基础设施错误率从5.8%降至0.5%。数字来自厂商对特定编码基准的实验，不能外推所有Agent；它说明运行资源是评测变量。**置信度：方法与实验披露已确认；独立复现与跨任务效度有限。** https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents ；https://www.anthropic.com/engineering/infrastructure-noise
+
+[^p4-agent-hijacking-2026]: NIST CAISI，*Insights into AI Agent Security from a Large-Scale Red-Teaming Competition*，2026年3月23日。公开竞赛覆盖13个前沿模型、400多名参与者和超过25万次攻击尝试，所有目标模型都至少发现一次成功的智能体劫持；不同模型的成功攻击数量差异很大，部分攻击可跨模型和场景迁移。竞赛结果不能换算为生产攻击率，也不能证明所有缓解措施失效，只说明静态攻击集和单次评测不足以支持永久安全结论。**置信度：政府研究团队公开分析已确认；竞赛环境的外部有效性有限。** https://www.nist.gov/blogs/caisi-research-blog/insights-ai-agent-security-large-scale-red-teaming-competition
+
+[^p4-agent-lifecycle-2026]: Microsoft，*Manage the Agent Lifecycle*，更新于2026年7月14日。该实践把Agent视为有持续责任人的产品，生命周期包括准入、分诊、构建、部署、监控、改进与退役，并要求监控计划和改进或退出路径。它是Microsoft Center of Excellence方法，不是独立标准；正文采用“责任持续到退役”的通用原则，不接受具体平台能力为普遍结论。**置信度：厂商一手方法已确认；跨组织效果待验证。** https://learn.microsoft.com/en-us/agents/center-of-excellence/agent-lifecycle
+
+## 第五章　个人：AI主权从自己开始
 
 [^p4-nist-agent-id]: NIST/National Cybersecurity Center of Excellence，*New Concept Paper on Identity and Authority of Software Agents*，2026年2月5日。概念文件把软件与AI智能体的身份、授权、审计和不可抵赖列为专门议题；其性质是研究与标准化倡议，并非已经定型的标准。https://www.nist.gov/news-events/news/2026/02/new-concept-paper-identity-and-authority-software-agents
 
@@ -108,21 +132,27 @@
 
 [^p4-cognition]: Eleanor Dillon等，*Shifting Work Patterns with Generative AI*，2025年，六个月、六千名跨行业知识工作者随机现场实验；Hao-Ping Lee等，*The Impact of Generative AI on Critical Thinking*，CHI 2025，对319名知识工作者与936个实际用例的调查。前者报告使用者每周邮件时间减少约三小时、意向治疗估计约一点四小时，会议时间未显著变化；后者发现更高的AI信心与更少自报批判性思考相关，更高的任务自信与更多自报批判性思考相关，并观察到思考转向核验、整合与任务看管。前者主要测量行为变化，后者为横截面自报关联；两者均不能证明长期技能必然增强或衰退。https://www.microsoft.com/en-us/research/publication/shifting-work-patterns-with-generative-ai/ ；https://doi.org/10.1145/3706598.3713778
 
+[^p4-derived-data]: U.S. Federal Trade Commission，*FTC Finalizes Settlement with Photo App Developer Related to Misuse of Facial Recognition Technology*及Everalbum案最终命令，2021年5月7日。FTC指控Everalbum对人脸识别启用和账户停用后的照片删除作出误导性陈述，并使用用户照片形成面部嵌入、数据集和识别技术；最终命令要求在适用范围内删除停用账户照片、未经有效同意形成的面部嵌入，以及用相关照片和视频开发的模型与算法。该案涉及照片与人脸识别，不直接决定生成式AI记忆、用户画像或模型权重的一般法律归属；正文只用它证明，监管补救可以同时处理原始数据、派生特征和由其形成的模型资产。**截至：2026-08-06；置信度：FTC最终命令与案件材料已确认。** https://www.ftc.gov/news-events/news/press-releases/2021/05/ftc-finalizes-settlement-photo-app-developer-related-misuse-facial-recognition-technology ；https://www.ftc.gov/legal-library/browse/cases-proceedings/192-3172-everalbum-inc-matter
+
+[^p4-replika]: 意大利个人数据保护机构（Garante per la protezione dei dati personali），*AI: The Italian Data Protection Authority fines company behind chatbot “Replika”*，2025年5月19日；European Data Protection Board案件摘要，2025年5月21日。监管机构于2025年4月10日作出决定，对Replika运营方Luka Inc.处以500万欧元罚款，认定截至2023年2月2日公司未为通过Replika进行的数据处理确定合法依据，隐私政策存在不足，且当时没有在注册或使用环节实施年龄验证；监管机构另行调查生成式AI系统全生命周期的数据处理合法性。决定仍可能面对司法救济，后续模型调查也不等于已经作出违法认定；正文只用它证明，亲密型AI产品的“记忆和理解”必须落到合法依据、透明告知和年龄保护，而非把罚款外推成所有陪伴AI的效果判断。**截至：2026-08-06；置信度：监管机构决定与EDPB摘要已确认，另案调查结论待定。** https://www.gpdp.it/home/docweb/-/docweb-display/docweb/10132048 ；https://www.edpb.europa.eu/news/ai-the-italian-supervisory-authority-fines-company-behind-chatbot-replika_en
+
 [^p4-opc-mechanism]: Ronald Coase，*The Nature of the Firm*，1937年及其1991年诺贝尔奖演讲，把发现价格、谈判、签约、检查和解决争议等交易成本用于解释企业边界；Shakked Noy、Whitney Zhang在453名专业人士的预注册写作实验中报告使用ChatGPT使平均用时下降40%、质量提高18%；Erik Brynjolfsson、Danielle Li、Lindsey Raymond研究5,179名客服人员，报告生成式AI助手使每小时解决问题数平均提高14%，新手和低技能员工改善更明显；Fabrizio Dell’Acqua等对758名知识工作者的预注册实验则发现，AI在能力边界内改善速度和质量，在边界外的一项复杂任务上使正确率下降。前三类实验说明AI能够降低部分认知、表达和协调成本，不能证明创业全流程都能自动化，也不能证明OPC普遍优于团队。**置信度：经典原始论文、同行评审实验和大型现场研究已确认；跨任务与长期组织效果待验证。** https://doi.org/10.1111/j.1468-0335.1937.tb00002.x ；https://www.nobelprize.org/prizes/economic-sciences/1991/coase/lecture/ ；https://doi.org/10.1126/science.adh2586 ；https://www.nber.org/papers/w31161 ；https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4573321
 
 [^p4-opc-signal]: U.S. Census Bureau，2023年Nonemployer Statistics及2026年小企业数据说明，记录30,427,808个无雇员经营单位，占全部经营单位78.4%，总收入接近1.8万亿美元；多数为自雇者经营的非公司制业务，不等于AI OPC。Stripe Atlas于2026年5月披露，其平台当年第二季度截至统计时新设C公司中单一创始人占63%，同时报告普通与头部单人创业者的收入差距扩大；该结果存在平台选择、公司类型与观察期偏差。OECD的创业政策综述也提醒，一人/无雇员企业在创业数量中占主导，但平均增长和就业贡献有限，少数网络化、技能型个体可以高度创新。正文据此把OPC视为建立在既有微型经济底盘上的新趋势信号，不把平台数据写成社会总体比例或AI因果效果。**置信度：美国官方统计已确认；Stripe为利益相关平台样本；AI导致的长期增收与存活效果待验证。** https://www.census.gov/library/stories/2026/05/small-business-week.html ；https://www.census.gov/library/stories/2025/07/nonemployer-business-growth.html ；https://stripe.com/blog/top-solo-founder-traits ；https://www.oecd.org/en/publications/international-compendium-of-entrepreneurship-policies_338f1873-en/full-report/objectives-and-challenges-of-entrepreneurship-policy_f354bd94.html
 
-## 第五章　组织：让部门自治而能力协同
+## 第六章　组织单元：让部门自治而能力协同
 
 [^p5-zero-trust]: NIST，*Zero Trust Architecture*（SP 800-207，2020年8月）与 *A Zero Trust Architecture Model for Access Control in Cloud-Native Applications in Multi-Cloud Environments*（SP 800-207A，2023年9月）。前者要求不因网络位置或资产归属自动信任，并对资源访问执行逐次、最小权限判断；后者把身份、API网关、服务网格与细粒度策略扩展到多云、云原生环境。正文据此类比企业内部部门域，不声称两份标准专为AI或部门协同编写。**置信度：NIST正式标准已确认；部门AI架构为本书的工程外推。** https://doi.org/10.6028/NIST.SP.800-207 ；https://doi.org/10.6028/NIST.SP.800-207A
 
+[^p5-beyondcorp]: Rory Ward、Betsy Beyer，*BeyondCorp: A New Approach to Enterprise Security*，Google Research，2014年。论文描述Google把企业访问控制从受信任内网转向以用户、设备与情境为基础的逐次判断，并把内部应用迁移到可经互联网访问的环境。它是Google团队对自身架构与迁移经验的披露，且早于生成式AI；正文只把它作为“组织归属与网络位置不等于自动信任”的生产工程先例，不声称BeyondCorp能够直接解决智能体越权、提示注入或模型可靠性。**截至：2026-08-06；置信度：项目团队一手论文已确认，AI场景为本书工程外推。** https://research.google/pubs/beyondcorp-a-new-approach-to-enterprise-security/
+
+[^p5-uber-data-quality]: Uber Engineering，*Uber’s Big Data Platform: 100+ Petabytes with Minute Latency*，2018年10月17日；*Achieving Operational Excellence in Data Quality at Uber*；*Uber’s Journey Toward Better Data Culture: From First Principles*，核验至2026年8月6日。Uber披露其分析平台超过100PB，数百个服务与机器学习模型依赖数以万计的数据集；其统一数据质量平台覆盖2000多个关键数据集，团队称发现约90%的数据质量事件。其数据文化文章要求数据像代码一样具有明确所有者、用途、服务水平、事件管理与退役机制，同时强调数据生产团队的本地责任。规模、覆盖率与事件发现比例均为Uber项目团队自报，不是独立审计；“发现约90%”也不等于所有真实事故的九成都可被外部观测。正文据此说明大规模数据平台为什么需要共同规则、本地所有权与可执行契约，不把它写成固定ROI或普遍最佳实践。**截至：2026-08-06；置信度：项目团队一手工程披露已确认，效果口径需谨慎。** https://www.uber.com/us/en/blog/uber-big-data-platform/ ；https://www.uber.com/en-IE/blog/operational-excellence-data-quality/ ；https://www.uber.com/blog/ubers-journey-toward-better-data-culture-from-first-principles/
+
 [^p5-workload-federation]: SPIFFE，*SPIFFE Concepts*与*SPIFFE Federation*，核验至2026年8月5日。SPIFFE以独立信任域管理工作负载身份，概念文档把公司、云环境、部门或系统边界列为可能的信任域；联邦规范允许不同管理域交换信任包并验证彼此身份。它解决工作负载认证与信任联合，不自动提供业务授权、数据契约或AI安全。**置信度：官方规范已确认；用于部门AI域属于可验证的技术映射。** https://spiffe.io/docs/latest/spiffe/concepts/ ；https://spiffe.io/docs/latest/spiffe-specs/spiffe_federation/
 
-## 第六章　企业：把智能变成可治理的能力
+## 第七章　企业：把智能变成可治理的能力
 
-[^p6-a2a-task]: Linux Foundation，*Agent2Agent Protocol Specification / Core Concepts*，核验至2026年8月1日。A2A把Task定义为带有唯一标识、状态和生命周期的有状态工作单位，把Artifact定义为任务生成的文档、图像或结构化数据等实际交付物，并支持流式更新和异步通知。协议解决互操作语义，不自动提供企业授权、数据治理或结果真实性保证。https://a2a-protocol.org/latest/topics/key-concepts/
 
-[^p6-mcp-auth]: Model Context Protocol，*Authorization*与*Security Best Practices*，采用2025年11月25日稳定版本，核验至2026年8月1日。规范要求HTTP传输中的资源服务器验证访问令牌的目标受众，并明确禁止把上游收到的令牌原样透传给下游服务；下游访问应使用面向该资源的独立令牌，以降低令牌误用和“困惑代理”风险。MCP授权规范仍在演进，不等于已经解决具体应用的权限设计。https://modelcontextprotocol.io/specification/2025-11-25/basic/authorization
 
 [^p6-knight]: U.S. Securities and Exchange Commission，*SEC Charges Knight Capital With Violations of Market Access Rule*，2013年10月16日。SEC记录显示，2012年8月1日开盘后的45分钟里，错误路由为212笔客户订单发送超过400万条订单，造成超过4.6亿美元损失；系统发出的97封异常邮件没有成为有效警报。https://www.sec.gov/newsroom/press-releases/2013-222
 
@@ -132,13 +162,11 @@
 
 [^p6-finra-genai]: Financial Industry Regulatory Authority，Regulatory Notice 24-09，*Regulatory Notice Related to GenAI*，2024年6月27日。FINRA强调现有规则技术中立，成员使用第三方或嵌入式生成式AI仍应建立与业务相适应的监督体系，覆盖模型风险、数据隐私与完整性、可靠性和准确性。通知不能证明任何具体企业控制已经有效。https://www.finra.org/rules-guidance/notices/24-09
 
-[^p6-nist-agent]: NIST，*CAISI Issues Request for Information About Securing AI Agent Systems*，2026年1月12日；以及*AI Agent Standards Initiative*。相关工作关注模型输出与软件功能结合后的独特风险，覆盖身份、授权、审计、互操作和提示注入防护。其性质包括征求意见、倡议和技术研究。https://www.nist.gov/news-events/news/2026/01/caisi-issues-request-information-about-securing-ai-agent-systems
 
 [^p6-operator]: OpenAI，*Operator System Card*，2025年1月23日。OpenAI报告，无产品层防护的模型在100项近似真实任务中产生13次会造成麻烦的错误，其中5次较难逆转或可能较严重；确认等措施使估计风险降低约90%，在607项风险动作评测中确认召回率约92%。提示注入监测器在77次红队攻击上报告99%召回、90%精确率，并在13,704个正常画面中误报46次。全部数字均为厂商自测，不能外推为真实生产事故率或其他智能体的安全水平。**置信度：厂商自测已确认，外部效度有限。** https://openai.com/index/operator-system-card/
 
 [^p6-echoleak]: Pavan Reddy、Aditya Sanjay Gujral，*EchoLeak: The First Real-World Zero-Click Prompt Injection Exploit in a Production LLM System*，2025年；Microsoft CVE-2025-32711。研究者在Microsoft 365 Copilot中验证了无需用户点击的间接提示注入与数据外传路径。漏洞经协调披露后由微软在服务端修复；公开材料没有显示其已被用于大规模真实攻击。https://arxiv.org/abs/2509.10540 ；https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-32711
 
-[^p6-amazon-q]: Amazon Web Services，*AWS Security Bulletin AWS-2025-015*，2025年。AWS确认攻击者利用权限配置不当的GitHub令牌向Amazon Q Developer开源仓库提交代码，该代码进入VS Code扩展1.84.0；恶意代码因语法错误未成功执行。AWS撤销相关凭据、下架版本并发布1.85.0。https://aws.amazon.com/security/security-bulletins/AWS-2025-015/
 
 [^p6-rite-aid]: U.S. Federal Trade Commission，*Rite Aid Banned from Using AI Facial Recognition After FTC Says Retailer Deployed Technology without Reasonable Safeguards*及FTC投诉书，2023年12月19日。FTC投诉称系统产生数千次错误匹配，企业在部署前后缺少合理的准确性评估和持续监控；正文中的十一岁女孩案例来自投诉书。正文以“FTC指控”表述，没有把监管投诉写成无争议司法判决。https://www.ftc.gov/news-events/news/press-releases/2023/12/rite-aid-banned-using-ai-facial-recognition-after-ftc-says-retailer-deployed-technology-without ；https://www.ftc.gov/system/files/ftc_gov/pdf/2023190_riteaid_complaint_filed.pdf
 
@@ -160,7 +188,9 @@
 
 [^p6-agent-payments]: Agent Payments Protocol，*AP2 Specification v0.2*，核验至2026年8月1日；Sonja Davidovic、Hervé Tourpe，*How Agentic AI Will Reshape Payments*，IMF Note 2026/004，2026年4月。AP2用购买授权、支付授权与收据为Agent交易提供可验证证据，区分人在场与自主模式，并要求验证和处理由确定性代码完成；当前规范明确把Agent间授权转委托，以及争议解决、材料留存与调取的具体机制置于范围之外。IMF论文提出意图与编排、控制与授权、结算三层分析框架，并提醒采用仍处早期，法律责任、可追溯性和相关性风险未解。IMF Note代表作者分析，不等于IMF执董会政策立场。**置信度：协议机制与分析框架已确认，规模化采用和法律效果待观察。** https://ap2-protocol.org/ap2/specification/ ；https://www.imf.org/en/-/media/files/publications/imf-notes/2026/english/insea2026004.pdf
 
-## 第六至八章　企业、公共权力与国家能力
+[^p6-gpai-code]: European Commission，*General-purpose AI obligations under the AI Act*与*The General-Purpose AI Code of Practice*，核验至2026年8月6日。欧盟页面说明，通用大模型提供者需要准备技术文档、实施版权政策并公开模型训练内容摘要；具有系统性风险的模型还涉及通知、风险评估与缓解、严重事故报告和网络安全保护。自愿性实践准则于2025年7月10日发布，并在2026年由AI Office主持签署方工作组推进实施，分为透明度、版权、安全与防护章节。规则和准则约束的是模型提供者及其合规证明，不能替部署企业完成真实任务评测、数据授权、工具权限、运行监测或补救。**截至：2026-08-06；置信度：欧盟委员会正式规则说明与准则页面已确认；执行效果与后续名单会变化。** https://digital-strategy.ec.europa.eu/en/factpages/general-purpose-ai-obligations-under-ai-act ；https://digital-strategy.ec.europa.eu/en/policies/contents-code-gpai
+
+## 第七、八章　企业与国家/城市主权
 
 [^p7-dpi-runtime]: OECD，*Digital Government Outlook 2026: Strengthening Digital Public Infrastructure and Data Governance*，2026年。报告把数字身份、数据共享、数字通知、支付和基础登记等视为数字公共基础设施，并强调组件、治理安排与跨机构采用共同决定端到端公共服务能力。报告属于跨国政策分析，不证明任何单一技术架构适用于所有国家。https://www.oecd.org/en/publications/2026/06/digital-government-outlook_4585678e/full-report/strengthening-digital-public-infrastructure-and-data-governance_2c7323c7.html
 
@@ -206,7 +236,11 @@
 
 [^p7-canada-aia]: Treasury Board of Canada Secretariat，*Algorithmic Impact Assessment tool / Directive on Automated Decision-Making*，核验至2026年5月28日。加拿大政府要求影响评估在设计早期进行并在投产前复做，影响越高，对同行评审和人工介入的要求越高，最终评估结果应当公开。https://www.canada.ca/en/government/system/digital-government/digital-government-innovations/responsible-use-ai/algorithmic-impact-assessment.html
 
-[^p7-uk-atrs]: UK Government Digital Service，*Algorithmic Transparency Recording Standard Hub*，页面更新至2025年5月8日。ATRS为公共机构公开为何、怎样使用算法工具提供统一格式，适用于规定范围内对公众决定有重大影响或直接与公众互动的工具。https://www.gov.uk/government/collections/algorithmic-transparency-recording-standard-hub
+[^p7-uk-atrs]: UK Government Digital Service，*Algorithmic Transparency Recording Standard Hub*、*Making the Algorithmic Transparency Recording Standard mandatory across government*，2025年5月8日；UK Cabinet Office，*Automated Digital Document Review*公开记录。GDS披露过去十二个月新增53份记录、总数达到59份；内阁办公室记录称其算法辅助方法已审查510万份历史文件。ATRS要求公开负责人、用途、部署情境、模型/数据、风险和人工参与，并适用于规定范围内对公众决定有重大影响或直接与公众互动的工具。记录数量、制度覆盖范围和单项处理量均为英国政府一手披露；59份不能证明所有在用工具已经完整登记，登记也不等于独立审计、安全认证或公共价值已经实现。**截至：2026-08-06；置信度：政府一手制度与公开记录已确认，完整性与实际效果待持续检查。** https://www.gov.uk/government/collections/algorithmic-transparency-recording-standard-hub ；https://dataingovernment.blog.gov.uk/2025/05/08/making-the-algorithmic-transparency-recording-standard-atrs-mandatory-across-government/ ；https://www.gov.uk/algorithmic-transparency-records/cabinet-office-automated-digital-document-review
+
+[^p7-oecd-government-impact]: OECD，*Digital Government Outlook 2026: Adopting and governing AI in government*，2026年6月15日。三十六个OECD成员国中，只有10个（28%）报告对政府AI用例开展过任何前瞻或回顾性的财务/非财务影响测量，4个（11%）测量过政府部门层面的影响；50%称AI采用决策会依据潜在效率或成本节省证据。数据来自OECD数字政府调查的国家自报，覆盖期与国家可得性存在限制，不能直接比较项目绩效或证明未报告国家完全没有评估；正文只用它说明政府AI采用、公开清单和结果测量之间仍有明显落差。**截至：2026-08-06；置信度：OECD正式报告与调查口径已确认，国家间可比性有限。** https://www.oecd.org/en/publications/2026/06/digital-government-outlook_4585678e/full-report/adopting-and-governing-ai-in-government_7ef312a9.html
+
+[^p7-syri]: Rechtbank Den Haag（海牙地区法院），*SyRI legislation in breach of European Convention on Human Rights*，2020年2月13日。SyRI是荷兰政府用于识别福利、补贴和税务欺诈等风险的法律工具；法院判定规范SyRI使用的立法不符合《欧洲人权公约》第八条，因为没有在社会整体利益与个人私人生活权之间保持公平平衡。该案涉及跨部门数据分析和风险指示，不是生成式AI或大语言模型案件；正文用它证明“分别合法收集的数据被组合和推断后会产生新的权力与比例性问题”，不把裁判结论无条件外推至所有公共数据共享。**截至：2026-08-06；置信度：法院官方判决说明已确认。** https://www.rechtspraak.nl/organisatie-en-contact/organisatie/rechtbanken/rechtbank-den-haag/nieuws/2020/02/syri-legislation-in-breach-of-european-convention-on-human-rights
 
 [^p7-eu-aiact]: Regulation (EU) 2024/1689，尤其见Recital 58与Article 27；European Commission，*AI Omnibus enters into force*，2026年7月27日。用于决定基本公共服务和福利能否获得、减少、撤销或追索的若干AI系统被列为高风险；法规规定适用范围内的公共主体应在部署前评估基本权利影响。二〇二六年生效的修法把附件三高风险规则的适用时间延至2027年12月2日，嵌入附件一实体产品的高风险规则延至2028年8月2日。https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689 ；https://digital-strategy.ec.europa.eu/en/news/ai-omnibus-enters-force
 
@@ -214,13 +248,21 @@
 
 [^p7-yichang-runtime]: 宜昌市科技局，《宜昌已建成智算规模突破3000P 数字经济核心产业实现营收624亿元》，2025年8月7日；宜昌市人民政府，《“宜数”OPC创新社区开园 宜昌AI开发者有了“新家”》，2026年5月23日；湖北省数据局，《2026年湖北省“数智+”场景育新行动智慧城市机会、能力、案例清单》，2026年4月。前两项为地方政府公开材料，确认算力设施、供应链平台、模型库/数据集专区与OPC社区的建设状态；省级清单第7项列出三峡传神社区、开放传神（湖北）科技有限公司及其“开源平台+产业联盟+基金会”结构。作者与OpenCSG存在直接利益关系；清单中的1000P、利用率等效果数字来自申报口径，未经独立绩效审计，正文不把它们作为成效证明。**置信度：项目和组织安排已由多份政府材料确认；长期运营效果与可复制性待独立验证。** https://kjt.hubei.gov.cn/kjdt/sxkj/yc/202508/t20250807_5741115.shtml ；https://www.yichang.gov.cn/html/zhengwuyizhantong/zhengwuzixun/jinriyaowen/2026/0523/1077302.html ；https://sjj.hubei.gov.cn/bmdt/tzgg/202604/P020260423539722658121.pdf
 
+[^p8-suzhou-ai-city]: 苏州市人民政府办公室，《苏州市加快建设“人工智能+”城市行动方案（2025～2026年）》，苏府办〔2025〕102号，2025年12月。方案提出到2026年底全市智算规模达到17000 PFLOPS、形成200个具有推广价值的典型场景，并同步建设公共算力服务平台、语料与模型开发测评底座、低代码智能体平台及5个有全国影响力的开源生态项目。上述数字均为政府规划目标，不是已经完成的建设量、利用率或产业成效。**截至：2026-08-06；置信度：正式政府文件及目标已确认，完成情况待后续验收。** https://www.suzhou.gov.cn/szsrmzf/gbzfwj/202512/bcc1393a90684fe49439279ac25fb9b1.shtml
+
+[^p8-shanghai-vouchers]: 上海市经济和信息化委员会，《关于组织2026年度上海市“模塑申城”工程相关补贴申报工作的通知》，沪经信智〔2026〕248号，2026年5月7日。通知分别设置算力券、模型券（Token券）和语料券，支持非关联方智能算力租用、第三方大模型API或私有化部署以及高质量语料采购，覆盖OPC、科学智能、城市治理等方向。文件证明政策工具和申报机制存在，不证明补贴已经形成产业回报，也不能排除套利、重复补贴或平台锁定。**截至：2026-08-06；置信度：上海市经信委正式通知已确认，项目效果待审计。** https://sheitc.sh.gov.cn/cyfz/20260507/cd1dcb1e5cb4449cbc36c69befafcc0a.html
+
+[^p8-wuhan-opc-compute]: 武汉市人民政府，《武汉市支持人工智能OPC创新发展若干措施》，2026年2月13日。措施提出对OPC使用算力服务费用的50%给予最高20万元补助、期限不超过3年，并要求各区OPC生态社区整合异构算力、每年为每家OPC提供不少于2000卡时免费算力。政策额度是供给承诺，不等于实际领取、有效使用、企业存活或生产率提升。**截至：2026-08-06；置信度：武汉市政府正式政策已确认，执行结果待公开数据。** https://www.wuhan.gov.cn/ztzl/25zt/rgzncy/zcwj_94757/202602/t20260224_2731334.shtml
+
+[^p8-modelscope-ecosystem]: ModelScope Team，`modelscope-hub`官方GitHub仓库与ModelScope社区2025年6月月报，核验至2026年8月6日。官方客户端把模型、数据集、Studio、Skills和MCP服务器纳入统一Hub接口，提供发现、版本、下载、校验、离线缓存、上传和部署能力，并称可连接10万项以上模型与数据集；社区月报称平台服务超过1600万开发者。前者是公开代码和项目功能说明，后者是平台方自报规模；“开发者”口径不等于月活、持续贡献者或产业产值，且平台由企业运营，不能直接代表城市公共生态。**置信度：架构和公开工具已确认；规模数字为项目方口径，外部效果有限。** https://github.com/modelscope/modelscope_hub ；https://community.modelscope.cn/68513e478e4d0a6c534b924f.html
+
 [^p7-city-flywheel]: 国家发展改革委、国家数据局等，《关于深化智慧城市发展 推进城市全域数字化转型的指导意见》，2024年5月14日；国家发展改革委、国家数据局，《深化智慧城市发展推进全域数字化转型行动计划》，2025年；国家数据局，《可信数据空间发展行动计划（2024—2028年）》及《可信数据空间创新发展报告（2025）》；European Commission，*AI Factories*，核验至2026年8月1日；Singapore Government，*National AI Strategy 2.0*，2023年。中国文件分别提出开放兼容的城市共性基础、算法与模型一体部署、产城融合、数据产业，以及数据/场景/设施的立体化运营和动态反馈；可信数据空间文件强调分建统管、跨域协同、产业生态与价值共创，并承认可持续运营和互联互通仍是早期挑战。欧盟AI Factories把算力、数据、人才、大学、中小企业、产业与金融主体组织为地区创新生态；新加坡把产业/政府/科研、人才/能力/空间载体、算力/数据/可信环境列为相互关联的三套系统。材料共同支持“AI基础设施必须连接资源、资产、场景、人才和长期运营”的结构判断，不证明宜昌或任一具体城市已经形成自我造血飞轮，也不证明同一组织模式适用于所有地区。**置信度：政策结构与已公开计划确认；因果效果和地方复制性待长期数据检验。** https://zfxxgk.ndrc.gov.cn/web/iteminfo.jsp?id=20387 ；https://www.ndrc.gov.cn/xxgk/zcfb/tz/202510/P020251031380308105300.pdf ；https://www.nda.gov.cn/sjj/zwgk/zcfb/1122/ff808081-92b8a4f1-0193-530c6ac8-0475.pdf ；https://www.nda.gov.cn/sjj/swdt/xwfb/0829/20250829085131590048920_pc.html ；https://digital-strategy.ec.europa.eu/en/policies/ai-factories ；https://www.edb.gov.sg/content/dam/edb-en/business-insights/market-and-industry-reports/singapores-national-ai-strategy-ai-for-the-public-good-for-singapore-and-the-world/nais2023.pdf
 
 [^p7-opc-policy]: 深圳市工业和信息化局，《深圳市打造人工智能OPC创业生态引领地行动计划（2026—2027年）》，2026年1月14日；北京市经济和信息化局，《支持人工智能OPC创新发展行动方案（试行）》，2026年6月18日，以及北京市通州区公开的模型券、算力券、公共数据与专业服务措施；广州市市场监督管理局，《人工智能OPC沙盒监管实施方案》公开说明，2026年4月29日。相关文件把算力、模型、数据、开源工具、登记、专业服务、融资与监管中的不同组合用于支持个人或极小团队，证明多地已经把OPC作为政策对象；规划中的社区数量、企业数量与补贴金额不等于真实存活率、生产率、创新质量或财政回报。多地同期推出政策还可能产生概念性招商、重复建设和补贴套利。**置信度：政策文本与发布事实已确认；产业成效和可复制性待长期独立评估。** https://www.sz.gov.cn/cn/xxgk/zfxxgj/tzgg/content/post_12602687.html ；https://jxj.beijing.gov.cn/zwgk/2024zcwj/202606/t20260618_4706233.html ；https://www.beijing.gov.cn/ywdt/gzdt/202605/t20260525_4663937.html ；https://scjgj.gz.gov.cn/zzzq/gzdt/content/post_10794656.html
 
 [^p7-waico]: 中华人民共和国外交部，《成立世界人工智能合作组织协定签署仪式在上海举行》，2026年7月16日；习近平，《携手构建公正合理的全球人工智能治理体系——在2026世界人工智能大会暨人工智能全球治理高级别会议开幕式上的主旨讲话》，2026年7月17日；新华社，《世界人工智能合作组织未来将重点开展三方面工作》，2026年7月19日；国家发展改革委，《世界人工智能合作组织（WAICO）推进会成功召开》，2026年7月20日。官方材料确认二十九国签署协定、组织总部设在上海、王毅代表中国政府签署；主旨讲话承诺未来五年向发展中国家提供五千个人工智能专题研修名额，面向东盟、阿盟、非盟、拉共体、上合组织和金砖国家建设应用合作中心，并称“妈祖”气象预警系统已覆盖三十个国家。会后披露的工作方向包括能力建设，供需对接、应用与开源生态，以及落实《全球数字契约》并同联合国等机构合作。联合国大会第79/325号决议另行设立独立国际人工智能科学小组与全球人工智能治理对话；正文据此把科学评估、广泛对话与项目型能力合作区分为可能互补的功能，不断言组织间已建立正式分工。成立、目标和宣布的合作措施不等于成熟治理、项目绩效或广泛代表性。截至2026年8月1日，正文采用的官方公开口径仍为二十九个签署国；网络流传的“第二批八国、覆盖人口33.4亿”未获可核验的一手公告支持，未写入正文。**置信度：成立事实、五千名额与官方定位已确认；新增成员、运行成效及机构协同待持续观察。** https://www.fmprc.gov.cn/web/wjdt_674879/wjbxw_674885/202607/t20260716_11984399.shtml ；https://www.news.cn/politics/leaders/20260717/72728b6f94154d63b3eaaaf9808b51eb/c.html ；https://www.news.cn/world/20260719/9e49a03f5ce74864bd7b32f154aaad86/c.html ；https://www.ndrc.gov.cn/fggz/202607/t20260720_1406588.html ；https://docs.un.org/en/A/RES/79/325
 
-## 第九章　在依赖中保持自由
+## 第九章　开放与协同：依赖怎样不变成支配
 
 [^p9-mcp-control]: Model Context Protocol，*Tools Specification*与*Authorization Specification*，采用2025年11月25日稳定版本，核验至2026年8月1日。工具规范提醒工具属于可导致外部行动的能力，客户端应让用户看见并拒绝调用；授权规范要求令牌面向预期资源并禁止原样透传。协议提供互操作和授权机制，不证明工具自述或输出真实。https://modelcontextprotocol.io/specification/2025-11-25/server/tools ；https://modelcontextprotocol.io/specification/2025-11-25/basic/authorization
 
@@ -282,7 +324,6 @@
 
 [^p0-infrastructure-history]: 本节采用技术史的结构性概括：机械化与电气化标准化动力，计算机化标准化计算与记录，互联网化标准化连接与分发，云平台化标准化按需资源，模型化标准化部分生成与判断，Agent化进一步把工具调用与连续行动纳入软件系统。它不是单线进步史，也不把不同地区和行业的阶段当作同步发生；表格用于解释控制点如何迁移，不是对技术史的完整编年。**置信度：机制性综合；非单一来源统计。**
 
-[^p6-reliability-measurement-2026]: OpenAI，*Separating signal from noise in coding evaluations*，2026年7月8日；METR，*Clarifying limitations of time horizon*，2026年1月22日。OpenAI审计称SWE-Bench Pro约30%的任务存在题目、测试或环境问题；METR说明时间跨度指标受任务分布、可靠率和拟合假设约束，不能直接外推为岗位自动化。两者共同支持“评测装置本身也要被审计”，不支持对所有软件任务的失败率或自动化率外推。**截至：2026-08-04；置信度：原始研究/机构方法说明已确认。** https://openai.com/index/separating-signal-from-noise-coding-evaluations/ ；https://metr.org/notes/2026-01-22-time-horizon-limitations/
 
 [^p7-five-layer-cake]: NVIDIA官方博客，*'Largest Infrastructure Buildout in Human History': Jensen Huang on AI's 'Five-Layer Cake' at Davos*，2026年1月21日；NVIDIA GTC 2026 keynote 圣何塞现场及回放页，2026年3月16日，核验至2026年8月4日；NVIDIA，*AI Factories: The New Infrastructure of Intelligence*，2026年5月27日；NVIDIA 2026股东大会官方披露，2026年6月24日。黄仁勋在达沃斯对话 BlackRock CEO Larry Fink 时首次系统提出"五层蛋糕"：能源、芯片与计算基础设施、云数据中心、AI 模型、应用层，并在 CES 2026、GTC 2026、Stanford 2026、OFC 2026 五个公开场合保持一致；Vera Rubin 平台由七款芯片（Rubin GPU、Vera CPU、NVLink 6 交换机、ConnectX-9 SuperNIC、BlueField-4 DPU、Spectrum-6 交换机、Groq 3 LPU）和五种机架规模系统组成，其中 Groq 来自 2025年12月与英伟达的非独家技术授权而非全资收购；1 GW AI 工厂起步造价数百亿美元，2027 年 Blackwell 加 Vera Rubin 订单指引至少一万亿美元，摩根大通与高盛同期对全球 AI 资本支出的预期约六千到七千亿美元，存在三千到四千亿美元缺口。该框架是产业工程与商业叙事，不是中立学术定义；厂商性能倍数与订单指引均为官方口径，不外推为独立验证增长。**截至：2026-08-04；置信度：NVIDIA 官方 + 5 场合一致已确认；资本支出缺口为多源比较。** https://blogs.nvidia.com/blog/davos-wef-blackrock-ceo-larry-fink-jensen-huang/ ；https://www.nvidia.com/en-us/gtc/keynote/?video=7 ；https://blogs.nvidia.com/blog/ai-factories-the-new-infrastructure-of-intelligence/
 
@@ -292,7 +333,7 @@
 
 [^p7-ascend-day0]: 华为，*昇腾 Atlas 950 超节点与 910C 量产*，2026年4月24日 数字中国峰会；寒武纪，*思元 590 / 思元 690 Day 0 适配 DeepSeek-V3.2 / V4 / GLM-5 / 商汤 SenseNova U1*，公司公告，2026年4月24日；DeepSeek-AI，*DeepSeek-V4 Technical Report*，2026年4月24日；智源，*FlagOS 2.0 与燎原计划*，2026年3月27日发布、2026年7月中国互联网大会发起；平头哥，*T-Head SAIL 全面开源公告*，2026年7月18日 WAIC 2026。2026年4月24日 DeepSeek-V4 发布当天，昇腾、寒武纪、海光、平头哥、摩尔线程、沐曦、昆仑芯、天数智芯 8 家国产芯片首次实现"模型 Day 0 全链路集体适配"；华为昇腾 910C 千卡完成 V4-Pro 1.6 万亿参数 1 500 步全参数后训练、零中断、MFU 超百分之三十。配套软件层由智源 FlagOS 2.0、华为 CANN 开源、平头哥 SAIL 三条主线推进，统一约 18 家厂商 32 款芯片的接口；但硬件互联仍分立（昇腾灵衢、平头哥 ALink、寒武纪 MLU-Link、海光 RCCl 各跑各的），且训练侧生产环境长期稳定性与跨厂商效率仍缺独立第三方基准。"Day 0 全链路集体适配"被国产追平的部分是 2026-04 的发布口径，仍待第三方独立验证训练长稳与跨厂商互连；不证明已经替代 NVIDIA CUDA 生态。**截至：2026-08-04；置信度：8 厂集体适配已确认；训练长稳与跨厂商互连待独立基准。** https://www.huawei.com/cn/products/computing/ascend ；https://www.cambricon.com/news ；https://github.com/deepseek-ai/DeepSeek-V4 ；https://flagopen.baai.ac.cn/
 
-## 第十章　AI Native原生组织
+## 第十章　AI原生组织
 
 [^p10-individual-ai]: Eleanor W. Dillon、Sonia Jaffe、Nicole Immorlica、Christopher T. Stanton，*Shifting Work Patterns with Generative AI*，NBER Working Paper 33795，2025年5月，2025年11月修订。研究在66家企业对7,137名知识工作者开展六个月随机实验；获得嵌入办公软件的生成式AI后，处理组中实际使用工具的80%员工每周少花约两小时处理邮件，也减少了常规时间之外的工作，但研究未观察到任务数量或构成的显著变化。部分作者当时受雇于Microsoft；论文说明Microsoft只做隐私审查，作者保留结果裁量。正文只据此区分个人提效与组织重构，不外推长期生产率。**截至：2026-08-06；置信度：预注册企业现场实验，工具与任务范围有限。** https://www.nber.org/papers/w33795
 

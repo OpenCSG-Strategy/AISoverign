@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<title>图5-4 记忆是帮助也是解释权：3 类对象 × 3 道边界</title><desc>《AI主权》原创信息图，v0.1，2026-08-06。把"个人记忆"画成 3 类对象（本人事实 / 系统提取的偏好 / 模型生成的推断）× 3 道边界（时间 / 场景 / 解释），并强调"AI 解释一个人是谁的权力"是新的权力。数据来源：第五章 05.2 正文。</desc>
+<rect width="100%" height="100%" fill="#fbfaf7"/>
+<style>text{font-family:Noto Sans CJK SC, PingFang SC, sans-serif;fill:#1f2933}
+.title{font-size:32px;font-weight:700}
+.label{font-size:22px;font-weight:700}
+.small{font-size:16px}
+.tiny{font-size:14px}
+.num{font-size:34px;font-weight:700;fill:#1f4e79}
+.box{stroke:#34495e;stroke-width:2;rx:12}
+.muted{fill:#f0eee8}
+.accent{fill:#dbeafe}
+.warm{fill:#fef3c7}
+.green{fill:#dcfce7}
+.line{stroke:#506273;stroke-width:3;fill:none}
+.thin{stroke:#506273;stroke-width:1.5;fill:none}
+</style>
+
+<text x="60" y="55" class="title" text-anchor="start">图5-4　记忆是帮助也是解释权：3 类对象 × 3 道边界</text>
+<text x="800" y="100" class="label" text-anchor="middle">AI 把记忆变成可检索 / 可关联 / 可调用的对象 —— 解释一个人是谁的权力</text>
+
+<!-- 左侧：3 类对象 -->
+<rect x="60" y="140" width="700" height="600" class="box accent"/>
+<text x="410" y="180" class="label" text-anchor="middle">3 类对象（可靠度与有效期不同）</text>
+<line x1="100" y1="200" x2="720" y2="200" class="thin"/>
+
+<rect x="100" y="220" width="620" height="120" class="box accent"/>
+<text x="140" y="260" class="num" text-anchor="start">A</text>
+<text x="200" y="260" class="label" text-anchor="start">本人提供的事实</text>
+<line x1="140" y1="280" x2="680" y2="280" class="thin"/>
+<text x="140" y="305" class="small" text-anchor="start">日记 / 邮件 / 通话记录 / 输入的偏好</text>
+<text x="140" y="328" class="tiny" text-anchor="start" fill="#1f4e79" font-weight="700">最可靠，但需注明日期 / 来源 / 场景</text>
+
+<rect x="100" y="370" width="620" height="120" class="box warm"/>
+<text x="140" y="410" class="num" text-anchor="start">B</text>
+<text x="200" y="410" class="label" text-anchor="start">系统从行为中提取的偏好</text>
+<line x1="140" y1="430" x2="680" y2="430" class="thin"/>
+<text x="140" y="455" class="small" text-anchor="start">点击历史 / 浏览 / 停留 / 反馈</text>
+<text x="140" y="478" class="tiny" text-anchor="start" fill="#1f4e79" font-weight="700">可能混入"那一时刻的我"，不应=稳定的"我"</text>
+
+<rect x="100" y="520" width="620" height="160" class="box green"/>
+<text x="140" y="560" class="num" text-anchor="start" fill="#7c2d12">C</text>
+<text x="200" y="560" class="label" text-anchor="start" fill="#7c2d12">模型生成的推断</text>
+<line x1="140" y1="580" x2="680" y2="580" class="thin"/>
+<text x="140" y="605" class="small" text-anchor="start">"你似乎更喜欢 A"</text>
+<text x="140" y="628" class="small" text-anchor="start">"你可能属于 X 类型"</text>
+<text x="140" y="655" class="small" text-anchor="start" fill="#7c2d12" font-weight="700">最不可靠 → 不应永久决定未来选项</text>
+<text x="140" y="675" class="tiny" text-anchor="start" fill="#8795a1">旧偏好 → 推荐 → 强化 → 自我重复</text>
+
+<!-- 右侧：3 道边界 -->
+<rect x="780" y="140" width="760" height="600" class="box warm"/>
+<text x="1160" y="180" class="label" text-anchor="middle">3 道边界（个人记忆需要）</text>
+<line x1="820" y1="200" x2="1500" y2="200" class="thin"/>
+
+<rect x="820" y="220" width="680" height="120" class="box warm"/>
+<text x="860" y="260" class="num" text-anchor="start">①</text>
+<text x="920" y="260" class="label" text-anchor="start">时间边界</text>
+<line x1="860" y1="280" x2="1460" y2="280" class="thin"/>
+<text x="860" y="305" class="small" text-anchor="start">事实有保质期 / 偏好会变化 / 过期信息应被更新或遗忘</text>
+<text x="860" y="328" class="tiny" text-anchor="start" fill="#1f4e79" font-weight="700">不是"存得越多越好"</text>
+
+<rect x="820" y="370" width="680" height="120" class="box green"/>
+<text x="860" y="410" class="num" text-anchor="start">②</text>
+<text x="920" y="410" class="label" text-anchor="start">场景边界</text>
+<line x1="860" y1="430" x2="1460" y2="430" class="thin"/>
+<text x="860" y="455" class="small" text-anchor="start">工作助手知道的，不应自然流向健康助手</text>
+<text x="860" y="478" class="small" text-anchor="start">家庭记录也不该默认进入商业任务</text>
+
+<rect x="820" y="520" width="680" height="160" class="box accent"/>
+<text x="860" y="560" class="num" text-anchor="start" fill="#7c2d12">③</text>
+<text x="920" y="560" class="label" text-anchor="start" fill="#7c2d12">解释边界</text>
+<line x1="860" y1="580" x2="1460" y2="580" class="thin"/>
+<text x="860" y="605" class="small" text-anchor="start">AI 可提出"你似乎更喜欢 A"</text>
+<text x="860" y="628" class="small" text-anchor="start">却不能把推断当成事实</text>
+<text x="860" y="655" class="small" text-anchor="start" fill="#7c2d12" font-weight="700">不能让一次推断永久决定未来的选项</text>
+<text x="860" y="675" class="tiny" text-anchor="start" fill="#8795a1">人有权成长，有权与过去不完全一致</text>
+
+<!-- 底部 -->
+<rect x="60" y="770" width="1480" height="100" class="box muted"/>
+<text x="800" y="810" class="label" text-anchor="middle">记忆的目标不是完整记录一个人，而是避免过时数据持续替今天的使用者作决定</text>
+<line x1="100" y1="830" x2="1500" y2="830" class="thin"/>
+<text x="800" y="855" class="small" text-anchor="middle" fill="#7c2d12" font-weight="700">仓库 → 花园：选择、修剪、重新栽种；决定什么值得留下的人仍是自己</text>
+
+<text x="60" y="895" class="tiny">原创信息图 · v0.1 · 2026-08-06 · 适配单色印刷 · 第五章 05.2 正文</text>
+</svg>

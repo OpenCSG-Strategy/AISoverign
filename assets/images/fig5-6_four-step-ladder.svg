@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<title>图5-6 从回答到代表你行动：4 级代理阶梯</title><desc>《AI主权》原创信息图，v0.1，2026-08-06。把"代理阶梯"画成 4 级垂直流：阅读 → 建议 → 代办 → 代理。每升一级，人与现实结果之间多一段由机器解释的距离。原则：行动越难撤回，授权越接近当下。数据来源：第五章 05.5 正文。</desc>
+<rect width="100%" height="100%" fill="#fbfaf7"/>
+<style>text{font-family:Noto Sans CJK SC, PingFang SC, sans-serif;fill:#1f2933}
+.title{font-size:32px;font-weight:700}
+.label{font-size:22px;font-weight:700}
+.small{font-size:16px}
+.tiny{font-size:14px}
+.num{font-size:34px;font-weight:700;fill:#1f4e79}
+.box{stroke:#34495e;stroke-width:2;rx:12}
+.muted{fill:#f0eee8}
+.accent{fill:#dbeafe}
+.warm{fill:#fef3c7}
+.green{fill:#dcfce7}
+.line{stroke:#506273;stroke-width:3;fill:none}
+.thin{stroke:#506273;stroke-width:1.5;fill:none}
+</style>
+<defs><marker id="arrow" markerWidth="14" markerHeight="14" refX="11" refY="7" orient="auto"><path d="M0,0 L14,7 L0,14 z" fill="#506273"/></marker></defs>
+
+<text x="60" y="55" class="title" text-anchor="start">图5-6　从回答到代表你行动：4 级代理阶梯</text>
+<text x="800" y="100" class="label" text-anchor="middle">便利每上升一级，人的意图与现实结果之间就多一段由机器解释的距离</text>
+
+<!-- 4 级 -->
+<g>
+  <rect x="60" y="160" width="1480" height="110" class="box accent"/>
+  <text x="120" y="200" class="num" text-anchor="start">①</text>
+  <text x="180" y="200" class="label" text-anchor="start">阅读（看资料，不改变）</text>
+  <line x1="100" y1="220" x2="1500" y2="220" class="thin"/>
+<text x="120" y="245" class="small" text-anchor="start">AI 读取资料、生成草稿，输出停在屏幕上</text>
+<text x="120" y="263" class="tiny" text-anchor="start" fill="#8795a1">错了关闭窗口 → 最安全的级别</text>
+
+  <path d="M800,270 L800,295" class="line" marker-end="url(#arrow)"/>
+
+  <rect x="60" y="300" width="1480" height="110" class="box warm"/>
+  <text x="120" y="340" class="num" text-anchor="start">②</text>
+  <text x="180" y="340" class="label" text-anchor="start">建议（提出下一步）</text>
+  <line x1="100" y1="360" x2="1500" y2="360" class="thin"/>
+<text x="120" y="385" class="small" text-anchor="start">AI 给方案 / 候选 / 排序，行动由人完成</text>
+<text x="120" y="403" class="tiny" text-anchor="start" fill="#8795a1">可能影响判断，但不会自动落现实</text>
+
+  <path d="M800,410 L800,435" class="line" marker-end="url(#arrow)"/>
+
+  <rect x="60" y="440" width="1480" height="110" class="box green"/>
+  <text x="120" y="480" class="num" text-anchor="start">③</text>
+  <text x="180" y="480" class="label" text-anchor="start">代办（明确范围，关键节点确认）</text>
+  <line x1="100" y1="500" x2="1500" y2="500" class="thin"/>
+<text x="120" y="525" class="small" text-anchor="start">创建文件 / 修改日历 / 发送草稿 / 准备订单</text>
+<text x="120" y="543" class="tiny" text-anchor="start" fill="#8795a1">语言 → 现实；可逆动作 OK，不可逆要回询</text>
+
+  <path d="M800,550 L800,575" class="line" marker-end="url(#arrow)"/>
+
+  <rect x="60" y="580" width="1480" height="110" class="box accent"/>
+  <text x="120" y="620" class="num" text-anchor="start" fill="#7c2d12">④</text>
+  <text x="180" y="620" class="label" text-anchor="start" fill="#7c2d12">代理（围绕目标连续行动）</text>
+  <line x1="100" y1="640" x2="1500" y2="640" class="thin"/>
+<text x="120" y="665" class="small" text-anchor="start">自行拆步骤 / 选工具 / 与其他系统交互 / 仅遇例外回询</text>
+<text x="120" y="683" class="small" text-anchor="start" fill="#7c2d12" font-weight="700">代表本人发言 / 接受医疗 / 法律决定 → 不应进这一级</text>
+</g>
+
+<!-- 底部：原则 -->
+<rect x="60" y="720" width="1480" height="150" class="box muted"/>
+<text x="800" y="760" class="label" text-anchor="middle" fill="#7c2d12">行动越难撤回 → 授权越接近当下</text>
+<line x1="100" y1="780" x2="1500" y2="780" class="thin"/>
+<text x="100" y="815" class="num" text-anchor="start" fill="#1f4e79">可长期授权</text>
+<text x="280" y="815" class="small" text-anchor="start">读取公开网页 / 整理资料</text>
+<text x="800" y="815" class="num" text-anchor="start" fill="#1f4e79">项目内授权</text>
+<text x="980" y="815" class="small" text-anchor="start">修改草稿 / 准备订单</text>
+<text x="100" y="843" class="num" text-anchor="start" fill="#7c2d12">逐次确认</text>
+<text x="280" y="843" class="small" text-anchor="start">公开发布 / 价格 / 道歉</text>
+<text x="800" y="843" class="num" text-anchor="start" fill="#7c2d12">新具体同意</text>
+<text x="980" y="843" class="small" text-anchor="start">向陌生对象付款</text>
+
+<text x="60" y="880" class="tiny">原创信息图 · v0.1 · 2026-08-06 · 适配单色印刷 · 第五章 05.5 正文</text>
+</svg>

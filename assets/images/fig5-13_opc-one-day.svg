@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<title>图5-13 OPC 的一天：效率如何变成秩序</title><desc>《AI主权》原创信息图，v0.1，2026-08-06。上半：5 个助手 × 时间轴（研究/项目/财务/写作/发布），每个助手权限只够自家事。下半：一人董事会的 3 件事 — 多视角对冲 / 身份与权限分开 / 什么时候招真人。原则：效率不等于秩序；让不同角色只看各自需要的信息。数据来源：第五章正文 05.13。</desc>
+<rect width="100%" height="100%" fill="#fbfaf7"/>
+<style>text{font-family:Noto Sans CJK SC, PingFang SC, sans-serif;fill:#1f2933}
+.title{font-size:32px;font-weight:700}
+.label{font-size:22px;font-weight:700}
+.small{font-size:16px}
+.tiny{font-size:14px}
+.num{font-size:34px;font-weight:700;fill:#1f4e79}
+.box{stroke:#34495e;stroke-width:2;rx:12}
+.muted{fill:#f0eee8}
+.accent{fill:#dbeafe}
+.warm{fill:#fef3c7}
+.green{fill:#dcfce7}
+.line{stroke:#506273;stroke-width:3;fill:none}
+.thin{stroke:#506273;stroke-width:1.5;fill:none}
+</style>
+<defs><marker id="arrow" markerWidth="12" markerHeight="12" refX="11" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 z" fill="#1f4e79"/></marker></defs>
+
+<text x="60" y="55" class="title" text-anchor="start">图5-13　OPC 的一天：效率如何变成秩序</text>
+<text x="800" y="100" class="label" text-anchor="middle">不同角色只看各自需要的信息 · 高影响动作停在人前 · 资产留在共同底座</text>
+
+<!-- 上半：5 助手 × 时间轴 -->
+<g>
+  <text x="60" y="140" class="label" text-anchor="start" fill="#1f4e79">A · 5 个助手 × 1 天的秩序</text>
+
+  <!-- 时间轴 -->
+  <line x1="160" y1="175" x2="1500" y2="175" class="line"/>
+  <text x="80"  y="180" class="small" text-anchor="end" fill="#1f4e79" font-weight="700">时间</text>
+  <text x="200" y="195" class="small" text-anchor="middle" fill="#8795a1">08:00</text>
+  <text x="450" y="195" class="small" text-anchor="middle" fill="#8795a1">09:00</text>
+  <text x="800" y="195" class="small" text-anchor="middle" fill="#8795a1">12:00</text>
+  <text x="1150" y="195" class="small" text-anchor="middle" fill="#8795a1">14:00</text>
+  <text x="1450" y="195" class="small" text-anchor="middle" fill="#8795a1">20:00</text>
+
+  <!-- 助手 1：研究助手 -->
+  <rect x="100" y="220" width="220" height="120" class="box accent"/>
+  <text x="210" y="250" class="label" text-anchor="middle" fill="#1f4e79">① 研究助手</text>
+  <text x="210" y="280" class="small" text-anchor="middle">订阅源 + 指定研究文件夹</text>
+  <text x="210" y="305" class="small" text-anchor="middle" fill="#7c2d12" font-weight="700">不进客户目录</text>
+  <text x="210" y="328" class="tiny" text-anchor="middle" fill="#8795a1">未确认说法进"待核验"</text>
+
+  <!-- 助手 2：项目助手 -->
+  <rect x="350" y="220" width="220" height="120" class="box warm"/>
+  <text x="460" y="250" class="label" text-anchor="middle" fill="#7c2d12">② 项目助手</text>
+  <text x="460" y="280" class="small" text-anchor="middle">更新任务板</text>
+  <text x="460" y="305" class="small" text-anchor="middle" fill="#7c2d12" font-weight="700">价格 / 期限 / 版权 = 草稿</text>
+  <text x="460" y="328" class="tiny" text-anchor="middle" fill="#8795a1">不能自动接新工作范围</text>
+
+  <!-- 助手 3：财务助手 -->
+  <rect x="700" y="220" width="220" height="120" class="box green"/>
+  <text x="810" y="250" class="label" text-anchor="middle" fill="#7c2d12">③ 财务助手</text>
+  <text x="810" y="280" class="small" text-anchor="middle">到期发票 + 提醒邮件</text>
+  <text x="810" y="305" class="small" text-anchor="middle" fill="#7c2d12" font-weight="700">不看私人账户</text>
+  <text x="810" y="328" class="tiny" text-anchor="middle" fill="#8795a1">不能改收款信息</text>
+
+  <!-- 助手 4：写作助手 -->
+  <rect x="1050" y="220" width="220" height="120" class="box accent"/>
+  <text x="1160" y="250" class="label" text-anchor="middle" fill="#1f4e79">④ 写作助手</text>
+  <text x="1160" y="280" class="small" text-anchor="middle">本项目访谈 + 自己笔记</text>
+  <text x="1160" y="305" class="small" text-anchor="middle" fill="#7c2d12" font-weight="700">不读私人日记</text>
+  <text x="1160" y="328" class="tiny" text-anchor="middle" fill="#8795a1">生成结构，由人重写</text>
+
+  <!-- 助手 5：发布助手 -->
+  <rect x="1350" y="220" width="200" height="120" class="box warm"/>
+  <text x="1450" y="250" class="label" text-anchor="middle" fill="#7c2d12">⑤ 发布助手</text>
+  <text x="1450" y="280" class="small" text-anchor="middle">链接 + 配图 + 错别字</text>
+  <text x="1450" y="305" class="small" text-anchor="middle" fill="#7c2d12" font-weight="700">发布需本人点</text>
+  <text x="1450" y="328" class="tiny" text-anchor="middle" fill="#8795a1">记录最终版本 + 原因</text>
+
+  <!-- 时间箭头 -->
+  <path d="M340,280 L350,280" class="line" marker-end="url(#arrow)"/>
+  <path d="M690,280 L700,280" class="line" marker-end="url(#arrow)"/>
+  <path d="M1040,280 L1050,280" class="line" marker-end="url(#arrow)"/>
+  <path d="M1340,280 L1350,280" class="line" marker-end="url(#arrow)"/>
+
+  <!-- 底部论断 -->
+  <text x="800" y="385" class="small" text-anchor="middle" fill="#1f4e79" font-weight="700">不同角色只看各自需要的信息；高影响动作停在人前；任何一个助手离开都能被替换</text>
+  <text x="800" y="412" class="tiny" text-anchor="middle" fill="#8795a1">工具堆追求局部速度；OPC 需要经营连续性</text>
+</g>
+
+<!-- 下半：一人董事会的 3 件事 -->
+<g>
+  <line x1="60" y1="440" x2="1540" y2="440" class="line"/>
+  <text x="60" y="475" class="label" text-anchor="start" fill="#1f4e79">B · 一人公司的董事会：3 件事</text>
+
+  <rect x="60"  y="495" width="490" height="220" class="box accent"/>
+  <text x="100" y="525" class="num" text-anchor="start">①</text>
+  <text x="160" y="525" class="label" text-anchor="start">有意识地制造不同声音</text>
+  <text x="80"  y="565" class="small" text-anchor="start" fill="#1f4e79">· 一个找支持证据，一个找失败条件</text>
+  <text x="80"  y="590" class="small" text-anchor="start" fill="#1f4e79">· 一个从客户视角，一个从现金流 / 法律</text>
+  <text x="80"  y="620" class="small" text-anchor="start" fill="#7c2d12">不要求 AI 投票出真理</text>
+  <text x="80"  y="645" class="small" text-anchor="start" fill="#7c2d12">价值在延缓过早收敛</text>
+  <text x="80"  y="680" class="tiny" text-anchor="start" fill="#8795a1">多角色可能共享同样盲点</text>
+  <text x="80"  y="700" class="tiny" text-anchor="start" fill="#8795a1">其作用是迫使看见被忽略的代价</text>
+
+  <rect x="555" y="495" width="490" height="220" class="box warm"/>
+  <text x="595" y="525" class="num" text-anchor="start">②</text>
+  <text x="655" y="525" class="label" text-anchor="start">身份与权限分开</text>
+  <text x="575" y="565" class="small" text-anchor="start" fill="#1f4e79">· 身份账户 / 知识库 / 自动化平台 / 支付</text>
+  <text x="575" y="590" class="small" text-anchor="start" fill="#7c2d12">不要绑定在同一条链路中</text>
+  <text x="575" y="620" class="small" text-anchor="start" fill="#7c2d12">· 付款与对外承诺独立确认</text>
+  <text x="575" y="645" class="small" text-anchor="start" fill="#7c2d12">· 关键数据 / 流程存在平台外备份</text>
+  <text x="575" y="680" class="tiny" text-anchor="start" fill="#8795a1">传统公司韧性来自冗余</text>
+  <text x="575" y="700" class="tiny" text-anchor="start" fill="#8795a1">OPC 必须把韧性设计进去</text>
+
+  <rect x="1050" y="495" width="490" height="220" class="box green"/>
+  <text x="1090" y="525" class="num" text-anchor="start">③</text>
+  <text x="1150" y="525" class="label" text-anchor="start">什么时候招一个真人</text>
+  <text x="1070" y="565" class="small" text-anchor="start" fill="#1f4e79">· 客户危机需要"理解历史的人"</text>
+  <text x="1070" y="590" class="small" text-anchor="start" fill="#1f4e79">· 安全 / 合规不能只靠深夜抽查</text>
+  <text x="1070" y="620" class="small" text-anchor="start" fill="#7c2d12" font-weight="700">· 决定都汇集到同一个人 = 自动化藏深瓶颈</text>
+  <text x="1070" y="660" class="small" text-anchor="start" fill="#7c2d12">合适的 AgenticOps 动作 =</text>
+  <text x="1070" y="685" class="small" text-anchor="start" fill="#7c2d12">邀请真人建立交叉检查 + 替代责任</text>
+  <text x="1070" y="710" class="tiny" text-anchor="start" fill="#8795a1">OPC 是一种组织选择，不必永久维持</text>
+</g>
+
+<!-- 底部论断 -->
+<g>
+  <line x1="60" y1="740" x2="1540" y2="740" class="line"/>
+  <text x="800" y="780" class="label" text-anchor="middle" fill="#1f4e79">一人公司的董事会最终仍只有一个有责任能力的成员：创始人本人</text>
+  <text x="800" y="810" class="small" text-anchor="middle">数字角色可以提出异议，却不能替他承担承诺</text>
+  <text x="800" y="838" class="small" text-anchor="middle" fill="#7c2d12" font-weight="700">AI 应当让人更自由地选择公司规模，而不是让"一人完成一切"成为新的绩效压力</text>
+</g>
+
+<text x="60" y="895" class="tiny">原创信息图 · v0.1 · 2026-08-06 · 适配单色印刷 · 第五章正文 05.13</text>
+</svg>

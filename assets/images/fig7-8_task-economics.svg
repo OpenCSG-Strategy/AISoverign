@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<title>图7-8 三层成本 + 长链任务扩散 + 4 项结算</title><desc>《AI主权》原创信息图，v0.1，2026-08-06。把"Token 成本 → 任务经济学"画成 3 层成本（资源账 / 任务账 / 结果账）+ 长链 Agent 成本扩散 + 硬约束/优化区分 + 4 项可信任务结算条件。便宜不等于价值，结算单位不只计量输入输出。数据来源：第七章正文 07.7。</desc>
+<rect width="100%" height="100%" fill="#fbfaf7"/>
+<style>text{font-family:Noto Sans CJK SC, PingFang SC, sans-serif;fill:#1f2933}
+.title{font-size:32px;font-weight:700}
+.label{font-size:22px;font-weight:700}
+.small{font-size:16px}
+.tiny{font-size:14px}
+.num{font-size:30px;font-weight:700;fill:#1f4e79}
+.box{stroke:#34495e;stroke-width:2;rx:12}
+.muted{fill:#f0eee8}
+.accent{fill:#dbeafe}
+.warm{fill:#fef3c7}
+.green{fill:#dcfce7}
+.red{fill:#fee2e2}
+.line{stroke:#506273;stroke-width:3;fill:none}
+.thin{stroke:#506273;stroke-width:1.5;fill:none}
+</style>
+
+<text x="60" y="55" class="title" text-anchor="start">图7-8　三层成本 + 长链任务扩散 + 4 项结算</text>
+<text x="800" y="100" class="label" text-anchor="middle" fill="#1f4e79">Token 适合计量输入输出 — 不适合单独衡量企业 AI 价值</text>
+
+<!-- 3 层成本 -->
+<g>
+  <line x1="60" y1="125" x2="1540" y2="125" class="line"/>
+  <text x="800" y="160" class="label" text-anchor="middle">企业 AI 真正支付的 — 完整任务成本</text>
+
+  <rect x="60"  y="190" width="490" height="180" class="box accent"/>
+  <text x="100" y="230" class="num" text-anchor="start" fill="#1f4e79">L1 资源账</text>
+  <text x="100" y="265" class="small" text-anchor="start" font-weight="700">适合优化生产</text>
+  <text x="100" y="295" class="small" text-anchor="start">· Token（输入 / 输出 / 缓存）</text>
+  <text x="100" y="320" class="small" text-anchor="start">· GPU 时间 / 存储 / 搜索</text>
+  <text x="100" y="345" class="small" text-anchor="start">· 工具调用 + 人工分钟</text>
+  <text x="100" y="370" class="tiny" text-anchor="start" fill="#1f4e79">直接计量模型在做什么</text>
+
+  <rect x="570" y="190" width="490" height="180" class="box warm"/>
+  <text x="610" y="230" class="num" text-anchor="start" fill="#7c2d12">L2 任务账</text>
+  <text x="610" y="265" class="small" text-anchor="start" font-weight="700">适合比较系统</text>
+  <text x="610" y="295" class="small" text-anchor="start">· 一项任务从接收 → 完成</text>
+  <text x="610" y="320" class="small" text-anchor="start">· 成功率 / 时延 / 重试</text>
+  <text x="610" y="345" class="small" text-anchor="start">· 总成本</text>
+  <text x="610" y="370" class="tiny" text-anchor="start" fill="#7c2d12">包含中间状态 + 真实结果</text>
+
+  <rect x="1080" y="190" width="460" height="180" class="box green"/>
+  <text x="1120" y="230" class="num" text-anchor="start" fill="#1f4e79">L3 结果账</text>
+  <text x="1120" y="265" class="small" text-anchor="start" font-weight="700">才接近企业价值</text>
+  <text x="1120" y="295" class="small" text-anchor="start">· 任务是否真解决问题</text>
+  <text x="1120" y="320" class="small" text-anchor="start">· 是否减少返工</text>
+  <text x="1120" y="345" class="small" text-anchor="start">· 是否造成投诉 / 错误付款</text>
+  <text x="1120" y="370" class="tiny" text-anchor="start" fill="#1f4e79">衡量是否被业务采用</text>
+</g>
+
+<!-- 中部：长链扩散 + 硬约束 -->
+<g>
+  <line x1="60" y1="400" x2="1540" y2="400" class="line"/>
+  <text x="800" y="435" class="label" text-anchor="middle">长链 Agent 成本扩散 + 硬约束</text>
+
+  <rect x="60"  y="470" width="730" height="180" class="box warm"/>
+  <text x="100" y="508" class="label" text-anchor="start">链式特征</text>
+  <text x="100" y="538" class="small" text-anchor="start">· 规划错误 → 更多搜索</text>
+  <text x="100" y="563" class="small" text-anchor="start">· 错误搜索 → 更多核验</text>
+  <text x="100" y="588" class="small" text-anchor="start">· 工具失败 → 重试 + 费用</text>
+  <text x="100" y="618" class="small" text-anchor="start" fill="#7c2d12">"成功假象"：报告完整但结论无法使用</text>
+  <text x="100" y="640" class="tiny" text-anchor="start">→ 返工隐藏在另一个系统里</text>
+
+  <rect x="810" y="470" width="730" height="180" class="box green"/>
+  <text x="850" y="508" class="label" text-anchor="start">先硬约束 + 再优化</text>
+  <text x="850" y="538" class="small" text-anchor="start" font-weight="700">硬约束先形成合法候选集：</text>
+  <text x="850" y="563" class="small" text-anchor="start">· 数据级别 / 用途 / 身份 / 地域</text>
+  <text x="850" y="588" class="small" text-anchor="start">· 允许副作用 / 预算上限 / 必要批准</text>
+  <text x="850" y="613" class="small" text-anchor="start" fill="#1f4e79">在候选集中按真实评测取舍</text>
+  <text x="850" y="640" class="tiny" text-anchor="start" fill="#7c2d12">安全边界不是"被更高质量抵消的负分项"</text>
+</g>
+
+<!-- 4 项结算条件 -->
+<g>
+  <line x1="60" y1="680" x2="1540" y2="680" class="line"/>
+  <text x="800" y="715" class="label" text-anchor="middle">可信任务结算 4 项条件 — Token 与 Credits 不同的原因</text>
+
+  <rect x="60"  y="745" width="350" height="125" class="box accent"/>
+  <text x="100" y="782" class="label" text-anchor="start" fill="#1f4e79">① 兑换透明</text>
+  <text x="100" y="810" class="small" text-anchor="start">· 1 单位 Credits 能买什么</text>
+  <text x="100" y="835" class="small" text-anchor="start">· 模型 / 工具 / 数据 / 人工</text>
+  <text x="100" y="860" class="small" text-anchor="start">· 规则变化可追溯</text>
+
+  <rect x="425" y="745" width="350" height="125" class="box accent"/>
+  <text x="465" y="782" class="label" text-anchor="start" fill="#1f4e79">② 结果可验</text>
+  <text x="465" y="810" class="small" text-anchor="start">· 谁定义完成</text>
+  <text x="465" y="835" class="small" text-anchor="start">· 失败 / 部分 / 争议</text>
+  <text x="465" y="860" class="small" text-anchor="start">· 证据</text>
+
+  <rect x="790" y="745" width="350" height="125" class="box accent"/>
+  <text x="830" y="782" class="label" text-anchor="start" fill="#1f4e79">③ 预算可执行</text>
+  <text x="830" y="810" class="small" text-anchor="start">· 明确额度 / 用途 / 时间</text>
+  <text x="830" y="835" class="small" text-anchor="start">· 超限必须停止或重新授权</text>
+  <text x="830" y="860" class="small" text-anchor="start">· 资源是权限的一部分</text>
+
+  <rect x="1155" y="745" width="385" height="125" class="box accent"/>
+  <text x="1195" y="782" class="label" text-anchor="start" fill="#1f4e79">④ 账本可迁移</text>
+  <text x="1195" y="810" class="small" text-anchor="start">· 任务 / 费用 / 履约证据可导出</text>
+  <text x="1195" y="835" class="small" text-anchor="start">· 不成为新退出壁垒</text>
+  <text x="1195" y="860" class="small" text-anchor="start">· 离开后记录仍成立</text>
+</g>
+
+<text x="60" y="895" class="tiny">原创信息图 · v0.1 · 2026-08-06 · 适配单色印刷 · 第七章正文 07.7</text>
+</svg>

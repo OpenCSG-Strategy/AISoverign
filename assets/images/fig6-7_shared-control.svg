@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<title>图6-7 共享控制面 7 项公共能力 + 跨域凭证</title><desc>《AI主权》原创信息图，v0.1，2026-08-06。把"共享控制面"按 7 项公共能力画出：身份 / 目录 / 契约 / 策略 / 模型登记 / 任务路由 / 状态审计。明确不应默认保留的内容（提示 / 检索 / 凭证）。共同底线 + 本地收紧原则。数据来源：第六章正文 06.7。</desc>
+<rect width="100%" height="100%" fill="#fbfaf7"/>
+<style>text{font-family:Noto Sans CJK SC, PingFang SC, sans-serif;fill:#1f2933}
+.title{font-size:32px;font-weight:700}
+.label{font-size:22px;font-weight:700}
+.small{font-size:16px}
+.tiny{font-size:14px}
+.num{font-size:30px;font-weight:700;fill:#1f4e79}
+.box{stroke:#34495e;stroke-width:2;rx:12}
+.muted{fill:#f0eee8}
+.accent{fill:#dbeafe}
+.warm{fill:#fef3c7}
+.green{fill:#dcfce7}
+.red{fill:#fee2e2}
+.line{stroke:#506273;stroke-width:3;fill:none}
+.thin{stroke:#506273;stroke-width:1.5;fill:none}
+</style>
+
+<text x="60" y="55" class="title" text-anchor="start">图6-7　共享控制面 7 项公共能力</text>
+<text x="800" y="100" class="label" text-anchor="middle" fill="#1f4e79">说同一种控制语言 — 不吞并所有数据与执行权</text>
+
+<!-- 7 项公共能力 (4+3 排布) -->
+<g>
+  <line x1="60" y1="125" x2="1540" y2="125" class="line"/>
+  <text x="800" y="160" class="label" text-anchor="middle">控制面应提供的 7 项公共能力</text>
+
+  <rect x="60"  y="190" width="350" height="150" class="box green"/>
+  <text x="100" y="230" class="num" text-anchor="start">①</text>
+  <text x="155" y="230" class="label" text-anchor="start">统一身份 + 信任根</text>
+  <text x="100" y="265" class="small" text-anchor="start">人 / 智能体 / 工作负载</text>
+  <text x="100" y="290" class="small" text-anchor="start">身份 + 凭证 + 撤销</text>
+  <text x="100" y="320" class="tiny" text-anchor="start" fill="#1f4e79">不是集中密钥</text>
+
+  <rect x="425" y="190" width="350" height="150" class="box green"/>
+  <text x="465" y="230" class="num" text-anchor="start">②</text>
+  <text x="520" y="230" class="label" text-anchor="start">能力目录</text>
+  <text x="465" y="265" class="small" text-anchor="start">· 公开层 / 受控层</text>
+  <text x="465" y="290" class="small" text-anchor="start">· 不公开内部细节</text>
+  <text x="465" y="320" class="tiny" text-anchor="start" fill="#1f4e79">不替组织决定信任</text>
+
+  <rect x="790" y="190" width="350" height="150" class="box green"/>
+  <text x="830" y="230" class="num" text-anchor="start">③</text>
+  <text x="885" y="230" class="label" text-anchor="start">协议 + 数据契约注册</text>
+  <text x="830" y="265" class="small" text-anchor="start">· A2A / MCP / OTel</text>
+  <text x="830" y="290" class="small" text-anchor="start">· 字段含义 / 用途</text>
+  <text x="830" y="320" class="tiny" text-anchor="start" fill="#1f4e79">机器可读 + 人员可审</text>
+
+  <rect x="1155" y="190" width="385" height="150" class="box green"/>
+  <text x="1195" y="230" class="num" text-anchor="start">④</text>
+  <text x="1250" y="230" class="label" text-anchor="start">策略模板</text>
+  <text x="1195" y="265" class="small" text-anchor="start">· 共同底线</text>
+  <text x="1195" y="290" class="small" text-anchor="start">· 本地收紧接口</text>
+  <text x="1195" y="320" class="tiny" text-anchor="start" fill="#1f4e79">部门可加严</text>
+
+  <rect x="60"  y="360" width="350" height="150" class="box green"/>
+  <text x="100" y="400" class="num" text-anchor="start">⑤</text>
+  <text x="155" y="400" class="label" text-anchor="start">模型 + 工具登记</text>
+  <text x="100" y="435" class="small" text-anchor="start">· 版本 / 评测 / 证据</text>
+  <text x="100" y="460" class="small" text-anchor="start">· 退出机制</text>
+  <text x="100" y="490" class="tiny" text-anchor="start" fill="#1f4e79">可替换 + 不锁定</text>
+
+  <rect x="425" y="360" width="350" height="150" class="box green"/>
+  <text x="465" y="400" class="num" text-anchor="start">⑥</text>
+  <text x="520" y="400" class="label" text-anchor="start">任务路由</text>
+  <text x="465" y="435" class="small" text-anchor="start">· 能力匹配</text>
+  <text x="465" y="460" class="small" text-anchor="start">· 联邦检索分发</text>
+  <text x="465" y="490" class="tiny" text-anchor="start" fill="#1f4e79">不复制原始数据</text>
+
+  <rect x="790" y="360" width="350" height="150" class="box green"/>
+  <text x="830" y="400" class="num" text-anchor="start">⑦</text>
+  <text x="885" y="400" class="label" text-anchor="start">跨域状态 + 审计索引</text>
+  <text x="830" y="435" class="small" text-anchor="start">· 任务编号</text>
+  <text x="830" y="460" class="small" text-anchor="start">· 制品哈希 + 有效期</text>
+  <text x="830" y="490" class="tiny" text-anchor="start" fill="#1f4e79">可还原 / 不必复制</text>
+</g>
+
+<!-- 中部：不应默认保留 -->
+<g>
+  <line x1="60" y1="535" x2="1540" y2="535" class="line"/>
+  <text x="800" y="570" class="label" text-anchor="middle" fill="#7c2d12">控制面不应默认保留这些</text>
+
+  <rect x="60"  y="590" width="1480" height="80" class="box red"/>
+  <text x="100" y="630" class="label" text-anchor="start" fill="#7c2d12">不应默认保留</text>
+  <text x="100" y="660" class="small" text-anchor="start">· 各部门的完整提示 / 检索片段 / 原始日志 / 永久凭证</text>
+  <text x="800" y="630" class="label" text-anchor="middle" fill="#7c2d12">也不应成为</text>
+  <text x="800" y="660" class="small" text-anchor="middle">可以绕过本地策略直接执行所有工具的超级账户</text>
+</g>
+
+<!-- 底部：原则 + 凭证 -->
+<g>
+  <line x1="60" y1="690" x2="1540" y2="690" class="line"/>
+  <text x="800" y="725" class="label" text-anchor="middle">共同底线 + 本地收紧 — 例外必有审批人 / 原因 / 范围 / 到期</text>
+
+  <rect x="60"  y="750" width="730" height="120" class="box warm"/>
+  <text x="100" y="790" class="label" text-anchor="start">共同底线</text>
+  <text x="100" y="820" class="small" text-anchor="start">· 禁止事项</text>
+  <text x="100" y="845" class="small" text-anchor="start">· 最低日志 + 身份要求</text>
+  <text x="100" y="870" class="tiny" text-anchor="start" fill="#7c2d12">部门不可降低</text>
+
+  <rect x="810" y="750" width="730" height="120" class="box green"/>
+  <text x="850" y="790" class="label" text-anchor="start">本地收紧</text>
+  <text x="850" y="820" class="small" text-anchor="start">· 部门根据专业风险加严</text>
+  <text x="850" y="845" class="small" text-anchor="start">· 可替换 / 开放接口</text>
+  <text x="850" y="870" class="tiny" text-anchor="start" fill="#1f4e79">降级路径 / 故障可恢复</text>
+</g>
+
+<text x="60" y="895" class="tiny">原创信息图 · v0.1 · 2026-08-06 · 适配单色印刷 · 第六章正文 06.7</text>
+</svg>

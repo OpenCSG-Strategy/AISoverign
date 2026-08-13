@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<title>图1-4 一枚 Token 是什么：分词示例与正反两面</title><desc>《AI主权》原创信息图，v0.1，2026-08-06。纸书黑白和彩色电子版均可使用。用真实分词示例（"我喜欢吃苹果" 与 "unbelievable"）展示 Token 不是字、不是词、不是知识、不是价值的载体；大模型最基本的运行方式是"预测下一个 Token"。数据来源：Hugging Face Tokenizers 库；OpenAI tiktoken；典型 BPE / SentencePiece 分词示例。</desc>
+<rect width="100%" height="100%" fill="#fbfaf7"/>
+<style>text{font-family:Noto Sans CJK SC, PingFang SC, sans-serif;fill:#1f2933}
+.title{font-size:32px;font-weight:700}
+.label{font-size:22px;font-weight:700}
+.small{font-size:16px}
+.tiny{font-size:14px}
+.num{font-size:22px;font-weight:700;fill:#1f4e79}
+.box{stroke:#34495e;stroke-width:2;rx:12}
+.muted{fill:#f0eee8}
+.accent{fill:#dbeafe}
+.warm{fill:#fef3c7}
+.green{fill:#dcfce7}
+.line{stroke:#506273;stroke-width:3;fill:none}
+.thin{stroke:#506273;stroke-width:1.5;fill:none}
+.tokbox{stroke:#1f4e79;stroke-width:2;rx:8;fill:#e0e7ff}
+</style>
+
+<text x="60" y="55" class="title" text-anchor="start">图1-4　一枚 Token 是什么：分词示例与正反两面</text>
+<text x="800" y="100" class="label" text-anchor="middle">Token 是模型处理的最小符号单位；它不是字、不是词、不是知识单位、也不是跨模型统一的"智能吨位"</text>
+
+<!-- 顶部：中文分词示例 -->
+<rect x="60" y="135" width="1480" height="200" class="box accent"/>
+<text x="800" y="170" class="label" text-anchor="middle">中文分词示例："我喜欢吃苹果"</text>
+<line x1="100" y1="188" x2="1500" y2="188" class="thin"/>
+<text x="100" y="225" class="small" text-anchor="start">原句：</text>
+<text x="200" y="225" class="num" text-anchor="start">我 喜 欢 吃 苹 果</text>
+<text x="100" y="260" class="small" text-anchor="start">切分：</text>
+<rect x="200" y="240" width="60" height="36" class="tokbox"/><text x="230" y="265" class="num" text-anchor="middle">我</text>
+<rect x="270" y="240" width="60" height="36" class="tokbox"/><text x="300" y="265" class="num" text-anchor="middle">喜欢</text>
+<rect x="340" y="240" width="60" height="36" class="tokbox"/><text x="370" y="265" class="num" text-anchor="middle">吃</text>
+<rect x="410" y="240" width="60" height="36" class="tokbox"/><text x="440" y="265" class="num" text-anchor="middle">苹果</text>
+<text x="490" y="265" class="small" text-anchor="start">→ 映射到词表 ID：</text>
+<rect x="690" y="240" width="50" height="36" class="tokbox"/><text x="715" y="265" class="num" text-anchor="middle">8421</text>
+<rect x="750" y="240" width="50" height="36" class="tokbox"/><text x="775" y="265" class="num" text-anchor="middle">2317</text>
+<rect x="810" y="240" width="50" height="36" class="tokbox"/><text x="835" y="265" class="num" text-anchor="middle">5543</text>
+<rect x="870" y="240" width="50" height="36" class="tokbox"/><text x="895" y="265" class="num" text-anchor="middle">9066</text>
+<text x="940" y="265" class="small" text-anchor="start">（示意编号）</text>
+<text x="100" y="313" class="tiny" text-anchor="start" fill="#8795a1">注：不同模型用不同分词器（BPE / SentencePiece / WordPiece），切分粒度和 Token 数都不同；中英文效率也不同</text>
+
+<!-- 底部左：英文示例 -->
+<rect x="60" y="360" width="720" height="220" class="box warm"/>
+<text x="420" y="395" class="label" text-anchor="middle">英文示例："unbelievable"</text>
+<line x1="100" y1="413" x2="740" y2="413" class="thin"/>
+<text x="100" y="448" class="small" text-anchor="start">BPE 切分：</text>
+<rect x="270" y="428" width="80" height="36" class="tokbox"/><text x="310" y="453" class="num" text-anchor="middle">un</text>
+<rect x="360" y="428" width="80" height="36" class="tokbox"/><text x="400" y="453" class="num" text-anchor="middle">believ</text>
+<rect x="450" y="428" width="80" height="36" class="tokbox"/><text x="490" y="453" class="num" text-anchor="middle">able</text>
+<text x="100" y="498" class="small" text-anchor="start">→ 不按"un + believable"语义切，</text>
+<text x="100" y="523" class="small" text-anchor="start">  按词频与合并规则切出常用片段</text>
+<text x="100" y="558" class="tiny" text-anchor="start" fill="#8795a1">模型不知道"unbelievable = 不可置信"，</text>
+<text x="100" y="578" class="tiny" text-anchor="start" fill="#8795a1">它学的是 Token 序列上的概率分布</text>
+
+<!-- 底部右：正反两面 -->
+<rect x="808" y="360" width="732" height="220" class="box green"/>
+<text x="1174" y="395" class="label" text-anchor="middle">Token 不是</text>
+<line x1="848" y1="413" x2="1500" y2="413" class="thin"/>
+<text x="848" y="448" class="small" text-anchor="start">· 一个汉字 —— 可能只切到半个词或一个标点</text>
+<text x="848" y="473" class="small" text-anchor="start">· 一个完整单词 —— 英文也常被切碎</text>
+<text x="848" y="498" class="small" text-anchor="start">· 知识单位 —— 一枚 Token 不带语义</text>
+<text x="848" y="523" class="small" text-anchor="start">· 价值单位 —— 100 准确 Token &gt; 10 000 错误 Token</text>
+<text x="848" y="548" class="small" text-anchor="start">· 跨模型统一的"智能吨位"</text>
+<text x="848" y="573" class="small" text-anchor="start" fill="#8795a1">不同模型/语言/分词器的 Token 数不能直接横比</text>
+
+<!-- 底部：运行方式 -->
+<rect x="60" y="610" width="1480" height="200" class="box muted"/>
+<text x="800" y="650" class="label" text-anchor="middle">大模型最基本的运行方式</text>
+<line x1="100" y1="668" x2="1500" y2="668" class="thin"/>
+<text x="100" y="708" class="num" text-anchor="start">已看到的 Token → 预测下一个 Token</text>
+<text x="100" y="745" class="small" text-anchor="start">· 生成一个，再继续预测；报告、对话、程序逐段形成</text>
+<text x="100" y="770" class="small" text-anchor="start">· Transformer 注意力机制让模型在序列中计算位置间关系</text>
+<text x="100" y="798" class="small" text-anchor="start" fill="#7c2d12" font-weight="700">→ "高级自动补全"不准确（能力远大于输入法），但"模型先预测、再由数据和工具验证"的生成机制不会变</text>
+
+<text x="60" y="870" class="tiny">原创信息图 · v0.1 · 2026-08-06 · 适配单色印刷 · 分词示例为 BPE / SentencePiece 常见结果（编号为示意）</text>
+</svg>

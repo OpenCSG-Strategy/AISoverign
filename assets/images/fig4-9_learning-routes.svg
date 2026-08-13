@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<title>图4-9 学习循环：反馈不等于全部拿去训练</title><desc>《AI主权》原创信息图，v0.1，2026-08-06。把"一次失败可以进入的不同路径"画成分流图：模型 / 知识 / 工具 / 权限 / 契约 / 停止。Retrain 只是其中一种，往往最昂贵最难解释；许多高价值改进来自流程、工具、评测的优化。数据来源：第四章正文 + David Silver &amp; Richard Sutton 强化学习经验研究纲领 + Microsoft 2026 Agent 生命周期实践。</desc>
+<rect width="100%" height="100%" fill="#fbfaf7"/>
+<style>text{font-family:Noto Sans CJK SC, PingFang SC, sans-serif;fill:#1f2933}
+.title{font-size:32px;font-weight:700}
+.label{font-size:22px;font-weight:700}
+.small{font-size:16px}
+.tiny{font-size:14px}
+.num{font-size:34px;font-weight:700;fill:#1f4e79}
+.box{stroke:#34495e;stroke-width:2;rx:12}
+.muted{fill:#f0eee8}
+.accent{fill:#dbeafe}
+.warm{fill:#fef3c7}
+.green{fill:#dcfce7}
+.line{stroke:#506273;stroke-width:3;fill:none}
+.thin{stroke:#506273;stroke-width:1.5;fill:none}
+</style>
+<defs><marker id="arrow" markerWidth="12" markerHeight="12" refX="11" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 z" fill="#1f4e79"/></marker></defs>
+
+<text x="60" y="55" class="title" text-anchor="start">图4-9　学习循环：反馈不等于全部拿去训练</text>
+<text x="800" y="100" class="label" text-anchor="middle">运行数据不是天然干净的教学材料 —— 把所有行为直接用于优化 = 同时学习能力与偏差</text>
+
+<!-- 左侧：失败入口 -->
+<rect x="60" y="140" width="240" height="600" class="box muted"/>
+<text x="180" y="180" class="label" text-anchor="middle">一次失败</text>
+<line x1="100" y1="200" x2="260" y2="200" class="thin"/>
+<text x="100" y="235" class="small" text-anchor="start">问自己：</text>
+<text x="100" y="260" class="small" text-anchor="start">· 数据为何收集？</text>
+<text x="100" y="283" class="small" text-anchor="start">  有权用于改进？</text>
+<text x="100" y="313" class="small" text-anchor="start">· 代表什么人群/任务？</text>
+<text x="100" y="343" class="small" text-anchor="start">· 质量如何验证？</text>
+<text x="100" y="373" class="small" text-anchor="start">· 人工修改是偏好</text>
+<text x="100" y="396" class="small" text-anchor="start">  纠错还是制度？</text>
+<text x="100" y="426" class="small" text-anchor="start">· 现实结果真正发生？</text>
+<text x="100" y="456" class="small" text-anchor="start">· 保留多久，谁能删除？</text>
+<text x="100" y="510" class="small" text-anchor="start" fill="#7c2d12" font-weight="700">→ 才能进学习循环</text>
+
+<!-- 6 个分支 -->
+<g>
+  <rect x="320" y="160" width="240" height="120" class="box accent"/>
+  <text x="440" y="195" class="num" text-anchor="middle">A</text>
+  <text x="440" y="225" class="label" text-anchor="middle">模型</text>
+  <text x="340" y="252" class="small" text-anchor="start">没理解任务</text>
+  <text x="340" y="272" class="small" text-anchor="start" fill="#1f4e79" font-weight="700">→ 提示 / 示例 / 模型变化</text>
+
+  <rect x="580" y="160" width="240" height="120" class="box warm"/>
+  <text x="700" y="195" class="num" text-anchor="middle">B</text>
+  <text x="700" y="225" class="label" text-anchor="middle">知识</text>
+  <text x="600" y="252" class="small" text-anchor="start">检索到旧制度</text>
+  <text x="600" y="272" class="small" text-anchor="start" fill="#1f4e79" font-weight="700">→ 修知识 + 时效机制</text>
+
+  <rect x="840" y="160" width="240" height="120" class="box green"/>
+  <text x="960" y="195" class="num" text-anchor="middle">C</text>
+  <text x="960" y="225" class="label" text-anchor="middle">工具</text>
+  <text x="860" y="252" class="small" text-anchor="start">参数错误</text>
+  <text x="860" y="272" class="small" text-anchor="start" fill="#1f4e79" font-weight="700">→ 加强结构校验</text>
+
+  <rect x="1100" y="160" width="240" height="120" class="box accent"/>
+  <text x="1220" y="195" class="num" text-anchor="middle">D</text>
+  <text x="1220" y="225" class="label" text-anchor="middle">权限</text>
+  <text x="1120" y="252" class="small" text-anchor="start">获得过宽权限</text>
+  <text x="1120" y="272" class="small" text-anchor="start" fill="#1f4e79" font-weight="700">→ 修改授权</text>
+
+  <rect x="320" y="350" width="240" height="120" class="box warm"/>
+  <text x="440" y="385" class="num" text-anchor="middle">E</text>
+  <text x="440" y="415" class="label" text-anchor="middle">契约</text>
+  <text x="340" y="442" class="small" text-anchor="start">任务目标模糊</text>
+  <text x="340" y="462" class="small" text-anchor="start" fill="#1f4e79" font-weight="700">→ 重写契约</text>
+
+  <rect x="580" y="350" width="240" height="120" class="box green"/>
+  <text x="700" y="385" class="num" text-anchor="middle">F</text>
+  <text x="700" y="415" class="label" text-anchor="middle" fill="#7c2d12">停止</text>
+  <text x="600" y="442" class="small" text-anchor="start">人工总否决某类</text>
+  <text x="600" y="458" class="small" text-anchor="start">动作</text>
+  <text x="600" y="478" class="small" text-anchor="start" fill="#7c2d12" font-weight="700">→ 这项任务不适合自动</text>
+</g>
+
+<!-- 箭头 -->
+<path d="M300,440 L320,220" class="line" marker-end="url(#arrow)"/>
+<path d="M300,440 L580,220" class="line" marker-end="url(#arrow)"/>
+<path d="M300,440 L840,220" class="line" marker-end="url(#arrow)"/>
+<path d="M300,440 L1100,220" class="line" marker-end="url(#arrow)"/>
+<path d="M300,440 L320,410" class="line" marker-end="url(#arrow)"/>
+<path d="M300,440 L580,410" class="line" marker-end="url(#arrow)"/>
+
+<!-- 右侧：Retrain 的位置 + 退役 -->
+<rect x="1100" y="350" width="240" height="120" class="box accent"/>
+<text x="1220" y="385" class="num" text-anchor="middle">A 路径之一</text>
+<text x="1220" y="415" class="label" text-anchor="middle" fill="#7c2d12">Retrain</text>
+<text x="1120" y="442" class="small" text-anchor="start" fill="#7c2d12" font-weight="700">往往最昂贵</text>
+<text x="1120" y="462" class="small" text-anchor="start" fill="#7c2d12" font-weight="700">最难解释</text>
+
+<rect x="580" y="540" width="780" height="200" class="box green"/>
+<text x="970" y="580" class="label" text-anchor="middle">最后一种学习：知道何时停止（退役）</text>
+<line x1="620" y1="600" x2="1320" y2="600" class="thin"/>
+<text x="620" y="635" class="small" text-anchor="start">Microsoft 2026 Agent 生命周期实践：</text>
+<text x="620" y="658" class="small" text-anchor="start">· 每个 Agent 有持续责任人 + 监控计划 + 改进 / 退出路径</text>
+<text x="620" y="688" class="small" text-anchor="start">退役时要：</text>
+<text x="620" y="711" class="small" text-anchor="start">· 撤销身份和接口</text>
+<text x="620" y="734" class="small" text-anchor="start">· 处理剩余数据 / 保存必要证据</text>
+<text x="940" y="711" class="small" text-anchor="start">· 确认下游系统不再依赖</text>
+<text x="940" y="734" class="small" text-anchor="start">· 把提示、流程、评测、事故经验带回主体</text>
+<text x="620" y="710" class="tiny" text-anchor="start" fill="#8795a1" />
+<text x="620" y="730" class="tiny" text-anchor="start" fill="#8795a1" />
+
+<!-- 底部 -->
+<rect x="60" y="760" width="1480" height="100" class="box muted"/>
+<text x="800" y="795" class="label" text-anchor="middle" fill="#7c2d12">"收集-训练-再发布"不能成为自动飞轮 —— 不能退出的学习飞轮只会替平台积累能力</text>
+<line x1="100" y1="815" x2="1500" y2="815" class="thin"/>
+<text x="800" y="843" class="small" text-anchor="middle">学习循环必须重新经过发布门：模型 / 提示 / 知识 / 工具 / 权限 / 记忆策略的变化都可能引起回归</text>
+
+<text x="60" y="880" class="tiny">原创信息图 · v0.1 · 2026-08-06 · 适配单色印刷 · 第四章正文 + Silver &amp; Sutton 经验研究 + Microsoft 2026 Agent 生命周期</text>
+</svg>

@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<title>图3-9 谁仍是行动的作者：4 件事 + 人在回路 3 条件</title><desc>《AI主权》原创信息图，v0.1，2026-08-06。把"谁是行动的作者"画成 4 件事（设定目标 / 获得证据 / 否决或停止 / 承担责任）+ 人在回路 3 条件（有时间 / 有信息 / 不会因按下停止键而受惩罚）。最后点击 ≠ 人的决定。数据来源：第三章正文 + NIST AI RMF 人在回路原则。</desc>
+<rect width="100%" height="100%" fill="#fbfaf7"/>
+<style>text{font-family:Noto Sans CJK SC, PingFang SC, sans-serif;fill:#1f2933}
+.title{font-size:32px;font-weight:700}
+.label{font-size:22px;font-weight:700}
+.small{font-size:16px}
+.tiny{font-size:14px}
+.num{font-size:34px;font-weight:700;fill:#1f4e79}
+.box{stroke:#34495e;stroke-width:2;rx:12}
+.muted{fill:#f0eee8}
+.accent{fill:#dbeafe}
+.warm{fill:#fef3c7}
+.green{fill:#dcfce7}
+.line{stroke:#506273;stroke-width:3;fill:none}
+.thin{stroke:#506273;stroke-width:1.5;fill:none}
+</style>
+
+<text x="60" y="55" class="title" text-anchor="start">图3-9　谁仍是行动的作者：4 件事 + 人在回路 3 条件</text>
+<text x="800" y="100" class="label" text-anchor="middle">"作者"不要求亲自完成每一步 —— 但至少要能设定目标 / 获得证据 / 否决停止 / 承担责任</text>
+
+<!-- 上半：4 件事 -->
+<rect x="60" y="140" width="1480" height="60" class="box warm"/>
+<text x="800" y="180" class="label" text-anchor="middle">作者 = 4 件事（不要求亲自完成每一步）</text>
+
+<g>
+  <rect x="60" y="220" width="350" height="240" class="box accent"/>
+  <text x="235" y="260" class="num" text-anchor="middle">①</text>
+  <text x="235" y="295" class="label" text-anchor="middle">设定目标</text>
+  <line x1="100" y1="315" x2="370" y2="315" class="thin"/>
+  <text x="100" y="345" class="small" text-anchor="start">能否决定</text>
+  <text x="100" y="370" class="small" text-anchor="start">任务做什么 /</text>
+  <text x="100" y="395" class="small" text-anchor="start">不做什么？</text>
+  <text x="100" y="430" class="tiny" text-anchor="start" fill="#8795a1">不是"用什么模型"</text>
+  <text x="100" y="450" class="tiny" text-anchor="start" fill="#8795a1">而是"做不做、做到哪"</text>
+
+  <rect x="430" y="220" width="350" height="240" class="box warm"/>
+  <text x="605" y="260" class="num" text-anchor="middle">②</text>
+  <text x="605" y="295" class="label" text-anchor="middle">获得证据</text>
+  <line x1="470" y1="315" x2="740" y2="315" class="thin"/>
+  <text x="470" y="345" class="small" text-anchor="start">能否获得判断</text>
+  <text x="470" y="370" class="small" text-anchor="start">所需的资料：</text>
+  <text x="470" y="395" class="small" text-anchor="start">原始数据 / 引用 / 不确定度</text>
+  <text x="470" y="430" class="tiny" text-anchor="start" fill="#8795a1">不是"漂亮答案"</text>
+  <text x="470" y="450" class="tiny" text-anchor="start" fill="#8795a1">而是"足以判断的输入"</text>
+
+  <rect x="800" y="220" width="350" height="240" class="box green"/>
+  <text x="975" y="260" class="num" text-anchor="middle">③</text>
+  <text x="975" y="295" class="label" text-anchor="middle">否决或停止</text>
+  <line x1="840" y1="315" x2="1110" y2="315" class="thin"/>
+  <text x="975" y="345" class="small" text-anchor="middle">关键节点能否</text>
+  <text x="975" y="370" class="small" text-anchor="middle">说"不"？</text>
+  <text x="975" y="430" class="tiny" text-anchor="middle" fill="#8795a1">不因按下停止键</text>
+  <text x="975" y="450" class="tiny" text-anchor="middle" fill="#8795a1">而受惩罚</text>
+
+  <rect x="1170" y="220" width="370" height="240" class="box accent"/>
+  <text x="1355" y="260" class="num" text-anchor="middle">④</text>
+  <text x="1355" y="295" class="label" text-anchor="middle">承担责任</text>
+  <line x1="1210" y1="315" x2="1500" y2="315" class="thin"/>
+  <text x="1210" y="345" class="small" text-anchor="start">能否对结果</text>
+  <text x="1210" y="370" class="small" text-anchor="start">给出理由 / 接受申诉 /</text>
+  <text x="1210" y="395" class="small" text-anchor="start">承担修复责任？</text>
+  <text x="1210" y="430" class="tiny" text-anchor="start" fill="#7c2d12" font-weight="700">最后点击 ≠ 人的决定</text>
+</g>
+
+<!-- 下半：人在回路 3 条件 -->
+<rect x="60" y="510" width="1480" height="60" class="box warm"/>
+<text x="800" y="550" class="label" text-anchor="middle">"人在回路"只有在 3 条件同时存在时才有意义</text>
+
+<g>
+  <rect x="60" y="590" width="460" height="180" class="box accent"/>
+  <text x="290" y="630" class="num" text-anchor="middle">a</text>
+  <text x="290" y="660" class="label" text-anchor="middle">有足够时间理解</text>
+  <line x1="100" y1="680" x2="480" y2="680" class="thin"/>
+  <text x="100" y="710" class="small" text-anchor="start">不是"几秒确认"</text>
+  <text x="100" y="735" class="small" text-anchor="start">不是"实时阻断"</text>
+  <text x="100" y="760" class="tiny" text-anchor="start" fill="#7c2d12" font-weight="700">没有时间 = 形式上的确认</text>
+
+  <rect x="540" y="590" width="460" height="180" class="box warm"/>
+  <text x="770" y="630" class="num" text-anchor="middle">b</text>
+  <text x="770" y="660" class="label" text-anchor="middle">有足够信息判断</text>
+  <line x1="580" y1="680" x2="960" y2="680" class="thin"/>
+  <text x="580" y="710" class="small" text-anchor="start">看到原始材料 / 不确定度</text>
+  <text x="580" y="735" class="small" text-anchor="start">不能只看到"风险分 78"</text>
+  <text x="580" y="760" class="tiny" text-anchor="start" fill="#7c2d12" font-weight="700">没有信息 = 形式上的同意</text>
+
+  <rect x="1020" y="590" width="520" height="180" class="box green"/>
+  <text x="1280" y="630" class="num" text-anchor="middle">c</text>
+  <text x="1280" y="660" class="label" text-anchor="middle">不会因按停止键而受惩罚</text>
+  <line x1="1060" y1="680" x2="1500" y2="680" class="thin"/>
+  <text x="1060" y="710" class="small" text-anchor="start">不会因"否决了系统建议"</text>
+  <text x="1060" y="735" class="small" text-anchor="start">而被 KPI 记录 / 降级 / 嘲讽</text>
+  <text x="1060" y="760" class="tiny" text-anchor="start" fill="#7c2d12" font-weight="700">没有权力 = 形式上的回路</text>
+</g>
+
+<!-- 底部 -->
+<rect x="60" y="800" width="1480" height="60" class="box muted"/>
+<text x="800" y="838" class="small" text-anchor="middle" fill="#7c2d12" font-weight="700">"形式上的回路" = 责任转移 —— 不是治理</text>
+
+<text x="60" y="880" class="tiny">原创信息图 · v0.1 · 2026-08-06 · 适配单色印刷 · 第三章正文 + NIST AI RMF 人在回路原则</text>
+</svg>

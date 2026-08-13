@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<title>图2-1 二〇二六年的双前沿：总参数、激活参数与任务切片</title><desc>《AI主权》原创信息图，v0.1，2026-08-06。纸书黑白和彩色电子版均可使用。展示 2026 年代表性前沿模型的总参数、激活参数、专家数、上下文、量化精度，以及它们如何被切成语音、端侧、分类等任务型小模型。数据来源：Moonshot AI 官方仓库与 Kimi K3 技术报告（arxiv 2607.24653）；DeepSeek 官方模型卡（V4-Pro / V4-Flash，1.6T/49B 与 284B/13B，1M 上下文）；Qwen3-ASR 论文（2601.21337）；Gemma 3n 与 Google 官方文档；Apple 端侧基础模型技术报告。规格为项目方一手披露，性能、速度、价格、基准比较受评测、硬件和服务条件限制。</desc>
+<rect width="100%" height="100%" fill="#fbfaf7"/>
+<style>text{font-family:Noto Sans CJK SC, PingFang SC, sans-serif;fill:#1f2933}
+.title{font-size:34px;font-weight:700}
+.label{font-size:23px;font-weight:700}
+.small{font-size:18px}
+.tiny{font-size:15px}
+.num{font-size:30px;font-weight:700;fill:#1f4e79}
+.box{stroke:#34495e;stroke-width:3;rx:18}
+.muted{fill:#f0eee8}
+.accent{fill:#dbeafe}
+.warm{fill:#fef3c7}
+.green{fill:#dcfce7}
+.line{stroke:#506273;stroke-width:4;fill:none}
+.dash{stroke:#8795a1;stroke-width:3;stroke-dasharray:12 10;fill:none}
+.thin{stroke:#506273;stroke-width:2;fill:none}
+</style>
+<defs><marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 z" fill="#506273"/></marker><marker id="arrowdown" markerWidth="14" markerHeight="14" refX="7" refY="13" orient="auto"><path d="M0,0 L14,7 L0,14 z" fill="#506273"/></marker></defs>
+
+<text x="60" y="65" class="title" text-anchor="start">图2-1　二〇二六年的双前沿：总参数、激活参数与任务切片</text>
+<text x="800" y="118" class="label" text-anchor="middle">大不只等于参数更多——还要看专家池、上下文与推理；小不是把同一模型裁一刀——而是把能力切给现场</text>
+
+<!-- 上半：三个前沿模型（大） -->
+<rect x="60" y="170" width="460" height="320" class="box warm"/>
+<text x="290" y="210" class="label" text-anchor="middle">Kimi K3</text>
+<text x="290" y="240" class="tiny" text-anchor="middle">Moonshot AI · 2026-07 · 2.8T MoE</text>
+<text x="290" y="295" class="num" text-anchor="middle">2.8T</text>
+<text x="290" y="320" class="small" text-anchor="middle">总参数（专家池总量）</text>
+<text x="290" y="370" class="num" text-anchor="middle">≈ 104B</text>
+<text x="290" y="395" class="small" text-anchor="middle">每 Token 激活参数</text>
+<line x1="80" y1="420" x2="500" y2="420" class="thin"/>
+<text x="100" y="448" class="small">896 路由专家，每 Token 选 16</text>
+<text x="100" y="475" class="small">上下文 ≈ 1 048 576 Token</text>
+
+<rect x="570" y="170" width="460" height="320" class="box warm"/>
+<text x="800" y="210" class="label" text-anchor="middle">DeepSeek V4-Pro</text>
+<text x="800" y="240" class="tiny" text-anchor="middle">DeepSeek · 2026-04 · 1.6T MoE</text>
+<text x="800" y="295" class="num" text-anchor="middle">1.6T</text>
+<text x="800" y="320" class="small" text-anchor="middle">总参数</text>
+<text x="800" y="370" class="num" text-anchor="middle">49B</text>
+<text x="800" y="395" class="small" text-anchor="middle">每 Token 激活参数</text>
+<line x1="590" y1="420" x2="1010" y2="420" class="thin"/>
+<text x="610" y="448" class="small">MoE 架构 · 压缩稀疏注意力</text>
+<text x="610" y="475" class="small">上下文 = 1 000 000 Token</text>
+
+<rect x="1080" y="170" width="460" height="320" class="box warm"/>
+<text x="1310" y="210" class="label" text-anchor="middle">DeepSeek V4-Flash</text>
+<text x="1310" y="240" class="tiny" text-anchor="middle">DeepSeek · 2026-04 · 284B MoE</text>
+<text x="1310" y="295" class="num" text-anchor="middle">284B</text>
+<text x="1310" y="320" class="small" text-anchor="middle">总参数</text>
+<text x="1310" y="370" class="num" text-anchor="middle">≈ 13B</text>
+<text x="1310" y="395" class="small" text-anchor="middle">每 Token 激活参数</text>
+<line x1="1100" y1="420" x2="1520" y2="420" class="thin"/>
+<text x="1120" y="448" class="small">同代 MoE · 更快更便宜</text>
+<text x="1120" y="475" class="small">上下文 = 1 000 000 Token</text>
+
+<!-- 中间：双前沿标签 -->
+<rect x="60" y="510" width="1480" height="40" class="box muted"/>
+<text x="800" y="538" class="label" text-anchor="middle">↑ 能力前沿：把天花板抬高　/　↓ 部署前沿：把能力切到现场 ↑</text>
+
+<!-- 下半：四个任务型小模型（小） -->
+<rect x="60" y="580" width="350" height="240" class="box accent"/>
+<text x="235" y="618" class="label" text-anchor="middle">Qwen3-ASR</text>
+<text x="235" y="645" class="tiny" text-anchor="middle">语音识别专用</text>
+<text x="235" y="695" class="num" text-anchor="middle">0.6B / 1.7B</text>
+<text x="235" y="722" class="small" text-anchor="middle">总参数</text>
+<line x1="80" y1="745" x2="390" y2="745" class="thin"/>
+<text x="80" y="773" class="small">专用：录音转写、字幕</text>
+<text x="80" y="800" class="small">从通用模型蒸馏而来</text>
+
+<rect x="430" y="580" width="350" height="240" class="box accent"/>
+<text x="605" y="618" class="label" text-anchor="middle">Gemma 3n (E2B / E4B)</text>
+<text x="605" y="645" class="tiny" text-anchor="middle">端侧多模态</text>
+<text x="605" y="695" class="num" text-anchor="middle">≈ 1.9B / 4B</text>
+<text x="605" y="722" class="small" text-anchor="middle">有效内存负载</text>
+<line x1="450" y1="745" x2="760" y2="745" class="thin"/>
+<text x="450" y="773" class="small">参数跳过 + 分层嵌入缓存</text>
+<text x="450" y="800" class="small">图像、视频、音频输入</text>
+
+<rect x="800" y="580" width="350" height="240" class="box accent"/>
+<text x="975" y="618" class="label" text-anchor="middle">Ministral 3</text>
+<text x="975" y="645" class="tiny" text-anchor="middle">3B / 8B / 14B 端侧多模态</text>
+<text x="975" y="695" class="num" text-anchor="middle">3B · 8B · 14B</text>
+<text x="975" y="722" class="small" text-anchor="middle">稠密 + 图像理解</text>
+<line x1="820" y1="745" x2="1130" y2="745" class="thin"/>
+<text x="820" y="773" class="small">base / instruct / reasoning</text>
+<text x="820" y="800" class="small">Apache 2.0 · 手机可跑</text>
+
+<rect x="1170" y="580" width="370" height="240" class="box accent"/>
+<text x="1355" y="618" class="label" text-anchor="middle">Apple 端侧基础模型</text>
+<text x="1355" y="645" class="tiny" text-anchor="middle">摘要 / 实体抽取 / 短对话</text>
+<text x="1355" y="695" class="num" text-anchor="middle">≈ 3B</text>
+<text x="1355" y="722" class="small" text-anchor="middle">稀疏化 + 2-bit QAT</text>
+<line x1="1190" y1="745" x2="1520" y2="745" class="thin"/>
+<text x="1190" y="773" class="small">任务型能力切片</text>
+<text x="1190" y="800" class="small">不搬云端通用模型进手机</text>
+
+<text x="60" y="860" class="tiny">原创信息图 · v0.1 · 2026-08-06 · 适配单色印刷 · 数据来源：Moonshot AI / Kimi K3 技术报告、DeepSeek V4 官方模型卡、Qwen3-ASR 论文、Gemma 3n 文档、Apple 端侧技术报告</text>
+</svg>

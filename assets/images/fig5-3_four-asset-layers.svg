@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<title>图5-3 个人智能资产的 4 层结构</title><desc>《AI主权》原创信息图，v0.1，2026-08-06。把"个人拥有的不只是文件"画成 4 层资产金字塔：原始资料 → 个人记忆 → 工作方法 → 身份与关系。每上一层重建难度上升、越接近主权核心。下载按钮只是主权起点。数据来源：第五章 05.1 正文。</desc>
+<rect width="100%" height="100%" fill="#fbfaf7"/>
+<style>text{font-family:Noto Sans CJK SC, PingFang SC, sans-serif;fill:#1f2933}
+.title{font-size:32px;font-weight:700}
+.label{font-size:22px;font-weight:700}
+.small{font-size:16px}
+.tiny{font-size:14px}
+.num{font-size:34px;font-weight:700;fill:#1f4e79}
+.box{stroke:#34495e;stroke-width:2;rx:12}
+.muted{fill:#f0eee8}
+.accent{fill:#dbeafe}
+.warm{fill:#fef3c7}
+.green{fill:#dcfce7}
+.line{stroke:#506273;stroke-width:3;fill:none}
+.thin{stroke:#506273;stroke-width:1.5;fill:none}
+</style>
+
+<text x="60" y="55" class="title" text-anchor="start">图5-3　个人智能资产的 4 层结构</text>
+<text x="800" y="100" class="label" text-anchor="middle">数据带走了，能力却没有跟着走 —— 离开成本接近"重新学习怎样成为自己"</text>
+
+<!-- 4 层金字塔（倒置，最上 = 资产最深） -->
+<g>
+  <!-- 底层：原始资料 -->
+  <rect x="60" y="700" width="1480" height="120" class="box accent"/>
+  <text x="120" y="740" class="num" text-anchor="start">①</text>
+  <text x="180" y="740" class="label" text-anchor="start">原始资料</text>
+  <line x1="100" y1="760" x2="1500" y2="760" class="thin"/>
+<text x="120" y="785" class="small" text-anchor="start">文字 / 照片 / 录音 / 邮件 / 账单 / 合同 / 联系人 / 交易记录</text>
+<text x="120" y="805" class="tiny" text-anchor="start" fill="#1f4e79" font-weight="700">生活留下的事实 → 易导出，难重建"为什么"</text>
+
+  <!-- 第二层：个人记忆 -->
+  <rect x="160" y="550" width="1280" height="120" class="box warm"/>
+  <text x="220" y="590" class="num" text-anchor="start">②</text>
+  <text x="280" y="590" class="label" text-anchor="start">个人记忆</text>
+  <line x1="200" y1="610" x2="1400" y2="610" class="thin"/>
+<text x="220" y="635" class="small" text-anchor="start">资料彼此的关系 / 自己的解释 / 偏好 / 承诺 / 错误 / 经验</text>
+<text x="220" y="655" class="tiny" text-anchor="start" fill="#1f4e79" font-weight="700">让一堆文件成为一段连续人生</text>
+
+  <!-- 第三层：工作方法 -->
+  <rect x="260" y="400" width="1080" height="120" class="box green"/>
+  <text x="320" y="440" class="num" text-anchor="start">③</text>
+<text x="380" y="440" class="label" text-anchor="start">工作方法</text>
+<line x1="300" y1="460" x2="1300" y2="460" class="thin"/>
+<text x="320" y="485" class="small" text-anchor="start">任务如何开始 / 在哪些节点求证 / 怎样交付 / 失败如何补救</text>
+<text x="320" y="505" class="small" text-anchor="start" fill="#1f4e79" font-weight="700">决定能否"反复把事情做成"</text>
+
+  <!-- 顶层：身份与关系 -->
+  <rect x="360" y="250" width="880" height="120" class="box muted"/>
+  <text x="420" y="290" class="num" text-anchor="start" fill="#7c2d12">④</text>
+<text x="480" y="290" class="label" text-anchor="start" fill="#7c2d12">身份与关系</text>
+  <line x1="400" y1="310" x2="1200" y2="310" class="thin"/>
+<text x="420" y="335" class="small" text-anchor="start">别人怎样找到你 / 为什么信任你 / 哪些客户愿意再次合作</text>
+<text x="420" y="355" class="small" text-anchor="start" fill="#7c2d12" font-weight="700">最难重建 → 主权的真正核心</text>
+</g>
+
+<!-- 右侧注释：AI 同时进入 4 层 -->
+<rect x="60" y="140" width="1480" height="90" class="box warm"/>
+<text x="800" y="170" class="label" text-anchor="middle">AI 同时进入 4 层 —— 体验顺滑 / 离开成本接近"重新学习怎样成为自己"</text>
+<text x="800" y="200" class="small" text-anchor="middle">下载按钮只是个人主权的起点 —— 真正问题：明天 AI 消失时，带走的是文件还是"仍能继续工作的自己"？</text>
+
+<!-- 底部 -->
+<rect x="60" y="840" width="1480" height="40" class="box muted"/>
+<text x="800" y="867" class="small" text-anchor="middle" fill="#7c2d12" font-weight="700">主权 = 4 层资产持续可被本人理解、迁移和重建</text>
+
+<text x="60" y="895" class="tiny">原创信息图 · v0.1 · 2026-08-06 · 适配单色印刷 · 第五章 05.1 正文</text>
+</svg>

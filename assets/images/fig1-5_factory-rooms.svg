@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<title>图1-5 一座 Token 工厂里有什么：合同审查任务的五步生产线</title><desc>《AI主权》原创信息图，v0.1，2026-08-06。纸书黑白和彩色电子版均可使用。把"一次合同审查"展开为 5 个生产环节：备料（RAG / 数据库 / 工具调用）→ 开动机器（推理）→ 厂房配合（芯片 / 显存 / 网络 / 存储 / 电力 / 冷却）→ 排产（调度 / 批处理 / 路由）→ 验货（事实核验 / 安全 / 业务规则 / 人工复核）。配合 MLPerf 推理基准"速度+准确度"综合判断。</desc>
+<rect width="100%" height="100%" fill="#fbfaf7"/>
+<style>text{font-family:Noto Sans CJK SC, PingFang SC, sans-serif;fill:#1f2933}
+.title{font-size:32px;font-weight:700}
+.label{font-size:22px;font-weight:700}
+.small{font-size:16px}
+.tiny{font-size:14px}
+.num{font-size:34px;font-weight:700;fill:#1f4e79}
+.box{stroke:#34495e;stroke-width:2;rx:12}
+.muted{fill:#f0eee8}
+.accent{fill:#dbeafe}
+.warm{fill:#fef3c7}
+.green{fill:#dcfce7}
+.line{stroke:#506273;stroke-width:3;fill:none}
+.thin{stroke:#506273;stroke-width:1.5;fill:none}
+</style>
+<defs><marker id="arrow" markerWidth="12" markerHeight="12" refX="11" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 z" fill="#506273"/></marker></defs>
+
+<text x="60" y="55" class="title" text-anchor="start">图1-5　一座 Token 工厂里有什么：合同审查任务的五步生产线</text>
+<text x="800" y="100" class="label" text-anchor="middle">屏幕上是一次上传和一次回答；背后是从备料、开动、厂房、排产到验货的五步连续生产</text>
+
+<!-- 5 步水平流水线 -->
+<g>
+  <!-- Step 1 -->
+  <rect x="60" y="150" width="280" height="280" class="box accent"/>
+  <text x="200" y="190" class="num" text-anchor="middle">①</text>
+  <text x="200" y="225" class="label" text-anchor="middle">备料</text>
+  <line x1="100" y1="240" x2="300" y2="240" class="thin"/>
+  <text x="200" y="270" class="small" text-anchor="middle">RAG + 数据库 + 工具</text>
+  <text x="100" y="305" class="small" text-anchor="start">· 收集合同原文 / 用户要求</text>
+  <text x="100" y="330" class="small" text-anchor="start">· 检索企业规则 / 历史对话</text>
+  <text x="100" y="355" class="small" text-anchor="start">· 把本次任务材料送进上下文</text>
+  <text x="100" y="395" class="tiny" text-anchor="start" fill="#8795a1">不是把新知识永久写进模型，</text>
+  <text x="100" y="412" class="tiny" text-anchor="start" fill="#8795a1">而是把材料临时放到机器旁边</text>
+
+  <!-- Step 2 -->
+  <rect x="360" y="150" width="280" height="280" class="box warm"/>
+  <text x="500" y="190" class="num" text-anchor="middle">②</text>
+  <text x="500" y="225" class="label" text-anchor="middle">开动机器</text>
+  <line x1="400" y1="240" x2="600" y2="240" class="thin"/>
+  <text x="500" y="270" class="small" text-anchor="middle">模型推理</text>
+  <text x="400" y="305" class="small" text-anchor="start">· 读取输入和上下文</text>
+  <text x="400" y="330" class="small" text-anchor="start">· 运行模型权重</text>
+  <text x="400" y="355" class="small" text-anchor="start">· 逐 Token 生成输出</text>
+  <text x="400" y="395" class="tiny" text-anchor="start" fill="#8795a1">预训练 = 造机器</text>
+  <text x="400" y="412" class="tiny" text-anchor="start" fill="#8795a1">后训练/微调/蒸馏 = 改机器</text>
+
+  <!-- Step 3 -->
+  <rect x="660" y="150" width="280" height="280" class="box green"/>
+  <text x="800" y="190" class="num" text-anchor="middle">③</text>
+  <text x="800" y="225" class="label" text-anchor="middle">厂房配合</text>
+  <line x1="700" y1="240" x2="900" y2="240" class="thin"/>
+  <text x="800" y="270" class="small" text-anchor="middle">硬件系统</text>
+  <text x="700" y="305" class="small" text-anchor="start">· 加速器负责计算</text>
+  <text x="700" y="330" class="small" text-anchor="start">· 显存保存权重与状态</text>
+  <text x="700" y="355" class="small" text-anchor="start">· 网络搬运数据</text>
+  <text x="700" y="380" class="small" text-anchor="start">· 存储保管模型与缓存</text>
+  <text x="700" y="405" class="small" text-anchor="start">· 电力 + 冷却配套</text>
+
+  <!-- Step 4 -->
+  <rect x="960" y="150" width="280" height="280" class="box accent"/>
+  <text x="1100" y="190" class="num" text-anchor="middle">④</text>
+  <text x="1100" y="225" class="label" text-anchor="middle">排产</text>
+  <line x1="1000" y1="240" x2="1200" y2="240" class="thin"/>
+  <text x="1100" y="270" class="small" text-anchor="middle">调度 / 批处理 / 路由</text>
+  <text x="1000" y="305" class="small" text-anchor="start">· 决定谁先被处理</text>
+  <text x="1000" y="330" class="small" text-anchor="start">· 简单任务是否给小模型</text>
+  <text x="1000" y="355" class="small" text-anchor="start">· 中间结果能否复用</text>
+  <text x="1000" y="395" class="tiny" text-anchor="start" fill="#8795a1">MLPerf 把速度测试与准确度</text>
+  <text x="1000" y="412" class="tiny" text-anchor="start" fill="#8795a1">目标放在一起（推理基准）</text>
+
+  <!-- Step 5 -->
+  <rect x="1260" y="150" width="280" height="280" class="box warm"/>
+  <text x="1400" y="190" class="num" text-anchor="middle">⑤</text>
+  <text x="1400" y="225" class="label" text-anchor="middle">验货</text>
+  <line x1="1300" y1="240" x2="1500" y2="240" class="thin"/>
+  <text x="1400" y="270" class="small" text-anchor="middle">事实 / 安全 / 业务 / 人</text>
+  <text x="1300" y="305" class="small" text-anchor="start">· 事实核验</text>
+  <text x="1300" y="330" class="small" text-anchor="start">· 安全测试</text>
+  <text x="1300" y="355" class="small" text-anchor="start">· 业务规则检查</text>
+  <text x="1300" y="380" class="small" text-anchor="start">· 必要时人工复核</text>
+  <text x="1300" y="410" class="small" text-anchor="start" fill="#7c2d12" font-weight="700">模型写完 ≠ 任务完成</text>
+</g>
+
+<!-- 箭头连接 -->
+<path d="M340,290 L360,290" class="line" marker-end="url(#arrow)"/>
+<path d="M640,290 L660,290" class="line" marker-end="url(#arrow)"/>
+<path d="M940,290 L960,290" class="line" marker-end="url(#arrow)"/>
+<path d="M1240,290 L1260,290" class="line" marker-end="url(#arrow)"/>
+
+<!-- 底部：三个递进问题 -->
+<rect x="60" y="475" width="1480" height="320" class="box muted"/>
+<text x="800" y="515" class="label" text-anchor="middle">Token 工厂真正要看的三个递进问题</text>
+<line x1="100" y1="535" x2="1500" y2="535" class="thin"/>
+
+<text x="100" y="580" class="num" text-anchor="start">①</text>
+<text x="160" y="580" class="label" text-anchor="start">机器能生产多少？</text>
+<text x="100" y="610" class="small" text-anchor="start">每秒多少 Token、每天多少请求、峰值吞吐多少</text>
+<text x="100" y="640" class="small" text-anchor="start" fill="#8795a1">（衡量产能）</text>
+
+<text x="100" y="690" class="num" text-anchor="start">②</text>
+<text x="160" y="690" class="label" text-anchor="start">用户要等多久？</text>
+<text x="100" y="720" class="small" text-anchor="start">首 Token 延迟、Token 间延迟、排队时间、高峰期最慢的请求</text>
+<text x="100" y="750" class="small" text-anchor="start" fill="#8795a1">（衡量体验）</text>
+
+<text x="100" y="790" class="num" text-anchor="start" fill="#7c2d12">③</text>
+<text x="160" y="790" class="label" text-anchor="start">正确完成一项任务究竟要花多少钱？</text>
+<text x="100" y="820" class="small" text-anchor="start">调用费 + 重做 + 人工返工；专家仍要返工的 Token 不是产值，是返工成本</text>
+<text x="100" y="850" class="small" text-anchor="start" fill="#7c2d12" font-weight="700">（衡量价值，最接近真实产出）</text>
+
+<text x="60" y="870" class="tiny">原创信息图 · v0.1 · 2026-08-06 · 适配单色印刷 · MLPerf 推理基准：https://mlcommons.org/benchmarks/mlperf-inference/</text>
+</svg>

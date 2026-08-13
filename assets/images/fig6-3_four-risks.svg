@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<title>图6-3 万能企业大脑的 4 风险结构</title><desc>《AI主权》原创信息图，v0.1，2026-08-06。把"万能企业大脑"演示漂亮但结构危险拆成 4 个会相互放大的风险：权限汇聚 / 语境坍缩 / 责任漂移 / 变更共振。结论：中央层只管公共规则，部门层管数据与执行。数据来源：第六章正文 06.1。</desc>
+<rect width="100%" height="100%" fill="#fbfaf7"/>
+<style>text{font-family:Noto Sans CJK SC, PingFang SC, sans-serif;fill:#1f2933}
+.title{font-size:32px;font-weight:700}
+.label{font-size:22px;font-weight:700}
+.small{font-size:16px}
+.tiny{font-size:14px}
+.num{font-size:36px;font-weight:700;fill:#7c2d12}
+.box{stroke:#34495e;stroke-width:2;rx:12}
+.muted{fill:#f0eee8}
+.accent{fill:#dbeafe}
+.warm{fill:#fef3c7}
+.green{fill:#dcfce7}
+.red{fill:#fee2e2}
+.line{stroke:#506273;stroke-width:3;fill:none}
+.thin{stroke:#506273;stroke-width:1.5;fill:none}
+</style>
+<defs><marker id="arrow" markerWidth="12" markerHeight="12" refX="11" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 z" fill="#7c2d12"/></marker></defs>
+
+<text x="60" y="55" class="title" text-anchor="start">图6-3　万能企业大脑的 4 风险结构</text>
+<text x="800" y="100" class="label" text-anchor="middle" fill="#7c2d12">演示漂亮 ≠ 安全 — 四个风险会相互放大</text>
+
+<!-- 中央入口 -->
+<g>
+  <circle cx="800" cy="350" r="115" fill="#fee2e2" stroke="#7c2d12" stroke-width="3"/>
+  <text x="800" y="335" class="label" text-anchor="middle" fill="#7c2d12">万能企业大脑</text>
+  <text x="800" y="360" class="small" text-anchor="middle">统一入口 / 统一模型</text>
+  <text x="800" y="380" class="small" text-anchor="middle">统一记忆 / 统一权限</text>
+</g>
+
+<!-- 4 风险 -->
+<g>
+  <rect x="60"  y="180" width="380" height="200" class="box red"/>
+  <text x="100" y="220" class="num" text-anchor="start">①</text>
+  <text x="160" y="220" class="label" text-anchor="start">权限汇聚</text>
+  <text x="100" y="255" class="small" text-anchor="start" font-weight="700">同一入口 → 横向移动</text>
+  <text x="100" y="285" class="small" text-anchor="start">用户能跨多系统</text>
+  <text x="100" y="310" class="small" text-anchor="start">攻击者也能</text>
+  <text x="100" y="350" class="tiny" text-anchor="start" fill="#7c2d12">"可以问 = 可以查全部"</text>
+
+  <rect x="1160" y="180" width="380" height="200" class="box red"/>
+  <text x="1200" y="220" class="num" text-anchor="start">②</text>
+  <text x="1260" y="220" class="label" text-anchor="start">语境坍缩</text>
+  <text x="1200" y="255" class="small" text-anchor="start" font-weight="700">多部门语义被压平</text>
+  <text x="1200" y="285" class="small" text-anchor="start">法务的"可接受风险"</text>
+  <text x="1200" y="310" class="small" text-anchor="start">≠ 销售的"高概率机会"</text>
+  <text x="1200" y="350" class="tiny" text-anchor="start" fill="#7c2d12">不同确定性 ≠ 同一种</text>
+
+  <rect x="60"  y="450" width="380" height="200" class="box red"/>
+  <text x="100" y="490" class="num" text-anchor="start">③</text>
+  <text x="160" y="490" class="label" text-anchor="start">责任漂移</text>
+  <text x="100" y="525" class="small" text-anchor="start" font-weight="700">系统生成 / 多人解释</text>
+  <text x="100" y="555" class="small" text-anchor="start">结果跨多部门</text>
+  <text x="100" y="580" class="small" text-anchor="start">出错无人全拥有</text>
+  <text x="100" y="620" class="tiny" text-anchor="start" fill="#7c2d12">纠正权碎成片段</text>
+
+  <rect x="1160" y="450" width="380" height="200" class="box red"/>
+  <text x="1200" y="490" class="num" text-anchor="start">④</text>
+  <text x="1260" y="490" class="label" text-anchor="start">变更共振</text>
+  <text x="1200" y="525" class="small" text-anchor="start" font-weight="700">一次升级 → 全局故障</text>
+  <text x="1200" y="555" class="small" text-anchor="start">换模型 / 换提示 / 换排序</text>
+  <text x="1200" y="580" class="small" text-anchor="start">同时影响招聘 / 报价 / 合规</text>
+  <text x="1200" y="620" class="tiny" text-anchor="start" fill="#7c2d12">局部升级 = 全企业事故</text>
+</g>
+
+<!-- 箭头从中心到四风险 -->
+<g>
+  <line x1="700" y1="280" x2="445" y2="280" class="line" marker-end="url(#arrow)"/>
+  <line x1="900" y1="280" x2="1155" y2="280" class="line" marker-end="url(#arrow)"/>
+  <line x1="700" y1="420" x2="445" y2="550" class="line" marker-end="url(#arrow)"/>
+  <line x1="900" y1="420" x2="1155" y2="550" class="line" marker-end="url(#arrow)"/>
+</g>
+
+<!-- 放大效应 -->
+<g>
+  <rect x="60" y="690" width="1480" height="130" class="box warm"/>
+  <text x="800" y="725" class="label" text-anchor="middle" fill="#7c2d12">4 风险相互放大：权限汇聚让攻击面扩大，语境坍缩让攻击有效，责任漂移让攻击无人负责，变更共振让修复成本指数级上升</text>
+</g>
+
+<!-- 底部：解药 -->
+<g>
+  <rect x="60" y="830" width="1480" height="50" class="box green"/>
+  <text x="800" y="862" class="label" text-anchor="middle" fill="#1f4e79">解药：中央层只管公共规则 — 部门层管数据与执行，任务层只拿当次临时权限</text>
+</g>
+
+<text x="60" y="895" class="tiny">原创信息图 · v0.1 · 2026-08-06 · 适配单色印刷 · 第六章正文 06.1</text>
+</svg>

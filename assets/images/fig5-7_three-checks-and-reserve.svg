@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<title>图5-7 判断可借助、责任不转包</title><desc>《AI主权》原创信息图，v0.1，2026-08-06。把"AI 出活 + 人点同意"这种责任装饰拆成上半部分的 3 件有效把关，并把下半部分 4 维能力储备作为个人主权的最低缓冲。原则：人可以保留决定权，但必须保留发现错误的能力。数据来源：第五章正文 05.6。</desc>
+<rect width="100%" height="100%" fill="#fbfaf7"/>
+<style>text{font-family:Noto Sans CJK SC, PingFang SC, sans-serif;fill:#1f2933}
+.title{font-size:32px;font-weight:700}
+.label{font-size:22px;font-weight:700}
+.small{font-size:16px}
+.tiny{font-size:14px}
+.num{font-size:34px;font-weight:700;fill:#1f4e79}
+.box{stroke:#34495e;stroke-width:2;rx:12}
+.muted{fill:#f0eee8}
+.accent{fill:#dbeafe}
+.warm{fill:#fef3c7}
+.green{fill:#dcfce7}
+.line{stroke:#506273;stroke-width:3;fill:none}
+.thin{stroke:#506273;stroke-width:1.5;fill:none}
+</style>
+<defs><marker id="arrow" markerWidth="12" markerHeight="12" refX="11" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 z" fill="#1f4e79"/></marker></defs>
+
+<text x="60" y="55" class="title" text-anchor="start">图5-7　判断可借助、责任不转包</text>
+<text x="800" y="100" class="label" text-anchor="middle">人在最后一秒点"同意"，不等于拥有决定权；保留决定权，必须保留发现错误的能力</text>
+
+<!-- 上半：3 件有效把关 -->
+<g>
+  <text x="60" y="155" class="label" text-anchor="start" fill="#1f4e79">上半 · 3 件有效把关</text>
+  <text x="60" y="180" class="small" text-anchor="start" fill="#8795a1">满足这 3 件，"人类在环" 才不是责任装饰</text>
+
+  <rect x="60" y="210" width="1480" height="100" class="box accent"/>
+  <text x="100" y="245" class="num" text-anchor="start">①</text>
+  <text x="160" y="245" class="label" text-anchor="start">知道应当检查什么</text>
+  <text x="160" y="272" class="small" text-anchor="start">清楚这一类任务，最容易错在哪里；不靠"读起来像真的"判断</text>
+  <text x="1000" y="245" class="small" text-anchor="start" fill="#7c2d12" font-weight="700">反例：Mata v. Avianca 律师被模型虚构判例糊弄</text>
+
+  <rect x="60" y="320" width="1480" height="100" class="box warm"/>
+  <text x="100" y="355" class="num" text-anchor="start">②</text>
+  <text x="160" y="355" class="label" text-anchor="start">拥有独立检查的材料</text>
+  <text x="160" y="382" class="small" text-anchor="start">原始文件、源数据、参考条文触手可及；能独立重做关键结论</text>
+  <text x="1000" y="355" class="small" text-anchor="start" fill="#1f4e79">不是"让 AI 再生成一次来验证"</text>
+
+  <rect x="60" y="430" width="1480" height="100" class="box green"/>
+  <text x="100" y="465" class="num" text-anchor="start">③</text>
+  <text x="160" y="465" class="label" text-anchor="start">愿意在时间压力下拒绝漂亮结果</text>
+  <text x="160" y="492" class="small" text-anchor="start">在交付 deadline 前，敢于说"这一版不行，需要重做"</text>
+  <text x="1000" y="465" class="small" text-anchor="start" fill="#1f4e79">不是礼貌流程，是治理动作</text>
+</g>
+
+<!-- 中间分界 + 默认权转移 -->
+<g>
+  <line x1="60" y1="555" x2="1540" y2="555" class="line"/>
+  <text x="800" y="585" class="label" text-anchor="middle" fill="#7c2d12">↓ 默认权的转移：人仍在批准，却很少主动提出方向</text>
+  <text x="800" y="608" class="small" text-anchor="middle" fill="#8795a1">日历助手决定日程 / 推荐系统决定可见信息 / 写作助手决定论述结构 / 财务助手决定异常</text>
+</g>
+
+<!-- 下半：4 维能力储备 -->
+<g>
+  <text x="60" y="655" class="label" text-anchor="start" fill="#1f4e79">下半 · 4 维能力储备（"手动里程"）</text>
+  <text x="60" y="678" class="small" text-anchor="start" fill="#8795a1">低频手动练习用于保持校准；不拒绝自动化，而是拒绝"等系统宕机时发现自己不会"</text>
+
+  <!-- 4 列 -->
+  <rect x="60"  y="710" width="360" height="160" class="box warm"/>
+  <text x="240" y="745" class="label" text-anchor="middle">A · 原始材料</text>
+  <text x="240" y="775" class="small" text-anchor="middle">从源数据重做一份报价</text>
+  <text x="240" y="800" class="tiny" text-anchor="middle" fill="#8795a1">替代"让 AI 再生成一次"</text>
+
+  <rect x="410" y="710" width="360" height="160" class="box green"/>
+  <text x="590" y="745" class="label" text-anchor="middle">B · 客户项目</text>
+  <text x="590" y="775" class="small" text-anchor="middle">亲自复核 1 个项目</text>
+  <text x="590" y="800" class="tiny" text-anchor="middle" fill="#8795a1">完整走完交付</text>
+
+  <rect x="760" y="710" width="360" height="160" class="box accent"/>
+  <text x="940" y="745" class="label" text-anchor="middle">C · 研究框架</text>
+  <text x="940" y="775" class="small" text-anchor="middle">从空白建立 1 次</text>
+  <text x="940" y="800" class="tiny" text-anchor="middle" fill="#8795a1">重新校准"什么是问题"</text>
+
+  <rect x="1110" y="710" width="430" height="160" class="box warm"/>
+  <text x="1325" y="745" class="label" text-anchor="middle">D · 备用工具</text>
+  <text x="1325" y="775" class="small" text-anchor="middle">在备用工具中走完最小流程</text>
+  <text x="1325" y="800" class="tiny" text-anchor="middle" fill="#8795a1">主工具不可用时能继续</text>
+</g>
+
+<text x="60" y="895" class="tiny">原创信息图 · v0.1 · 2026-08-06 · 适配单色印刷 · 第五章正文 05.6</text>
+</svg>

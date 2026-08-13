@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<title>图序-3 智能改变企业最小规模：OPC 与组织两极化</title><desc>《AI主权》原创信息图，v0.1，2026-08-06。把"AI 改变企业最小规模"画成一张两极化图：上游是资本密集的芯片/云/模型/全球平台（资源高度集中），下游是大量贴近具体行业和客户的个人与小团队（责任中心缩小、能力网络扩大），中间传统企业层被压缩。数据来源：Humlum &amp; Vestergaard 2026 AI-Native 工作论文；ILO-世行 2024 平台与劳动研究报告。</desc>
+<rect width="100%" height="100%" fill="#fbfaf7"/>
+<style>text{font-family:Noto Sans CJK SC, PingFang SC, sans-serif;fill:#1f2933}
+.title{font-size:32px;font-weight:700}
+.label{font-size:22px;font-weight:700}
+.small{font-size:16px}
+.tiny{font-size:14px}
+.num{font-size:34px;font-weight:700;fill:#1f4e79}
+.box{stroke:#34495e;stroke-width:2;rx:12}
+.muted{fill:#f0eee8}
+.accent{fill:#dbeafe}
+.warm{fill:#fef3c7}
+.green{fill:#dcfce7}
+.line{stroke:#506273;stroke-width:3;fill:none}
+.thin{stroke:#506273;stroke-width:1.5;fill:none}
+</style>
+<defs><marker id="arr" markerWidth="12" markerHeight="12" refX="11" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 z" fill="#506273"/></marker>
+<marker id="arrR" markerWidth="12" markerHeight="12" refX="11" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 z" fill="#1f4e79"/></marker></defs>
+
+<text x="60" y="55" class="title" text-anchor="start">图序-3　智能改变企业最小规模：OPC 与组织两极化</text>
+<text x="800" y="100" class="label" text-anchor="middle">责任中心变小了，它所调用的能力网络却变大了；中间层被压缩，组织向两极分化</text>
+
+<!-- 上游：平台层 -->
+<rect x="60" y="140" width="1480" height="160" class="box accent"/>
+<text x="800" y="180" class="label" text-anchor="middle">上游：资本密集的全球平台（资源高度集中）</text>
+<line x1="100" y1="200" x2="1500" y2="200" class="thin"/>
+<text x="100" y="240" class="num" text-anchor="start">①</text>
+<text x="160" y="240" class="label" text-anchor="start">芯片 · 云 · 模型 · 全球分发网络</text>
+<text x="100" y="270" class="small" text-anchor="start">门槛极高（数十亿美元 + 数十年积累），全球玩家集中在 3-5 家；上游议价权最大</text>
+<text x="600" y="270" class="small" text-anchor="start" fill="#1f4e79" font-weight="700">→ 集中度上升</text>
+
+<!-- 中间：传统企业层（被压缩） -->
+<rect x="60" y="320" width="1480" height="160" class="box warm"/>
+<text x="800" y="360" class="label" text-anchor="middle">中间：传统中型企业（执行/协调成本下降 → 价值被压缩）</text>
+<line x1="100" y1="380" x2="1500" y2="380" class="thin"/>
+<text x="100" y="420" class="num" text-anchor="start">②</text>
+<text x="160" y="420" class="label" text-anchor="start">· 简单执行 · 重复协调 · 流水线操作</text>
+<text x="100" y="450" class="small" text-anchor="start">AI 让"协调"变得便宜，平台让"获取"变得便宜，这一层原本吃的是协调溢价</text>
+<text x="600" y="450" class="small" text-anchor="start" fill="#7c2d12" font-weight="700">→ 中间层被两端挤压</text>
+<text x="1000" y="450" class="small" text-anchor="start" fill="#8795a1">Humlum &amp; Vestergaard 2026：AI 原生企业规模约小 25%</text>
+
+<!-- 下游：OPC + 小团队 -->
+<rect x="60" y="500" width="1480" height="200" class="box green"/>
+<text x="800" y="540" class="label" text-anchor="middle">下游：OPC（One-Person Company）+ 行业小团队（责任中心极小，能力网络极大）</text>
+<line x1="100" y1="560" x2="1500" y2="560" class="thin"/>
+<text x="100" y="600" class="num" text-anchor="start">③</text>
+<text x="160" y="600" class="label" text-anchor="start">一人 + 多个 Agent + 调用上游 API</text>
+<text x="100" y="630" class="small" text-anchor="start">· 一人 = 唯一决策者 / 唯一事故响应人</text>
+<text x="100" y="655" class="small" text-anchor="start">· Agent = 客户、代码、记忆、支付、销售可能集中在同一组平台</text>
+<text x="100" y="680" class="small" text-anchor="start" fill="#1f4e79" font-weight="700">→ 责任小、暴露大、依赖深、迁移难</text>
+
+<!-- 双向箭头 -->
+<path d="M800,300 L800,320" class="line" marker-end="url(#arr)"/>
+<path d="M800,480 L800,500" class="line" marker-end="url(#arr)"/>
+
+<!-- 底部：核心论断 -->
+<rect x="60" y="725" width="1480" height="120" class="box muted"/>
+<text x="800" y="765" class="label" text-anchor="middle">AI 降低的是执行与协调成本，没有自动降低专业判断、信誉、法律和不可转移的责任</text>
+<line x1="100" y1="783" x2="1500" y2="783" class="thin"/>
+<text x="100" y="815" class="small" text-anchor="start">· 国家能力不能只由头部实验室定义 —— 还取决于普通个人和企业能否取得能力、保留资产、积累经验</text>
+<text x="100" y="838" class="small" text-anchor="start" fill="#7c2d12" font-weight="700">· 模型竞争到了这里，就开始变成能力体系的竞争（→ 序章-5）</text>
+
+<text x="60" y="870" class="tiny">原创信息图 · v0.1 · 2026-08-06 · 适配单色印刷 · Humlum &amp; Vestergaard (2026)；ILO-世行 2024</text>
+</svg>

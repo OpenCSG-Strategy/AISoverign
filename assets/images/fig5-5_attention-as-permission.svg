@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<title>图5-5 注意力也是一种权限：3 类能力 + 排序作为上游权限</title><desc>《AI主权》原创信息图，v0.1，2026-08-06。把"决定什么先出现在你眼前"画成上游权限：排序 → 工具 → 现实。个人能力分 3 类：可完全外包 / 保留检验 / 必须亲自形成判断。AI 越强，区分越重要。数据来源：第五章正文 05.4。</desc>
+<rect width="100%" height="100%" fill="#fbfaf7"/>
+<style>text{font-family:Noto Sans CJK SC, PingFang SC, sans-serif;fill:#1f2933}
+.title{font-size:32px;font-weight:700}
+.label{font-size:22px;font-weight:700}
+.small{font-size:16px}
+.tiny{font-size:14px}
+.num{font-size:34px;font-weight:700;fill:#1f4e79}
+.box{stroke:#34495e;stroke-width:2;rx:12}
+.muted{fill:#f0eee8}
+.accent{fill:#dbeafe}
+.warm{fill:#fef3c7}
+.green{fill:#dcfce7}
+.line{stroke:#506273;stroke-width:3;fill:none}
+.thin{stroke:#506273;stroke-width:1.5;fill:none}
+</style>
+<defs><marker id="arrow" markerWidth="12" markerHeight="12" refX="11" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 z" fill="#1f4e79"/></marker></defs>
+
+<text x="60" y="55" class="title" text-anchor="start">图5-5　注意力也是一种权限：3 类能力 + 排序作为上游权限</text>
+<text x="800" y="100" class="label" text-anchor="middle">AI 改变的不是删除什么，而是顺序；紧急但不重要的消息总在最上面，长期项目不断后退</text>
+
+<!-- 顶部：3 类能力（垂直堆叠） -->
+<rect x="60" y="140" width="1480" height="60" class="box warm"/>
+<text x="800" y="180" class="label" text-anchor="middle">个人能力分 3 类（保留底线）</text>
+
+<g>
+  <rect x="60" y="220" width="730" height="160" class="box accent"/>
+  <text x="100" y="260" class="num" text-anchor="start">①</text>
+  <text x="160" y="260" class="label" text-anchor="start">可完全外包的动作</text>
+  <line x1="100" y1="280" x2="750" y2="280" class="thin"/>
+  <text x="100" y="310" class="small" text-anchor="start">· 机械转写（语音/OCR/排版）</text>
+  <text x="100" y="333" class="small" text-anchor="start">· 整理公开资料 / 调整排版</text>
+  <text x="100" y="356" class="small" text-anchor="start">· 生成几个标题 / 简单摘要</text>
+  <text x="100" y="378" class="tiny" text-anchor="start" fill="#1f4e79" font-weight="700">结果不理想也容易重来</text>
+
+  <rect x="810" y="220" width="730" height="160" class="box warm"/>
+  <text x="850" y="260" class="num" text-anchor="start">②</text>
+  <text x="910" y="260" class="label" text-anchor="start">保留检验能力的技能</text>
+  <line x1="850" y1="280" x2="1500" y2="280" class="thin"/>
+  <text x="850" y="310" class="small" text-anchor="start">· 核验事实 / 检查合同</text>
+  <text x="850" y="333" class="small" text-anchor="start">· 理解现金流 / 法律提交</text>
+  <text x="850" y="356" class="small" text-anchor="start">· 关键系统失败时会发生什么</text>
+  <text x="850" y="378" class="tiny" text-anchor="start" fill="#7c2d12" font-weight="700">外包动作 + 保留检查标准</text>
+
+  <rect x="60" y="400" width="1480" height="160" class="box green"/>
+  <text x="100" y="440" class="num" text-anchor="start">③</text>
+  <text x="160" y="440" class="label" text-anchor="start">必须亲自形成的判断</text>
+<line x1="100" y1="460" x2="1500" y2="460" class="thin"/>
+<text x="100" y="490" class="small" text-anchor="start">· 决定愿意成为什么样的人</text>
+<text x="100" y="513" class="small" text-anchor="start">· 接受什么代价 / 对谁作出承诺</text>
+<text x="100" y="536" class="small" text-anchor="start">· 代表个人立场、亲密关系、医疗方案</text>
+<text x="100" y="558" class="tiny" text-anchor="start" fill="#7c2d12" font-weight="700">技术上可全自动 → 可能应永远停在"建议"</text>
+</g>
+
+<!-- 底部：上游权限链 -->
+<rect x="60" y="600" width="1480" height="260" class="box muted"/>
+<text x="800" y="640" class="label" text-anchor="middle">"决定什么先出现在你眼前" = 排序作为代理行动的上游权限</text>
+<line x1="100" y1="660" x2="1500" y2="660" class="thin"/>
+
+<rect x="100" y="690" width="280" height="140" class="box accent"/>
+<text x="240" y="725" class="label" text-anchor="middle">排序</text>
+<text x="240" y="750" class="small" text-anchor="middle">决定什么值得看</text>
+<text x="100" y="780" class="tiny" text-anchor="start" fill="#1f4e79" font-weight="700">模型先决定，</text>
+<text x="100" y="800" class="tiny" text-anchor="start" fill="#1f4e79" font-weight="700">后面的工具再写进现实</text>
+
+<path d="M380,760 L440,760" class="line" marker-end="url(#arrow)"/>
+
+<rect x="460" y="690" width="280" height="140" class="box warm"/>
+<text x="600" y="725" class="label" text-anchor="middle">调用工具</text>
+<text x="600" y="750" class="small" text-anchor="middle">建议 → 行动</text>
+<text x="460" y="780" class="tiny" text-anchor="start" fill="#7c2d12" font-weight="700">取消会议 / 延后回复 / 替人承诺</text>
+
+<path d="M740,760 L800,760" class="line" marker-end="url(#arrow)"/>
+
+<rect x="820" y="690" width="280" height="140" class="box green"/>
+<text x="960" y="725" class="label" text-anchor="middle">改变现实</text>
+<text x="960" y="750" class="small" text-anchor="middle">邮件 / 日历 / 支付 / 合同</text>
+<text x="820" y="780" class="tiny" text-anchor="start" fill="#7c2d12" font-weight="700">从"界面设计"升级为</text>
+<text x="820" y="800" class="tiny" text-anchor="start" fill="#7c2d12" font-weight="700">"代理行动的上游权限"</text>
+
+<rect x="1130" y="690" width="350" height="140" class="box warm"/>
+<text x="1305" y="725" class="label" text-anchor="middle">人工锚点</text>
+<line x1="1170" y1="745" x2="1450" y2="745" class="thin"/>
+<text x="1170" y="775" class="small" text-anchor="start">· 每天最重要任务自己先写</text>
+<text x="1170" y="797" class="small" text-anchor="start">· 每周无推荐阅读时间</text>
+<text x="1170" y="819" class="small" text-anchor="start">· 重要联系人定期查看</text>
+
+<text x="60" y="880" class="tiny">原创信息图 · v0.1 · 2026-08-06 · 适配单色印刷 · 第五章正文 05.4</text>
+</svg>

@@ -1,0 +1,143 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<title>图8-7 公共 AI 申诉链：4 步流程 + 4 项记录</title>
+<desc>《AI主权》原创信息图，v0.1，2026-08-06。把"公共 AI 允许人申诉、必须记得自己做过什么"画成 4 步申诉链（事实/规则/复核/补救）+ 4 项必须记录（目的/授权/证据/流程）+ 风险由权利影响决定 + 加拿大 / 英国 / 欧盟 / OECD 4 个制度对比。数据来源：第八章正文 08.7，截至 2026-08-06。</desc>
+<rect width="100%" height="100%" fill="#fbfaf7"/>
+<style>text{font-family:Noto Sans CJK SC, PingFang SC, sans-serif;fill:#1f2933}
+.title{font-size:32px;font-weight:700}
+.label{font-size:20px;font-weight:700}
+.small{font-size:15px}
+.tiny{font-size:13px}
+.num{font-size:30px;font-weight:700;fill:#1f4e79}
+.box{stroke:#34495e;stroke-width:2;rx:12}
+.muted{fill:#f0eee8}
+.accent{fill:#dbeafe}
+.warm{fill:#fef3c7}
+.green{fill:#dcfce7}
+.red{fill:#fee2e2}
+.line{stroke:#506273;stroke-width:3;fill:none}
+.thin{stroke:#506273;stroke-width:1.5;fill:none}
+</style>
+
+<text x="60" y="55" class="title" text-anchor="start">图8-7　公共 AI 必须允许人申诉，也必须记得自己做过什么</text>
+<text x="800" y="100" class="label" text-anchor="middle" fill="#1f4e79">准确率答"系统多常猜对" — 公共法还要问"它是否有权猜 / 猜错由谁承担 / 怎样恢复权利"</text>
+
+<!-- 4 步申诉链 -->
+<g>
+  <text x="60" y="150" class="label">四个朴素答案 — 公民面对自动化决定最先要的回答</text>
+
+  <rect x="60"  y="180" width="340" height="180" class="box accent"/>
+  <text x="230" y="220" class="num" text-anchor="middle">① 事实</text>
+  <text x="230" y="252" class="label" text-anchor="middle">你依据了什么事实？</text>
+  <text x="80" y="285" class="small">• 数据是否属于当事人</text>
+  <text x="80" y="310" class="small">• 时间范围是否正确</text>
+  <text x="80" y="335" class="small" font-style="italic">不只是特征权重分数</text>
+
+  <text x="405" y="270" class="label" text-anchor="middle" fill="#1f4e79">→</text>
+
+  <rect x="430" y="180" width="340" height="180" class="box warm"/>
+  <text x="600" y="220" class="num" text-anchor="middle">② 规则</text>
+  <text x="600" y="252" class="label" text-anchor="middle">哪一条规则影响了我？</text>
+  <text x="450" y="285" class="small">• 不能只抛出一个分数</text>
+  <text x="450" y="310" class="small">• 要说明依据什么规则</text>
+  <text x="450" y="335" class="small" font-style="italic">业务规则写在供应商</text>
+  <text x="450" y="355" class="small" font-style="italic">黑箱里 = 复核者无法判断</text>
+
+  <text x="775" y="270" class="label" text-anchor="middle" fill="#1f4e79">→</text>
+
+  <rect x="800" y="180" width="340" height="180" class="box green"/>
+  <text x="970" y="220" class="num" text-anchor="middle">③ 复核</text>
+  <text x="970" y="252" class="label" text-anchor="middle">谁能改结果？</text>
+  <text x="820" y="285" class="small">• 看到原始证据</text>
+  <text x="820" y="310" class="small">• 接收新补充情况</text>
+  <text x="820" y="335" class="small" font-style="italic">不是把机器再跑一遍</text>
+
+  <text x="1145" y="270" class="label" text-anchor="middle" fill="#1f4e79">→</text>
+
+  <rect x="1170" y="180" width="370" height="180" class="box red"/>
+  <text x="1355" y="220" class="num" text-anchor="middle">④ 补救</text>
+  <text x="1355" y="252" class="label" text-anchor="middle">错了能恢复吗？</text>
+  <text x="1190" y="285" class="small">• 停止执行</text>
+  <text x="1190" y="310" class="small">• 恢复权益</text>
+  <text x="1190" y="335" class="small" font-style="italic">否则"解释"只是让人更清楚</text>
+  <text x="1190" y="355" class="small" font-style="italic">知道自己无能为力</text>
+</g>
+
+<!-- 4 项必须记录 + 4 国制度 -->
+<g>
+  <text x="60" y="395" class="label">公共审计要沿着一项决定走完整条路 — 4 项记录 + 4 国制度</text>
+
+  <!-- 4 项记录 -->
+  <text x="60" y="425" class="label" fill="#1f4e79">沿着决定看 4 项：</text>
+
+  <rect x="60"  y="445" width="345" height="80" class="box accent"/>
+  <text x="80" y="475" class="label">① 目的</text>
+  <text x="80" y="500" class="small">公共问题是什么，有没有更少</text>
+  <text x="80" y="518" class="small">侵入的办法</text>
+
+  <rect x="415" y="445" width="345" height="80" class="box warm"/>
+  <text x="435" y="475" class="label">② 授权</text>
+  <text x="435" y="500" class="small">数据 / 推断 / 行动分别依据</text>
+  <text x="435" y="518" class="small">什么权力</text>
+
+  <rect x="770" y="445" width="345" height="80" class="box green"/>
+  <text x="790" y="475" class="label">③ 证据</text>
+  <text x="790" y="500" class="small">输入是否完整，错误会集中</text>
+  <text x="790" y="518" class="small">伤害谁，测试覆盖真实环境</text>
+
+  <rect x="1125" y="445" width="415" height="80" class="box red"/>
+  <text x="1145" y="475" class="label">④ 流程</text>
+  <text x="1145" y="500" class="small">工作人员能否反对 / 界面是否诱导 / 供应商更新是否</text>
+  <text x="1145" y="518" class="small">重新评估</text>
+
+  <!-- 4 国制度 -->
+  <text x="60" y="555" class="label" fill="#1f4e79">4 个国家制度参考：</text>
+
+  <rect x="60"  y="575" width="345" height="80" class="box accent"/>
+  <text x="80" y="605" class="label">加拿大</text>
+  <text x="80" y="630" class="small">设计初期 + 投产前算法影响评估</text>
+  <text x="80" y="648" class="small">功能 / 范围变化要更新</text>
+
+  <rect x="415" y="575" width="345" height="80" class="box warm"/>
+  <text x="435" y="605" class="label">英国</text>
+  <text x="435" y="630" class="small">统一格式 ATRS 公开库</text>
+  <text x="435" y="648" class="small">2025-05：59 份算法透明记录</text>
+
+  <rect x="770" y="575" width="345" height="80" class="box green"/>
+  <text x="790" y="605" class="label">欧盟</text>
+  <text x="790" y="630" class="small">AIAct 高风险 + 基本权利影响</text>
+  <text x="790" y="648" class="small">2026 修法：附件三义务 2027-12-02 适用</text>
+
+  <rect x="1125" y="575" width="415" height="80" class="box red"/>
+  <text x="1145" y="605" class="label">OECD</text>
+  <text x="1145" y="630" class="small">2026 调查 36 国：10 国做影响测量，4 国做部</text>
+  <text x="1145" y="648" class="small">门级；28% 真正测过单项</text>
+</g>
+
+<!-- 底部：风险由权利影响决定 -->
+<g>
+  <rect x="60" y="685" width="1480" height="170" class="box" fill="#f0eee8"/>
+  <text x="800" y="725" class="label" text-anchor="middle">风险由机器碰到了什么决定 — 不是模型有多强</text>
+
+  <text x="100" y="765" class="label" fill="#1f4e79">低影响</text>
+  <text x="100" y="790" class="small">改写文字 / 整理公开会议记录</text>
+  <text x="100" y="810" class="small" font-style="italic">错误容易发现和撤回</text>
+
+  <text x="490" y="765" class="label" fill="#1f4e79">中等影响</text>
+  <text x="490" y="790" class="small">排序申请 / 给资源 / 评分</text>
+  <text x="490" y="810" class="small" font-style="italic">改变谁先获得机会</text>
+
+  <text x="880" y="765" class="label" fill="#1f4e79">高影响</text>
+  <text x="880" y="790" class="small">拒绝 / 追索 / 调查 / 限制自由</text>
+  <text x="880" y="810" class="small" font-style="italic">站在公共强制力入口</text>
+
+  <text x="1270" y="765" class="label" fill="#1f4e79">公共系统门槛</text>
+  <text x="1270" y="790" class="small">影响越大，越要更高授权 /</text>
+  <text x="1270" y="810" class="small">证据 / 复核要求</text>
+
+  <text x="800" y="845" class="small" text-anchor="middle" font-weight="700" fill="#1f4e79">"技术能力不断变化，权利影响比产品名称更稳定"</text>
+</g>
+
+<!-- footer -->
+<text x="60" y="880" class="tiny">原创信息图 · v0.1 · 2026-08-06 · 适配单色印刷 · 数据来源：第八章 07 节，截至 2026-08-06</text>
+<text x="1540" y="880" class="tiny" text-anchor="end">《AI主权》</text>
+</svg>

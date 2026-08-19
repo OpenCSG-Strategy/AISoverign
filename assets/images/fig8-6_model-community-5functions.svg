@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<title>图8-6 模型社区 5 种公共功能</title>
+<desc>《AI主权》原创信息图，v0.1，2026-08-06。把"模型社区是城市的第二种基础设施"画成 5 种公共功能（可发现/可追溯/可获得/可重复/可反馈）+ 多社区结构 + 魔搭 ModelScope 案例 + 平台规模不等于主权的 4 项检查。数据来源：第八章正文 08.5，截至 2026-08-06。</desc>
+<rect width="100%" height="100%" fill="#fbfaf7"/>
+<style>text{font-family:Noto Sans CJK SC, PingFang SC, sans-serif;fill:#1f2933}
+.title{font-size:32px;font-weight:700}
+.label{font-size:20px;font-weight:700}
+.small{font-size:15px}
+.tiny{font-size:13px}
+.num{font-size:30px;font-weight:700;fill:#1f4e79}
+.box{stroke:#34495e;stroke-width:2;rx:12}
+.muted{fill:#f0eee8}
+.accent{fill:#dbeafe}
+.warm{fill:#fef3c7}
+.green{fill:#dcfce7}
+.red{fill:#fee2e2}
+.line{stroke:#506273;stroke-width:3;fill:none}
+.thin{stroke:#506273;stroke-width:1.5;fill:none}
+</style>
+
+<text x="60" y="55" class="title" text-anchor="start">图8-6　模型社区是城市的第二种基础设施</text>
+<text x="800" y="100" class="label" text-anchor="middle" fill="#1f4e79">机房解决"在哪里计算" — 模型社区解决"拿什么开始、怎样继续"</text>
+
+<!-- 左侧：5 种公共功能 -->
+<g>
+  <text x="60" y="155" class="label">五种公共功能 — 城市可借鉴的开放接口</text>
+
+  <rect x="60"  y="180" width="290" height="110" class="box accent"/>
+  <text x="205" y="220" class="num" text-anchor="middle">① 可发现</text>
+  <text x="80" y="250" class="small">让资产在统一目录里被检索</text>
+  <text x="80" y="272" class="small">模型 + 数据集 + 评测集 + 工具</text>
+  <text x="80" y="292" class="tiny" font-style="italic">不必每个团队从头找起</text>
+
+  <rect x="360" y="180" width="290" height="110" class="box warm"/>
+  <text x="505" y="220" class="num" text-anchor="middle">② 可追溯</text>
+  <text x="380" y="250" class="small">版本 + 许可证 + 来源 + 依赖</text>
+  <text x="380" y="272" class="small">记录资产从哪来 + 改了什么</text>
+  <text x="380" y="292" class="tiny" font-style="italic">"已上架"不能替代审查</text>
+
+  <rect x="60"  y="300" width="290" height="110" class="box green"/>
+  <text x="205" y="340" class="num" text-anchor="middle">③ 可获得</text>
+  <text x="80" y="370" class="small">开放 + 受控 + 私有 三档资产</text>
+  <text x="80" y="392" class="small">开发环境 / 部署 / 推理框架</text>
+  <text x="80" y="412" class="tiny" font-style="italic">小团队从验证过的起点继续</text>
+
+  <rect x="360" y="300" width="290" height="110" class="box warm"/>
+  <text x="505" y="340" class="num" text-anchor="middle">④ 可重复</text>
+  <text x="380" y="370" class="small">评测 + 部署 + 容器可复现</text>
+  <text x="380" y="392" class="small">不绑定单一供应商</text>
+  <text x="380" y="412" class="tiny" font-style="italic">下架后关键任务能恢复</text>
+
+  <rect x="60"  y="420" width="590" height="110" class="box red"/>
+  <text x="355" y="460" class="num" text-anchor="middle">⑤ 可反馈</text>
+  <text x="80" y="490" class="small">应用运行 → 故障模式 + 通用评测</text>
+  <text x="80" y="512" class="small">回到生态 — 不交出原始业务数据</text>
+  <text x="80" y="532" class="tiny" font-style="italic">下一团队少走一次坑</text>
+</g>
+
+<!-- 右侧：魔搭 ModelScope + 多社区结构 -->
+<g>
+  <text x="690" y="155" class="label">魔搭 ModelScope 案例 — 多组件统一接口</text>
+
+  <rect x="690" y="180" width="850" height="350" class="box muted"/>
+  <text x="1115" y="220" class="label" text-anchor="middle">企业平台样本（不是要复制）</text>
+
+  <!-- 组件：模型/数据集/Studio/Skills/MCP -->
+  <rect x="720"  y="250" width="150" height="80" class="box accent"/>
+  <text x="795" y="280" class="label" text-anchor="middle">模型</text>
+  <text x="795" y="305" class="small" text-anchor="middle">检索 / 版本</text>
+  <text x="795" y="322" class="small" text-anchor="middle">断点续传</text>
+
+  <rect x="880"  y="250" width="150" height="80" class="box accent"/>
+  <text x="955" y="280" class="label" text-anchor="middle">数据集</text>
+  <text x="955" y="305" class="small" text-anchor="middle">完整 / 校验</text>
+  <text x="955" y="322" class="small" text-anchor="middle">离线缓存</text>
+
+  <rect x="1040" y="250" width="150" height="80" class="box warm"/>
+  <text x="1115" y="280" class="label" text-anchor="middle">Studio</text>
+  <text x="1115" y="305" class="small" text-anchor="middle">应用空间</text>
+  <text x="1115" y="322" class="small" text-anchor="middle">上传 / 部署</text>
+
+  <rect x="1200" y="250" width="150" height="80" class="box warm"/>
+  <text x="1275" y="280" class="label" text-anchor="middle">Skills</text>
+  <text x="1275" y="305" class="small" text-anchor="middle">执行能力</text>
+  <text x="1275" y="322" class="small" text-anchor="middle">工具链</text>
+
+  <rect x="1360" y="250" width="150" height="80" class="box green"/>
+  <text x="1435" y="280" class="label" text-anchor="middle">MCP</text>
+  <text x="1435" y="305" class="small" text-anchor="middle">服务器</text>
+  <text x="1435" y="322" class="small" text-anchor="middle">协议互通</text>
+
+  <text x="1115" y="370" class="small" text-anchor="middle">统一客户端 — 检索 / 版本 / 校验 / 缓存 / 上传 / 部署</text>
+  <text x="1115" y="395" class="small" text-anchor="middle">官方称可连接 10 万 + 模型与数据集 / 月报称 1,600 万 + 开发者</text>
+
+  <line x1="720" y1="425" x2="1510" y2="425" class="thin"/>
+  <text x="1115" y="455" class="label" text-anchor="middle" fill="#1f4e79">规模 ≠ 主权 — 必须保留多社区结构</text>
+
+  <text x="720"  y="490" class="small">• 一个模型可来自魔搭 / Hugging Face / 企业仓库 / 大学</text>
+  <text x="720"  y="513" class="small">• 同一任务可调用开放权重 / 商业 API / 端侧</text>
+  <text x="720"  y="536" class="small">• 共同接口负责让来源可比较 / 可连接 / 可退出</text>
+  <text x="720"  y="559" class="small">• 不负责宣布"唯一正确的平台"</text>
+  <text x="720"  y="582" class="small">• 平台规模仍不等于主权 — 见下方 4 项检查</text>
+  <text x="720"  y="610" class="tiny" font-style="italic">"城市很难靠行政命令制造同等规模的全国性社区 — 真正可借鉴的是承担 5 种公共功能"</text>
+</g>
+
+<!-- 底部：4 项主权检查 -->
+<g>
+  <rect x="60" y="650" width="1480" height="180" class="box" fill="#f0eee8"/>
+  <text x="800" y="690" class="label" text-anchor="middle">平台规模不等于主权 — 4 项检查</text>
+
+  <text x="100" y="730" class="label" fill="#1f4e79">① 资产可导出</text>
+  <text x="100" y="755" class="small">模型 / 数据可完整带出</text>
+  <text x="100" y="778" class="small">本地能继续使用</text>
+
+  <text x="490" y="730" class="label" fill="#1f4e79">② 许可证允许本地</text>
+  <text x="490" y="755" class="small">不是只能用平台托管</text>
+  <text x="490" y="778" class="small">私有化 + 二次分发</text>
+
+  <text x="880" y="730" class="label" fill="#1f4e79">③ 关键任务可恢复</text>
+  <text x="880" y="755" class="small">版本下架后仍能跑</text>
+  <text x="880" y="778" class="small">不绑定单一供应商</text>
+
+  <text x="1270" y="730" class="label" fill="#1f4e79">④ 公共资产可被访问</text>
+  <text x="1270" y="755" class="small">公共资金支持的资产</text>
+  <text x="1270" y="778" class="small">应能被其他工具访问</text>
+
+  <text x="800" y="815" class="small" text-anchor="middle" font-weight="700" fill="#1f4e79">只有当社区帮本地主体积累能力，又不把它们永久绑在社区本身，平台生态才会成为城市生态的一部分</text>
+</g>
+
+<!-- footer -->
+<text x="60" y="880" class="tiny">原创信息图 · v0.1 · 2026-08-06 · 适配单色印刷 · 数据来源：第八章 05 节，截至 2026-08-06</text>
+<text x="1540" y="880" class="tiny" text-anchor="end">《AI主权》</text>
+</svg>

@@ -1,0 +1,140 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<title>图8-8 数据、底座与替换：三道公共边界</title>
+<desc>《AI主权》原创信息图，v0.1，2026-08-06。把"数据/底座/替换构成公共边界"画成 3 边界（数据治理 5 件事 + 共同底座 4 原则 + 替换 5 校验）+ SyRI 案例 + 写在合同里的 8 项公共能力。数据来源：第八章正文 08.8，截至 2026-08-06。</desc>
+<rect width="100%" height="100%" fill="#fbfaf7"/>
+<style>text{font-family:Noto Sans CJK SC, PingFang SC, sans-serif;fill:#1f2933}
+.title{font-size:32px;font-weight:700}
+.label{font-size:20px;font-weight:700}
+.small{font-size:15px}
+.tiny{font-size:13px}
+.num{font-size:30px;font-weight:700;fill:#1f4e79}
+.box{stroke:#34495e;stroke-width:2;rx:12}
+.muted{fill:#f0eee8}
+.accent{fill:#dbeafe}
+.warm{fill:#fef3c7}
+.green{fill:#dcfce7}
+.red{fill:#fee2e2}
+.line{stroke:#506273;stroke-width:3;fill:none}
+.thin{stroke:#506273;stroke-width:1.5;fill:none}
+</style>
+
+<text x="60" y="55" class="title" text-anchor="start">图8-8　数据、底座与替换构成公共边界</text>
+<text x="800" y="100" class="label" text-anchor="middle" fill="#1f4e79">收集的正当理由不自动延伸到新目的 — 数据离开原数据库时，权利不应蒸发</text>
+
+<!-- 三道边界横向 -->
+<g>
+  <text x="60" y="155" class="label">三道公共边界 — 缺一不可</text>
+
+  <!-- 边界 1 数据 -->
+  <rect x="60" y="180" width="490" height="270" class="box accent"/>
+  <text x="305" y="220" class="num" text-anchor="middle">① 数据治理</text>
+  <text x="305" y="252" class="label" text-anchor="middle">受托而非占有</text>
+  <text x="80" y="285" class="small" font-weight="700">5 件事必须区分：</text>
+  <text x="80" y="310" class="small">• 谁有权收集</text>
+  <text x="80" y="332" class="small">• 允许用于什么目的</text>
+  <text x="80" y="354" class="small">• 谁可以再次访问</text>
+  <text x="80" y="376" class="small">• 保存多长时间</text>
+  <text x="80" y="398" class="small">• 个人怎样查看和纠正</text>
+  <text x="80" y="425" class="tiny" font-style="italic">SyRI 案例：海牙法院判公共利益与私人生活权</text>
+  <text x="80" y="443" class="tiny" font-style="italic">未保持平衡，违反《欧洲人权公约》第 8 条</text>
+
+  <!-- 边界 2 底座 -->
+  <rect x="555" y="180" width="490" height="270" class="box warm"/>
+  <text x="800" y="220" class="num" text-anchor="middle">② 共同底座</text>
+  <text x="800" y="252" class="label" text-anchor="middle">像城市道路而非超级大脑</text>
+  <text x="575" y="285" class="small" font-weight="700">共同的部分：</text>
+  <text x="575" y="310" class="small">• 身份验证 + 安全交换</text>
+  <text x="575" y="332" class="small">• 语义 + 授权</text>
+  <text x="575" y="354" class="small">• 记录方式</text>
+  <text x="575" y="380" class="small" font-weight="700">保持区分的部分：</text>
+  <text x="575" y="402" class="small">• 具体数据由谁保管</text>
+  <text x="575" y="424" class="small">• 哪个部门能为什么目的使用</text>
+  <text x="575" y="446" class="small" font-style="italic">"牺牲一些表面效率，换越权不能只靠一个方便接口完成"</text>
+
+  <!-- 边界 3 替换 -->
+  <rect x="1050" y="180" width="490" height="270" class="box green"/>
+  <text x="1295" y="220" class="num" text-anchor="middle">③ 替换</text>
+  <text x="1295" y="252" class="label" text-anchor="middle">换的不只是模型</text>
+  <text x="1070" y="285" class="small" font-weight="700">5 校验：</text>
+  <text x="1070" y="310" class="small">• 新旧系统能完成真实任务</text>
+  <text x="1070" y="332" class="small">• 资产 / 权限可读</text>
+  <text x="1070" y="354" class="small">• 记录可被双方理解</text>
+  <text x="1070" y="376" class="small">• 不一致时显示差异</text>
+  <text x="1070" y="398" class="small">• 公民权利连续性保留</text>
+  <text x="1070" y="425" class="tiny" font-style="italic">"只换底层模型 = 给火车站换机车，</text>
+  <text x="1070" y="443" class="tiny" font-style="italic">轨道 / 信号 / 时刻表仍然决定运行"</text>
+</g>
+
+<!-- 8 项合同能力 -->
+<g>
+  <text x="60" y="490" class="label">写在合同里的公共边界 — 8 项必须谈清的能力</text>
+
+  <rect x="60"  y="515" width="180" height="60" class="box accent"/>
+  <text x="150" y="540" class="label" text-anchor="middle">① 日志</text>
+  <text x="150" y="558" class="small" text-anchor="middle">机构能否取得</text>
+
+  <rect x="250" y="515" width="180" height="60" class="box warm"/>
+  <text x="340" y="540" class="label" text-anchor="middle">② 独立测试</text>
+  <text x="340" y="558" class="small" text-anchor="middle">独立人员能测</text>
+
+  <rect x="440" y="515" width="180" height="60" class="box green"/>
+  <text x="530" y="540" class="label" text-anchor="middle">③ 变更通知</text>
+  <text x="530" y="558" class="small" text-anchor="middle">供应商怎样通知</text>
+
+  <rect x="630" y="515" width="180" height="60" class="box accent"/>
+  <text x="720" y="540" class="label" text-anchor="middle">④ 数据导出</text>
+  <text x="720" y="558" class="small" text-anchor="middle">工作流如何导出</text>
+
+  <rect x="820" y="515" width="180" height="60" class="box warm"/>
+  <text x="910" y="540" class="label" text-anchor="middle">⑤ 记录归属</text>
+  <text x="910" y="558" class="small" text-anchor="middle">生成记录归谁</text>
+
+  <rect x="1010" y="515" width="180" height="60" class="box green"/>
+  <text x="1100" y="540" class="label" text-anchor="middle">⑥ 事故配合</text>
+  <text x="1100" y="558" class="small" text-anchor="middle">谁必须配合</text>
+
+  <rect x="1200" y="515" width="180" height="60" class="box accent"/>
+  <text x="1290" y="540" class="label" text-anchor="middle">⑦ 紧急暂停</text>
+  <text x="1290" y="558" class="small" text-anchor="middle">政府能否暂停</text>
+
+  <rect x="1390" y="515" width="150" height="60" class="box warm"/>
+  <text x="1465" y="540" class="label" text-anchor="middle">⑧ 退出</text>
+  <text x="1465" y="558" class="small" text-anchor="middle">能否有秩序结束</text>
+</g>
+
+<!-- 长期能力分界线 -->
+<g>
+  <rect x="60" y="610" width="1480" height="240" class="box" fill="#f0eee8"/>
+  <text x="800" y="650" class="label" text-anchor="middle">国家与企业健康分工 — 公共边界的反面</text>
+
+  <text x="100" y="690" class="label" fill="#1f4e79">企业提供</text>
+  <text x="100" y="715" class="small">• 创新 + 专业能力</text>
+  <text x="100" y="737" class="small">• 平台 + 模型 + 工具</text>
+  <text x="100" y="759" class="small">• 工程实施</text>
+  <text x="100" y="785" class="tiny" font-style="italic">不能取得"独家解释权"</text>
+
+  <text x="490" y="690" class="label" fill="#1f4e79">政府保留</text>
+  <text x="490" y="715" class="small">• 理解 + 监督 + 替换</text>
+  <text x="490" y="737" class="small">• 责任承担</text>
+  <text x="490" y="759" class="small">• 公民面对的最终责任</text>
+  <text x="490" y="785" class="tiny" font-style="italic">不能对公民说"是算法公司的决定"</text>
+
+  <text x="880" y="690" class="label" fill="#1f4e79">红线</text>
+  <text x="880" y="715" class="small">• 公共部门只能签合同</text>
+  <text x="880" y="737" class="small">• 不能独立执行关键任务</text>
+  <text x="880" y="759" class="small">= 取得的是租约，不是能力</text>
+  <text x="880" y="785" class="tiny" font-style="italic">"今天签的合同可能塑造一代人公共生活"</text>
+
+  <text x="1270" y="690" class="label" fill="#1f4e79">预算覆盖</text>
+  <text x="1270" y="715" class="small">• 建设 + 采购</text>
+  <text x="1270" y="737" class="small">• 维护 + 迁移</text>
+  <text x="1270" y="759" class="small">• 人工接管 + 有秩序结束</text>
+  <text x="1270" y="785" class="tiny" font-style="italic">给下一代保留修改今天判断的空间</text>
+
+  <text x="800" y="830" class="small" text-anchor="middle" font-weight="700" fill="#1f4e79">"如果离开旧系统后无法继续履行同一项公共责任 — 即使政府能买到另一款产品，锁定仍然存在"</text>
+</g>
+
+<!-- footer -->
+<text x="60" y="880" class="tiny">原创信息图 · v0.1 · 2026-08-06 · 适配单色印刷 · 数据来源：第八章 08 节，截至 2026-08-06</text>
+<text x="1540" y="880" class="tiny" text-anchor="end">《AI主权》</text>
+</svg>

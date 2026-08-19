@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<title>图8-9 智能体四问：谁有资格定义问题</title>
+<desc>《AI主权》原创信息图，v0.1，2026-08-06。把"智能体进入城市以后谁有资格定义问题"画成 4 问（看见/做/叫停/负责）+ 任务带数据权限证据 5 步 + 公共参与 6 类必须重讨论变化。数据来源：第八章正文 08.9，截至 2026-08-06。</desc>
+<rect width="100%" height="100%" fill="#fbfaf7"/>
+<style>text{font-family:Noto Sans CJK SC, PingFang SC, sans-serif;fill:#1f2933}
+.title{font-size:32px;font-weight:700}
+.label{font-size:20px;font-weight:700}
+.small{font-size:15px}
+.tiny{font-size:13px}
+.num{font-size:30px;font-weight:700;fill:#1f4e79}
+.box{stroke:#34495e;stroke-width:2;rx:12}
+.muted{fill:#f0eee8}
+.accent{fill:#dbeafe}
+.warm{fill:#fef3c7}
+.green{fill:#dcfce7}
+.red{fill:#fee2e2}
+.line{stroke:#506273;stroke-width:3;fill:none}
+.thin{stroke:#506273;stroke-width:1.5;fill:none}
+</style>
+
+<text x="60" y="55" class="title" text-anchor="start">图8-9　智能体进入城市以后，谁有资格定义问题</text>
+<text x="800" y="100" class="label" text-anchor="middle" fill="#1f4e79">所有会行动的 AI 都要回答四个问题 — 公共领域更要严格 + 公开</text>
+
+<!-- 4 问：核心圆心 -->
+<g>
+  <text x="60" y="150" class="label">公共智能体 4 问 — 必须获得更严格更公开的答案</text>
+
+  <!-- 中心圆 -->
+  <circle cx="800" cy="350" r="80" fill="#1f4e79"/>
+  <text x="800" y="345" class="label" text-anchor="middle" fill="white">公共智能体</text>
+  <text x="800" y="375" class="small" text-anchor="middle" fill="white">4 问 + 公共理由</text>
+
+  <!-- 四问 -->
+  <rect x="100"  y="200" width="370" height="160" class="box accent"/>
+  <text x="285" y="240" class="num" text-anchor="middle">① 它能看见什么</text>
+  <text x="120" y="275" class="small">• 法律授权 + 明确目的 + 必要性</text>
+  <text x="120" y="298" class="small">• 不能"也许以后有用"就接入</text>
+  <text x="120" y="321" class="small">• 跨部门访问要留下理由</text>
+  <text x="120" y="344" class="small" font-style="italic">临时授权到期自动失效</text>
+
+  <rect x="1130" y="200" width="370" height="160" class="box warm"/>
+  <text x="1315" y="240" class="num" text-anchor="middle">② 它能做什么</text>
+  <text x="1150" y="275" class="small">• 检索 / 整理 / 建议 / 排序</text>
+  <text x="1150" y="298" class="small">• 决定 / 触发强制行动</text>
+  <text x="1150" y="321" class="small">• 不同权限对应不同行动</text>
+  <text x="1150" y="344" class="small" font-style="italic">每次能力升级要重新审查</text>
+
+  <rect x="100"  y="430" width="370" height="160" class="box green"/>
+  <text x="285" y="470" class="num" text-anchor="middle">③ 谁能叫停</text>
+  <text x="120" y="505" class="small">• 业务负责人暂停个案</text>
+  <text x="120" y="528" class="small">• 技术团队隔离故障</text>
+  <text x="120" y="551" class="small">• 监督机关暂停一类用途</text>
+  <text x="120" y="574" class="small" font-style="italic">受影响者能让争议决定停止产生不可逆后果</text>
+
+  <rect x="1130" y="430" width="370" height="160" class="box red"/>
+  <text x="1315" y="470" class="num" text-anchor="middle">④ 谁来负责</text>
+  <text x="1150" y="505" class="small">• 责任落到有名称有权限的</text>
+  <text x="1150" y="528" class="small">• 公共机构和负责人</text>
+  <text x="1150" y="551" class="small">• 供应商 / 模型 / 外包有合同责任</text>
+  <text x="1150" y="574" class="small" font-style="italic">国家对公民的说明和救济义务不能外包</text>
+
+  <!-- 连线 -->
+  <line x1="470" y1="280" x2="720" y2="320" class="thin"/>
+  <line x1="1130" y1="280" x2="880" y2="320" class="thin"/>
+  <line x1="470" y1="510" x2="720" y2="380" class="thin"/>
+  <line x1="1130" y1="510" x2="880" y2="380" class="thin"/>
+</g>
+
+<!-- 任务带数据/权限/证据 5 步 -->
+<g>
+  <rect x="60" y="630" width="740" height="220" class="box" fill="#f0eee8"/>
+  <text x="430" y="670" class="label" text-anchor="middle">任务带数据 / 权限 / 证据一起走 — 5 步证据链</text>
+
+  <text x="80"  y="705" class="label" fill="#1f4e79">① 任务</text>
+  <text x="80"  y="725" class="small">从哪项授权开始</text>
+
+  <text x="220" y="705" class="label" fill="#1f4e79">② 规则</text>
+  <text x="220" y="725" class="small">哪个版本的规则和模型</text>
+
+  <text x="360" y="705" class="label" fill="#1f4e79">③ 身份</text>
+  <text x="360" y="725" class="small">以什么权限调用</text>
+
+  <text x="500" y="705" class="label" fill="#1f4e79">④ 工具</text>
+  <text x="500" y="725" class="small">调用了什么工具</text>
+
+  <text x="640" y="705" class="label" fill="#1f4e79">⑤ 行动</text>
+  <text x="640" y="725" class="small">什么行动改变了公民</text>
+
+  <text x="80"  y="760" class="small">• 用引用 / 摘要 / 完整性校验避免无必要复制敏感内容</text>
+  <text x="80"  y="780" class="small">• 原始资料按法定期限 + 访问规则保存</text>
+  <text x="80"  y="800" class="small" font-style="italic">"证据跟着任务走 ≠ 把所有个人信息无限复制到日志里"</text>
+</g>
+
+<!-- 公共参与必须重讨论的 6 类变化 -->
+<g>
+  <rect x="820" y="630" width="720" height="220" class="box" fill="#f0eee8"/>
+  <text x="1180" y="670" class="label" text-anchor="middle">系统演进 — 6 类必须重新讨论的变化</text>
+
+  <text x="840"  y="710" class="small">① 新增数据类别</text>
+  <text x="980"  y="710" class="small">② 扩大适用人群</text>
+  <text x="1120" y="710" class="small">③ 从建议升级为行动</text>
+  <text x="1260" y="710" class="small">④ 引入跨部门连接</text>
+  <text x="1400" y="710" class="small">⑤ 显著提高自主权限</text>
+  <text x="840"  y="740" class="small">⑥ 改变决定所依据的核心目标</text>
+
+  <text x="840"  y="775" class="label" fill="#1f4e79">为什么？</text>
+  <text x="840"  y="800" class="small">版本变化可能改变谁被看见 / 谁要补交材料 / 谁被送进更严格审查</text>
+  <text x="840"  y="820" class="small" font-style="italic">"技术指标平均提高，可能伴随一个小群体明显退步"</text>
+</g>
+
+<!-- footer -->
+<text x="60" y="880" class="tiny">原创信息图 · v0.1 · 2026-08-06 · 适配单色印刷 · 数据来源：第八章 09 节，截至 2026-08-06</text>
+<text x="1540" y="880" class="tiny" text-anchor="end">《AI主权》</text>
+</svg>

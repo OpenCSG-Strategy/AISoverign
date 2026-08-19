@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<title>图8-11 合作不能取消选择：3 不可让渡 + WAICO 5 检查</title>
+<desc>《AI主权》原创信息图，v0.1，2026-08-06。把"合作不能取消重新选择"画成 3 不可让渡（退出/发声/共同修改规则）+ 3 种失败形态（依赖/建设/控制）+ WAICO 5 项检查 + 国家 4 角色 + 欧洲委员会 AI 框架公约。数据来源：第八章正文 08.11，截至 2026-08-06。</desc>
+<rect width="100%" height="100%" fill="#fbfaf7"/>
+<style>text{font-family:Noto Sans CJK SC, PingFang SC, sans-serif;fill:#1f2933}
+.title{font-size:32px;font-weight:700}
+.label{font-size:20px;font-weight:700}
+.small{font-size:15px}
+.tiny{font-size:13px}
+.num{font-size:30px;font-weight:700;fill:#1f4e79}
+.box{stroke:#34495e;stroke-width:2;rx:12}
+.muted{fill:#f0eee8}
+.accent{fill:#dbeafe}
+.warm{fill:#fef3c7}
+.green{fill:#dcfce7}
+.red{fill:#fee2e2}
+.line{stroke:#506273;stroke-width:3;fill:none}
+.thin{stroke:#506273;stroke-width:1.5;fill:none}
+</style>
+
+<text x="60" y="55" class="title" text-anchor="start">图8-11　合作不能取消重新选择</text>
+<text x="800" y="100" class="label" text-anchor="middle" fill="#1f4e79">气候 / 疾病 / 供应链 / 科研 / 网安都跨越国界 — 没有退出能力的合作容易变成依附</text>
+
+<!-- 3 不可让渡 -->
+<g>
+  <text x="60" y="150" class="label">三项不可让渡 — 没有这些，留下就不是选择</text>
+
+  <rect x="60"  y="180" width="480" height="200" class="box red"/>
+  <text x="300" y="220" class="num" text-anchor="middle">① 退出</text>
+  <text x="300" y="252" class="label" text-anchor="middle">重新选择的能力</text>
+  <text x="80" y="285" class="small">• 合作破裂后能否继续履行</text>
+  <text x="80" y="308" class="small">• 对本国社会的责任</text>
+  <text x="80" y="331" class="small">• 关键服务能否在多个模型 /</text>
+  <text x="80" y="354" class="small">  供应者之间迁移</text>
+  <text x="80" y="378" class="tiny" font-style="italic">"没有退出能力的合作容易变成依附"</text>
+
+  <rect x="560" y="180" width="480" height="200" class="box warm"/>
+  <text x="800" y="220" class="num" text-anchor="middle">② 发声</text>
+  <text x="800" y="252" class="label" text-anchor="middle">议程被听见</text>
+  <text x="580" y="285" class="small">• 资源较少的国家需要</text>
+  <text x="580" y="308" class="small">  区域联盟 + 开放社区</text>
+  <text x="580" y="331" class="small">  + 国际组织汇聚专家</text>
+  <text x="580" y="354" class="small">• 否则形式上有一票，</text>
+  <text x="580" y="377" class="small">  也只能接受别人已完成的</text>
+  <text x="580" y="398" class="small" font-style="italic">"否则连被听见都不可能"</text>
+
+  <rect x="1060" y="180" width="480" height="200" class="box accent"/>
+  <text x="1300" y="220" class="num" text-anchor="middle">③ 共同修改规则</text>
+  <text x="1300" y="252" class="label" text-anchor="middle">技术工作组的话语权</text>
+  <text x="1080" y="285" class="small">• 身份由谁签发</text>
+  <text x="1080" y="308" class="small">• 哪些日志必须保留</text>
+  <text x="1080" y="331" class="small">• 数据用途如何表达</text>
+  <text x="1080" y="354" class="small">• 安全成本由谁承担</text>
+  <text x="1080" y="377" class="small" font-style="italic">"标准会把某些价值写成默认安排"</text>
+</g>
+
+<!-- 3 种失败形态 -->
+<g>
+  <text x="60" y="415" class="label">三种失败形态 — 失败更多时候发生得安静得多</text>
+
+  <rect x="60"  y="445" width="480" height="160" class="box accent"/>
+  <text x="300" y="485" class="num" text-anchor="middle">① 依赖而不掌握</text>
+  <text x="80" y="520" class="small">关键系统依赖少数不可替代节点</text>
+  <text x="80" y="543" class="small">本地只会采购 + 调用</text>
+  <text x="80" y="566" class="small">不理解模型 / 数据 / 运营 / 升级</text>
+  <text x="80" y="589" class="small" font-style="italic">"价格或政策变化时服务中断"</text>
+
+  <rect x="560" y="445" width="480" height="160" class="box warm"/>
+  <text x="800" y="485" class="num" text-anchor="middle">② 建设而不沉淀</text>
+  <text x="580" y="520" class="small">算力 + 园区 + 平台 + 应用不断出现</text>
+  <text x="580" y="543" class="small">每个项目重新招标 + 集成 + 整理</text>
+  <text x="580" y="566" class="small">人才在项目结束后流失</text>
+  <text x="580" y="589" class="small" font-style="italic">"没有形成会积累的工程体系"</text>
+
+  <rect x="1060" y="445" width="480" height="160" class="box red"/>
+  <text x="1300" y="485" class="num" text-anchor="middle">③ 控制而不受约束</text>
+  <text x="1080" y="520" class="small">数据连接广泛 + 自动化深入生活</text>
+  <text x="1080" y="543" class="small">没有清楚授权 + 可见性 + 申诉</text>
+  <text x="1080" y="566" class="small">技术能力提高，公民修改决定能力</text>
+  <text x="1080" y="589" class="small">  反而下降</text>
+  <text x="1080" y="612" class="small" font-style="italic">"没有独立监督"</text>
+</g>
+
+<!-- WAICO 5 检查 + 欧洲委员会 AI 框架公约 -->
+<g>
+  <text x="60" y="645" class="label">WAICO 5 项检查 + 欧洲委员会 AI 框架公约 — 制度起点不是成效</text>
+
+  <rect x="60"  y="670" width="990" height="170" class="box muted"/>
+  <text x="555" y="710" class="label" text-anchor="middle">WAICO 5 项检查（2026-07 上海签约）</text>
+  <text x="80"  y="745" class="small">① 研修者回国后能否组成持续工作的本地团队</text>
+  <text x="520" y="745" class="small">② 合作中心在外部专家离开后能否继续运行</text>
+  <text x="80"  y="770" class="small">③ 成员能否根据本地语言 / 数据 / 公共问题修改共同标准</text>
+  <text x="520" y="770" class="small">④ 关键服务能否在多个模型 / 供应者之间迁移</text>
+  <text x="80"  y="795" class="small">⑤ 小国意见能否真正改变议程</text>
+  <text x="80"  y="822" class="tiny" font-style="italic">"签约国数量和覆盖人口只能说明合作规模，不能证明能力已经转移"</text>
+
+  <rect x="1070" y="670" width="470" height="170" class="box accent"/>
+  <text x="1305" y="710" class="label" text-anchor="middle">欧洲委员会 AI 框架公约</text>
+  <text x="1090" y="745" class="small">• 2024 开放签署</text>
+  <text x="1090" y="770" class="small">• 人权 + 民主 + 法治</text>
+  <text x="1090" y="795" class="small">• AI 全生命周期国际约束</text>
+  <text x="1090" y="822" class="tiny" font-style="italic">"跨国技术关系不能只靠市场合同维持"</text>
+</g>
+
+<!-- footer -->
+<text x="60" y="880" class="tiny">原创信息图 · v0.1 · 2026-08-06 · 适配单色印刷 · 数据来源：第八章 11 节，截至 2026-08-06</text>
+<text x="1540" y="880" class="tiny" text-anchor="end">《AI主权》</text>
+</svg>

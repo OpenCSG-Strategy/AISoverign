@@ -640,7 +640,7 @@ def fig11_3():
     b += f'<circle cx="{cx}" cy="{cy}" r="40" fill="#1f4e79"/>'
     b += text(cx, cy + 5, "主权", "label", "middle")
 
-    svg("fig11-3_collaborative-sovereignty.svg", "图11-3 协同主权层级关系", b)
+    svg("fig11-3_scale-relations.svg", "图11-3 协同主权的尺度关系", b)
 
 
 def fig11_4():
@@ -1189,7 +1189,7 @@ if __name__ == "__main__":
 
     print("=== 第十一章 12 张 ===")
     fig11_2(); print("fig11-2_data-space-vs-fl.svg OK")
-    fig11_3(); print("fig11-3_collaborative-sovereignty.svg OK")
+    fig11_3(); print("fig11-3_scale-relations.svg OK")
     fig11_4(); print("fig11-4_capability-permission.svg OK")
     fig11_5(); print("fig11-5_job-to-task.svg OK")
     fig11_6(); print("fig11-6_process-vs-product.svg OK")

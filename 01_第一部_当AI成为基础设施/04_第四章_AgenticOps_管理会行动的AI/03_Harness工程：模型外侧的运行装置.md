@@ -7,7 +7,7 @@ title: "Harness工程：模型外侧的运行装置"
 order: 3
 editorial_stage: "待出版初审"
 fact_check: "资料核验至2026-08-17，出版冻结前复核"
-artwork: "无预设；编辑审读时复核"
+artwork: "fig4-3b_harness-architecture.png"
 ---
 
 ## Harness工程：模型外侧的运行装置

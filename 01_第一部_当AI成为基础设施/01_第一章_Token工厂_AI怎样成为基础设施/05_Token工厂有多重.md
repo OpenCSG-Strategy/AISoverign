@@ -13,9 +13,6 @@ artwork: "图1-2"
 ## Token工厂有多重
 
 ![图1-2　Token 工厂有多重：数字轻与物理重同时存在](../../assets/images/fig1-2_token-factory-weight.png)
-
-![图1-2附　电力基础设施：变压器与变电站是 Token 工厂背后真正的承重墙（来源：网络公开图，Unsplash License / CC0）](../../assets/images/fig1-2_token-factory-weight_substation.jpg)
-
 Token看起来很轻：出现在屏幕上，没有重量，几乎可以瞬间复制；生产Token的工厂却越来越重。轻与重的落差不是修辞，它是这个时代的权力地形：产品越轻，扛在它下面的物理系统就越向少数扛得动的主体集中。
 
 微软在威斯康星州建设的Fairwater把“重”变成了一张工程清单：园区占地约三百一十五英亩，使用约二千六百五十万磅结构钢、一百二十英里中压地下电缆和七十二点六英里机械管线，初始投资承诺三十三亿美元。土地、钢材、电缆和管道不是模型参数，却决定参数能否运转。[^p1-token-factory-builds]

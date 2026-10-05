@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
-<title>图序-6 四级主权是一条能力与责任链</title><desc>《AI主权》原创信息图，v0.1，2026-08-06。把四级主权画成嵌套同心圆：个人 / 组织 / 企业 / 国家与城市 — 每层标注"能授权什么 / 责任不能外包"。以"AI 筛选简历"任务为统一例子，呈现同一项决定在四个层级产生四种不能互相替代的责任。能力可沿链条进入，风险可沿链条向下转嫁。数据来源：序章正文（综合自 OECD AI 治理建议 2019/2024；ILO-世行 2024 平台与劳动报告）。</desc>
+<title>图序-6 四个尺度上的责任链</title><desc>《AI主权》原创信息图，v0.1，2026-08-06。把 OPC 组织方式画成嵌套同心圆：个人 / 部门 / 企业 / 国家与城市 — 每层标注 "同一 OPC 结构 / 不同责任半径"。以"AI 筛选简历"任务为统一例子，呈现同一 OPC 结构在四个尺度上沿责任半径放大。机制不换；救济从合同→问责→司法→外交。数据来源：序章正文（综合自 OECD AI 治理建议 2019/2024；ILO-世行 2024 平台与劳动报告）。</desc>
 <rect width="100%" height="100%" fill="#fbfaf7"/>
 <style>text{font-family:Noto Sans CJK SC, PingFang SC, sans-serif;fill:#1f2933}
 .title{font-size:32px;font-weight:700}

@@ -1,6 +1,6 @@
 ---
 unit_type: "section"
-part: "第一部　当AI成为基础设施"
+part: "第二部　主权是建出来的"
 chapter: "第四章"
 section: "第四章.1"
 title: "从DevOps到AgenticOps"

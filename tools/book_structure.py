@@ -11,6 +11,7 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
+FRONT = [ROOT / "00_书前/01_前言.md"]
 PART_DIRS = ["01_第一部_依赖", "02_第二部_建造", "03_第三部_自由", "04_结语"]
 APPENDIX_DIR = ROOT / "05_附录"
 ENDNOTES = APPENDIX_DIR / "附录B_精选尾注.md"
@@ -24,7 +25,7 @@ HAN_RE = re.compile(r"[一-鿿]")
 
 def manuscript() -> list[Path]:
     """Every body file in reading order: part guide, then each unit's intro and sections."""
-    files: list[Path] = []
+    files: list[Path] = [f for f in FRONT if f.exists()]
     for part in PART_DIRS:
         for entry in sorted((ROOT / part).iterdir()):
             if entry.is_file() and entry.suffix == ".md":

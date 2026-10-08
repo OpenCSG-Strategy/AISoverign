@@ -362,6 +362,22 @@
 
 [^p11-agent-identity]: NIST NCCoE，智能体身份与授权概念文件，2026年2月5日；NIST，*AI Agent Standards Initiative*，2026年2月17日。涵盖智能体识别、授权、审计与提示注入缓解；截至2026年8月6日仍是概念文件与倡议。**置信度：政府资料。** https://www.nccoe.nist.gov/publications/other/accelerating-adoption-software-and-ai-agent-identity-and-authorization-concept ；https://www.nist.gov/artificial-intelligence/ai-agent-standards-initiative
 
+## 二〇二六年十月改写新增
+
+[^new-kimi-k3]: Moonshot AI，*Kimi K3* 发布说明，2026年7月16日；Hugging Face 模型卡 moonshotai/Kimi-K3；Artificial Analysis，*Four frontier launches in eight days*，2026年7月。总参数2.8万亿、激活约1,040亿的混合专家模型，权重于7月27日公开；Artificial Analysis 智能指数得分57，按模型计排第三，仅次于 Claude Fable 5 与 GPT-5.6 Sol。https://www.kimi.ai/blog/kimi-k3 ；https://huggingface.co/moonshotai/Kimi-K3 ；https://artificialanalysis.ai/articles/four-frontier-launches-in-eight-days-six-labs-now-field-a-model-above-50-on-the-artificial-analysis-intelligence-index
+
+[^new-us-china-openweights]: Axios，*The secret Trump administration battle to fight Chinese AI*，2026年7月20日。报道白宫正在权衡限制中国开放权重模型的若干选项，包括实体清单、安全公告和行政令草案；属讨论中的方案，不是已公布的政策。https://www.axios.com/2026/07/20/ai-us-china-open-source-kimi
+
+[^new-openweights-coalition]: NVIDIA，*Open Weights and American AI Leadership*，2026年7月24日；Microsoft 联署名单页；Axios，2026年7月27日；Anthropic，*Our position on open-weights models*，2026年7月27日。首批约25家联署，7月28日前超过150家，8月初名单逾270家；OpenAI 与谷歌在首个周末补签，Anthropic 未签署并另发声明。https://images.nvidia.com/pdf/Open-Weights-and-American-AI-Leadership.pdf ；https://www.microsoft.com/en-us/corporate-responsibility/topics/open-weight/ ；https://axios.com/2026/07/27/nvidia-anthropic-openai-open-weight-debate ；https://www.anthropic.com/news/position-open-weights-models
+
+[^new-deepseek-nvidia]: Reuters，*DeepSeek sparks AI stock selloff; Nvidia posts record market-cap loss*，2025年1月27日；Bloomberg 同日报道。英伟达当日收跌近17%，市值减少约5,900亿美元，为美股单家公司最大单日市值损失。https://finance.yahoo.com/news/chinas-deepseek-sets-off-ai-071458375.html ；https://www.bloomberg.com/news/articles/2025-01-27/asml-sinks-as-china-ai-startup-triggers-panic-in-tech-stocks
+
+[^new-open-secure-alliance]: NVIDIA Blog，*Industry Leaders Unite in Open Secure AI Alliance for AI Safety and Security*，2026年7月27日。成员横跨云计算、网络安全与开源机构，目标是共建用于AI安全的开放模型、智能体框架与评测工具；创始成员数各报道口径不一。https://blogs.nvidia.com/blog/open-secure-ai-alliance/
+
+[^new-g42-scrutiny]: U.S. House Select Committee on the CCP，致商务部长雷蒙多的信，2024年1月9日。要求调查 G42 与中国军方和情报机构的关联；G42 其后撤出在华投资，同年4月微软宣布投资。https://chinaselectcommittee.house.gov/media/letters/letter-secretary-raimondo-ai-firm-ties-prc-military
+
+[^new-unity-fee]: Unity，*Unity is canceling the Runtime Fee*，2024年9月12日；Godot Foundation，*Godot Foundation update*，2023年；Shacknews，2023年9月22日；TechRadar，2023年10月9日。Unity 于2023年9月12日宣布按安装收费，9月22日道歉并修改，10月9日首席执行官 John Riccitiello 宣布退休，2024年9月取消该收费；Godot 开发基金同日上线，约两周内月捐款由约2.5万欧元增至逾5万欧元。https://unity.com/blog/unity-is-canceling-the-runtime-fee ；https://godotengine.org/article/godot-foundation-update-2023/ ；https://www.shacknews.com/article/137095/unity-apologizes-changes-policy ；https://www.techradar.com/gaming/unity-ceo-john-riccitiello-to-leave-company-immediately-following-recent-pricing-controversy
+
 ## 尾注使用说明
 
 月度下载量、融资估值、模型榜单、未经独立核验的内部测算，以及仅用于制造趋势感的产品参数，不进入纸质正文的核心论证。法规、政策与标准化倡议在正式出版和再版时，应按出版日期重新核验。

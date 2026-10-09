@@ -55,7 +55,7 @@ def fig0_1():
         b.append(t(X(d), yy + 20, c, 13, 'middle', fill=MID))
     events_dn = [
         (25, '联署到 50 家', ''),
-        (27, 'K3 权重公开', '英伟达等成立开放安全联盟'),
+        (27, 'K3 权重公开期限', '英伟达等成立开放安全联盟'),
     ]
     for i, (d, a, c) in enumerate(events_dn):
         yy = 265 + i * 48

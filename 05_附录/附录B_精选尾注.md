@@ -4,7 +4,7 @@
 
 ## 序章　最后一米
 
-[^new-kimi-k3]: Moonshot AI，*Kimi K3* 发布说明，2026年7月16日；Hugging Face 模型卡 moonshotai/Kimi-K3；Artificial Analysis，*Four frontier launches in eight days*，2026年7月17日。Kimi K3 为总参数2.8万亿、激活约1,040亿的混合专家模型，官方承诺于7月27日前公开权重，Artificial Analysis 智能指数得分57、总排名第三。https://www.kimi.ai/blog/kimi-k3 ；https://huggingface.co/moonshotai/Kimi-K3 ；https://artificialanalysis.ai/articles/four-frontier-launches-in-eight-days-six-labs-now-field-a-model-above-50-on-the-artificial-analysis-intelligence-index
+[^new-kimi-k3]: Moonshot AI，*Kimi K3* 发布说明，2026年7月16日；Hugging Face 模型卡 moonshotai/Kimi-K3；Artificial Analysis，*Four frontier launches in eight days*，2026年7月17日。Kimi K3 为总参数2.8万亿、激活约1,040亿的混合专家模型，官方承诺于7月27日前公开权重，权重于7月27日（UTC）按 Kimi K3 License 在 Hugging Face 公开（GIGAZINE，2026年7月28日），Artificial Analysis 智能指数得分57、总排名第三。https://www.kimi.ai/blog/kimi-k3 ；https://huggingface.co/moonshotai/Kimi-K3 ；https://www.gigazine.net/gsc_news/en/20260728-kimi-k3-open ；https://artificialanalysis.ai/articles/four-frontier-launches-in-eight-days-six-labs-now-field-a-model-above-50-on-the-artificial-analysis-intelligence-index
 
 [^new-us-china-openweights]: Axios，*The secret Trump administration battle to fight Chinese AI*，2026年7月20日。报道称白宫正在权衡限制中国开放权重模型的若干选项，包括实体清单、安全公告和行政令草案，尚未形成正式政策。https://www.axios.com/2026/07/20/ai-us-china-open-source-kimi
 
@@ -13,6 +13,12 @@
 [^new-openweights-coalition]: NVIDIA，*Open Weights and American AI Leadership*，2026年7月24日；Microsoft，联署名单页；Axios，2026年7月27日；AI Weekly，2026年7月；NYU Shanghai RITS，2026年7月；Anthropic，*Our position on open-weights models*，2026年7月27日。首批25家联署，次日增至50家，7月28日逾150家，8月初名单逾270家；Anthropic 与 xAI 未签署，Anthropic 另发声明。https://images.nvidia.com/pdf/Open-Weights-and-American-AI-Leadership.pdf ；https://www.microsoft.com/en-us/corporate-responsibility/topics/open-weight/ ；https://axios.com/2026/07/27/nvidia-anthropic-openai-open-weight-debate ；https://aiweekly.co/alerts/huangs-open-weights-letter-doubles-to-50-anthropic-still-out ；https://rits.shanghai.nyu.edu/ai/jensen-huangs-first-x-post-150-companies-sign-open-weights-letter-anthropic-doesnt/ ；https://www.anthropic.com/news/position-open-weights-models
 
 [^p10-hf-incident]: Hugging Face，*Security incident disclosure — July 2026*及技术时间线；OpenAI，事件联合说明，更新至2026年7月28日。双方确认评测智能体越出受限环境、进入HF生产基础设施，HF称未发现公开模型、数据集或Spaces被篡改。https://huggingface.co/blog/security-incident-july-2026 ；https://huggingface.co/blog/agent-intrusion-technical-timeline ；https://openai.com/zh-Hans-CN/index/hugging-face-model-evaluation-security-incident/
+
+[^new-agent-breaches]: Fortune，*Anthropic says Claude escaped a test and hacked three companies*，2026年7月31日（转述 Anthropic 7月30日披露：复查141,006次评测，发现三起因第三方评测环境误开外网而进入真实公司系统的事件）；Axios，*Google Gemini accessed three companies during AI hacking test*，2026年9月19日（谷歌9月18日确认，事件发生于2026年5月）；ABC News（澳大利亚），*OpenAI hacked Medicare portal, Prime Minister Anthony Albanese says*，2026年9月24日（事件发生于6月18日，OpenAI 8月11日发现、9月10日通知；政府称无证据显示个人医保记录被访问）。https://fortune.com/2026/07/31/anthropic-claude-escaped-test-hacked-three-companies-openai/ ；https://www.axios.com/2026/09/19/google-safety-incidents-testing-hacks ；https://www.abc.net.au/news/2026-09-24/ai-agent-accessed-australian-government-site-pm-says/107189078
+
+[^new-nvidia-hf]: TechCrunch，*Nvidia confirms it will buy Hugging Face for $12.9 billion*，2026年9月3日。交易价约129.3亿美元；黄仁勋称 Hugging Face 将保持对整个生态开放，“在其上构建或部署不需要使用 NVIDIA 算力”。截至2026年10月，未见监管审批结果。https://techcrunch.com/2026/09/03/nvidia-confirms-it-will-buy-hugging-face-for-12-9-billion/
+
+[^new-si-order]: The White House，*Fact Sheet: President Donald J. Trump Inaugurates the Era of Super Intelligence*，2026年9月29日；Forbes，2026年9月30日；PolitiFact，*Trump renamed AI to ‘super intelligence.’ What is it?*，2026年10月7日；ABC News，*Trump says AI leaders signed a 'constitution' to police themselves*，2026年9月29日。行政令要求行政部门在官方文件和公开沟通中以“Super Intelligence（SI）”取代“Artificial Intelligence（AI）”，不要求修改既有法规和合同，由总统科技助理在60天内就法定定义提出建议；自律协议为自愿性质，未写入法律。https://www.whitehouse.gov/fact-sheets/2026/09/fact-sheet-president-donald-j-trump-inaugurates-the-era-of-super-intelligence/ ；https://www.forbes.com/sites/siladityaray/2026/09/30/trump-signs-order-renaming-ai-to-super-intelligence--heres-what-it-says/ ；https://politifact.com/article/2026/oct/07/trump-ai-super-intelligence/ ；https://abcnews.com/Politics/top-ai-leaders-meet-trump-white-house-amid/story?id=136832988
 
 [^p6-operator]: OpenAI，*Operator System Card*，2025年1月23日。厂商自测中，无产品层防护的模型在100项近似真实任务中产生13次会造成麻烦的错误，确认等措施使估计风险降低约90%。https://openai.com/index/operator-system-card/
 
@@ -80,6 +86,8 @@
 
 [^p2-ntia-open-weights]: U.S. NTIA，*Dual-Use Foundation Models with Widely Available Model Weights Report*，2024年7月30日。报告基于332份公开意见，认为当时证据不足以支持对广泛可用权重作普遍限制。https://www.ntia.gov/programs-and-initiatives/artificial-intelligence/open-model-weights-report ；https://www.ntia.gov/programs-and-initiatives/artificial-intelligence/open-model-weights-report/background
 
+[^new-china-model-export]: The Next Web，*China weighs curbing overseas access to its top AI models*，2026年7月7日，转述路透社同日报道。据三位知情人士，商务部过去一个月与阿里巴巴、字节跳动、智谱讨论限制境外获取最先进模型（含开放权重）等方案，尚未作出决定，官方未置评。单一信源报道。https://thenextweb.com/news/china-curbing-overseas-access-top-ai-models
+
 [^p8-hf-opensource-2026]: Hugging Face，*State of Open Source on Hugging Face: Spring 2026*；The New Stack，2026年；Stanford HAI，*AI Index 2026: Technical Performance*，截至2026年3月。HF报告过去一年约41%的模型下载量来自中国研发的模型，美国约36.5%；AI Index记录美国最强模型对中国的领先收窄到约2.7%。https://huggingface.co/blog/huggingface/state-of-os-hf-spring-2026 ；https://thenewstack.io/china-leads-open-ai-models/ ；https://hai.stanford.edu/ai-index/2026-ai-index-report/technical-performance
 
 [^p2-deepseek-harness-2026]: DeepSeek，Harness开发者预览版（v0.1）发布页与GitHub仓库（MIT协议），2026年8月13日；The New Stack与Pandaily，同期报道。https://deepseek.com/harness/en/ ；https://github.com/deepseek-ai/deepseek-harness ；https://thenewstack.io/deepseek-harness-open-source-plugins/ ；https://pandaily.com/deepseek-harness-hands-on-four-modes-model-plus-harness-equals-agent-aug2026
@@ -139,6 +147,8 @@
 [^p9-mcp-control]: Model Context Protocol，*Tools*与*Authorization*规范，2025年11月25日版及2026年7月28日修订版。https://modelcontextprotocol.io/specification/2025-11-25/server/tools ；https://modelcontextprotocol.io/specification/2025-11-25/basic/authorization ；https://modelcontextprotocol.io/specification/2026-07-28/basic/authorization
 
 [^p4-nist-agent-id]: NIST NCCoE，*Accelerating the Adoption of Software and AI Agent Identity and Authorization*（概念文件），2026年2月5日。https://www.nist.gov/news-events/news/2026/02/new-concept-paper-identity-and-authority-software-agents ；https://www.nccoe.nist.gov/sites/default/files/2026-02/accelerating-the-adoption-of-software-and-ai-agent-identity-and-authorization-concept-paper.pdf
+
+[^new-nyc-hearing]: Startup Fortune，*AI giants tell NYC Council they cannot guarantee their agents stay safe*，2026年10月；amNY 同期报道。2026年10月5日纽约市议会全体委员会听证，OpenAI、Anthropic、谷歌、Meta 代表均未保证其智能体始终遵守安全防护；议长 Julie Menin 办公室提出约十项法案，包括强制人工停止开关、第三方独立验证等。https://startupfortune.com/ai-giants-tell-nyc-council-they-cannot-guarantee-their-agents-stay-safe/ ；https://www.amny.com/politics/nyc-council-ai-giants-hearing-safety/
 
 [^p7-uk-government-ai]: UK GDS，*Microsoft 365 Copilot Experiment: Cross-Government Findings Report*，2025年6月2日；DSIT、GDS，*AI coding assistant trial*，2025年9月12日。前者覆盖12个政府组织约20000名员工，后者提供2500个代码助手许可。https://www.gov.uk/government/publications/microsoft-365-copilot-experiment-cross-government-findings-report ；https://www.gov.uk/government/publications/ai-coding-assistant-trial
 
@@ -206,7 +216,13 @@
 
 [^p7-oecd-government-impact]: OECD，*Digital Government Outlook 2026: Adopting and governing AI in government*，2026年6月15日。据各国自报，36个成员国中只有10个（28%）对政府AI用例开展过影响测量。https://www.oecd.org/en/publications/2026/06/digital-government-outlook_4585678e/full-report/adopting-and-governing-ai-in-government_7ef312a9.html
 
+[^new-pax-silica]: U.S. Department of State，Pax Silica Summit 新闻稿与 *Joint Statement on AI Opportunity Partnership*，2026年6月；Brownstein，*State Department Expands Pax Silica Initiative at 2026 Summit*。峰会于6月25—26日在华盛顿举行，十个伙伴签署宣言后成员达二十四个，联合声明由美国和另外三十四国签署。https://www.state.gov/releases/office-of-the-spokesperson/2026/06/pax-silica/ ；https://www.state.gov/releases/under-secretary-for-economic-affairs/2026/06/joint-statement-on-ai-opportunity-partnership/ ；https://www.bhfs.com/insight/state-department-expands-pax-silica-initiative-at-2026-summit/
+
 [^p7-waico]: 外交部，《成立世界人工智能合作组织协定签署仪式在上海举行》，2026年7月16日；习近平在2026世界人工智能大会开幕式主旨讲话，2026年7月17日；新华社与国家发改委报道，2026年7月19—20日；联合国大会第79/325号决议。协定由二十九国签署，总部设在上海。https://www.fmprc.gov.cn/web/wjdt_674879/wjbxw_674885/202607/t20260716_11984399.shtml ；https://www.news.cn/politics/leaders/20260717/72728b6f94154d63b3eaaaf9808b51eb/c.html ；https://www.news.cn/world/20260719/9e49a03f5ce74864bd7b32f154aaad86/c.html ；https://www.ndrc.gov.cn/fggz/202607/t20260720_1406588.html ；https://docs.un.org/en/A/RES/79/325
+
+[^new-waico-expansion]: 中国国际科技交流中心，《世界人工智能合作组织扩容，第二批8国签约加入，成员增至37国》，2026年8月5日。第二批为伊朗、苏丹、越南、格鲁吉亚、坦桑尼亚、多米尼克、文莱、多哥。https://www.ciste.org.cn/gjjsmy/dwjl/art/2026/art_6eebe955ef6840a78367b9e91bb9b76f.html
+
+[^new-us-china-ai-dialogue]: 新华社，*China, U.S. agree to establish AI dialogue*，2026年9月26日；PBS NewsHour，2026年9月26日；The Next Web 转述白宫情况说明，2026年9月28日。双方同意建立人工智能对话、交流风险与收益，下一轮于11月举行，并设立 AI 相关事件沟通渠道；白宫文件称“Super Intelligence Dialogue”，未界定“事件”范围。https://english.news.cn/20260926/dc77e85b3b1f442abf0d816fbb65f320/c.html ；https://www.pbs.org/newshour/world/china-and-u-s-agree-to-establish-ai-safety-channel-and-continue-trade-and-military-talks ；https://thenextweb.com/news/us-china-super-intelligence-dialogue-ai-incident-channel
 
 ## 第三部导读与第七章　离开的权利
 

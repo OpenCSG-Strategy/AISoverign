@@ -1,0 +1,41 @@
+name: 同步到飞书
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "00_书前/**"
+      - "01_第一部_依赖/**"
+      - "02_第二部_建造/**"
+      - "03_第三部_自由/**"
+      - "04_结语/**"
+      - "05_附录/**"
+      - "assets/figures/**"
+      - "tools/book_structure.py"
+      - "tools/feishu_sync.py"
+  workflow_dispatch:
+
+concurrency:
+  group: feishu-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    env:
+      FEISHU_APP_ID: ${{ secrets.FEISHU_APP_ID }}
+      FEISHU_APP_SECRET: ${{ secrets.FEISHU_APP_SECRET }}
+      FEISHU_DOC: ${{ secrets.FEISHU_DOC }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python3 tools/book_structure.py validate
+      - name: 写入飞书文档
+        run: |
+          if [ -z "$FEISHU_APP_ID" ] || [ -z "$FEISHU_APP_SECRET" ] || [ -z "$FEISHU_DOC" ]; then
+            echo "::notice::飞书密钥还没有配置，跳过同步。配置方法见 90_出版工作台/04_飞书同步.md"
+            exit 0
+          fi
+          python3 tools/feishu_sync.py

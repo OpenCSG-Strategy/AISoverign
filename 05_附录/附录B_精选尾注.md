@@ -2,7 +2,7 @@
 
 本书尾注列出正文所引数据、文件和案例的出处，按章编排。网络链接的访问时间为二〇二六年十月。
 
-## 序章　最后一米
+## 序章　它替你按下了发送键
 
 [^new-kimi-k3]: Moonshot AI，*Kimi K3* 发布说明，2026年7月16日；Hugging Face 模型卡 moonshotai/Kimi-K3；Artificial Analysis，*Four frontier launches in eight days*，2026年7月17日。Kimi K3 为总参数2.8万亿、激活约1,040亿的混合专家模型，官方承诺于7月27日前公开权重，权重于7月27日（UTC）按 Kimi K3 License 在 Hugging Face 公开（GIGAZINE，2026年7月28日），Artificial Analysis 智能指数得分57、总排名第三。https://www.kimi.ai/blog/kimi-k3 ；https://huggingface.co/moonshotai/Kimi-K3 ；https://www.gigazine.net/gsc_news/en/20260728-kimi-k3-open ；https://artificialanalysis.ai/articles/four-frontier-launches-in-eight-days-six-labs-now-field-a-model-above-50-on-the-artificial-analysis-intelligence-index
 
@@ -30,7 +30,7 @@
 
 [^p1-nvidia-lps-2026]: Jensen Huang，*Securing the Infrastructure of Intelligence*，X长文，2026年8月17日；Daily Tribune，2026年8月18日。英伟达与SB Energy锁定俄亥俄州朴次茅斯PORTS-Pike园区的土地、电力和厂房，OpenAI为租户，初始4.25吉瓦；英伟达对约4吉瓦、为期20年的部分租金、电费及约定残值提供支持，数字为单方披露。https://x.com/JensenHuang/status/2089331487342829862 ；https://tribune.net.ph/2026/08/18/nvidia-secures-425-gw-site
 
-## 第一部导读与第一章　智能的工厂
+## 第一部导读与第一章　每个字都有电费
 
 [^p1-token-factory-builds]: NVIDIA，xAI Colossus网络披露，2024年10月28日；Microsoft，Fairwater数据中心披露，2025年9月18日；Brad Smith，*The Golden Opportunity for American AI*，2025年1月3日。据项目方披露，Colossus一期10万张Hopper GPU、约122天建成，Fairwater约315英亩、初始投资33亿美元。https://nvidianews.nvidia.com/news/spectrum-x-ethernet-networking-xai-colossus ；https://blogs.microsoft.com/blog/2025/09/18/inside-the-worlds-most-powerful-ai-datacenter/ ；https://blogs.microsoft.com/on-the-issues/2025/09/18/made-in-wisconsin-the-worlds-most-powerful-ai-datacenter/ ；https://blogs.microsoft.com/on-the-issues/2025/01/03/the-golden-opportunity-for-american-ai/
 
@@ -56,7 +56,7 @@
 
 [^p1-cma-cloud]: UK CMA，*Cloud Services Market Investigation: Summary of Final Decision*，2025年7月31日。英国及欧洲经济区IaaS市场中，Microsoft与AWS各占约百分之三十至四十，年更换服务商的客户不足百分之一。https://assets.publishing.service.gov.uk/media/688b20e6ff8c05468cb7b120/summary_of_final_decision.pdf
 
-## 第二章　聪明的价格
+## 第二章　聪明正在降价
 
 [^new-deepseek-nvidia]: Reuters，*DeepSeek sparks AI stock selloff; Nvidia posts record market-cap loss*，2025年1月27日；Bloomberg，同日报道。英伟达当日收跌近17%，市值减少约5,900亿美元，为美股单家公司最大单日市值损失。https://finance.yahoo.com/news/chinas-deepseek-sets-off-ai-071458375.html ；https://www.bloomberg.com/news/articles/2025-01-27/asml-sinks-as-china-ai-startup-triggers-panic-in-tech-stocks
 
@@ -98,7 +98,7 @@
 
 [^p2-agent-protocols]: Google，*Announcing the Agent2Agent Protocol*，2025年4月9日；Linux Foundation，A2A移交与生态更新；Linux Foundation，Agentic AI Foundation成立公告，2025年12月。A2A一周年时支持机构超150家。https://developers.googleblog.com/en/a2a-a-new-era-of-agent-interoperability/ ；https://www.linuxfoundation.org/press/linux-foundation-launches-the-agent2agent-protocol-project-to-enable-secure-intelligent-communication-between-ai-agents ；https://www.linuxfoundation.org/press/a2a-protocol-surpasses-150-organizations-lands-in-major-cloud-platforms-and-sees-enterprise-production-use-in-first-year ；https://www.linuxfoundation.org/press/linux-foundation-announces-the-formation-of-the-agentic-ai-foundation
 
-## 第三章　谁握着开关
+## 第三章　谁能让它停下来
 
 [^p3-cruise]: U.S. NHTSA，*Consent Order with Cruise for Incomplete Crash Reporting*，2024年9月30日。Cruise因未完整披露2023年10月2日事故后的拖行动作，被处150万美元处罚。https://www.nhtsa.gov/press-releases/consent-order-cruise-crash-reporting ；https://www.nhtsa.gov/sites/nhtsa.gov/files/2024-09/cruise-consent-order-2024-web.pdf
 
@@ -114,7 +114,7 @@
 
 [^p1-data-act]: Regulation (EU) 2023/2854（欧盟《数据法》），尤其第23—30条及第50条。该条例自2025年9月12日起适用。https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023R2854
 
-## 第二部导读与第四章　带得走的自己
+## 第二部导读与第四章　账号被冻结的那五天
 
 [^p4-replika]: 意大利个人数据保护机构，Replika处罚决定，2025年4月10日（新闻公报2025年5月19日）；EDPB，案件摘要，2025年5月21日。对运营方Luka Inc.处以500万欧元罚款。https://www.gpdp.it/home/docweb/-/docweb-display/docweb/10132048 ；https://www.edpb.europa.eu/news/ai-the-italian-supervisory-authority-fines-company-behind-chatbot-replika_en
 
@@ -128,7 +128,7 @@
 
 [^p4-opc-signal]: U.S. Census Bureau，2023年Nonemployer Statistics及2026年小企业数据；Stripe，*Top solo founder traits*，2026年5月28日；OECD，创业政策报告。2023年美国无雇员经营单位30,427,808个，占全部经营单位78.4%；Stripe Atlas 2026年第二季度新设C公司中单一创始人占63%，为历史最高。https://www.census.gov/library/stories/2026/05/small-business-week.html ；https://www.census.gov/library/stories/2025/07/nonemployer-business-growth.html ；https://stripe.com/blog/top-solo-founder-traits ；https://www.oecd.org/en/publications/international-compendium-of-entrepreneurship-policies_338f1873-en/full-report/objectives-and-challenges-of-entrepreneurship-policy_f354bd94.html
 
-## 第五章　授权的边界
+## 第五章　失控的四十五分钟
 
 [^p6-knight]: U.S. SEC，*SEC Charges Knight Capital With Violations of Market Access Rule*，2013年10月16日。2012年8月1日开盘后45分钟内错误路由发送超400万条订单，造成超4.6亿美元损失。https://www.sec.gov/newsroom/press-releases/2013-222
 
@@ -154,7 +154,7 @@
 
 [^p6-fde]: Palantir，*Architecture Center*；OpenAI，*Forward Deployed Engineer*职位说明与部署公司公告，2026年5月11日。https://www.palantir.com/docs/foundry/architecture-center/overview ；https://openai.com/careers/forward-deployed-engineer-%28fde%29-sf-san-francisco/ ；https://openai.com/index/openai-launches-the-deployment-company/
 
-## 第六章　算力与公权
+## 第六章　沙漠里的星际之门
 
 [^p7-g42-microsoft]: Microsoft，*Invests $1.5 billion in Abu Dhabi's G42*，2024年4月16日，及后续说明。政府间保证协议（IGAA）由微软与G42签署，与美、阿两国政府密切协商制定。https://news.microsoft.com/source/2024/04/16/microsoft-invests-1-5-billion-in-abu-dhabis-g42-to-accelerate-ai-development-and-global-expansion/ ；https://blogs.microsoft.com/on-the-issues/2025/11/03/microsofts-15-2-billion-usd-investment-in-the-uae/
 
@@ -224,7 +224,7 @@
 
 [^new-us-china-ai-dialogue]: 新华社，*China, U.S. agree to establish AI dialogue*，2026年9月26日；PBS NewsHour，2026年9月26日；The Next Web 转述白宫情况说明，2026年9月28日。双方同意建立人工智能对话、交流风险与收益，下一轮于11月举行，并设立 AI 相关事件沟通渠道；白宫文件称“Super Intelligence Dialogue”，未界定“事件”范围。https://english.news.cn/20260926/dc77e85b3b1f442abf0d816fbb65f320/c.html ；https://www.pbs.org/newshour/world/china-and-u-s-agree-to-establish-ai-safety-channel-and-continue-trade-and-military-talks ；https://thenextweb.com/news/us-china-super-intelligence-dialogue-ai-incident-channel
 
-## 第三部导读与第七章　离开的权利
+## 第三部导读与第七章　一夜之间改了规矩
 
 [^new-unity-fee]: Unity，*Unity is canceling the Runtime Fee*，2024年9月12日；Godot Foundation，*Godot Foundation update*，2023年；Shacknews，2023年9月17日；The Register，2023年9月22日；GameFromScratch，2023年9月29日；TechRadar，2023年10月9日。Unity 于2023年9月12日宣布按安装收费，9月22日公开道歉并修改方案，2024年9月取消；Godot 开发基金月捐款由9月12日约2.55万欧元增至9月29日约4.99万欧元。https://unity.com/blog/unity-is-canceling-the-runtime-fee ；https://godotengine.org/article/godot-foundation-update-2023/ ；https://www.shacknews.com/article/137095/unity-apologizes-changes-policy ；https://www.theregister.com/2023/09/22/unity_apologizes_announces_revised_runtime/ ；https://gamefromscratch.com/unity-pricing-fallout-continues/ ；https://www.techradar.com/gaming/unity-ceo-john-riccitiello-to-leave-company-immediately-following-recent-pricing-controversy
 

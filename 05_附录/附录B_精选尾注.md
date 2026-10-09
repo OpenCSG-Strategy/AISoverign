@@ -44,7 +44,7 @@
 
 [^p1-infra-2026]: IEA，*Key Questions on Energy and AI*，2026年；U.S. DOE，关于LBNL *2024 United States Data Center Energy Usage Report*的发布说明。DOE/LBNL估计美国数据中心占2023年用电约4.4%，2028年可能达6.7%至12%。https://www.iea.org/reports/key-questions-on-energy-and-ai/executive-summary ；https://www.energy.gov/articles/doe-releases-new-report-evaluating-increase-electricity-demand-data-centers
 
-[^p7-five-layer-cake]: NVIDIA官方博客，达沃斯"五层蛋糕"对话，2026年1月21日；NVIDIA，GTC 2026 keynote，2026年3月16日；NVIDIA，*AI Factories*，2026年5月27日；NVIDIA，2026股东大会披露。"五层蛋糕"指能源、芯片与计算基础设施、云数据中心、AI模型和应用层。https://blogs.nvidia.com/blog/davos-wef-blackrock-ceo-larry-fink-jensen-huang/ ；https://www.nvidia.com/en-us/gtc/keynote/?video=7 ；https://blogs.nvidia.com/blog/ai-factories-the-new-infrastructure-of-intelligence/
+[^p7-five-layer-cake]: NVIDIA官方博客，达沃斯“五层蛋糕”对话，2026年1月21日；NVIDIA，GTC 2026 keynote，2026年3月16日；NVIDIA，*AI Factories*，2026年5月27日；NVIDIA，2026股东大会披露。“五层蛋糕”指能源、芯片与计算基础设施、云数据中心、AI模型和应用层。https://blogs.nvidia.com/blog/davos-wef-blackrock-ceo-larry-fink-jensen-huang/ ；https://www.nvidia.com/en-us/gtc/keynote/?video=7 ；https://blogs.nvidia.com/blog/ai-factories-the-new-infrastructure-of-intelligence/
 
 [^p1-ai-index-2026]: Stanford HAI，*The 2026 AI Index Report*，第一章“研究与开发”、第二章“技术表现”、第四章“经济”。Epoch AI统计的2025年知名AI模型中93个来自产业界、2个来自学术界；组织AI采用率由2023年55%升至2025年88%；Arena榜单前三名得分为1,503、1,495和1,494。https://hai.stanford.edu/assets/files/ai_index_report_2026_chapter_1_research_development.pdf ；https://hai.stanford.edu/ai-index/2026-ai-index-report/technical-performance ；https://hai.stanford.edu/ai-index/2026-ai-index-report/economy
 
@@ -180,21 +180,21 @@
 
 [^p7-asean-rules]: ASEAN，*Model Contractual Clauses for Cross Border Data Flows*，2021年；ASEAN，*Expanded ASEAN Guide on AI Governance and Ethics*，2025年；ASEAN Single Window官方页面。https://asean.org/wp-content/uploads/3-ASEAN-Model-Contractual-Clauses-for-Cross-Border-Data-Flows_Final.pdf ；https://asean.org/wp-content/uploads/2025/01/Expanded-ASEAN-Guide-on-AI-Governance-and-Ethics-Generative-AI.pdf ；https://asw.asean.org/component/content/?view=featured
 
-[^p8-shanghai-vouchers]: 上海市经信委，《关于组织2026年度上海市"模塑申城"工程相关补贴申报工作的通知》，2026年5月7日。通知分设算力券、模型券（Token券）和语料券。https://sheitc.sh.gov.cn/cyfz/20260507/cd1dcb1e5cb4449cbc36c69befafcc0a.html
+[^p8-shanghai-vouchers]: 上海市经信委，《关于组织2026年度上海市“模塑申城”工程相关补贴申报工作的通知》，2026年5月7日。通知分设算力券、模型券（Token券）和语料券。https://sheitc.sh.gov.cn/cyfz/20260507/cd1dcb1e5cb4449cbc36c69befafcc0a.html
 
 [^p8-wuhan-opc-compute]: 武汉市政府，《武汉市支持人工智能OPC创新发展若干措施》，2026年2月13日；湖北日报，《在汉创办OPC最高资助百万元》，2026年2月22日。对OPC算力服务费用的50%给予最高20万元补助，各区OPC社区每年为每家OPC提供不少于2000卡时免费算力。https://www.wuhan.gov.cn/ztzl/25zt/rgzncy/zcwj_94757/202602/t20260224_2731334.shtml ；https://epaper.hubeidaily.net/pad/content/202602/22/content_340899.html
 
 [^p8-modelscope-ecosystem]: ModelScope Team，`modelscope-hub`官方仓库；科技日报，2026年3月22日。项目方称可连接10万项以上模型与数据集；截至2026年3月，魔搭已服务约2500万开发者。https://github.com/modelscope/modelscope_hub ；https://www.stdaily.com/web/gdxw/2026-03/22/content_490099.html
 
-[^p7-yichang-runtime]: 宜昌市科技局，《宜昌已建成智算规模突破3000P》，2025年8月7日；湖北省数据局，2026年"数智+"场景育新行动清单，2026年4月；开放传神，《城市智能体：宜昌点军区算力供应链平台的区域产业升级路径》，2026年2月2日（企业自述）。https://kjt.hubei.gov.cn/kjdt/sxkj/yc/202508/t20250807_5741115.shtml ；https://sjj.hubei.gov.cn/bmdt/tzgg/202604/P020260423539722658121.pdf ；https://www.cnblogs.com/OpenCSG/p/19565766
+[^p7-yichang-runtime]: 宜昌市科技局，《宜昌已建成智算规模突破3000P》，2025年8月7日；湖北省数据局，2026年“数智+”场景育新行动清单，2026年4月。https://kjt.hubei.gov.cn/kjdt/sxkj/yc/202508/t20250807_5741115.shtml ；https://sjj.hubei.gov.cn/bmdt/tzgg/202604/P020260423539722658121.pdf
 
 [^p8-yancheng-opc]: 江苏省政府，《盐城市新能源发电装机容量超1500万千瓦》，2024年9月13日。截至2024年8月底，盐城新能源装机1548.19万千瓦，总装机和风电装机规模均列全省第一，海上风电超554万千瓦。https://www.jiangsu.gov.cn/art/2024/9/13/art_33718_11367829.html
 
-[^p8-yancheng-ai-policy]: 中共江苏省委新闻网，《东部沿海"绿色算力港"启航向未来》，2024年7月29日；盐城市政府办公室，《盐城市加快推进"人工智能+"行动2026年工作要点》，盐政办函〔2026〕14号。前者提出到2026年全市智能算力规模突破10000PFLOPS，后者要求新建算力项目绿电占比超80%。https://zgjssw.jschina.com.cn/shixianchuanzhen/yancheng/202407/t20240729_8367182.shtml ；http://www.yancheng.gov.cn/art/2026/7/24/art_56140_21064.html
+[^p8-yancheng-ai-policy]: 中共江苏省委新闻网，《东部沿海“绿色算力港”启航向未来》，2024年7月29日；盐城市政府办公室，《盐城市加快推进“人工智能+”行动2026年工作要点》，盐政办函〔2026〕14号。前者提出到2026年全市智能算力规模突破10000PFLOPS，后者要求新建算力项目绿电占比超80%。https://zgjssw.jschina.com.cn/shixianchuanzhen/yancheng/202407/t20240729_8367182.shtml ；http://www.yancheng.gov.cn/art/2026/7/24/art_56140_21064.html
 
 [^p8-longgang-ai-district]: 凤凰网科技，龙岗区人工智能（机器人）署揭牌报道，2025年5月21日；澎湃新闻，同期报道。https://tech.ifeng.com/c/8jXHS8R6Sn0 ；https://m.thepaper.cn/detail/33323600
 
-[^p8-longgang-ai-platform]: 公开采购信息媒体报道（采购行业自媒体经网易号转载），2026年1月20日。深圳市龙岗区数据有限公司"AI大模型基础服务能力建设项目"，预算550万元，北京开放传神科技有限公司以540万元中标。https://www.163.com/dy/article/KJOHVTNF0511D6RL.html
+[^p8-longgang-ai-platform]: 公开采购信息媒体报道（采购行业自媒体经网易号转载），2026年1月20日。深圳市龙岗区数据有限公司“AI大模型基础服务能力建设项目”，预算550万元。https://www.163.com/dy/article/KJOHVTNF0511D6RL.html
 
 [^p7-robodebt]: Royal Commission into the Robodebt Scheme，*Final Report*，2023年7月7日，尤其第17章；澳大利亚议会图书馆，关于建议17.1、17.2的说明，2023年7月；Global Government Forum，2020年6月1日；*Prygodicz v Commonwealth (No 2)* [2021] FCA 634 判决摘要；AAP，2026年6月。约47万笔债务被认定非法并退还；2021年和解总值约18亿澳元；2026年6月联邦法院批准5.485亿澳元的新和解。https://robodebt.royalcommission.gov.au/publications/report ；https://aph.gov.au/About_Parliament/Parliamentary_departments/Parliamentary_Library/FlagPost/2023/July/Robodebt-RC-legislative-recommendations ；https://www.globalgovernmentforum.com/australian-government-to-refund-470000-unlawful-welfare-debts/ ；https://www.judgments.fedcourt.gov.au/judgments/Judgments/fca/single/2021/2021fca0634/summaries/2021fca0634-summary ；https://aapnews.aap.com.au/news/australia-s-biggest-class-action-settlement-approved
 

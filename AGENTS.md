@@ -46,6 +46,7 @@ Frank Chen 主理的中文书籍《AI 主权》正式稿，采用序章＋三部
 - **沟通**: 直接、省字、可以开点玩笑, 不要客套
 - **audit 报告**: 纯观察 + 缺口, **不写"建议"段**(下游有 synthesis 任务单独做)
 - **commit 流程**: OAuth token 限制, 不能 `git add .`, 显式列文件; 不动 `.github/workflows/`
+- **commit 署名**: 提交说明里不写 `Co-Authored-By`、会话链接或任何 AI 署名
 - **OAuth 推不上的文件**: Frank 自己 commit
 - **不要问"你该做 X 吗?"**: 看到错的、过时的、坏的, 直接修, 写报告
 

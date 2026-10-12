@@ -269,7 +269,27 @@ def fig3_3():
     save('fig3-3_four_questions.svg', svg(W, H - 40, '\n'.join(b)))
 
 
-FIGS = [fig1_1, fig1_2, fig2_1, fig2_2, fig2_3, fig3_1, fig3_2, fig3_3]
+# 3-4 six foundations
+def fig3_4():
+    W, H = 900, 430
+    b = title('主权从哪里来：六大基座', '从物理资源到数字行动')
+    items = [('能源', '电力与长期成本'), ('算力', '芯片、云、集群'), ('模型', '通用与专业智能'),
+             ('数据', '知识、反馈、评测'), ('智能体', '身份、权限、刹车'), ('协议与运行', '接口、控制面、退出')]
+    for i, (n, g) in enumerate(items):
+        x, y = 40 + i * 140, 100
+        b.append(box(x, y, 120, 120, fill=FAINT if i < 3 else '#fff'))
+        b.append(t(x + 60, y + 52, n, 18, 'middle', 'bold'))
+        b.append(t(x + 60, y + 84, g, 12, 'middle', fill=MID))
+        if i < 5:
+            b.append(line(x + 121, y + 60, x + 139, y + 60))
+    b.append(t(40, 258, '灰色三块偏资源，白色三块偏行动；越往右，越接近“谁能让它停下来”', 13, fill=MID))
+    b.append(box(40, 290, 820, 100, rx=8))
+    b.append(t(450, 333, 'AI 主权 ＝ 主权基座 × 主权能力 × 运行时控制', 20, 'middle', 'bold'))
+    b.append(t(450, 366, '有资产没能力，有能力没在运行中验证过，任何一项接近零，整体就接近零', 14, 'middle', fill=MID))
+    save('fig3-4_six_foundations.svg', svg(W, H, '\n'.join(b)))
+
+
+FIGS = [fig1_1, fig1_2, fig2_1, fig2_2, fig2_3, fig3_1, fig3_2, fig3_3, fig3_4]
 if __name__ == '__main__':
     for f in FIGS:
         f()

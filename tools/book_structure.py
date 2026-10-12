@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate and assemble the book: 序章＋三部七章＋结语＋附录."""
+"""Validate and assemble the book: 序章＋七部二十八章＋结语＋附录."""
 
 from __future__ import annotations
 
@@ -11,8 +11,8 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
-FRONT = [ROOT / "00_书前/01_前言.md"]
-PART_DIRS = ["01_第一部_依赖", "02_第二部_建造", "03_第三部_自由", "04_结语"]
+FRONT = [ROOT / "00_书前/01_前言.md", ROOT / "00_书前/02_全书框架.md"]
+PART_DIRS = ["01_第一部_依赖", "02_第二部_建造", "03_第三部_自由", "03a_第四部_开放", "03b_第五部_分层主权", "03c_第六部_实践", "03d_第七部_转型", "04_结语"]
 APPENDIX_DIR = ROOT / "05_附录"
 ENDNOTES = APPENDIX_DIR / "附录B_精选尾注.md"
 UNIT_RE = re.compile(r"^\d\d_(序章|第.+章|结语)_")
@@ -46,7 +46,7 @@ def units() -> list[Path]:
 def validate() -> int:
     failures: list[str] = []
 
-    for part in PART_DIRS[:3]:
+    for part in PART_DIRS[:-1]:
         if not list((ROOT / part).glob("00_第*部导读.md")):
             failures.append(f"{part}: missing part guide")
 

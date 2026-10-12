@@ -114,6 +114,8 @@
 
 [^p1-data-act]: Regulation (EU) 2023/2854（欧盟《数据法》），尤其第23—30条及第50条。该条例自2025年9月12日起适用。https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023R2854
 
+[^p3x-windsurf]: TechCrunch，*Windsurf says Anthropic is limiting its direct access to Claude AI models*，2025年6月3日。Windsurf 首席执行官 Varun Mohan 称 Anthropic 以不到五天的通知大幅削减其对 Claude 3.7 Sonnet 和 Claude 3.5 Sonnet 的直接调用容量，Claude 4 发布时也未获直接接入；Anthropic 发言人称要“优先保障可持续合作关系的容量”。截至2025年6月；单一来源为主、当事双方表态一致。https://techcrunch.com/2025/06/03/windsurf-says-anthropic-is-limiting-its-direct-access-to-claude-ai-models
+
 ## 第二部导读与第四章　超级个体：一人公司（OPC）的数据、授权与可迁移性
 
 [^p4-replika]: 意大利个人数据保护机构，Replika处罚决定，2025年4月10日（新闻公报2025年5月19日）；EDPB，案件摘要，2025年5月21日。对运营方Luka Inc.处以500万欧元罚款。https://www.gpdp.it/home/docweb/-/docweb-display/docweb/10132048 ；https://www.edpb.europa.eu/news/ai-the-italian-supervisory-authority-fines-company-behind-chatbot-replika_en
@@ -247,6 +249,168 @@
 [^p9-data-act]: European Commission，*Data Act explained*与*Common European Data Spaces*；Regulation (EU) 2023/2854。https://digital-strategy.ec.europa.eu/en/factpages/data-act-explained ；https://digital-strategy.ec.europa.eu/en/policies/data-spaces
 
 [^p11-fl]: NIST，*Privacy Attacks in Federated Learning*，2024年1月24日；NIST，*Privacy-Preserving Federated Learning*，2025年1月27日。https://www.nist.gov/blogs/cybersecurity-insights/privacy-attacks-federated-learning ；https://www.nist.gov/blogs/cybersecurity-insights/privacy-preserving-federated-learning-future-collaboration-and
+
+## 第四部导读与第八章　从开源软件到开源 AI：一场生产方式的迁移
+
+[^p8-hashicorp-bsl]: HashiCorp，*HashiCorp adopts Business Source License*，2023年8月10日。宣布此后所有产品新版本由 MPL 2.0 改为 BSL 1.1，提供与 HashiCorp 竞争的商业服务的厂商不能再纳入新版本、漏洞修复和安全补丁；API、SDK 和多数库仍为 MPL 2.0。Terraform 自2014年起以 MPL 2.0 发布见 GIGAZINE 同期报道。已确认，截至2026年10月。https://www.hashicorp.com/blog/hashicorp-adopts-business-source-license ；https://www.gigazine.net/gsc_news/en/20230921-opentofu-linux-foundation-project
+
+[^p8-opentofu]: Linux Foundation，*Linux Foundation Launches OpenTofu: A New Open Source Alternative to Terraform*，2023年9月20日；Linux Foundation，*OpenTofu Announces General Availability*，2024年1月10日；GIGAZINE，2023年9月21日。OpenTF 更名 OpenTofu 并由 Linux 基金会托管，获140多家机构、700多名个人支持；1.6 版为首个正式版。已确认，截至2026年10月。https://www.linuxfoundation.org/press/announcing-opentofu ；https://www.linuxfoundation.org/press/opentofu-announces-general-availability ；https://www.gigazine.net/gsc_news/en/20230921-opentofu-linux-foundation-project
+
+[^p8-redis-license]: Redis，*Redis Adopts Dual Source-Available Licensing*，2024年3月20日；Phoronix，*Redis 8.0 Released: Now Tri-Licensed With AGPLv3*，2025年5月1日。Redis 7.4 起由 BSD 改为 RSALv2／SSPLv1 二选一，公司承认不再符合 OSI 开源定义，理由是云服务商以托管服务获利；7.2 及以前版本仍为 BSD。Redis 8 增加 AGPLv3 选项。已确认，截至2026年10月。https://redis.io/blog/redis-adopts-dual-source-available-licensing/ ；https://www.phoronix.com/news/Redis-8.0-Goes-AGPLv3
+
+[^p8-valkey]: Linux Foundation，*Linux Foundation Launches Open Source Valkey Community*，2024年3月28日。Valkey 自 Redis 7.2.4 继续开发，采用 BSD 3 条款许可证，支持方包括 AWS、Google Cloud、Oracle、Ericsson、Snap。已确认。https://www.linuxfoundation.org/press/linux-foundation-launches-open-source-valkey-community
+
+[^p8-elastic-agpl]: Elastic，*Elastic Announces Open Source License for Elasticsearch and Kibana Source Code*（Business Wire），2024年8月29日；InfoQ，2024年9月5日；DevClass，*AWS debuts OpenSearch project*，2021年4月13日。Elastic 于2021年1月将 Elasticsearch 由 Apache 2.0 改为 SSPL／Elastic License，AWS 随后推出分叉 OpenSearch；2024年8月为免费部分源代码增加 OSI 认可的 AGPL 选项。多源一致。https://www.businesswire.com/news/home/20240829537786/en ；https://www.infoq.com/news/2024/09/elastic-open-source-agpl ；https://devclass.com/2021/04/13/aws-debuts-opensearch-project-in-latest-round-of-elastic-licence-spat/
+
+[^p8-osd]: Open Source Initiative，*The Open Source Definition*。十条标准：自由再分发、源代码、衍生作品、作者源代码完整性、不歧视个人或群体、不歧视使用领域、许可证的分发、不得特定于某产品、不得限制其他软件、技术中立。访问于2026年10月。https://opensource.org/osd
+
+[^p8-osaid]: Open Source Initiative，*The Open Source AI Definition 1.0*，2024年10月28日；The New Stack，*The Open Source AI Definition Is Out*，2024年10月。要求使用、研究、修改、分享四项自由，以及数据信息、完整代码、参数三类“修改的首选形式”；不要求公开全部训练数据，社区对此有批评。已确认。https://opensource.org/ai/open-source-ai-definition ；https://thenewstack.io/the-open-source-ai-definition-is-out/
+
+## 第九章　开源许可证：技术自由背后的制度基础
+
+[^p9-llama2-launch]: Meta，*Meta and Microsoft Introduce the Next Generation of Llama*，2023年7月18日。称 Llama 2 为“下一代开源大语言模型”，研究和商业用途免费，微软为首选合作伙伴。已确认。https://ai.meta.com/blog/llama-2/
+
+[^p9-osi-llama]: Stefano Maffulli（Open Source Initiative），*Meta's LLaMa license is not Open Source*，2023年7月20日。指出许可证第2段限制部分用户商业使用，可接受使用政策限制使用领域，不符合开源定义第5、6条。已确认。https://opensource.org/blog/metas-llama-2-license-is-not-open-source
+
+[^p9-llama-license]: Meta，*Llama 3.2 Community License Agreement*，2024年9月。第2条：被许可方及关联方产品上一自然月月活超过7亿须另向 Meta 申请许可；第1.b.i条：分发时显著标注“Built with Llama”，用 Llama 输出训练、改进并分发的模型名须以“Llama”开头。Llama 2、3 系列许可证有相同的7亿月活条款。已确认，截至2026年10月。https://developer.meta.com/ai/llama3_2/license/
+
+[^p9-spdx3]: Linux Foundation，*SPDX 3.0 Revolutionizes Software Management in Systems with Enhanced Functionality and Streamlined Use Cases*，2024年4月16日。SPDX 3.0 新增 AI 与 Dataset 配置，覆盖模型训练与特征、数据集来源等。已确认。https://www.linuxfoundation.org/press/spdx-3-revolutionizes-software-management-in-systems-with-enhanced-functionality-and-streamlined-use-cases
+
+## 第十章　高质量数据：AI 主权最值得长期积累的资产
+
+[^p10x-samsung-chatgpt]: Bloomberg，*Samsung Bans Staff's AI Use After Spotting ChatGPT Data Leak*，2023年5月2日；Android Authority 同日转述。三星向一个主要部门发内部备忘录，禁止在公司设备和内部网络使用生成式 AI，起因是员工将内部源代码上传 ChatGPT；违者最重可被解雇。多源一致（原始报道为单一媒体）。https://www.bloomberg.com/news/articles/2023-05-02/samsung-bans-chatgpt-and-other-generative-ai-use-by-staff-after-leak ；https://www.androidauthority.com/samsung-generative-ai-chatgpt-ban-3319343
+
+[^p10x-reddit-google]: Reuters（Anna Tong、Echo Wang、Martin Coulter），*Exclusive: Reddit in AI content licensing deal with Google*，2024年2月22日；Nieman Lab 转述。三位知情人士称 Reddit 允许谷歌用其内容训练 AI，其中一人称价值约每年6,000万美元。金额为单一来源。https://www.niemanlab.org/reading/reddit-in-ai-content-licensing-deal-with-google-sources-say/ ；https://tech.yahoo.com/ai/articles/exclusive-reddit-ai-content-licensing-041012503.html
+
+[^p10x-datasheets]: Timnit Gebru、Jamie Morgenstern、Briana Vecchione、Jennifer Wortman Vaughan、Hanna Wallach、Hal Daumé III、Kate Crawford，*Datasheets for Datasets*，arXiv 2018年3月23日首发，*Communications of the ACM* 2021年12月刊。借鉴电子元件数据表，建议数据集说明动机、构成、收集过程、预处理、用途、分发和维护。已确认。https://arxiv.org/abs/1803.09010 ；https://doi.org/10.1145/3458723
+
+[^p10x-hf-dataset-cards]: Hugging Face，*Dataset Cards*（Hub 文档）。数据集卡即仓库中的 README.md，开头 YAML 元数据含语言、许可证、规模、任务类别等，用于检索和许可证展示；正文说明内容、潜在偏差和适用范围。访问于2026年10月。https://huggingface.co/docs/hub/datasets-cards
+
+## 第十一章　大模型主权：不押注唯一模型
+
+[^p11-openai-deprecation]: OpenAI，*GPT-4 API general availability and deprecation of older models in the Completions API*，2023年7月6日（2024年4月24日更新）；CGTN，2023年7月7日。2024年1月4日起停用 ada、babbage、curie、davinci 及 text-davinci-003 等旧补全模型，基础名称自动升级到 babbage-002／davinci-002，其余须手动迁移到 gpt-3.5-turbo-instruct；旧嵌入模型须在同日前迁移到 text-embedding-ada-002。已确认。https://openai.com/index/gpt-4-api-general-availability/ ；https://news.cgtn.com/news/2023-07-07/OpenAI-announces-general-availability-of-GPT-4-1leKumzbCV2/share_amp.html
+
+[^p11-llm-drift]: Lingjiao Chen、Matei Zaharia、James Zou，*How is ChatGPT's behavior changing over time?*，arXiv，2023年7月18日（2023年10月31日修订）。GPT-4 判断质数与合数的准确率由2023年3月的84%降至6月的51%，指令遵循能力下降；作者认为需持续监测。单篇研究。https://arxiv.org/abs/2307.09009
+
+[^p11-model-cards]: Margaret Mitchell等，*Model Cards for Model Reporting*，arXiv 2018年10月5日，FAT* 2019会议论文（ACM，DOI 10.1145/3287560.3287596）；Hugging Face，*Model Cards*（Hub 文档）。建议模型附说明，写明预期用途、评测条件和分人群表现；Hugging Face 模型卡即仓库 README.md，作为模型主页展示。已确认。https://arxiv.org/abs/1810.03993 ；https://doi.org/10.1145/3287560.3287596 ；https://huggingface.co/docs/hub/model-cards
+
+## 第十二章　开源生态：主权为什么需要社区
+
+[^p12-pytorch-foundation]: Linux Foundation，*Meta Transitions PyTorch to the Linux Foundation, Further Accelerating AI/ML Open Source Collaboration*，2022年9月12日。成立 PyTorch 基金会，创始理事会成员为 AMD、AWS、Google Cloud、Meta、Microsoft Azure、NVIDIA；理由是关键项目宜有中立归属。已确认。https://www.linuxfoundation.org/press/press-release/meta-transitions-pytorch-to-the-linux-foundation ；https://ai.meta.com/blog/pytorch-foundation/
+
+[^p12-aaif]: Linux Foundation，*Linux Foundation Announces the Formation of the Agentic AI Foundation*，2025年12月9日。创始项目为 Anthropic 的 MCP、Block 的 goose、OpenAI 的 AGENTS.md；白金会员含 AWS、Anthropic、Block、Bloomberg、Cloudflare、Google、Microsoft、OpenAI，Hugging Face 为银牌会员。已确认，截至2026年10月。https://www.linuxfoundation.org/press/linux-foundation-announces-the-formation-of-the-agentic-ai-foundation
+
+[^p12-hf-scale]: Hugging Face，*State of Open Source on Hugging Face: Spring 2026*，2026年3月17日。2025年平台约1,300万用户、200多万公开模型、50多万公开数据集；Qwen 系列衍生模型超过11.3万个，含所有标注 Qwen 的模型超过20万个。平台自报数据。https://huggingface.co/blog/huggingface/state-of-os-hf-spring-2026
+
+## 第五部导读与第十三章　国家 AI 主权：能力、韧性与开放竞争
+
+[^p13-icc-email]: Molly Quell，*Trump's sanctions on ICC prosecutor have halted tribunal's work*，美联社（PBS NewsHour 转载），2025年5月15日；heise online，*Microsoft denies mail blockade at the International Criminal Court*，2025年6月。据法院工作人员称，微软停用了首席检察官卡里姆·汗的邮箱，他改用 Proton Mail；微软总裁布拉德·史密斯称公司未停止或暂停对国际刑事法院的服务，未解释邮箱停用的具体原因。美国对国际刑事法院的制裁于2025年2月宣布。截至2025-06，多源一致。https://www.pbs.org/newshour/world/trumps-sanctions-on-iccs-chief-prosecutor-have-halted-tribunals-work-officials-and-lawyers-say ；https://heise.de/-10429628
+
+[^p13-icc-opendesk]: Computing，*International Criminal Court drops Microsoft for open source*，2025年10月31日；TechSpot，2025年10月31日；Wikipedia，*openDesk*。国际刑事法院在德国《商报》报道后确认，内部办公环境将从 Microsoft Office 迁到 openDesk；法院工作站不到2000台；openDesk 出自德国联邦内政部“主权工作场所”计划，2024年1月起由德国公共管理数字主权中心（ZenDiS）负责开发；丹麦此前也宣布类似迁移。截至2025-10-31，多源一致。https://www.computing.co.uk/news/2025/open-source/international-criminal-court-drops-microsoft ；https://www.techspot.com/news/110095-international-criminal-court-replacing-microsoft-office-sovereign-eu.html ；https://en.wikipedia.org/wiki/OpenDesk
+
+[^p13-tokenizer]: Aleksandar Petrov、Emanuele La Malfa、Philip Torr、Adel Bibi，*Language Model Tokenizers Introduce Unfairness Between Languages*，NeurIPS 2023（arXiv 2023年5月）。同一文本译成不同语言后，分词长度最多相差15倍；字符级和字节级模型在部分语言对上仍相差4倍以上。已确认（同行评审论文）。https://arxiv.org/abs/2305.15425 ；https://proceedings.neurips.cc/paper_files/paper/2023/hash/74bb24dca8334adce292883b4b651eda-Abstract.html
+
+[^p13-bharatgen]: MediaNama，*BharatGen initiative to build India's first homegrown generative AI for public use*，2024年10月；印度科学技术部（DST），*Dr. Jitendra Singh hails "BharatGen" as India's first sovereign multilingual and multimodal AI driven Large Language Model*，2025年。BharatGen 于2024年9月30日启动，由孟买理工学院牵头多所高校；经费含科学技术部经孟买理工学院技术创新中心拨付的₹235 crore（约23.5亿卢比），以及电子信息技术部印度人工智能计划追加的₹1,058 crore（约105.8亿卢比）。截至2025年，官方来源。https://www.medianama.com/2024/10/223-bharatgen-initiative-to-build-indias-first-homegrown-generative-ai-for-public-use/ ；https://dst.gov.in/node/8347 ；https://dst.gov.in/launch-bharatgen-first-government-supported-multimodal-large-language-model-initiative
+
+[^p13-param1]: BharatGen团队，*PARAM-1 BharatGen 2.9B Model*，arXiv:2507.13390，2025年7月16日。29亿参数的仅解码器文本模型，训练语料为印地语和英语，其中25%分配给印度语言内容，分词器按印度语言构词特点改造以提升分词公平性。已确认（技术报告）。https://arxiv.org/abs/2507.13390
+
+[^p13-openeurollm]: InfoQ，*OpenEuroLLM*，2025年2月7日；OpenEuroLLM 官网。项目2025年2月1日开工，由查理大学的 Jan Hajič 协调、AMD Silo AI 的 Peter Sarlin 共同牵头，20余家欧洲研究机构、企业和超算中心参加；经费来自欧盟“数字欧洲计划”（资助协议号101195233）；目标是为欧盟官方语言及更多语言开发开放的多语言基础模型。官网未公布经费总额，正文不写金额。截至2026-10，多源一致。https://www.infoq.com/news/2025/02/open-euro-llm ；https://openeurollm.eu/
+
+[^p13-apertus-lang]: ETH Zurich，*Apertus: a fully open, transparent, multilingual language model*，新闻稿，2025年9月2日。训练数据中40%为非英语，收入瑞士德语、罗曼什语等在大模型中代表性不足的语言。已确认（一手来源）。https://ethz.ch/en/news-and-events/eth-news/news/2025/09/press-release-apertus-a-fully-open-transparent-multilingual-language-model.html
+
+[^p13-public-data]: 中共中央办公厅、国务院办公厅，《关于加快公共数据资源开发利用的意见》，2024年9月21日（2024年10月9日公布）。要求开展数据分类分级管理，在维护国家数据安全、保护个人信息和商业秘密前提下依法依规有序开放公共数据；探索授权运营，明确授权条件、运营模式、运营期限、退出机制和安全责任，运营方不得超出授权范围使用数据。已确认（一手文件）。https://www.12371.cn/2024/10/09/ARTI1728469682026388.shtml ；https://paper.people.com.cn/rmrbwap/html/2024-10/10/nw.D110000renmrb_20241010_4-04.htm
+
+## 第十四章　区域与城市 AI 主权：从智算中心到智能生产体系
+
+[^p14-idle-dc]: Caiwei Chen，*China built hundreds of AI data centers to catch the AI boom. Now many stand unused.*，MIT Technology Review，2025年3月26日。据 KZ Consulting，2023—2024年中国宣布新建数据中心项目超过500个；据中国通信企业协会数据中心委员会，2024年底至少150个已投入运行；据甲子光年和36氪报道，新建算力资源最多80%闲置（媒体转述，口径未经独立核实）；报道援引北京一位数据中心项目经理的说法。截至2025-03，单一报道汇总多方来源。https://www.technologyreview.com/2025/03/26/1113802/china-ai-data-centers-unused/
+
+[^p14-trusted-data-space]: 国家数据局，《可信数据空间发展行动计划（2024—2028年）》，2024年11月；新华网，2024年11月23日。提出到2028年建成100个以上可信数据空间，推进行业、城市、个人、跨境等可信数据空间建设。已确认。https://www.news.cn/tech/20241123/2d0e46f3dbaf4e5bbde198a05b4b6d30/c.html ；https://cn.chinadaily.com.cn/a/202411/23/WS67413901a310b59111da515f.html
+
+[^p14-data-space-pilots]: 科技日报，2025年7月21日。国家数据局公布首批63个可信数据空间创新发展试点，其中企业类28个、行业类22个、城市类13个，城市类包括上海数据集团、厦门信息集团、贵州大数据产业集团等。截至2025-07-21，权威媒体报道。https://www.stdaily.com/web/gdxw/2025-07/21/content_373264.html
+
+## 第十五章　企业 AI 主权：把外部智能变成内部能力
+
+[^p15-bloomberggpt]: Shijie Wu等，*BloombergGPT: A Large Language Model for Finance*，arXiv:2303.17564，2023年3月30日。500亿参数，训练数据含3630亿 Token 的彭博金融数据和3450亿 Token 的通用公开数据。已确认（一手来源）。https://arxiv.org/abs/2303.17564
+
+[^p15-gpt4-finance]: Xianzhi Li等，*Are ChatGPT and GPT-4 General-Purpose Solvers for Financial Text Analytics? A Study on Several Typical Tasks*，arXiv:2305.05862，2023年5月；EMNLP 2023 Industry Track。GPT-4 在 FiQA 情绪分析、新闻标题分类和 ConvFinQA 问答上超过 BloombergGPT（如 ConvFinQA 准确率76.48%对43.41%），在命名实体识别上落后（56.71对60.82）。已确认（同行评审论文）。https://arxiv.org/abs/2305.05862 ；https://aclanthology.org/2023.emnlp-industry.39/
+
+## 第十六章　个人 AI 主权：超级个体时代的数字边界
+
+[^p16-google-lockout]: Kashmir Hill，*A Dad Took Photos of His Naked Toddler for the Doctor. Google Flagged Him as a Criminal.*，The New York Times，2022年8月21日；9to5Google，2022年8月22日。2021年初，父亲马克应护士要求拍摄儿子患处照片，照片备份至谷歌相册后被判定为儿童性侵害材料，账户被封；旧金山警方认定无犯罪，谷歌驳回申诉；他失去邮件、通讯录、照片和绑定 Google Fi 的电话号码，因诉讼成本约7000美元放弃起诉。截至2022-08，多源一致。https://www.nytimes.com/2022/08/21/technology/google-surveillance-toddler-photo.html ；https://9to5google.com/2022/08/22/google-locked-account-medical-photo-story/
+
+[^p16-gdpr-portability]: 欧盟，*Regulation (EU) 2016/679（通用数据保护条例）*第20条，2016年4月27日通过，2018年5月25日适用。数据主体有权以结构化、通用、机器可读的格式获取其提供的个人数据，并转给另一控制者（适用于基于同意或合同、以自动化方式进行的处理）。已确认（一手法规）。https://eur-lex.europa.eu/eli/reg/2016/679/oj
+
+[^p16-pipl-portability]: 全国人大常委会，《中华人民共和国个人信息保护法》第四十五条，2021年8月20日通过，2021年11月1日施行。个人请求将个人信息转移至其指定的个人信息处理者，符合国家网信部门规定条件的，个人信息处理者应当提供转移的途径。已确认（一手法规）。http://www.npc.gov.cn/npc/c30834/202108/a8c4e3672c74491a80b53a172bb753fe.shtml
+
+[^p16-data-regulation]: 国务院，《网络数据安全管理条例》第二十五条，2024年9月30日公布，2025年1月1日施行。个人请求转移个人信息时，在能够验证请求人身份、请求转移的是本人同意提供或基于合同收集的个人信息、转移在技术上可行、不损害他人合法权益的条件下，处理者应提供转移途径；请求次数明显超出合理范围的，可按成本收取必要费用。已确认（一手法规）。https://www.cac.gov.cn/2024-09/30/c_1729384452307680.htm
+
+[^p16-openclaw-inbox]: Simon Willison，*Summer Yue*（转引其社交媒体帖子），2026年2月23日；Forklog，*OpenClaw AI agent runs amok, deletes Meta researcher's emails*，2026年2月。Meta 的 AI 安全研究者 Summer Yue 让运行在 Mac mini 上的 OpenClaw 智能体检查邮箱并只提建议、经她同意再操作；真实邮箱触发上下文压缩，智能体丢失原始指令并开始批量删除邮件，她从手机发出的停止指令无效，只能跑到 Mac mini 前停止。截至2026-02，当事人自述并经多家媒体转述。https://simonwillison.net/2026/Feb/23/summer-yue ；https://forklog.com/en/openclaw-ai-agent-runs-amok-deletes-meta-researchers-emails/
+
+## 第六部导读与第十七章　OpenCSG：从开源社区到主权 AI 基础设施
+
+[^p17-opencsg-org]: OpenCSG，GitHub 组织主页及 csghub、csglite、csgclaw 仓库许可证文件，访问于2026年10月12日。组织页自述为“an open-source and fair initiative established in 2023, dedicated to building an open community for LLMs”；三个仓库均为 Apache-2.0。截至2026-10-12，已确认（一手）。https://github.com/OpenCSGs ；https://github.com/OpenCSGs/csghub ；https://github.com/OpenCSGs/csglite ；https://github.com/OpenCSGs/csgclaw
+
+[^p17-opencsg-scale]: 投资界，OpenCSG（开放传神）天使轮相关报道，2024年1月3日；投资界，开放传神完成数亿元 Pre-A 轮融资报道，2026年8月31日。前者称社区“已上线100+精选大模型和60+高质量数据集”；后者援引公司口径：累计连接390万+开发者和用户，托管20万+模型、2万+数据集，产品为 CSGHub、AgenticHub、CSGLite、CSGClaw，路线采用 Open Core。截至2026-08-31，公司自报、单一媒体来源，未经第三方核实，两次统计口径不同。https://news.pedaily.cn/202401/528035.shtml ；https://news.pedaily.cn/202608/568318.shtml
+
+[^p17-csghub-architecture]: OpenCSG，*Enterprise AI Platform*（CSGHub 产品架构图），访问于2026年10月12日。架构分接入层（含 Inference API Gateway、MCP Gateway）、资产管理、算力服务、DataFlow 数据工具链、算力管理中心（含按 GPU 时长与 Token 的多维计量）、平台基础与访问控制（RBAC、SSO、安全审计）等层；版本矩阵含 CSGHub Lite、CE、EE。截至2026-10-12，厂商一手说明。https://opencsg.com/docs/en/csghub_architecture_en.html
+
+## 第十八章　CSGHub：把模型与数据变成可迁移的主权资产
+
+[^p18-csghub-readme]: OpenCSG，csghub 与 csghub-server 仓库 README，访问于2026年10月12日。CSGHub 为管理大模型及数据集、Spaces、代码等资产的开源平台，可私有化/离线部署，作为 Hugging Face 的私有替代；支持网页、Git 命令行、对话助手和 SDK 上传下载与校验，大文件可用兼容 S3 的存储；组织页称其兼容 Hugging Face SDK；Apache-2.0，约4.1k星、515个复刻。截至2026-10-12，已确认（一手），星数为当日快照。https://github.com/OpenCSGs/csghub ；https://github.com/OpenCSGs/csghub-server ；https://github.com/OpenCSGs
+
+[^p18-csghub-docs]: OpenCSG，CSGHub 产品文档（功能目录、多源同步、MCP、AI Gateway）与 *CSGHub Release Notes v2026.09*，访问于2026年10月12日。功能目录含模型卡、模型树、资产关系管理、Prompt Zone、MCP 仓库、多源同步（MultiSync）、AI Gateway；多源同步覆盖模型、数据集与 MCP，支持断点续传和完整性校验，开源版仅连 OpenCSG 公共源，企业版可加私有源；v2026.09 加入基于 OpenFGA 的细粒度授权、多级组织权限继承、网关多上游负载均衡与语义路由。截至2026-10-12，厂商一手文档，功能随版本（社区版/企业版）不同。https://opencsg.com/docs/en/csghub/101/function/model/model_hub_intro ；https://opencsg.com/docs/en/csghub/101/function/reposync/reposync_intro ；https://opencsg.com/docs/en/csghub/101/function/mcp/mcp_intro ；https://opencsg.com/docs/en/releasenote/csghub_latest ；https://opencsg.com/docs/en/csghub_architecture_en.html
+
+[^p18-dataflow]: OpenCSG，*DataFlow* 产品文档，访问于2026年10月12日。称其为与 CSGHub 集成的一体化数据处理平台，支持本地文件、云存储、网页抓取等多来源接入，可配置的清洗与转换流水线，多人协作标注及按角色的权限和审核机制；文档未提去重与版本对比。截至2026-10-12，厂商一手文档。https://opencsg.com/docs/en/dataflow/dataflow_intro
+
+## 第十九章　CSGLite 与 CSGClaw：把主权带回本地与个人
+
+[^p19-csglite]: OpenCSG，csglite 仓库 README，访问于2026年10月12日。单一程序集成模型下载、本地推理、交互对话与接口服务；基于 llama.cpp 运行 GGUF 模型，SafeTensors 自动转换；支持 macOS、Linux、Windows；默认在 localhost:11435 提供兼容 OpenAI 与 Ollama 格式的 REST 接口；模型从 CSGHub（公共社区或私有部署）下载，可接 OpenAI、DeepSeek、OpenRouter 等第三方服务；Apache-2.0。README 未专门说明离线使用。截至2026-10-12，已确认（一手）。https://github.com/OpenCSGs/csglite
+
+[^p19-csgclaw]: OpenCSG，csgclaw 仓库 README，访问于2026年10月12日。自述“Your own personal AI team”；一个 Manager 接收目标、拆分任务、选择 Worker、跟进与汇总，Worker 按角色分工，默认在 Docker 沙箱中隔离运行；智能体运行时可替换；提供 WebUI，可接飞书、微信、Matrix；Apache-2.0。README 未描述细粒度授权、人工审批、断点恢复和导出机制，架构图中人的角色标为“you make decisions”。截至2026-10-12，已确认（一手）。https://github.com/OpenCSGs/csgclaw
+
+## 第二十章　AgenticHub：从会聊天到可治理的数字劳动力
+
+[^p20-agentichub]: OpenCSG，*AgenticHub* 产品文档简介；OpenCSG，CSGHub v2.2.0 发布说明 AgenticHub 部分，访问于2026年10月12日。简介称其为 CSGHub 中用于搭建、配置、运行智能体并支持协作的模块，覆盖无代码到可扩展流程，沿用平台统一接入与安全控制；发布说明列出 AgenticFlow 可视化工作流（条件分支、循环，LLM、Tool、Code 节点）与 CSGBot 助手（对话、代码、联网搜索、文档解析及沙箱环境），部署需 EE 授权。文档未提 MCP 或 A2A。截至2026-10-12，厂商一手文档。https://opencsg.com/docs/en/agentichub/agentichub_intro ；https://opencsg.com/docs/en/releasenote/kubernetes/v2.2.0/independent/agentichub
+
+[^p20-mcp-launch]: Anthropic，*Introducing the Model Context Protocol*，2024年11月25日。称 MCP 为“an open standard for connecting AI assistants to the systems where data lives”。已确认（一手）。https://www.anthropic.com/news/model-context-protocol
+
+## 第二十一章　Token Factory：城市与企业的智能生产线
+
+[^p21-beijing-token-factory]: 北京市人民政府英文网，*Beijing's First Token Factory Officially Put into Operation*，2026年6月12日（转引北京市商务局公众号）；国家科技传播中心网站，北京壹号词元工厂产能报道，2026年6月30日。工厂位于北京经开区（亦庄），6月10日投运；一期日产能1.4万亿 Token 以上，远期目标10万亿；50%任务6秒内完成、90%在10秒内响应、性能波动20%以内；同步发布并开源国内首个 Token 工厂性能基准；报道称其不同于出租算力卡，提供以算力生产 Token 的软件服务。运营主体未披露。截至2026-06-30，政府网站一手报道，多源一致。https://english.beijing.gov.cn/beijinginfo/sci/latesttrends/202606/t20260612_4697373.html ；https://www.ncsti.gov.cn/kjdt/kjrd/rgzn_kjrd/202606/t20260630_250444.html
+
+[^p21-ai-gateway]: OpenCSG，CSGHub *AI Gateway* 产品文档，访问于2026年10月12日。网关为 AI 服务统一入口，连接自部署推理与外部模型供应商；可为同一模型配置多个上游，支持路由、健康检查和故障切换；可查看请求量、费用、首 Token 时延、缓存命中率与上游健康；社区版提供兼容 OpenAI 的模型访问，企业版增加组织管理等。截至2026-10-12，厂商一手文档。https://opencsg.com/docs/en/csghub/101/function/aigateway/intro
+
+## 第二十二章　OpenCSG 主权 AI 解决方案蓝图
+
+## 第七部导读与第二十三章　董事会 AI 主权议程
+
+[^p23-air-canada]: British Columbia Civil Resolution Tribunal，*Moffatt v. Air Canada*, 2024 BCCRT 149，2024年2月14日；Law360 Canada，2024年2月16日；McMillan LLP，*A Word of Caution: Company Liable for Misrepresentations Made by Chatbot*，2024年3月4日。乘客于2022年11月11日祖母去世当天经聊天机器人询问丧亲票价，被告知可在出票后90天内申请差价；裁决员 Christopher Rivers 驳回航空公司“聊天机器人是独立法律实体”的主张，判赔差价650.88加元，连同利息与费用共812.02加元。截至2026-10-12，多源一致。https://www.law360.ca/ca/articles/1804075 ；https://mcmillan.ca/insights/a-word-of-caution-company-liable-for-misrepresentations-made-by-chatbot/
+
+## 第二十四章　180 天企业 AI 主权路线图
+
+[^p24-samsung]: Bloomberg，*Samsung Bans Staff's AI Use After Spotting ChatGPT Data Leak*，2023年5月2日；Redmond Magazine，2023年5月3日。三星于2023年4月底向员工发出备忘录，在公司设备及接入内网的个人设备上暂停使用生成式AI，起因是员工将内部代码上传至ChatGPT；公司同时开发内部AI工具。截至2026-10-12，多源一致。https://www.bloomberg.com/news/articles/2023-05-02/samsung-bans-chatgpt-and-other-generative-ai-use-by-staff-after-leak ；https://redmondmag.com/articles/2023/05/03/samsung-bans-employees-use-of-chatgpt.aspx
+
+## 第二十五章　AI 主权成熟度模型
+
+[^p25-replit]: Fortune，*AI-powered coding tool wiped out a software company's database in 'catastrophic failure'*，2025年7月23日。SaaStr 创始人 Jason Lemkin 测试 Replit 智能体时，智能体在代码冻结期间删除生产数据库（涉及1,200多名高管、1,190多家公司的资料），承认未经授权执行命令；Replit CEO Amjad Masad 称“不可接受”，宣布开发与生产数据库自动隔离、改进回滚、推出仅规划模式。截至2026-10-12，多源一致。https://fortune.com/2025/07/23/ai-coding-tool-replit-wiped-database-called-it-a-catastrophic-failure/
+
+## 第二十六章　给 CEO 的二十条原则
+
+[^p26-shopify]: TechCrunch，*Shopify CEO tells teams to consider using AI before growing headcount*，2025年4月7日。Tobi Lütke 在 X 上公开内部备忘录，要求团队在申请更多人手和资源前说明为何不能用AI完成。截至2026-10-12，已确认（原帖与多家媒体一致）。https://techcrunch.com/2025/04/07/shopify-ceo-tells-teams-to-consider-using-ai-before-growing-headcount/
+
+## 第二十七章　企业 AI 转型作战手册：从一项真实任务到 Agentic Enterprise
+
+[^p27-klarna-2024]: Klarna，*Klarna AI assistant handles two-thirds of customer service chats in its first month*，2024年2月27日（新闻稿，VKTR 全文转载）。首月230万次对话、占客服聊天三分之二、相当于700名全职客服工作量、满意度与人工持平、重复咨询降25%、解决时间由11分钟降至不到2分钟、23个市场35种以上语言、预计2024年改善利润约4,000万美元。数字为公司自报，未经独立核验。https://www.klarna.com/international/press/klarna-ai-assistant-handles-two-thirds-of-customer-service-chats-in-its-first-month/ ；https://www.vktr.com/the-wire/klarna-ai-assistant-handles-two-thirds-of-customer-service-chats-in-its-first-month
+
+[^p27-klarna-2025]: Entrepreneur，*Klarna Is Hiring Customer Service Agents After AI Couldn't Cut It on Calls*，2025年5月9日；CX Today，2025年5月12日（均转述 Bloomberg 对 Sebastian Siemiatkowski 的采访）。CEO 称成本在评估中占比过重导致质量下降，“投资于人工服务质量是未来方向”，公司以远程方式重新招聘客服。截至2026-10-12，多源一致（原始采访为彭博社）。https://www.entrepreneur.com/business-news/klarna-ceo-reverses-course-by-hiring-more-humans-not-ai/491396 ；https://cxtoday.com/klarna-grapples-with-ai-led-customer-service-pivots-to-an-uber-type-of-setup
+
+[^p27-openai-assistants]: OpenAI Developer Community，*Assistants API beta deprecation — August 26, 2026 sunset*，2025年8月26日；OpenAI，Assistants 迁移指南。OpenAI 宣布关停 Assistants API，2026年8月26日停止服务，推荐迁移至 Responses API，助手需改写为提示词（prompts）。截至2026-10-12，已确认。https://community.openai.com/t/assistants-api-beta-deprecation-august-26-2026-sunset/1354666 ；https://platform.openai.com/docs/assistants/migration
+
+## 第二十八章　Agentic Enterprise：同时管理人类与数字劳动力
+
+[^p28-moderna-wsj]: The Wall Street Journal，*Why Moderna Merged Its Tech and HR Departments*，2025年5月（bioethics.com 于2025年5月12日转载摘要）。莫德纳将技术与人力资源合并为单一职能，人力资源负责人 Tracey Franklin 出任首席人力与数字技术官，公司借助AI重新考虑人员规划。截至2026-10-12，多源一致（WSJ原文付费，未见全文）。https://www.wsj.com/articles/why-moderna-merged-its-tech-and-hr-departments-95318c2a ；https://bioethics.com/archives/97753
+
+[^p28-moderna-unleash]: UNLEASH，*Why Moderna merged HR and IT to better architect the flow of work*，2025年6月27日。Franklin 称合并后的部门名为“People and Digital Technology”，从人员规划、技术规划转向“工作规划”；公司与 OpenAI 开发了3,000多个定制GPT；工作系统“越来越多地包括人与AI智能体并肩工作”。截至2026-10-12，单一来源（当事人采访）。https://www.unleash.ai/artificial-intelligence/why-moderna-merged-hr-and-it-to-better-architect-the-flow-of-work/
 
 ## 附录
 

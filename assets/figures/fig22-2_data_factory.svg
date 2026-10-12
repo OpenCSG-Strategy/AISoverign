@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500" width="900" height="500" font-family="'Source Han Sans SC','Noto Sans CJK SC','PingFang SC','Microsoft YaHei','WenQuanYi Zen Hei',sans-serif">
+<rect width="900" height="500" fill="#fff"/>
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#111"/></marker></defs>
+<text x="40" y="40" font-size="20" text-anchor="start" font-weight="bold" fill="#111">高质量数据工厂：从原始数据到可审计资产</text>
+<rect x="40" y="100" width="146" height="50" rx="6" fill="#fff" stroke="#111" stroke-width="1.5"/>
+<text x="113.0" y="131" font-size="14" text-anchor="middle" font-weight="normal" fill="#111">盘点数据</text>
+<line x1="188" y1="125" x2="204" y2="125" stroke="#111" stroke-width="1.2" marker-end="url(#ar)"/>
+<rect x="206" y="100" width="146" height="50" rx="6" fill="#fff" stroke="#111" stroke-width="1.5"/>
+<text x="279.0" y="131" font-size="14" text-anchor="middle" font-weight="normal" fill="#111">确认许可和合规</text>
+<line x1="354" y1="125" x2="370" y2="125" stroke="#111" stroke-width="1.2" marker-end="url(#ar)"/>
+<rect x="372" y="100" width="146" height="50" rx="6" fill="#fff" stroke="#555" stroke-width="1.5" stroke-dasharray="5 4"/>
+<text x="445.0" y="131" font-size="14" text-anchor="middle" font-weight="normal" fill="#111">去重</text>
+<line x1="520" y1="125" x2="536" y2="125" stroke="#111" stroke-width="1.2" marker-end="url(#ar)"/>
+<rect x="538" y="100" width="146" height="50" rx="6" fill="#fff" stroke="#111" stroke-width="1.5"/>
+<text x="611.0" y="131" font-size="14" text-anchor="middle" font-weight="normal" fill="#111">清洗、转换</text>
+<text x="611.0" y="168" font-size="12" text-anchor="middle" font-weight="bold" fill="#555">DataFlow</text>
+<line x1="686" y1="125" x2="702" y2="125" stroke="#111" stroke-width="1.2" marker-end="url(#ar)"/>
+<rect x="704" y="100" width="146" height="50" rx="6" fill="#fff" stroke="#555" stroke-width="1.5" stroke-dasharray="5 4"/>
+<text x="777.0" y="131" font-size="14" text-anchor="middle" font-weight="normal" fill="#111">处理敏感信息</text>
+<rect x="704" y="220" width="146" height="50" rx="6" fill="#fff" stroke="#111" stroke-width="1.5"/>
+<text x="777.0" y="251" font-size="14" text-anchor="middle" font-weight="normal" fill="#111">标注</text>
+<text x="777.0" y="288" font-size="12" text-anchor="middle" font-weight="bold" fill="#555">DataFlow</text>
+<line x1="702" y1="245" x2="686" y2="245" stroke="#111" stroke-width="1.2" marker-end="url(#ar)"/>
+<rect x="538" y="220" width="146" height="50" rx="6" fill="#fff" stroke="#111" stroke-width="1.5"/>
+<text x="611.0" y="251" font-size="14" text-anchor="middle" font-weight="normal" fill="#111">抽检质量</text>
+<line x1="536" y1="245" x2="520" y2="245" stroke="#111" stroke-width="1.2" marker-end="url(#ar)"/>
+<rect x="372" y="220" width="146" height="50" rx="6" fill="#fff" stroke="#111" stroke-width="1.5"/>
+<text x="445.0" y="251" font-size="14" text-anchor="middle" font-weight="normal" fill="#111">写数据集说明书</text>
+<line x1="370" y1="245" x2="354" y2="245" stroke="#111" stroke-width="1.2" marker-end="url(#ar)"/>
+<rect x="206" y="220" width="146" height="50" rx="6" fill="#fff" stroke="#111" stroke-width="1.5"/>
+<text x="279.0" y="251" font-size="14" text-anchor="middle" font-weight="normal" fill="#111">版本管理</text>
+<text x="279.0" y="288" font-size="12" text-anchor="middle" font-weight="bold" fill="#555">CSGHub</text>
+<line x1="204" y1="245" x2="188" y2="245" stroke="#111" stroke-width="1.2" marker-end="url(#ar)"/>
+<rect x="40" y="220" width="146" height="50" rx="6" fill="#fff" stroke="#111" stroke-width="1.5"/>
+<text x="113.0" y="251" font-size="14" text-anchor="middle" font-weight="bold" fill="#111">用于训练或评测</text>
+<line x1="777.0" y1="152" x2="777.0" y2="218" stroke="#111" stroke-width="1.2" marker-end="url(#ar)"/>
+<path d="M40,245 H24 V125 H37" fill="none" stroke="#111" stroke-width="1.2" stroke-dasharray="5 4" marker-end="url(#ar)"/>
+<text x="30" y="92" font-size="12" text-anchor="start" font-weight="normal" fill="#555">使用结果反馈回来</text>
+<text x="40" y="318" font-size="12" text-anchor="start" font-weight="normal" fill="#555">DataFlow、CSGHub：OpenCSG 公开文档写到的部分　　虚线框：公开文档没写到，需另配工具</text>
+<text x="40" y="360" font-size="15" text-anchor="start" font-weight="bold" fill="#111">看这些指标，不看处理了多少 TB</text>
+<rect x="40" y="376" width="192" height="42" rx="6" fill="#eee" stroke="#555" stroke-width="1"/>
+<text x="136" y="403" font-size="14" text-anchor="middle" font-weight="normal" fill="#111">可用样本比例</text>
+<rect x="247" y="376" width="192" height="42" rx="6" fill="#eee" stroke="#555" stroke-width="1"/>
+<text x="343" y="403" font-size="14" text-anchor="middle" font-weight="normal" fill="#111">重复率、错误率</text>
+<rect x="454" y="376" width="192" height="42" rx="6" fill="#eee" stroke="#555" stroke-width="1"/>
+<text x="550" y="403" font-size="14" text-anchor="middle" font-weight="normal" fill="#111">覆盖率</text>
+<rect x="661" y="376" width="192" height="42" rx="6" fill="#eee" stroke="#555" stroke-width="1"/>
+<text x="757" y="403" font-size="14" text-anchor="middle" font-weight="normal" fill="#111">标注一致性</text>
+<rect x="40" y="428" width="192" height="42" rx="6" fill="#bbb" stroke="#111" stroke-width="2"/>
+<text x="136" y="455" font-size="14" text-anchor="middle" font-weight="bold" fill="#111">许可完整率</text>
+<rect x="247" y="428" width="192" height="42" rx="6" fill="#eee" stroke="#555" stroke-width="1"/>
+<text x="343" y="455" font-size="14" text-anchor="middle" font-weight="normal" fill="#111">评测提升</text>
+<rect x="454" y="428" width="192" height="42" rx="6" fill="#eee" stroke="#555" stroke-width="1"/>
+<text x="550" y="455" font-size="14" text-anchor="middle" font-weight="normal" fill="#111">真实任务改善</text>
+<rect x="661" y="428" width="192" height="42" rx="6" fill="#eee" stroke="#555" stroke-width="1"/>
+<text x="757" y="455" font-size="14" text-anchor="middle" font-weight="normal" fill="#111">可用周期</text>
+<text x="40" y="490" font-size="12" text-anchor="start" font-weight="normal" fill="#555">许可完整率最容易被忽略，出了问题代价最大</text>
+</svg>

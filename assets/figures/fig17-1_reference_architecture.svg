@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 480" width="900" height="480" font-family="'Source Han Sans SC','Noto Sans CJK SC','PingFang SC','Microsoft YaHei','WenQuanYi Zen Hei',sans-serif">
+<rect width="900" height="480" fill="#fff"/>
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#111"/></marker></defs>
+<text x="40" y="40" font-size="20" text-anchor="start" font-weight="bold" fill="#111">四层参考架构：从学会、运行、拥有到编排</text>
+<rect x="160" y="90" width="600" height="64" rx="6" fill="#c8c8c8" stroke="#111" stroke-width="1.5"/>
+<rect x="172" y="106" width="48" height="32" rx="4" fill="#111"/>
+<text x="196.0" y="126.9" font-size="14" text-anchor="middle" font-weight="bold" fill="#fff">编排</text>
+<text x="234" y="119" font-size="16" text-anchor="start" font-weight="bold" fill="#111">控制面</text>
+<text x="234" y="139" font-size="12" text-anchor="start" font-weight="normal" fill="#555">Control Plane</text>
+<rect x="370" y="102" width="140" height="40" rx="6" fill="#fff" stroke="#111" stroke-width="2"/>
+<text x="440" y="128" font-size="15" text-anchor="middle" font-weight="bold" fill="#111">AgenticHub</text>
+<text x="525" y="118" font-size="12" text-anchor="start" font-weight="normal" fill="#111">多个智能体的身份、权限、</text>
+<text x="525" y="136" font-size="12" text-anchor="start" font-weight="normal" fill="#111">工具和协作由谁统一管</text>
+<rect x="160" y="166" width="600" height="64" rx="6" fill="#dcdcdc" stroke="#111" stroke-width="2"/>
+<rect x="172" y="182" width="48" height="32" rx="4" fill="#111"/>
+<text x="196.0" y="202.9" font-size="14" text-anchor="middle" font-weight="bold" fill="#fff">拥有</text>
+<text x="234" y="195" font-size="16" text-anchor="start" font-weight="bold" fill="#111">资产中枢</text>
+<text x="234" y="215" font-size="12" text-anchor="start" font-weight="normal" fill="#555">Asset Hub</text>
+<rect x="370" y="178" width="140" height="40" rx="6" fill="#fff" stroke="#111" stroke-width="2"/>
+<text x="440" y="204" font-size="15" text-anchor="middle" font-weight="bold" fill="#111">CSGHub</text>
+<text x="525" y="194" font-size="12" text-anchor="start" font-weight="normal" fill="#111">模型、数据、提示词、评测</text>
+<text x="525" y="212" font-size="12" text-anchor="start" font-weight="normal" fill="#111">沉淀在哪里，能不能带走</text>
+<rect x="160" y="242" width="600" height="64" rx="6" fill="#ececec" stroke="#111" stroke-width="1.5"/>
+<rect x="172" y="258" width="48" height="32" rx="4" fill="#111"/>
+<text x="196.0" y="278.9" font-size="14" text-anchor="middle" font-weight="bold" fill="#fff">运行</text>
+<text x="234" y="271" font-size="16" text-anchor="start" font-weight="bold" fill="#111">运行时</text>
+<text x="234" y="291" font-size="12" text-anchor="start" font-weight="normal" fill="#555">Runtime</text>
+<rect x="370" y="254" width="140" height="40" rx="6" fill="#fff" stroke="#111" stroke-width="2"/>
+<text x="440" y="280" font-size="15" text-anchor="middle" font-weight="bold" fill="#111">CSGClaw</text>
+<text x="525" y="270" font-size="12" text-anchor="start" font-weight="normal" fill="#111">智能体在受控环境里动手，</text>
+<text x="525" y="288" font-size="12" text-anchor="start" font-weight="normal" fill="#111">动手的范围在哪里</text>
+<rect x="160" y="318" width="600" height="64" rx="6" fill="#fff" stroke="#111" stroke-width="1.5"/>
+<rect x="172" y="334" width="48" height="32" rx="4" fill="#111"/>
+<text x="196.0" y="354.9" font-size="14" text-anchor="middle" font-weight="bold" fill="#fff">学会</text>
+<text x="234" y="347" font-size="16" text-anchor="start" font-weight="bold" fill="#111">能力入口</text>
+<text x="234" y="367" font-size="12" text-anchor="start" font-weight="normal" fill="#555">Capability Entry</text>
+<rect x="370" y="330" width="140" height="40" rx="6" fill="#fff" stroke="#111" stroke-width="2"/>
+<text x="440" y="356" font-size="15" text-anchor="middle" font-weight="bold" fill="#111">CSGLite</text>
+<text x="525" y="346" font-size="12" text-anchor="start" font-weight="normal" fill="#111">低门槛地试用、比较、</text>
+<text x="525" y="364" font-size="12" text-anchor="start" font-weight="normal" fill="#111">获得 AI 能力</text>
+<text x="440" y="228" font-size="1" text-anchor="start" font-weight="normal" fill="#111"></text>
+<rect x="40" y="166" width="100" height="64" rx="6" fill="#eee" stroke="#555" stroke-width="1.5"/>
+<text x="90" y="192" font-size="14" text-anchor="middle" font-weight="bold" fill="#111">公共社区</text>
+<text x="90" y="212" font-size="11" text-anchor="middle" font-weight="normal" fill="#555">模型、数据集</text>
+<line x1="142" y1="198" x2="157" y2="198" stroke="#111" stroke-width="1.5" marker-end="url(#ar)"/>
+<text x="90" y="248" font-size="12" text-anchor="middle" font-weight="normal" fill="#555">多源同步</text>
+<text x="90" y="264" font-size="12" text-anchor="middle" font-weight="normal" fill="#555">进私有仓库</text>
+<rect x="778" y="90" width="82" height="292" rx="6" fill="#eee" stroke="#111" stroke-width="2"/>
+<text x="819" y="130" font-size="13" text-anchor="middle" font-weight="bold" fill="#111">Agentic</text>
+<text x="819" y="148" font-size="13" text-anchor="middle" font-weight="bold" fill="#111">Ops</text>
+<text x="819" y="190" font-size="13" text-anchor="middle" font-weight="normal" fill="#111">贯穿</text>
+<text x="819" y="212" font-size="13" text-anchor="middle" font-weight="normal" fill="#111">四层</text>
+<text x="819" y="234" font-size="13" text-anchor="middle" font-weight="normal" fill="#111"></text>
+<text x="819" y="256" font-size="13" text-anchor="middle" font-weight="normal" fill="#111">发布</text>
+<text x="819" y="278" font-size="13" text-anchor="middle" font-weight="normal" fill="#111">运行</text>
+<text x="819" y="300" font-size="13" text-anchor="middle" font-weight="normal" fill="#111">改进</text>
+<text x="40" y="420" font-size="14" text-anchor="start" font-weight="bold" fill="#111">模型提供智能，运行装置（Harness）提供行动能力，AgenticOps 提供可控运行</text>
+<text x="40" y="448" font-size="13" text-anchor="start" font-weight="normal" fill="#555">检验是不是真的分了层：挑一层换掉，看另外几层要不要跟着重写</text>
+</svg>

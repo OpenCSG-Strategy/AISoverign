@@ -78,10 +78,10 @@ python3 tools/book_structure.py validate
 python3 tools/book_structure.py assemble <输出文件路径>
 
 # 重新生成全部插图 SVG
-python3 assets/figures/src/mkfig.py && python3 assets/figures/src/mkfig_a.py && python3 assets/figures/src/mkfig_b.py
+python3 assets/figures/src/mkfig.py && python3 assets/figures/src/mkfig_a.py && python3 assets/figures/src/mkfig_b.py && python3 assets/figures/src/mkfig_c.py
 ```
 
-每次改完稿、提交之前，先跑一遍 `validate`，结果须为 `0 failures`。截至 2026-10-08：9 个章级单元、39 个小节、23 幅图、122 条尾注、0 失败。
+每次改完稿、提交之前，先跑一遍 `validate`，结果须为 `0 failures`。截至 2026-10-12：30 个章级单元、108 个小节、50 幅图、220 条尾注、0 失败。
 
 ---
 

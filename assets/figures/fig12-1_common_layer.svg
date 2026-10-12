@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 470" width="900" height="470" font-family="'Source Han Sans SC','Noto Sans CJK SC','PingFang SC','Microsoft YaHei','WenQuanYi Zen Hei',sans-serif">
+<rect width="900" height="470" fill="#fff"/>
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#111"/></marker></defs>
+<text x="40" y="40" font-size="20" text-anchor="start" font-weight="bold" fill="#111">公共层交给社区，差异层留给自己</text>
+<rect x="40" y="85" width="820" height="120" rx="6" fill="#eee" stroke="#111" stroke-width="1.5"/>
+<text x="60" y="115" font-size="17" text-anchor="start" font-weight="bold" fill="#111">公共层</text>
+<text x="130" y="115" font-size="13" text-anchor="start" font-weight="normal" fill="#555">社区共同维护，中立基金会托管，共享接口和标准</text>
+<rect x="60" y="135" width="182" height="50" rx="6" fill="#fff" stroke="#111" stroke-width="1.5"/>
+<text x="151" y="166" font-size="14" text-anchor="middle" font-weight="normal" fill="#111">训练和推理框架</text>
+<rect x="258" y="135" width="182" height="50" rx="6" fill="#fff" stroke="#111" stroke-width="1.5"/>
+<text x="349" y="166" font-size="14" text-anchor="middle" font-weight="normal" fill="#111">模型和数据的格式</text>
+<rect x="456" y="135" width="182" height="50" rx="6" fill="#fff" stroke="#111" stroke-width="1.5"/>
+<text x="547" y="166" font-size="14" text-anchor="middle" font-weight="normal" fill="#111">智能体接入工具的协议</text>
+<rect x="654" y="135" width="182" height="50" rx="6" fill="#fff" stroke="#111" stroke-width="1.5"/>
+<text x="745" y="166" font-size="14" text-anchor="middle" font-weight="normal" fill="#111">基础的评测工具</text>
+<rect x="40" y="305" width="820" height="120" rx="6" fill="#fff" stroke="#111" stroke-width="1.5"/>
+<text x="60" y="335" font-size="17" text-anchor="start" font-weight="bold" fill="#111">差异层</text>
+<text x="130" y="335" font-size="13" text-anchor="start" font-weight="normal" fill="#555">各家自己的东西，各自竞争，各自保护</text>
+<rect x="60" y="355" width="146" height="50" rx="6" fill="#bbb" stroke="#111" stroke-width="1.5"/>
+<text x="133" y="386" font-size="14" text-anchor="middle" font-weight="bold" fill="#111">业务规则</text>
+<rect x="218" y="355" width="146" height="50" rx="6" fill="#bbb" stroke="#111" stroke-width="1.5"/>
+<text x="291" y="386" font-size="14" text-anchor="middle" font-weight="bold" fill="#111">客户资料</text>
+<rect x="376" y="355" width="146" height="50" rx="6" fill="#bbb" stroke="#111" stroke-width="1.5"/>
+<text x="449" y="386" font-size="14" text-anchor="middle" font-weight="bold" fill="#111">领域数据</text>
+<rect x="534" y="355" width="146" height="50" rx="6" fill="#bbb" stroke="#111" stroke-width="1.5"/>
+<text x="607" y="386" font-size="14" text-anchor="middle" font-weight="bold" fill="#111">内部评测集</text>
+<rect x="692" y="355" width="146" height="50" rx="6" fill="#bbb" stroke="#111" stroke-width="1.5"/>
+<text x="765" y="386" font-size="14" text-anchor="middle" font-weight="bold" fill="#111">流程</text>
+<line x1="300" y1="207" x2="300" y2="228" stroke="#111" stroke-width="1.5" marker-end="url(#ar)"/>
+<rect x="220" y="230" width="160" height="48" rx="6" fill="#fff" stroke="#111" stroke-width="2"/>
+<text x="300" y="252" font-size="14" text-anchor="middle" font-weight="bold" fill="#111">内部镜像仓库</text>
+<text x="300" y="270" font-size="12" text-anchor="middle" font-weight="normal" fill="#555">固定版本和哈希值</text>
+<line x1="300" y1="280" x2="300" y2="302" stroke="#111" stroke-width="1.5" marker-end="url(#ar)"/>
+<text x="205" y="260" font-size="14" text-anchor="end" font-weight="bold" fill="#111">取能力</text>
+<text x="395" y="252" font-size="12" text-anchor="start" font-weight="normal" fill="#555">平台出事、被收购</text>
+<text x="395" y="270" font-size="12" text-anchor="start" font-weight="normal" fill="#555">或改规则时的退路</text>
+<line x1="700" y1="302" x2="700" y2="208" stroke="#111" stroke-width="1.5" marker-end="url(#ar)"/>
+<text x="715" y="240" font-size="14" text-anchor="start" font-weight="bold" fill="#111">回馈</text>
+<text x="715" y="260" font-size="12" text-anchor="start" font-weight="normal" fill="#555">提交修复 · 公开工具</text>
+<text x="715" y="278" font-size="12" text-anchor="start" font-weight="normal" fill="#555">资助维护 · 参与治理</text>
+<text x="40" y="455" font-size="13" text-anchor="start" font-weight="normal" fill="#555">PyTorch 和 MCP 交给基金会，就是把公共层交给社区；回馈可以看成给退路交的保险费</text>
+</svg>

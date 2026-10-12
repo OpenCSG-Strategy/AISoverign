@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 490" width="900" height="490" font-family="'Source Han Sans SC','Noto Sans CJK SC','PingFang SC','Microsoft YaHei','WenQuanYi Zen Hei',sans-serif">
+<rect width="900" height="490" fill="#fff"/>
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#111"/></marker></defs>
+<text x="40" y="40" font-size="20" text-anchor="start" font-weight="bold" fill="#111">成熟度六级：每升一级都要拿出证据</text>
+<rect x="40" y="360" width="128" height="60" rx="4" fill="#fff" stroke="#111" stroke-width="1.5"/>
+<text x="104.0" y="382" font-size="13" text-anchor="middle" font-weight="normal" fill="#555">L0</text>
+<text x="104.0" y="404" font-size="15" text-anchor="middle" font-weight="bold" fill="#111">影子 AI</text>
+<text x="46" y="290" font-size="12" text-anchor="start" font-weight="bold" fill="#111">升 L1 要有：</text>
+<text x="46" y="309" font-size="12" text-anchor="start" font-weight="normal" fill="#111">使用清单</text>
+<text x="46" y="328" font-size="12" text-anchor="start" font-weight="normal" fill="#111">基本政策</text>
+<text x="46" y="347" font-size="12" text-anchor="start" font-weight="normal" fill="#555">对应：选择</text>
+<rect x="178" y="318" width="128" height="102" rx="4" fill="#f0f0f0" stroke="#111" stroke-width="1.5"/>
+<text x="242.0" y="340" font-size="13" text-anchor="middle" font-weight="normal" fill="#555">L1</text>
+<text x="242.0" y="362" font-size="15" text-anchor="middle" font-weight="bold" fill="#111">工具 AI</text>
+<text x="184" y="229" font-size="12" text-anchor="start" font-weight="bold" fill="#111">升 L2 要有：</text>
+<text x="184" y="248" font-size="12" text-anchor="start" font-weight="normal" fill="#111">任务单</text>
+<text x="184" y="267" font-size="12" text-anchor="start" font-weight="normal" fill="#111">独立智能体账号</text>
+<text x="184" y="286" font-size="12" text-anchor="start" font-weight="normal" fill="#111">第一版评测集</text>
+<text x="184" y="305" font-size="12" text-anchor="start" font-weight="normal" fill="#555">对应：审计的起点</text>
+<rect x="316" y="276" width="128" height="144" rx="4" fill="#e0e0e0" stroke="#111" stroke-width="1.5"/>
+<text x="380.0" y="298" font-size="13" text-anchor="middle" font-weight="normal" fill="#555">L2</text>
+<text x="380.0" y="320" font-size="15" text-anchor="middle" font-weight="bold" fill="#111">流程 AI</text>
+<text x="322" y="205" font-size="12" text-anchor="start" font-weight="bold" fill="#111">升 L3 要有：</text>
+<text x="322" y="224" font-size="12" text-anchor="start" font-weight="normal" fill="#111">停止和接管演练</text>
+<text x="322" y="243" font-size="12" text-anchor="start" font-weight="normal" fill="#111">三本账数据</text>
+<text x="322" y="262" font-size="12" text-anchor="start" font-weight="normal" fill="#111">发布门</text>
+<rect x="454" y="234" width="128" height="186" rx="4" fill="#cfcfcf" stroke="#111" stroke-width="1.5"/>
+<text x="518.0" y="256" font-size="13" text-anchor="middle" font-weight="normal" fill="#555">L3</text>
+<text x="518.0" y="278" font-size="15" text-anchor="middle" font-weight="bold" fill="#111">智能体 AI</text>
+<text x="460" y="145" font-size="12" text-anchor="start" font-weight="bold" fill="#111">升 L4 要有：</text>
+<text x="460" y="164" font-size="12" text-anchor="start" font-weight="normal" fill="#111">真实替换记录</text>
+<text x="460" y="183" font-size="12" text-anchor="start" font-weight="normal" fill="#111">完整导出记录</text>
+<text x="460" y="202" font-size="12" text-anchor="start" font-weight="normal" fill="#111">备用模型跑真流量</text>
+<text x="460" y="221" font-size="12" text-anchor="start" font-weight="normal" fill="#555">对应：替换、迁移</text>
+<rect x="592" y="192" width="128" height="228" rx="4" fill="#bcbcbc" stroke="#111" stroke-width="1.5"/>
+<text x="656.0" y="214" font-size="13" text-anchor="middle" font-weight="normal" fill="#555">L4</text>
+<text x="656.0" y="236" font-size="15" text-anchor="middle" font-weight="bold" fill="#111">主权 AI</text>
+<text x="598" y="103" font-size="12" text-anchor="start" font-weight="bold" fill="#111">升 L5 要有：</text>
+<text x="598" y="122" font-size="12" text-anchor="start" font-weight="normal" fill="#111">失败变成评测题</text>
+<text x="598" y="141" font-size="12" text-anchor="start" font-weight="normal" fill="#111">修改进入知识库</text>
+<text x="598" y="160" font-size="12" text-anchor="start" font-weight="normal" fill="#111">治理规则改过</text>
+<text x="598" y="179" font-size="12" text-anchor="start" font-weight="normal" fill="#555">对应：组合、演进</text>
+<rect x="730" y="150" width="128" height="270" rx="4" fill="#a6a6a6" stroke="#111" stroke-width="1.5" stroke-dasharray="6 4"/>
+<text x="794.0" y="172" font-size="13" text-anchor="middle" font-weight="normal" fill="#111">L5</text>
+<text x="794.0" y="194" font-size="15" text-anchor="middle" font-weight="bold" fill="#111">自适应组织</text>
+<text x="794.0" y="136" font-size="12" text-anchor="middle" font-weight="normal" fill="#555">一个方向</text>
+<line x1="40" y1="422" x2="860" y2="422" stroke="#111" stroke-width="2"/>
+<text x="40" y="448" font-size="13" text-anchor="start" font-weight="normal" fill="#555">衡量的是控制程度，不是模型有多先进；只写得出“供应商说”的地方，一律按低一级算</text>
+<text x="40" y="472" font-size="13" text-anchor="start" font-weight="normal" fill="#555">级别可以往下掉：模型更新、平台迁移、关键工程师离职以后，按任务分别重评</text>
+</svg>

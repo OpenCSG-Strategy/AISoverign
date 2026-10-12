@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 450" width="900" height="450" font-family="'Source Han Sans SC','Noto Sans CJK SC','PingFang SC','Microsoft YaHei','WenQuanYi Zen Hei',sans-serif">
+<rect width="900" height="450" fill="#fff"/>
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#111"/></marker></defs>
+<text x="40" y="40" font-size="20" text-anchor="start" font-weight="bold" fill="#111">从源代码到六样可以开放的东西</text>
+<rect x="40" y="90" width="170" height="292" rx="6" fill="#eee" stroke="#111" stroke-width="1.5"/>
+<text x="125" y="120" font-size="17" text-anchor="middle" font-weight="bold" fill="#111">开源软件</text>
+<rect x="65" y="210" width="120" height="50" rx="6" fill="#fff" stroke="#111" stroke-width="2"/>
+<text x="125" y="241" font-size="16" text-anchor="middle" font-weight="bold" fill="#111">源代码</text>
+<text x="125" y="300" font-size="13" text-anchor="middle" font-weight="normal" fill="#555">拿到源代码，</text>
+<text x="125" y="319" font-size="13" text-anchor="middle" font-weight="normal" fill="#555">基本就拿到了</text>
+<text x="125" y="338" font-size="13" text-anchor="middle" font-weight="normal" fill="#555">全部</text>
+<line x1="214" y1="236" x2="252" y2="236" stroke="#111" stroke-width="2" marker-end="url(#ar)"/>
+<text x="500" y="80" font-size="13" text-anchor="middle" font-weight="normal" fill="#555">开源 AI：一个能干活的系统由几样东西组成</text>
+<rect x="260" y="92" width="140" height="42" rx="6" fill="#fff" stroke="#111" stroke-width="1.5"/>
+<text x="330" y="119" font-size="15" text-anchor="middle" font-weight="bold" fill="#111">代码</text>
+<text x="415" y="119" font-size="14" text-anchor="start" font-weight="normal" fill="#111">可读、可改，自己能维护</text>
+<rect x="260" y="142" width="140" height="42" rx="6" fill="#bbb" stroke="#111" stroke-width="2"/>
+<text x="330" y="169" font-size="15" text-anchor="middle" font-weight="bold" fill="#111">模型和权重</text>
+<text x="415" y="169" font-size="14" text-anchor="start" font-weight="normal" fill="#111">可替换、可本地运行、可独立验证</text>
+<rect x="260" y="192" width="140" height="42" rx="6" fill="#fff" stroke="#111" stroke-width="1.5"/>
+<text x="330" y="219" font-size="15" text-anchor="middle" font-weight="bold" fill="#111">数据</text>
+<text x="415" y="219" font-size="14" text-anchor="start" font-weight="normal" fill="#111">知识能沉淀，训练能复现，责任能追溯</text>
+<rect x="260" y="242" width="140" height="42" rx="6" fill="#fff" stroke="#111" stroke-width="1.5"/>
+<text x="330" y="269" font-size="15" text-anchor="middle" font-weight="bold" fill="#111">协议和接口</text>
+<text x="415" y="269" font-size="14" text-anchor="start" font-weight="normal" fill="#111">降低平台锁定，方便组合和退出</text>
+<rect x="260" y="292" width="140" height="42" rx="6" fill="#fff" stroke="#111" stroke-width="1.5"/>
+<text x="330" y="319" font-size="15" text-anchor="middle" font-weight="bold" fill="#111">评测</text>
+<text x="415" y="319" font-size="14" text-anchor="start" font-weight="normal" fill="#111">不必只信排行榜和厂商的说法</text>
+<rect x="260" y="342" width="140" height="42" rx="6" fill="#fff" stroke="#111" stroke-width="1.5"/>
+<text x="330" y="369" font-size="15" text-anchor="middle" font-weight="bold" fill="#111">运行方法</text>
+<text x="415" y="369" font-size="14" text-anchor="start" font-weight="normal" fill="#111">让主权在系统运行时也成立</text>
+<path d="M720,96 h10 V230 h-10" fill="none" stroke="#555" stroke-width="1.5"/>
+<text x="742" y="150" font-size="13" text-anchor="start" font-weight="normal" fill="#555">《开源 AI 定义》</text>
+<text x="742" y="169" font-size="13" text-anchor="start" font-weight="normal" fill="#555">要求公开代码、</text>
+<text x="742" y="188" font-size="13" text-anchor="start" font-weight="normal" fill="#555">参数和数据信息</text>
+<path d="M720,246 h10 V380 h-10" fill="none" stroke="#555" stroke-width="1.5"/>
+<text x="742" y="310" font-size="13" text-anchor="start" font-weight="normal" fill="#555">这三样</text>
+<text x="742" y="329" font-size="13" text-anchor="start" font-weight="normal" fill="#555">常被忽视</text>
+<text x="40" y="425" font-size="13" text-anchor="start" font-weight="normal" fill="#555">今天大多数被叫作“开源模型”的东西，只开放了灰色那一行，准确的说法是开放权重模型</text>
+</svg>

@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 510" width="900" height="510" font-family="'Source Han Sans SC','Noto Sans CJK SC','PingFang SC','Microsoft YaHei','WenQuanYi Zen Hei',sans-serif">
+<rect width="900" height="510" fill="#fff"/>
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#111"/></marker></defs>
+<text x="40" y="40" font-size="20" text-anchor="start" font-weight="bold" fill="#111">四层主权，同一个图案</text>
+<rect x="40" y="80" width="500" height="370" rx="6" fill="#fff" stroke="#111" stroke-width="2"/>
+<text x="56" y="110" font-size="17" text-anchor="start" font-weight="bold" fill="#111">国家</text>
+<text x="102" y="110" font-size="13" text-anchor="start" font-weight="normal" fill="#111">靠什么保持韧性</text>
+<rect x="70" y="142" width="440" height="288" rx="6" fill="#f0f0f0" stroke="#111" stroke-width="1.5"/>
+<text x="86" y="172" font-size="17" text-anchor="start" font-weight="bold" fill="#111">城市</text>
+<text x="132" y="172" font-size="13" text-anchor="start" font-weight="normal" fill="#111">怎样把机房变成能力</text>
+<rect x="100" y="204" width="380" height="206" rx="6" fill="#dedede" stroke="#111" stroke-width="1.5"/>
+<text x="116" y="234" font-size="17" text-anchor="start" font-weight="bold" fill="#111">企业</text>
+<text x="162" y="234" font-size="13" text-anchor="start" font-weight="normal" fill="#111">哪些资产不能随供应商走掉</text>
+<rect x="130" y="266" width="320" height="124" rx="6" fill="#c8c8c8" stroke="#111" stroke-width="1.5"/>
+<text x="146" y="296" font-size="17" text-anchor="start" font-weight="bold" fill="#111">个人</text>
+<text x="192" y="296" font-size="13" text-anchor="start" font-weight="normal" fill="#111">换了工具、丢了账号还能接着工作</text>
+<line x1="545" y1="260" x2="588" y2="260" stroke="#111" stroke-width="1.5" marker-end="url(#ar)"/>
+<rect x="590" y="80" width="270" height="190" rx="6" fill="#eee" stroke="#111" stroke-width="1.5"/>
+<text x="610" y="110" font-size="15" text-anchor="start" font-weight="bold" fill="#111">每一层都要回答</text>
+<circle cx="622" cy="135" r="10" fill="#111"/>
+<text x="622" y="139.32" font-size="12" text-anchor="middle" font-weight="bold" fill="#fff">1</text>
+<text x="642" y="140" font-size="14" text-anchor="start" font-weight="normal" fill="#111">它能看到什么</text>
+<circle cx="622" cy="167" r="10" fill="#111"/>
+<text x="622" y="171.32" font-size="12" text-anchor="middle" font-weight="bold" fill="#fff">2</text>
+<text x="642" y="172" font-size="14" text-anchor="start" font-weight="normal" fill="#111">它能做什么</text>
+<circle cx="622" cy="199" r="10" fill="#111"/>
+<text x="622" y="203.32" font-size="12" text-anchor="middle" font-weight="bold" fill="#fff">3</text>
+<text x="642" y="204" font-size="14" text-anchor="start" font-weight="normal" fill="#111">谁能让它停下</text>
+<circle cx="622" cy="231" r="10" fill="#111"/>
+<text x="622" y="235.32" font-size="12" text-anchor="middle" font-weight="bold" fill="#fff">4</text>
+<text x="642" y="236" font-size="14" text-anchor="start" font-weight="normal" fill="#111">出了事谁负责</text>
+<rect x="590" y="290" width="270" height="160" rx="6" fill="#fff" stroke="#111" stroke-width="1.5"/>
+<text x="610" y="320" font-size="15" text-anchor="start" font-weight="bold" fill="#111">每一层都要经受</text>
+<rect x="610" y="342" width="70" height="36" rx="6" fill="#fff" stroke="#111" stroke-width="1.5"/>
+<text x="645" y="366" font-size="14" text-anchor="middle" font-weight="bold" fill="#111">选择</text>
+<rect x="690" y="342" width="70" height="36" rx="6" fill="#fff" stroke="#111" stroke-width="1.5"/>
+<text x="725" y="366" font-size="14" text-anchor="middle" font-weight="bold" fill="#111">替换</text>
+<rect x="770" y="342" width="70" height="36" rx="6" fill="#fff" stroke="#111" stroke-width="1.5"/>
+<text x="805" y="366" font-size="14" text-anchor="middle" font-weight="bold" fill="#111">迁移</text>
+<rect x="610" y="390" width="70" height="36" rx="6" fill="#fff" stroke="#111" stroke-width="1.5"/>
+<text x="645" y="414" font-size="14" text-anchor="middle" font-weight="bold" fill="#111">审计</text>
+<rect x="690" y="390" width="70" height="36" rx="6" fill="#fff" stroke="#111" stroke-width="1.5"/>
+<text x="725" y="414" font-size="14" text-anchor="middle" font-weight="bold" fill="#111">组合</text>
+<rect x="770" y="390" width="70" height="36" rx="6" fill="#fff" stroke="#111" stroke-width="1.5"/>
+<text x="805" y="414" font-size="14" text-anchor="middle" font-weight="bold" fill="#111">演进</text>
+<text x="40" y="476" font-size="13" text-anchor="start" font-weight="bold" fill="#111">镜头拉近或拉远，看到的图案相似</text>
+<text x="40" y="498" font-size="13" text-anchor="start" font-weight="normal" fill="#555">国家、城市、企业、个人手里的资源差得很远，要回答的问题几乎一样</text>
+</svg>

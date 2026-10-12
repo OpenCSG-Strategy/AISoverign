@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 470" width="900" height="470" font-family="'Source Han Sans SC','Noto Sans CJK SC','PingFang SC','Microsoft YaHei','WenQuanYi Zen Hei',sans-serif">
+<rect width="900" height="470" fill="#fff"/>
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#111"/></marker></defs>
+<text x="40" y="40" font-size="20" text-anchor="start" font-weight="bold" fill="#111">五次跃迁：从工具化到主权化</text>
+<rect x="40" y="304" width="156" height="96" rx="4" fill="#fff" stroke="#111" stroke-width="1.5"/>
+<text x="118" y="332" font-size="16" text-anchor="middle" font-weight="bold" fill="#111">工具化</text>
+<text x="118" y="356" font-size="12" text-anchor="middle" font-weight="normal" fill="#111">员工各自用聊天机器人</text>
+<text x="118" y="374" font-size="12" text-anchor="middle" font-weight="normal" fill="#111">经验锁在对话框里</text>
+<text x="118" y="294" font-size="12" text-anchor="middle" font-weight="normal" fill="#555">第一次</text>
+<rect x="206" y="258" width="156" height="142" rx="4" fill="#eeeeee" stroke="#111" stroke-width="1.5"/>
+<text x="284" y="286" font-size="16" text-anchor="middle" font-weight="bold" fill="#111">流程化</text>
+<text x="284" y="310" font-size="12" text-anchor="middle" font-weight="normal" fill="#111">接进客服、销售、研发</text>
+<text x="284" y="328" font-size="12" text-anchor="middle" font-weight="normal" fill="#111">重复任务稳定下来</text>
+<text x="284" y="248" font-size="12" text-anchor="middle" font-weight="normal" fill="#555">第二次</text>
+<rect x="372" y="212" width="156" height="188" rx="4" fill="#dddddd" stroke="#111" stroke-width="1.5"/>
+<text x="450" y="240" font-size="16" text-anchor="middle" font-weight="bold" fill="#111">智能体化</text>
+<text x="450" y="264" font-size="12" text-anchor="middle" font-weight="normal" fill="#111">围绕目标规划步骤</text>
+<text x="450" y="282" font-size="12" text-anchor="middle" font-weight="normal" fill="#111">对外部世界产生结果</text>
+<text x="450" y="202" font-size="12" text-anchor="middle" font-weight="normal" fill="#555">第三次</text>
+<rect x="538" y="166" width="156" height="234" rx="4" fill="#c8c8c8" stroke="#111" stroke-width="1.5"/>
+<text x="616" y="194" font-size="16" text-anchor="middle" font-weight="bold" fill="#111">平台化</text>
+<text x="616" y="218" font-size="12" text-anchor="middle" font-weight="normal" fill="#111">统一管模型、数据、</text>
+<text x="616" y="236" font-size="12" text-anchor="middle" font-weight="normal" fill="#111">身份、权限、评测、成本</text>
+<text x="616" y="156" font-size="12" text-anchor="middle" font-weight="normal" fill="#555">第四次</text>
+<rect x="704" y="120" width="156" height="280" rx="4" fill="#b0b0b0" stroke="#111" stroke-width="2"/>
+<text x="782" y="148" font-size="16" text-anchor="middle" font-weight="bold" fill="#111">主权化</text>
+<text x="782" y="172" font-size="12" text-anchor="middle" font-weight="normal" fill="#111">具备六种能力，</text>
+<text x="782" y="190" font-size="12" text-anchor="middle" font-weight="normal" fill="#111">供应商变了业务照常</text>
+<text x="782" y="110" font-size="12" text-anchor="middle" font-weight="normal" fill="#555">第五次</text>
+<line x1="40" y1="402" x2="860" y2="402" stroke="#111" stroke-width="2"/>
+<text x="40" y="430" font-size="13" text-anchor="start" font-weight="normal" fill="#555">不必一步不落地走完，同一家公司的不同部门可能在不同阶段</text>
+<text x="40" y="454" font-size="13" text-anchor="start" font-weight="bold" fill="#111">要看的是：有没有一种可以持续的机制，把外部的智能吸收进来，变成自己的能力</text>
+</svg>

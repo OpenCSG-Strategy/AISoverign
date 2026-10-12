@@ -208,6 +208,7 @@ def fig5_5():
     save('fig5-5_three_ledgers.svg', svg(W, H, '\n'.join(b)))
 
 
-for f in (fig0_1, fig5_1, fig5_2, fig5_3, fig5_4, fig5_5):
-    f()
-print(sorted(os.listdir(OUT)))
+if __name__ == '__main__':
+    for f in (fig0_1, fig5_1, fig5_2, fig5_3, fig5_4, fig5_5):
+        f()
+    print(sorted(os.listdir(OUT)))

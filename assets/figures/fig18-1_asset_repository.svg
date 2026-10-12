@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 470" width="900" height="470" font-family="'Source Han Sans SC','Noto Sans CJK SC','PingFang SC','Microsoft YaHei','WenQuanYi Zen Hei',sans-serif">
+<rect width="900" height="470" fill="#fff"/>
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#111"/></marker></defs>
+<text x="40" y="40" font-size="20" text-anchor="start" font-weight="bold" fill="#111">资产仓库要答上的四个问题</text>
+<rect x="40" y="110" width="130" height="50" rx="6" fill="#eee" stroke="#555" stroke-width="1.5"/>
+<text x="105" y="141" font-size="14" text-anchor="middle" font-weight="normal" fill="#111">公共社区</text>
+<line x1="172" y1="135" x2="226" y2="180" stroke="#111" stroke-width="1.5" marker-end="url(#ar)"/>
+<rect x="40" y="190" width="130" height="50" rx="6" fill="#eee" stroke="#555" stroke-width="1.5"/>
+<text x="105" y="221" font-size="14" text-anchor="middle" font-weight="normal" fill="#111">供应商交付</text>
+<line x1="172" y1="215" x2="226" y2="220" stroke="#111" stroke-width="1.5" marker-end="url(#ar)"/>
+<rect x="40" y="270" width="130" height="50" rx="6" fill="#eee" stroke="#555" stroke-width="1.5"/>
+<text x="105" y="301" font-size="14" text-anchor="middle" font-weight="normal" fill="#111">自己微调</text>
+<line x1="172" y1="295" x2="226" y2="260" stroke="#111" stroke-width="1.5" marker-end="url(#ar)"/>
+<text x="105" y="360" font-size="12" text-anchor="middle" font-weight="normal" fill="#555">多源同步时</text>
+<text x="105" y="377" font-size="12" text-anchor="middle" font-weight="normal" fill="#555">断点续传、校验完整性</text>
+<rect x="230" y="90" width="270" height="290" rx="6" fill="#fff" stroke="#111" stroke-width="2"/>
+<text x="365" y="120" font-size="17" text-anchor="middle" font-weight="bold" fill="#111">资产仓库</text>
+<rect x="250" y="138" width="110" height="42" rx="6" fill="#bbb" stroke="#111" stroke-width="1.5"/>
+<text x="305" y="165" font-size="14" text-anchor="middle" font-weight="bold" fill="#111">模型</text>
+<rect x="370" y="138" width="110" height="42" rx="6" fill="#bbb" stroke="#111" stroke-width="1.5"/>
+<text x="425" y="165" font-size="14" text-anchor="middle" font-weight="bold" fill="#111">数据集</text>
+<rect x="250" y="190" width="110" height="42" rx="6" fill="#fff" stroke="#111" stroke-width="1.5"/>
+<text x="305" y="217" font-size="14" text-anchor="middle" font-weight="normal" fill="#111">代码</text>
+<rect x="370" y="190" width="110" height="42" rx="6" fill="#fff" stroke="#111" stroke-width="1.5"/>
+<text x="425" y="217" font-size="14" text-anchor="middle" font-weight="normal" fill="#111">应用空间</text>
+<rect x="250" y="242" width="110" height="42" rx="6" fill="#fff" stroke="#111" stroke-width="1.5"/>
+<text x="305" y="269" font-size="14" text-anchor="middle" font-weight="normal" fill="#111">提示词</text>
+<rect x="370" y="242" width="110" height="42" rx="6" fill="#fff" stroke="#111" stroke-width="1.5"/>
+<text x="425" y="269" font-size="14" text-anchor="middle" font-weight="normal" fill="#111">MCP 服务</text>
+<line x1="250" y1="302" x2="480" y2="302" stroke="#bbb" stroke-width="1"/>
+<text x="365" y="326" font-size="12" text-anchor="middle" font-weight="normal" fill="#555">模型卡 · 模型树 · 下载记录</text>
+<text x="365" y="348" font-size="12" text-anchor="middle" font-weight="normal" fill="#555">细到单个资产的权限</text>
+<text x="365" y="368" font-size="12" text-anchor="middle" font-weight="normal" fill="#555">模型网关：多个上游，故障切换</text>
+<rect x="540" y="90" width="320" height="136" rx="6" fill="#eee" stroke="#111" stroke-width="1.5"/>
+<circle cx="562" cy="113" r="10" fill="#111"/>
+<text x="562" y="117.32" font-size="12" text-anchor="middle" font-weight="bold" fill="#fff">1</text>
+<text x="582" y="118" font-size="14" text-anchor="start" font-weight="normal" fill="#111">有哪些 AI 资产？</text>
+<circle cx="562" cy="141" r="10" fill="#111"/>
+<text x="562" y="145.32" font-size="12" text-anchor="middle" font-weight="bold" fill="#fff">2</text>
+<text x="582" y="146" font-size="14" text-anchor="start" font-weight="normal" fill="#111">每一样从哪里来？</text>
+<circle cx="562" cy="169" r="10" fill="#111"/>
+<text x="562" y="173.32" font-size="12" text-anchor="middle" font-weight="bold" fill="#fff">3</text>
+<text x="582" y="174" font-size="14" text-anchor="start" font-weight="normal" fill="#111">谁能用？</text>
+<circle cx="562" cy="197" r="10" fill="#111"/>
+<text x="562" y="201.32" font-size="12" text-anchor="middle" font-weight="bold" fill="#fff">4</text>
+<text x="582" y="202" font-size="14" text-anchor="start" font-weight="normal" fill="#111">哪个版本正在生产环境里跑？</text>
+<text x="540" y="254" font-size="13" text-anchor="start" font-weight="bold" fill="#111">答得上来，四种能力就有了着落</text>
+<text x="540" y="284" font-size="13" text-anchor="start" font-weight="normal" fill="#111">有版本</text>
+<text x="668" y="284" font-size="13" text-anchor="start" font-weight="normal" fill="#555">能回滚</text>
+<line x1="718" y1="279" x2="760" y2="279" stroke="#111" stroke-width="1.2" marker-end="url(#ar)"/>
+<text x="770" y="284" font-size="14" text-anchor="start" font-weight="bold" fill="#111">演进</text>
+<text x="540" y="312" font-size="13" text-anchor="start" font-weight="normal" fill="#111">有元数据</text>
+<text x="668" y="312" font-size="13" text-anchor="start" font-weight="normal" fill="#555"></text>
+<line x1="718" y1="307" x2="760" y2="307" stroke="#111" stroke-width="1.2" marker-end="url(#ar)"/>
+<text x="770" y="312" font-size="14" text-anchor="start" font-weight="bold" fill="#111">审计</text>
+<text x="540" y="340" font-size="13" text-anchor="start" font-weight="normal" fill="#111">有标准接口</text>
+<text x="668" y="340" font-size="13" text-anchor="start" font-weight="normal" fill="#555"></text>
+<line x1="718" y1="335" x2="760" y2="335" stroke="#111" stroke-width="1.2" marker-end="url(#ar)"/>
+<text x="770" y="340" font-size="14" text-anchor="start" font-weight="bold" fill="#111">组合</text>
+<text x="540" y="368" font-size="13" text-anchor="start" font-weight="normal" fill="#111">不绑一家供应商</text>
+<text x="668" y="368" font-size="13" text-anchor="start" font-weight="normal" fill="#555"></text>
+<line x1="718" y1="363" x2="760" y2="363" stroke="#111" stroke-width="1.2" marker-end="url(#ar)"/>
+<text x="770" y="368" font-size="14" text-anchor="start" font-weight="bold" fill="#111">迁移</text>
+<rect x="40" y="400" width="820" height="50" rx="6" fill="#fff" stroke="#555" stroke-width="1.5" stroke-dasharray="6 4"/>
+<text x="450" y="422" font-size="13" text-anchor="middle" font-weight="normal" fill="#111">仓库证明不了模型本身安全、输出正确，这些仍要靠独立测试</text>
+<text x="450" y="441" font-size="12" text-anchor="middle" font-weight="normal" fill="#555">私有仓库装好以后没人维护，过两年会变成新的孤岛</text>
+</svg>

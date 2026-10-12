@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 460" width="900" height="460" font-family="'Source Han Sans SC','Noto Sans CJK SC','PingFang SC','Microsoft YaHei','WenQuanYi Zen Hei',sans-serif">
+<rect width="900" height="460" fill="#fff"/>
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#111"/></marker></defs>
+<text x="40" y="40" font-size="20" text-anchor="start" font-weight="bold" fill="#111">国家 AI 能力的六个面</text>
+<text x="40" y="66" font-size="13" text-anchor="start" font-weight="normal" fill="#555">每一面都写下：依赖谁，断了以后多久能补上</text>
+<rect x="40" y="85" width="126" height="140" rx="6" fill="#fff" stroke="#111" stroke-width="1.5"/>
+<text x="103" y="113" font-size="15" text-anchor="middle" font-weight="bold" fill="#111">能源</text>
+<text x="103" y="145" font-size="12" text-anchor="middle" font-weight="normal" fill="#111">决定能拿到</text>
+<text x="103" y="163" font-size="12" text-anchor="middle" font-weight="normal" fill="#111">多少算力和</text>
+<text x="103" y="181" font-size="12" text-anchor="middle" font-weight="normal" fill="#111">Token 成本</text>
+<rect x="40" y="233" width="126" height="24" rx="3" fill="#fff" stroke="#555" stroke-width="1" stroke-dasharray="3 3"/>
+<text x="103" y="250" font-size="12" text-anchor="middle" font-weight="normal" fill="#555">依赖谁？</text>
+<rect x="40" y="263" width="126" height="24" rx="3" fill="#fff" stroke="#555" stroke-width="1" stroke-dasharray="3 3"/>
+<text x="103" y="280" font-size="12" text-anchor="middle" font-weight="normal" fill="#555">断了多久补上？</text>
+<rect x="178" y="85" width="126" height="140" rx="6" fill="#fff" stroke="#111" stroke-width="1.5"/>
+<text x="241" y="113" font-size="15" text-anchor="middle" font-weight="bold" fill="#111">算力</text>
+<text x="241" y="145" font-size="12" text-anchor="middle" font-weight="normal" fill="#111">决定能生产</text>
+<text x="241" y="163" font-size="12" text-anchor="middle" font-weight="normal" fill="#111">多少智能</text>
+<rect x="178" y="233" width="126" height="24" rx="3" fill="#fff" stroke="#555" stroke-width="1" stroke-dasharray="3 3"/>
+<text x="241" y="250" font-size="12" text-anchor="middle" font-weight="normal" fill="#555">依赖谁？</text>
+<rect x="178" y="263" width="126" height="24" rx="3" fill="#fff" stroke="#555" stroke-width="1" stroke-dasharray="3 3"/>
+<text x="241" y="280" font-size="12" text-anchor="middle" font-weight="normal" fill="#555">断了多久补上？</text>
+<rect x="316" y="85" width="126" height="140" rx="6" fill="#fff" stroke="#111" stroke-width="1.5"/>
+<text x="379" y="113" font-size="15" text-anchor="middle" font-weight="bold" fill="#111">高质量数据</text>
+<text x="379" y="145" font-size="12" text-anchor="middle" font-weight="normal" fill="#111">本国的语言、</text>
+<text x="379" y="163" font-size="12" text-anchor="middle" font-weight="normal" fill="#111">经济和公共服务</text>
+<text x="379" y="181" font-size="12" text-anchor="middle" font-weight="normal" fill="#111">能否被模型理解</text>
+<rect x="316" y="233" width="126" height="24" rx="3" fill="#fff" stroke="#555" stroke-width="1" stroke-dasharray="3 3"/>
+<text x="379" y="250" font-size="12" text-anchor="middle" font-weight="normal" fill="#555">依赖谁？</text>
+<rect x="316" y="263" width="126" height="24" rx="3" fill="#fff" stroke="#555" stroke-width="1" stroke-dasharray="3 3"/>
+<text x="379" y="280" font-size="12" text-anchor="middle" font-weight="normal" fill="#555">断了多久补上？</text>
+<rect x="454" y="85" width="126" height="140" rx="6" fill="#fff" stroke="#111" stroke-width="1.5"/>
+<text x="517" y="113" font-size="15" text-anchor="middle" font-weight="bold" fill="#111">模型</text>
+<text x="517" y="145" font-size="12" text-anchor="middle" font-weight="normal" fill="#111">提供通用和</text>
+<text x="517" y="163" font-size="12" text-anchor="middle" font-weight="normal" fill="#111">专业能力</text>
+<rect x="454" y="233" width="126" height="24" rx="3" fill="#fff" stroke="#555" stroke-width="1" stroke-dasharray="3 3"/>
+<text x="517" y="250" font-size="12" text-anchor="middle" font-weight="normal" fill="#555">依赖谁？</text>
+<rect x="454" y="263" width="126" height="24" rx="3" fill="#fff" stroke="#555" stroke-width="1" stroke-dasharray="3 3"/>
+<text x="517" y="280" font-size="12" text-anchor="middle" font-weight="normal" fill="#555">断了多久补上？</text>
+<rect x="592" y="85" width="126" height="140" rx="6" fill="#fff" stroke="#111" stroke-width="1.5"/>
+<text x="655" y="113" font-size="15" text-anchor="middle" font-weight="bold" fill="#111">智能体</text>
+<text x="655" y="145" font-size="12" text-anchor="middle" font-weight="normal" fill="#111">能否进工厂、</text>
+<text x="655" y="163" font-size="12" text-anchor="middle" font-weight="normal" fill="#111">医院和政务</text>
+<text x="655" y="181" font-size="12" text-anchor="middle" font-weight="normal" fill="#111">大厅去办事</text>
+<rect x="592" y="233" width="126" height="24" rx="3" fill="#fff" stroke="#555" stroke-width="1" stroke-dasharray="3 3"/>
+<text x="655" y="250" font-size="12" text-anchor="middle" font-weight="normal" fill="#555">依赖谁？</text>
+<rect x="592" y="263" width="126" height="24" rx="3" fill="#fff" stroke="#555" stroke-width="1" stroke-dasharray="3 3"/>
+<text x="655" y="280" font-size="12" text-anchor="middle" font-weight="normal" fill="#555">断了多久补上？</text>
+<rect x="730" y="85" width="126" height="140" rx="6" fill="#fff" stroke="#111" stroke-width="1.5"/>
+<text x="793" y="113" font-size="13" text-anchor="middle" font-weight="bold" fill="#111">开放生态与人才</text>
+<text x="793" y="145" font-size="12" text-anchor="middle" font-weight="normal" fill="#111">前五样能否</text>
+<text x="793" y="163" font-size="12" text-anchor="middle" font-weight="normal" fill="#111">持续改进</text>
+<rect x="730" y="233" width="126" height="24" rx="3" fill="#fff" stroke="#555" stroke-width="1" stroke-dasharray="3 3"/>
+<text x="793" y="250" font-size="12" text-anchor="middle" font-weight="normal" fill="#555">依赖谁？</text>
+<rect x="730" y="263" width="126" height="24" rx="3" fill="#fff" stroke="#555" stroke-width="1" stroke-dasharray="3 3"/>
+<text x="793" y="280" font-size="12" text-anchor="middle" font-weight="normal" fill="#555">断了多久补上？</text>
+<text x="40" y="325" font-size="16" text-anchor="start" font-weight="bold" fill="#111">韧性：没有一处断了就全停</text>
+<rect x="40" y="340" width="192" height="100" rx="6" fill="#fff" stroke="#111" stroke-width="1.5"/>
+<text x="136" y="364" font-size="14" text-anchor="middle" font-weight="bold" fill="#111">芯片受到限制</text>
+<line x1="56" y1="374" x2="216" y2="374" stroke="#bbb" stroke-width="1"/>
+<text x="136" y="394" font-size="12" text-anchor="middle" font-weight="normal" fill="#111">有替代的芯片，</text>
+<text x="136" y="411" font-size="12" text-anchor="middle" font-weight="normal" fill="#111">也有移植模型的</text>
+<text x="136" y="428" font-size="12" text-anchor="middle" font-weight="normal" fill="#111">工程能力</text>
+<rect x="247" y="340" width="192" height="100" rx="6" fill="#fff" stroke="#111" stroke-width="1.5"/>
+<text x="343" y="364" font-size="14" text-anchor="middle" font-weight="bold" fill="#111">云服务改条款或停服</text>
+<line x1="263" y1="374" x2="423" y2="374" stroke="#bbb" stroke-width="1"/>
+<text x="343" y="394" font-size="12" text-anchor="middle" font-weight="normal" fill="#111">关键系统</text>
+<text x="343" y="411" font-size="12" text-anchor="middle" font-weight="normal" fill="#111">迁得走</text>
+<rect x="454" y="340" width="192" height="100" rx="6" fill="#fff" stroke="#111" stroke-width="1.5"/>
+<text x="550" y="364" font-size="14" text-anchor="middle" font-weight="bold" fill="#111">前沿模型来自外国</text>
+<line x1="470" y1="374" x2="630" y2="374" stroke="#bbb" stroke-width="1"/>
+<text x="550" y="394" font-size="12" text-anchor="middle" font-weight="normal" fill="#111">本地仍能评测、</text>
+<text x="550" y="411" font-size="12" text-anchor="middle" font-weight="normal" fill="#111">部署、治理数据、</text>
+<text x="550" y="428" font-size="12" text-anchor="middle" font-weight="normal" fill="#111">做业务集成</text>
+<rect x="661" y="340" width="192" height="100" rx="6" fill="#fff" stroke="#111" stroke-width="1.5"/>
+<text x="757" y="364" font-size="14" text-anchor="middle" font-weight="bold" fill="#111">公共系统出了错</text>
+<line x1="677" y1="374" x2="837" y2="374" stroke="#bbb" stroke-width="1"/>
+<text x="757" y="394" font-size="12" text-anchor="middle" font-weight="normal" fill="#111">有审计、有申诉，</text>
+<text x="757" y="411" font-size="12" text-anchor="middle" font-weight="normal" fill="#111">也有人能接管</text>
+</svg>

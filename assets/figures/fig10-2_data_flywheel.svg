@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 470" width="900" height="470" font-family="'Source Han Sans SC','Noto Sans CJK SC','PingFang SC','Microsoft YaHei','WenQuanYi Zen Hei',sans-serif">
+<rect width="900" height="470" fill="#fff"/>
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#111"/></marker></defs>
+<text x="40" y="40" font-size="20" text-anchor="start" font-weight="bold" fill="#111">数据飞轮：失败记录变成评测题</text>
+<rect x="60" y="90" width="160" height="62" rx="6" fill="#fff" stroke="#111" stroke-width="1.5"/>
+<text x="140.0" y="116" font-size="15" text-anchor="middle" font-weight="bold" fill="#111">真实任务</text>
+<text x="140.0" y="137" font-size="12" text-anchor="middle" font-weight="normal" fill="#555">系统每天处理的活</text>
+<rect x="290" y="90" width="200" height="62" rx="6" fill="#fff" stroke="#111" stroke-width="1.5"/>
+<text x="390.0" y="116" font-size="15" text-anchor="middle" font-weight="bold" fill="#111">留下一条轨迹</text>
+<text x="390.0" y="137" font-size="12" text-anchor="middle" font-weight="normal" fill="#555">请求、资料、工具、结果</text>
+<rect x="560" y="90" width="280" height="62" rx="6" fill="#eee" stroke="#111" stroke-width="1.5"/>
+<text x="700.0" y="116" font-size="15" text-anchor="middle" font-weight="bold" fill="#111">员工采用、修改或推翻</text>
+<text x="700.0" y="137" font-size="12" text-anchor="middle" font-weight="normal" fill="#555">被推翻和修改的最值钱</text>
+<rect x="60" y="230" width="300" height="62" rx="6" fill="#bbb" stroke="#111" stroke-width="2"/>
+<text x="210.0" y="256" font-size="15" text-anchor="middle" font-weight="bold" fill="#111">改进</text>
+<text x="210.0" y="277" font-size="12" text-anchor="middle" font-weight="normal" fill="#555">知识库 · 工具 · 权限 · 路由 · 模型</text>
+<rect x="430" y="230" width="190" height="62" rx="6" fill="#fff" stroke="#111" stroke-width="1.5"/>
+<text x="525.0" y="256" font-size="15" text-anchor="middle" font-weight="bold" fill="#111">评测集</text>
+<text x="525.0" y="277" font-size="12" text-anchor="middle" font-weight="normal" fill="#555">出错案例，下次先测一遍</text>
+<rect x="660" y="230" width="180" height="62" rx="6" fill="#fff" stroke="#111" stroke-width="1.5"/>
+<text x="750.0" y="256" font-size="15" text-anchor="middle" font-weight="bold" fill="#111">反馈</text>
+<text x="750.0" y="277" font-size="12" text-anchor="middle" font-weight="normal" fill="#555">员工的修改，带着判断</text>
+<line x1="222" y1="121" x2="287" y2="121" stroke="#111" stroke-width="1.5" marker-end="url(#ar)"/>
+<line x1="492" y1="121" x2="557" y2="121" stroke="#111" stroke-width="1.5" marker-end="url(#ar)"/>
+<line x1="620" y1="154" x2="560" y2="227" stroke="#111" stroke-width="1.5" marker-end="url(#ar)"/>
+<line x1="750" y1="154" x2="750" y2="227" stroke="#111" stroke-width="1.5" marker-end="url(#ar)"/>
+<line x1="428" y1="261" x2="363" y2="261" stroke="#111" stroke-width="1.5" marker-end="url(#ar)"/>
+<path d="M750,294 V318 H300 V297" fill="none" stroke="#111" stroke-width="1.5" marker-end="url(#ar)"/>
+<line x1="140" y1="228" x2="140" y2="155" stroke="#111" stroke-width="1.5" marker-end="url(#ar)"/>
+<text x="150" y="196" font-size="12" text-anchor="start" font-weight="normal" fill="#555">再回到真实任务</text>
+<text x="372" y="310" font-size="12" text-anchor="start" font-weight="normal" fill="#555">每次改动都有记录，改坏了能退回去</text>
+<rect x="40" y="345" width="400" height="54" rx="6" fill="#fff" stroke="#111" stroke-width="1.5"/>
+<text x="240" y="367" font-size="13" text-anchor="middle" font-weight="normal" fill="#111">评测集、知识库、反馈记录在自己手里：</text>
+<text x="240" y="386" font-size="13" text-anchor="middle" font-weight="normal" fill="#111">换了模型照样能用</text>
+<rect x="460" y="345" width="400" height="54" rx="6" fill="#fff" stroke="#555" stroke-width="1.5" stroke-dasharray="6 4"/>
+<text x="660" y="367" font-size="13" text-anchor="middle" font-weight="normal" fill="#555">只存在供应商平台上，或者默默回流：</text>
+<text x="660" y="386" font-size="13" text-anchor="middle" font-weight="normal" fill="#555">飞轮转得再快，积累也在别人那边</text>
+<text x="40" y="440" font-size="13" text-anchor="start" font-weight="bold" fill="#111">两个前提：员工愿意纠正，并把改过的地方留在系统里；采集要克制，先脱敏，写清保留期限</text>
+</svg>

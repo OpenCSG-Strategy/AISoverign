@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" font-family="'Source Han Sans SC','Noto Sans CJK SC','PingFang SC','Microsoft YaHei','WenQuanYi Zen Hei',sans-serif">
+<rect width="900" height="520" fill="#fff"/>
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#111"/></marker></defs>
+<text x="40" y="40" font-size="20" text-anchor="start" font-weight="bold" fill="#111">给 CEO 的二十条原则</text>
+<rect x="40" y="80" width="400" height="36" rx="6" fill="#111"/>
+<text x="240.0" y="103.25" font-size="15" text-anchor="middle" font-weight="bold" fill="#fff">十条不要做的事</text>
+<rect x="40" y="116" width="400" height="316" rx="6" fill="#fff" stroke="#111" stroke-width="1.5"/>
+<circle cx="62" cy="140" r="11" fill="#111"/>
+<text x="62" y="143.96" font-size="11" text-anchor="middle" font-weight="bold" fill="#fff">1</text>
+<text x="82" y="145" font-size="14" text-anchor="start" font-weight="normal" fill="#111">不要把 AI 战略写成模型采购清单</text>
+<circle cx="62" cy="170" r="11" fill="#111"/>
+<text x="62" y="173.96" font-size="11" text-anchor="middle" font-weight="bold" fill="#fff">2</text>
+<text x="82" y="175" font-size="14" text-anchor="start" font-weight="normal" fill="#111">不要把私有化部署等同于主权</text>
+<circle cx="62" cy="200" r="11" fill="#111"/>
+<text x="62" y="203.96" font-size="11" text-anchor="middle" font-weight="bold" fill="#fff">3</text>
+<text x="82" y="205" font-size="14" text-anchor="start" font-weight="normal" fill="#111">不要把开放权重叫作完整开源</text>
+<circle cx="62" cy="230" r="11" fill="#111"/>
+<text x="62" y="233.96" font-size="11" text-anchor="middle" font-weight="bold" fill="#fff">4</text>
+<text x="82" y="235" font-size="14" text-anchor="start" font-weight="normal" fill="#111">不要让组织记忆只存在聊天历史里</text>
+<circle cx="62" cy="260" r="11" fill="#111"/>
+<text x="62" y="263.96" font-size="11" text-anchor="middle" font-weight="bold" fill="#fff">5</text>
+<text x="82" y="265" font-size="14" text-anchor="start" font-weight="normal" fill="#111">不要给智能体超出任务需要的权限</text>
+<circle cx="62" cy="290" r="11" fill="#111"/>
+<text x="62" y="293.96" font-size="11" text-anchor="middle" font-weight="bold" fill="#fff">6</text>
+<text x="82" y="295" font-size="14" text-anchor="start" font-weight="normal" fill="#111">不要上线没人真正有权停止的系统</text>
+<circle cx="62" cy="320" r="11" fill="#111"/>
+<text x="62" y="323.96" font-size="11" text-anchor="middle" font-weight="bold" fill="#fff">7</text>
+<text x="82" y="325" font-size="14" text-anchor="start" font-weight="normal" fill="#111">不要只看 Token 成本</text>
+<circle cx="62" cy="350" r="11" fill="#111"/>
+<text x="62" y="353.96" font-size="11" text-anchor="middle" font-weight="bold" fill="#fff">8</text>
+<text x="82" y="355" font-size="14" text-anchor="start" font-weight="normal" fill="#111">不要只做漂亮的演示</text>
+<circle cx="62" cy="380" r="11" fill="#111"/>
+<text x="62" y="383.96" font-size="11" text-anchor="middle" font-weight="bold" fill="#fff">9</text>
+<text x="82" y="385" font-size="14" text-anchor="start" font-weight="normal" fill="#111">不要把数据全部集中到一处</text>
+<circle cx="62" cy="410" r="11" fill="#111"/>
+<text x="62" y="413.96" font-size="11" text-anchor="middle" font-weight="bold" fill="#fff">10</text>
+<text x="82" y="415" font-size="14" text-anchor="start" font-weight="normal" fill="#111">不要把许可证治理留到发布前一天</text>
+<rect x="460" y="80" width="400" height="36" rx="6" fill="#111"/>
+<text x="660.0" y="103.25" font-size="15" text-anchor="middle" font-weight="bold" fill="#fff">十条一定要做的事</text>
+<rect x="460" y="116" width="400" height="316" rx="6" fill="#eee" stroke="#111" stroke-width="1.5"/>
+<circle cx="482" cy="140" r="11" fill="#111"/>
+<text x="482" y="143.96" font-size="11" text-anchor="middle" font-weight="bold" fill="#fff">11</text>
+<text x="502" y="145" font-size="14" text-anchor="start" font-weight="normal" fill="#111">保留一条真实可用的模型替代路径</text>
+<circle cx="482" cy="170" r="11" fill="#111"/>
+<text x="482" y="173.96" font-size="11" text-anchor="middle" font-weight="bold" fill="#fff">12</text>
+<text x="502" y="175" font-size="14" text-anchor="start" font-weight="normal" fill="#111">做一次完整导出，并在别处跑起来</text>
+<circle cx="482" cy="200" r="11" fill="#111"/>
+<text x="482" y="203.96" font-size="11" text-anchor="middle" font-weight="bold" fill="#fff">13</text>
+<text x="502" y="205" font-size="14" text-anchor="start" font-weight="normal" fill="#111">把高质量数据当作长期资本</text>
+<circle cx="482" cy="230" r="11" fill="#111"/>
+<text x="482" y="233.96" font-size="11" text-anchor="middle" font-weight="bold" fill="#fff">14</text>
+<text x="502" y="235" font-size="14" text-anchor="start" font-weight="normal" fill="#111">把人工修改当作高价值的反馈</text>
+<circle cx="482" cy="260" r="11" fill="#111"/>
+<text x="482" y="263.96" font-size="11" text-anchor="middle" font-weight="bold" fill="#fff">15</text>
+<text x="502" y="265" font-size="14" text-anchor="start" font-weight="normal" fill="#111">让备用模型平时承担少量真实流量</text>
+<circle cx="482" cy="290" r="11" fill="#111"/>
+<text x="482" y="293.96" font-size="11" text-anchor="middle" font-weight="bold" fill="#fff">16</text>
+<text x="502" y="295" font-size="14" text-anchor="start" font-weight="normal" fill="#111">让开源社区成为人才和标准的入口</text>
+<circle cx="482" cy="320" r="11" fill="#111"/>
+<text x="482" y="323.96" font-size="11" text-anchor="middle" font-weight="bold" fill="#fff">17</text>
+<text x="502" y="325" font-size="14" text-anchor="start" font-weight="normal" fill="#111">产品建在开放接口和可迁移资产上</text>
+<circle cx="482" cy="350" r="11" fill="#111"/>
+<text x="482" y="353.96" font-size="11" text-anchor="middle" font-weight="bold" fill="#fff">18</text>
+<text x="502" y="355" font-size="14" text-anchor="start" font-weight="normal" fill="#111">把智能体当作数字劳动力来管</text>
+<circle cx="482" cy="380" r="11" fill="#111"/>
+<text x="482" y="383.96" font-size="11" text-anchor="middle" font-weight="bold" fill="#fff">19</text>
+<text x="502" y="385" font-size="14" text-anchor="start" font-weight="normal" fill="#111">把每次事故变成评测和制度改进</text>
+<circle cx="482" cy="410" r="11" fill="#111"/>
+<text x="482" y="413.96" font-size="11" text-anchor="middle" font-weight="bold" fill="#fff">20</text>
+<text x="502" y="415" font-size="14" text-anchor="start" font-weight="bold" fill="#111">能力可以购买，责任不能外包</text>
+<text x="40" y="462" font-size="14" text-anchor="start" font-weight="bold" fill="#111">落地</text>
+<rect x="90" y="444" width="130" height="34" rx="6" fill="#fff" stroke="#555" stroke-width="1.5"/>
+<text x="155.0" y="466" font-size="13" text-anchor="middle" font-weight="normal" fill="#111">挑三到五条</text>
+<line x1="222" y1="461" x2="243" y2="461" stroke="#111" stroke-width="1.2" marker-end="url(#ar)"/>
+<rect x="246" y="444" width="180" height="34" rx="6" fill="#fff" stroke="#555" stroke-width="1.5"/>
+<text x="336.0" y="466" font-size="13" text-anchor="middle" font-weight="normal" fill="#111">绑定一个已有管理动作</text>
+<line x1="428" y1="461" x2="443" y2="461" stroke="#111" stroke-width="1.2" marker-end="url(#ar)"/>
+<rect x="446" y="444" width="130" height="34" rx="6" fill="#fff" stroke="#555" stroke-width="1.5"/>
+<text x="511.0" y="466" font-size="13" text-anchor="middle" font-weight="normal" fill="#111">指定检查人</text>
+<line x1="578" y1="461" x2="597" y2="461" stroke="#111" stroke-width="1.2" marker-end="url(#ar)"/>
+<rect x="600" y="444" width="170" height="34" rx="6" fill="#fff" stroke="#555" stroke-width="1.5"/>
+<text x="685.0" y="466" font-size="13" text-anchor="middle" font-weight="normal" fill="#111">半年后拿证据检查</text>
+<text x="40" y="506" font-size="12" text-anchor="start" font-weight="normal" fill="#555">例如采购审批、预算申请、上线评审或季度汇报</text>
+</svg>

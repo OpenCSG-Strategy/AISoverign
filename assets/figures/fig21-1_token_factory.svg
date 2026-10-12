@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 470" width="900" height="470" font-family="'Source Han Sans SC','Noto Sans CJK SC','PingFang SC','Microsoft YaHei','WenQuanYi Zen Hei',sans-serif">
+<rect width="900" height="470" fill="#fff"/>
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#111"/></marker></defs>
+<text x="40" y="40" font-size="20" text-anchor="start" font-weight="bold" fill="#111">Token 工厂的价值链和三个条件</text>
+<rect x="40" y="90" width="102" height="56" rx="6" fill="#fff" stroke="#111" stroke-width="1.5"/>
+<text x="91" y="124" font-size="15" text-anchor="middle" font-weight="bold" fill="#111">能源</text>
+<line x1="144" y1="118" x2="157" y2="118" stroke="#111" stroke-width="1.2" marker-end="url(#ar)"/>
+<rect x="159" y="90" width="102" height="56" rx="6" fill="#fff" stroke="#111" stroke-width="1.5"/>
+<text x="210" y="124" font-size="15" text-anchor="middle" font-weight="bold" fill="#111">算力</text>
+<line x1="263" y1="118" x2="276" y2="118" stroke="#111" stroke-width="1.2" marker-end="url(#ar)"/>
+<rect x="278" y="90" width="102" height="56" rx="6" fill="#fff" stroke="#111" stroke-width="1.5"/>
+<text x="329" y="124" font-size="15" text-anchor="middle" font-weight="bold" fill="#111">模型</text>
+<line x1="382" y1="118" x2="395" y2="118" stroke="#111" stroke-width="1.2" marker-end="url(#ar)"/>
+<rect x="397" y="90" width="102" height="56" rx="6" fill="#fff" stroke="#111" stroke-width="1.5"/>
+<text x="448" y="124" font-size="15" text-anchor="middle" font-weight="bold" fill="#111">Token</text>
+<line x1="501" y1="118" x2="514" y2="118" stroke="#111" stroke-width="1.2" marker-end="url(#ar)"/>
+<rect x="516" y="90" width="102" height="56" rx="6" fill="#ececec" stroke="#111" stroke-width="1.5"/>
+<text x="567" y="124" font-size="15" text-anchor="middle" font-weight="bold" fill="#111">智能体</text>
+<line x1="620" y1="118" x2="633" y2="118" stroke="#111" stroke-width="1.2" marker-end="url(#ar)"/>
+<rect x="635" y="90" width="102" height="56" rx="6" fill="#dcdcdc" stroke="#111" stroke-width="1.5"/>
+<text x="686" y="124" font-size="15" text-anchor="middle" font-weight="bold" fill="#111">任务</text>
+<line x1="739" y1="118" x2="752" y2="118" stroke="#111" stroke-width="1.2" marker-end="url(#ar)"/>
+<rect x="754" y="90" width="102" height="56" rx="6" fill="#bdbdbd" stroke="#111" stroke-width="2"/>
+<text x="805" y="124" font-size="13" text-anchor="middle" font-weight="bold" fill="#111">验证过的结果</text>
+<path d="M40,178 H856" fill="none" stroke="#111" stroke-width="1.5" marker-end="url(#ar)"/>
+<text x="40" y="170" font-size="12" text-anchor="start" font-weight="normal" fill="#555">← 越容易计量，也越容易被当成目标本身</text>
+<text x="856" y="170" font-size="12" text-anchor="end" font-weight="normal" fill="#555">越接近业务价值 →</text>
+<path d="M40,190 v10 H499 v-10" fill="none" stroke="#555" stroke-width="1.2"/>
+<text x="270" y="222" font-size="12" text-anchor="middle" font-weight="normal" fill="#111">城市报多少 P、企业报多少亿 Token，都停在这半段</text>
+<path d="M516,190 v10 H856 v-10" fill="none" stroke="#555" stroke-width="1.2"/>
+<text x="686" y="222" font-size="12" text-anchor="middle" font-weight="normal" fill="#111">客户最终要买：完成了、验过了的任务</text>
+<text x="40" y="268" font-size="16" text-anchor="start" font-weight="bold" fill="#111">主权 Token 工厂的三个条件</text>
+<rect x="40" y="285" width="255" height="125" rx="6" fill="#fff" stroke="#111" stroke-width="1.5"/>
+<text x="58" y="314" font-size="17" text-anchor="start" font-weight="bold" fill="#111">多源</text>
+<text x="58" y="342" font-size="13" text-anchor="start" font-weight="normal" fill="#111">算力和模型不止一个来源，</text>
+<text x="58" y="362" font-size="13" text-anchor="start" font-weight="normal" fill="#111">替代路径演练过</text>
+<text x="58" y="396" font-size="12" text-anchor="start" font-weight="normal" fill="#555">对应：选择、替换</text>
+<text x="308" y="352" font-size="18" text-anchor="middle" font-weight="bold" fill="#111">＋</text>
+<rect x="322" y="285" width="255" height="125" rx="6" fill="#fff" stroke="#111" stroke-width="1.5"/>
+<text x="340" y="314" font-size="17" text-anchor="start" font-weight="bold" fill="#111">可计量</text>
+<text x="340" y="342" font-size="13" text-anchor="start" font-weight="normal" fill="#111">Token、工具调用、人工复核、</text>
+<text x="340" y="362" font-size="13" text-anchor="start" font-weight="normal" fill="#111">成功率和业务结果进同一本账</text>
+<text x="340" y="396" font-size="12" text-anchor="start" font-weight="normal" fill="#555">对应：审计，出了事谁负责</text>
+<text x="590" y="352" font-size="18" text-anchor="middle" font-weight="bold" fill="#111">＋</text>
+<rect x="604" y="285" width="255" height="125" rx="6" fill="#fff" stroke="#111" stroke-width="1.5"/>
+<text x="622" y="314" font-size="17" text-anchor="start" font-weight="bold" fill="#111">可治理</text>
+<text x="622" y="342" font-size="13" text-anchor="start" font-weight="normal" fill="#111">数据边界、版本、权限、</text>
+<text x="622" y="362" font-size="13" text-anchor="start" font-weight="normal" fill="#111">轨迹和退出都能审计</text>
+<text x="622" y="396" font-size="12" text-anchor="start" font-weight="normal" fill="#555">检验：几年后本地留下了什么</text>
+<text x="40" y="448" font-size="13" text-anchor="start" font-weight="normal" fill="#555">三条同时满足才算主权基础设施；只满足一两条，它可能是一个效率很高的新集中依赖点</text>
+</svg>

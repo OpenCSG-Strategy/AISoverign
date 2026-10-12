@@ -22,13 +22,14 @@
 
 [^p6-operator]: OpenAI，*Operator System Card*，2025年1月23日。厂商自测中，无产品层防护的模型在100项近似真实任务中产生13次会造成麻烦的错误，确认等措施使估计风险降低约90%。https://openai.com/index/operator-system-card/
 
-[^p4-mata]: U.S. District Court, SDNY，*Mata v. Avianca, Opinion and Order on Sanctions*，2023年6月22日。法院认定相关律师提交了ChatGPT生成的虚构判例及引文，对Peter LoDuca、Steven A. Schwartz及Levidow, Levidow & Oberman律所处以5,000美元连带罚款。https://www.nhd.uscourts.gov/sites/default/files/pdf/Mata-v-Avianca-sanctions-order.PDF
 
 [^p1-inference-cost]: Stanford HAI，*AI Index 2025: State of AI in 10 Charts*；Apple，*Updates to Apple's On-Device and Server Foundation Language Models*，2025年。GPT-3.5水平模型每百万Token推理价格从2022年11月约20美元降至2024年10月约0.07美元，降幅超过280倍；苹果约30亿参数的端侧模型擅长摘要、信息提取和文本理解。https://hai.stanford.edu/news/ai-index-2025-state-of-ai-in-10-charts ；https://machinelearning.apple.com/research/apple-foundation-models-2025-updates
 
 [^p0-ai-energy]: IEA，*Key Questions on Energy and AI*，2026年4月。报告称最大的科技企业2025年资本支出超四千亿美元，仅五家企业的资本支出已超过全球油气生产投资；数据中心用电增长17%。https://www.iea.org/reports/key-questions-on-energy-and-ai/executive-summary
 
 [^p1-nvidia-lps-2026]: Jensen Huang，*Securing the Infrastructure of Intelligence*，X长文，2026年8月17日；Daily Tribune，2026年8月18日。英伟达与SB Energy锁定俄亥俄州朴次茅斯PORTS-Pike园区的土地、电力和厂房，OpenAI为租户，初始4.25吉瓦；英伟达对约4吉瓦、为期20年的部分租金、电费及约定残值提供支持，数字为单方披露。https://x.com/JensenHuang/status/2089331487342829862 ；https://tribune.net.ph/2026/08/18/nvidia-secures-425-gw-site
+
+[^p0-wadsworth]: U.S. District Court for the District of Wyoming，*Wadsworth v. Walmart Inc. and Jetson Electric Bikes, LLC*，Order on Sanctions（Judge Kelly H. Rankin），2025年2月24日；LawSites（Bob Ambrogi），*Federal Judge Sanctions Morgan & Morgan Attorneys for AI-Generated Fake Cases in Court Filing*，2025年2月25日；Bloomberg Law，*Morgan & Morgan Lawyers Fined for 'Hallucinated' AI Citations*，2025年2月。动议引用8个不存在的判例，起草律师 Rudwin Ayala 使用律所自建平台 MX2.law 生成判例；Ayala 罚3,000美元并撤销本案临时出庭资格，T. Michael Morgan、Taly Goody 各罚1,000美元；法院认为签名所含的核实义务“不可转授”，未处罚律所。截至2025-02-25，多源一致（法院命令）。https://www.lawnext.com/2025/02/federal-judge-sanctions-morgan-morgan-attorneys-for-ai-generated-fake-cases-in-court-filing.html ；https://news.bloomberglaw.com/litigation/morgan-morgan-lawyers-fined-for-hallucinated-ai-citations （访问于2026-10）
 
 ## 第一部导读与第一章　Token 工厂：算力、电力与智能的生产线
 
@@ -56,6 +57,8 @@
 
 [^p1-cma-cloud]: UK CMA，*Cloud Services Market Investigation: Summary of Final Decision*，2025年7月31日。英国及欧洲经济区IaaS市场中，Microsoft与AWS各占约百分之三十至四十，年更换服务商的客户不足百分之一。https://assets.publishing.service.gov.uk/media/688b20e6ff8c05468cb7b120/summary_of_final_decision.pdf
 
+[^p1-stargate-abilene]: Techstrong.ai，*OpenAI, Oracle Show Off First Stargate Data Center in Texas*，2025年9月23日；DatacenterDynamics，*Crusoe's Abilene data center officially live, serving Oracle and OpenAI's Stargate*，2025年9月30日。阿比林园区2024年6月动工，2025年9月两栋楼投运、承载200MW以上IT负载，首批GB200机柜2025年6月交付；园区共八栋楼，规划1.2GW；每日在场建筑工人6,000余名；园区配有燃气电厂作后备电源，奥尔特曼称“我们在烧天然气来运行这座数据中心”；同日宣布另外五个Stargate站点。截至2025-09-30，多源一致。https://techstrong.ai/articles/openai-oracle-show-off-first-stargate-data-center-in-texas/ ；https://www.datacenterdynamics.com/en/news/crusoes-abilene-data-center-officially-live-serving-oracle-and-openais-stargate/ （访问于2026-10）
+
 ## 第二章　智能平权：开源、蒸馏与端侧模型的价格战
 
 [^new-deepseek-nvidia]: Reuters，*DeepSeek sparks AI stock selloff; Nvidia posts record market-cap loss*，2025年1月27日；Bloomberg，同日报道。英伟达当日收跌近17%，市值减少约5,900亿美元，为美股单家公司最大单日市值损失。https://finance.yahoo.com/news/chinas-deepseek-sets-off-ai-071458375.html ；https://www.bloomberg.com/news/articles/2025-01-27/asml-sinks-as-china-ai-startup-triggers-panic-in-tech-stocks
@@ -68,7 +71,6 @@
 
 [^p2-distillation-law]: *Thomson Reuters v. Ross Intelligence*，特拉华联邦地区法院，2025年2月11日；*Bartz v. Anthropic*，加州北区联邦地区法院，2025年6月23日，及2026年7月20日批准的和解。前案否定Ross的合理使用抗辩；后案认定以依法购买的书籍训练属合理使用，盗版书库不属于。https://storage.courtlistener.com/recap/gov.uscourts.ded.72109/gov.uscourts.ded.72109.770.0.pdf ；https://www.akingump.com/en/insights/ai-law-and-regulation-tracker/district-court-rules-ai-training-can-be-fair-use-in-bartz-v-anthropic ；https://law.justia.com/cases/federal/district-courts/california/candce/4%3A2024cv05417/434709/680/
 
-[^p2-device-models]: Microsoft，*Phi-3 Technical Report*，2024年4月；Google，*Gemma 3n*说明；Apple，端侧与服务器基础模型材料，2024年6月及2025年7月。Phi-3-mini为3.8B参数、MMLU约69%，Apple约3B端侧模型在iPhone 15 Pro上约每秒30 Token。https://arxiv.org/abs/2404.14219 ；https://machinelearning.apple.com/research/introducing-apple-foundation-models ；https://machinelearning.apple.com/research/apple-foundation-models-2025-updates ；https://ai.google.dev/gemma/docs/gemma-3n
 
 [^p2-two-frontiers]: Jared Kaplan等，*Scaling Laws for Neural Language Models*，2020年；Jordan Hoffmann等，Chinchilla论文，2022年；Zhuohan Li等，*Train Large, Then Compress*，2020年；Stanford HAI，*AI Index 2025*；Microsoft，*Phi-3 Technical Report*；GPTQ、AWQ与QLoRA原始论文。AI Index所述142倍参数变化以MMLU百分之六十为门槛。https://arxiv.org/abs/2001.08361 ；https://papers.neurips.cc/paper_files/paper/2022/hash/c1e2faff6f588870935f114ebe04a3e5-Abstract.html ；https://arxiv.org/abs/2002.11794 ；https://hai.stanford.edu/ai-index/2025-ai-index-report/technical-performance ；https://arxiv.org/abs/2404.14219 ；https://arxiv.org/abs/2210.17323 ；https://arxiv.org/abs/2306.00978 ；https://arxiv.org/abs/2305.14314
 
@@ -98,9 +100,12 @@
 
 [^p2-agent-protocols]: Google，*Announcing the Agent2Agent Protocol*，2025年4月9日；Linux Foundation，A2A移交与生态更新；Linux Foundation，Agentic AI Foundation成立公告，2025年12月。A2A一周年时支持机构超150家。https://developers.googleblog.com/en/a2a-a-new-era-of-agent-interoperability/ ；https://www.linuxfoundation.org/press/linux-foundation-launches-the-agent2agent-protocol-project-to-enable-secure-intelligent-communication-between-ai-agents ；https://www.linuxfoundation.org/press/a2a-protocol-surpasses-150-organizations-lands-in-major-cloud-platforms-and-sees-enterprise-production-use-in-first-year ；https://www.linuxfoundation.org/press/linux-foundation-announces-the-formation-of-the-agentic-ai-foundation
 
+[^p2-device-models-2025]: Apple Machine Learning Research，*Updates to Apple's On-Device and Server Foundation Language Models*，2025年6月9日（2025年7月17日更新）；Google Developers Blog，*Introducing Gemma 3n: The developer guide*，2025年6月26日。苹果端侧模型约30亿参数，经量化感知训练压缩到每参数2比特，开发者可经 Foundation Models framework 免费调用；Gemma 3n 分 E2B、E4B 两档（原始参数约5B、8B），运行内存最低约2GB、3GB，E4B 的 LMArena 分数超过1300，谷歌称为首个达到该分数的100亿参数以下模型。截至2025-07-17，已确认（厂商一手发布，评测为厂商口径）。https://machinelearning.apple.com/research/apple-foundation-models-2025-updates ；https://developers.googleblog.com/en/introducing-gemma-3n-developer-guide/ （访问于2026-10）
+
+[^p2-us-action-plan]: The White House，*America's AI Action Plan*，2025年7月23日，“Encourage Open-Source and Open-Weight AI”一节。原文称开放模型让初创企业不必依赖封闭模型厂商，许多企业和政府有不能发给封闭模型厂商的敏感数据，开放模型可能在部分商业和学术领域成为全球标准，联邦政府应为开放模型营造支持性环境。截至2025-07-23，已确认（一手文件）。https://www.whitehouse.gov/wp-content/uploads/2025/07/Americas-AI-Action-Plan.pdf （访问于2026-10）
+
 ## 第三章　控制权：智能体时代的主权定义与六种能力
 
-[^p3-cruise]: U.S. NHTSA，*Consent Order with Cruise for Incomplete Crash Reporting*，2024年9月30日。Cruise因未完整披露2023年10月2日事故后的拖行动作，被处150万美元处罚。https://www.nhtsa.gov/press-releases/consent-order-cruise-crash-reporting ；https://www.nhtsa.gov/sites/nhtsa.gov/files/2024-09/cruise-consent-order-2024-web.pdf
 
 [^p6-echoleak]: Pavan Reddy、Aditya Sanjay Gujral，*EchoLeak*，2025年；Microsoft，CVE-2025-32711。https://arxiv.org/abs/2509.10540 ；https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-32711
 
@@ -116,6 +121,8 @@
 
 [^p3x-windsurf]: TechCrunch，*Windsurf says Anthropic is limiting its direct access to Claude AI models*，2025年6月3日。Windsurf 首席执行官 Varun Mohan 称 Anthropic 以不到五天的通知大幅削减其对 Claude 3.7 Sonnet 和 Claude 3.5 Sonnet 的直接调用容量，Claude 4 发布时也未获直接接入；Anthropic 发言人称要“优先保障可持续合作关系的容量”。截至2025年6月；单一来源为主、当事双方表态一致。https://techcrunch.com/2025/06/03/windsurf-says-anthropic-is-limiting-its-direct-access-to-claude-ai-models
 
+[^p3-waymo-schoolbus]: TechCrunch，*Feds ask Waymo about robotaxis repeatedly passing school buses in Austin*，2025年12月4日；TechCrunch，*Waymo to issue software recall over how robotaxis behave around school buses*，2025年12月5日；KEYE/CNN Newsource（WAFF 转载），*Self-driving Waymo vehicles repeatedly passed stopped school buses, officials say*，2025年12月13日；NHTSA 召回编号 25E-084。奥斯汀独立学区称2025—26学年至12月初记录19次违规超越停靠校车，其中至少5次发生在 Waymo 称11月17日完成软件更新之后；学区11月20日致函要求 Waymo 在每日5:20—9:30和15:00—19:00停运，信中称“Waymo 的软件更新显然没有按预期起作用，也不够快”；学区警察局长 Wayne Sneed 称 Waymo 不同意学区风险判断、未停运；NHTSA 2025年10月因亚特兰大事件立案，12月3日致函询问是否停运、更新是否有效、是否召回；Waymo 首席安全官 Mauricio Peña 宣布自愿软件召回，车辆不下线，无人受伤。截至2025-12-13，多源一致（学区统计为单方口径）。https://techcrunch.com/2025/12/04/feds-ask-waymo-about-robotaxis-repeatedly-passing-school-buses-in-austin/ ；https://techcrunch.com/2025/12/05/waymo-to-issue-software-recall-over-how-robotaxis-behave-around-school-buses/ ；https://www.waff.com/2025/12/13/self-driving-waymo-vehicles-repeatedly-passed-stopped-school-buses-officials-say （访问于2026-10）
+
 ## 第二部导读与第四章　超级个体：一人公司（OPC）的数据、授权与可迁移性
 
 [^p4-replika]: 意大利个人数据保护机构，Replika处罚决定，2025年4月10日（新闻公报2025年5月19日）；EDPB，案件摘要，2025年5月21日。对运营方Luka Inc.处以500万欧元罚款。https://www.gpdp.it/home/docweb/-/docweb-display/docweb/10132048 ；https://www.edpb.europa.eu/news/ai-the-italian-supervisory-authority-fines-company-behind-chatbot-replika_en
@@ -129,6 +136,8 @@
 [^p4-work-evidence]: Microsoft Research，*Shifting Work Patterns with Generative AI*，2025年4月；Kevin Zheyuan Cui等，*The Effects of Generative AI on High-Skilled Work: Evidence from Three Field Experiments with Software Developers*，*Management Science*，2026年；METR，开发者生产率研究，2025年7月。三项研究分别报告每周邮件时间减少约3小时、开发者任务数平均增加26.08%、完成时间增加19%。https://www.microsoft.com/en-us/research/publication/shifting-work-patterns-with-generative-ai/ ；https://pubsonline.informs.org/doi/10.1287/mnsc.2025.00535 ；https://arxiv.org/abs/2507.09089
 
 [^p4-opc-signal]: U.S. Census Bureau，2023年Nonemployer Statistics及2026年小企业数据；Stripe，*Top solo founder traits*，2026年5月28日；OECD，创业政策报告。2023年美国无雇员经营单位30,427,808个，占全部经营单位78.4%；Stripe Atlas 2026年第二季度新设C公司中单一创始人占63%，为历史最高。https://www.census.gov/library/stories/2026/05/small-business-week.html ；https://www.census.gov/library/stories/2025/07/nonemployer-business-growth.html ；https://stripe.com/blog/top-solo-founder-traits ；https://www.oecd.org/en/publications/international-compendium-of-entrepreneurship-policies_338f1873-en/full-report/objectives-and-challenges-of-entrepreneurship-policy_f354bd94.html
+
+[^p4-gm-driving-data]: U.S. FTC，对 General Motors 与 OnStar 的起诉及拟议命令，2025年1月16日；The Register，*US regulator tells GM to hit the brakes on customer tracking*，2026年1月15日。FTC 指控通用汽车引导车主开通 OnStar 和 Smart Driver 时淡化数据收集范围和去向，收集精确位置、急刹车、急加速、车速和安全带使用等数据并提供给 LexisNexis、Verisk，再流向保险公司；通用汽车2024年4月已停止 Smart Driver；最终命令2026年1月14日生效，为期20年，五年内禁止向消费者报告机构分享精确位置和驾驶行为数据，收集前须取得同意，车主可索取副本或要求删除。截至2026-01-15，多源一致（监管文件）。https://www.ftc.gov/news-events/news/press-releases/2025/01/ftc-takes-action-against-general-motors-sharing-drivers-precise-location-driving-behavior-data-without-consent ；https://www.theregister.com/2026/01/15/ftc_gm_tracking_ban/ （访问于2026-10）
 
 ## 第五章　企业重构：AI 原生组织的授权、刹车与三本账
 
@@ -155,6 +164,10 @@
 [^p7-uk-government-ai]: UK GDS，*Microsoft 365 Copilot Experiment: Cross-Government Findings Report*，2025年6月2日；DSIT、GDS，*AI coding assistant trial*，2025年9月12日。前者覆盖12个政府组织约20000名员工，后者提供2500个代码助手许可。https://www.gov.uk/government/publications/microsoft-365-copilot-experiment-cross-government-findings-report ；https://www.gov.uk/government/publications/ai-coding-assistant-trial
 
 [^p6-fde]: Palantir，*Architecture Center*；OpenAI，*Forward Deployed Engineer*职位说明与部署公司公告，2026年5月11日。https://www.palantir.com/docs/foundry/architecture-center/overview ；https://openai.com/careers/forward-deployed-engineer-%28fde%29-sf-san-francisco/ ；https://openai.com/index/openai-launches-the-deployment-company/
+
+[^p5-aws-outage]: Amazon Web Services，*Summary of the Amazon DynamoDB Service Disruption in the Northern Virginia (US-EAST-1) Region*，2025年10月。故障自2025年10月19日23:48（PDT）至10月20日14:20；DynamoDB DNS 管理系统中两个 DNS Enactor 的潜在竞态使区域端点 DNS 记录被清空，自动化无法自行修复，需人工介入；0:38定位原因，2:25 DNS 信息完全恢复；EC2、NLB、Lambda、STS/IAM 登录等服务连带受影响；AWS 在全球停用 DynamoDB DNS Planner 与 Enactor 自动化，修复竞态并加防护后再启用。截至2025-10，已确认（厂商一手事后报告）。https://aws.amazon.com/message/101925/ （访问于2026-10）
+
+[^p5-deloitte-report]: AP（BNN Bloomberg 转载），*Deloitte to partially refund Australian government for report with apparent AI-generated errors*，2025年10月7日；YourStory，*Deloitte to partially refund Australian govt after using AI in $440,000 report*，2025年10月7日。德勤为澳大利亚就业与劳资关系部所作“目标合规框架”及其自动处罚 IT 系统的评估报告，2025年7月发布，合同约44万澳元；悉尼大学 Christopher Rudge 指出至多20处错误，包括不存在的文献、对联邦法院判决的错误引述和编造的法官引语；修订版披露写作中使用了部署在该部 Azure 环境、由该部授权的 Azure OpenAI GPT-4o；德勤同意退还合同最后一期款项，称核心结论不变，该部称建议不变。截至2025-10-07，多源一致。https://www.bnnbloomberg.ca/business/artificial-intelligence/2025/10/07/deloitte-to-partially-refund-australian-government-for-report-with-apparent-ai-generated-errors/ ；https://yourstory.com/ai-story/deloitte-repay-australia-ai-report-errors （访问于2026-10）
 
 ## 第六章　国家竞争：算力主权、城市生态与全球 AI 治理
 
@@ -206,7 +219,7 @@
 
 [^p8-longgang-ai-district]: 凤凰网科技，龙岗区人工智能（机器人）署揭牌报道，2025年5月21日；澎湃新闻，同期报道。https://tech.ifeng.com/c/8jXHS8R6Sn0 ；https://m.thepaper.cn/detail/33323600
 
-[^p8-longgang-ai-platform]: 公开采购信息媒体报道（采购行业自媒体经网易号转载），2026年1月20日。深圳市龙岗区数据有限公司“AI大模型基础服务能力建设项目”，预算550万元。https://www.163.com/dy/article/KJOHVTNF0511D6RL.html
+[^p8-longgang-ai-platform]: 公开采购信息媒体报道（采购行业自媒体经网易号转载），2026年1月20日。深圳市龙岗区数据有限公司“AI大模型基础服务能力建设项目”，预算550万元；2026年1月20日公布结果，北京开放传神科技有限公司以540万元中标。https://www.163.com/dy/article/KJOHVTNF0511D6RL.html
 
 [^p7-robodebt]: Royal Commission into the Robodebt Scheme，*Final Report*，2023年7月7日，尤其第17章；澳大利亚议会图书馆，关于建议17.1、17.2的说明，2023年7月；Global Government Forum，2020年6月1日；*Prygodicz v Commonwealth (No 2)* [2021] FCA 634 判决摘要；AAP，2026年6月。约47万笔债务被认定非法并退还；2021年和解总值约18亿澳元；2026年6月联邦法院批准5.485亿澳元的新和解。https://robodebt.royalcommission.gov.au/publications/report ；https://aph.gov.au/About_Parliament/Parliamentary_departments/Parliamentary_Library/FlagPost/2023/July/Robodebt-RC-legislative-recommendations ；https://www.globalgovernmentforum.com/australian-government-to-refund-470000-unlawful-welfare-debts/ ；https://www.judgments.fedcourt.gov.au/judgments/Judgments/fca/single/2021/2021fca0634/summaries/2021fca0634-summary ；https://aapnews.aap.com.au/news/australia-s-biggest-class-action-settlement-approved
 
@@ -226,9 +239,10 @@
 
 [^new-us-china-ai-dialogue]: 新华社，*China, U.S. agree to establish AI dialogue*，2026年9月26日；PBS NewsHour，2026年9月26日；The Next Web 转述白宫情况说明，2026年9月28日。双方同意建立人工智能对话、交流风险与收益，下一轮于11月举行，并设立 AI 相关事件沟通渠道；白宫文件称“Super Intelligence Dialogue”，未界定“事件”范围。https://english.news.cn/20260926/dc77e85b3b1f442abf0d816fbb65f320/c.html ；https://www.pbs.org/newshour/world/china-and-u-s-agree-to-establish-ai-safety-channel-and-continue-trade-and-military-talks ；https://thenextweb.com/news/us-china-super-intelligence-dialogue-ai-incident-channel
 
+[^p6-sweden-welfare]: Lighthouse Reports 与 Svenska Dagbladet，*Sweden's Suspicion Machine*，2024年11月27日；Amnesty International，*Sweden: Authorities must discontinue discriminatory AI systems used by welfare agency*，2024年11月；Integritetsskyddsmyndigheten（IMY），*Beslut efter tillsyn – Försäkringskassan*，IMY-2025-11828，2025年11月18日。瑞典社会保险署以预测模型为临时育儿津贴（VAB）申领人打欺诈风险分，高分者转交反欺诈调查；调查团队取得被标记数据并经学者做公平性测试，发现女性、移民、低收入者和无大学学历者被过度选中；社保署拒绝几乎全部信息公开申请，主管官员称“我不认为我们需要更透明”；IMY 2025年6月立案，社保署9月5日回复称约一个多月前已停用该机器学习风险画像且暂无重启计划，IMY 结案，未认定违法、未处罚。截至2025-11-18，已确认（IMY 决定为一手文件；偏差分析为调查媒体单方结论）。https://www.lighthousereports.com/?p=2283 ；https://www.amnesty.org/en/latest/news/2024/11/sweden-authorities-must-discontinue-discriminatory-ai-systems-used-by-welfare-agency/ ；https://www.imy.se/globalassets/dokument/beslut/2025/beslut-tillsyn-forsakringskassan.pdf （访问于2026-10）
+
 ## 第三部导读与第七章　退出权：开放权重、协议标准与数据空间
 
-[^new-unity-fee]: Unity，*Unity is canceling the Runtime Fee*，2024年9月12日；Godot Foundation，*Godot Foundation update*，2023年；Shacknews，2023年9月17日；The Register，2023年9月22日；GameFromScratch，2023年9月29日；TechRadar，2023年10月9日。Unity 于2023年9月12日宣布按安装收费，9月22日公开道歉并修改方案，2024年9月取消；Godot 开发基金月捐款由9月12日约2.55万欧元增至9月29日约4.99万欧元。https://unity.com/blog/unity-is-canceling-the-runtime-fee ；https://godotengine.org/article/godot-foundation-update-2023/ ；https://www.shacknews.com/article/137095/unity-apologizes-changes-policy ；https://www.theregister.com/2023/09/22/unity_apologizes_announces_revised_runtime/ ；https://gamefromscratch.com/unity-pricing-fallout-continues/ ；https://www.techradar.com/gaming/unity-ceo-john-riccitiello-to-leave-company-immediately-following-recent-pricing-controversy
 
 [^p9-exit-voice]: Albert O. Hirschman，*Exit, Voice, and Loyalty*，1970。https://books.google.com/books/about/Exit_Voice_and_Loyalty.html?id=vYO6sDvjvcgC
 
@@ -238,7 +252,6 @@
 
 [^p9-audit-boundary]: NIST，*AI Risk Management Framework Core*。https://airc.nist.gov/airmf-resources/airmf/5-sec-core/
 
-[^p10-olmo]: Dirk Groeneveld等，*OLMo: Accelerating the Science of Language Models*，2024年2月；Ai2，*OLMo: Open Language Model*，2024年2月1日。https://arxiv.org/abs/2402.00838 ；https://allenai.org/blog/olmo-open-language-model-87ccfc95f580
 
 [^p10-model-supply-chain]: Jian Zhao等，*Models Are Codes: Towards Measuring Malicious Code Poisoning Attacks on Pre-trained Model Hubs*，2024年9月；Hugging Face，*Pickle Scanning*文档。https://arxiv.org/abs/2409.09368 ；https://huggingface.co/docs/hub/security-pickle
 
@@ -250,49 +263,82 @@
 
 [^p11-fl]: NIST，*Privacy Attacks in Federated Learning*，2024年1月24日；NIST，*Privacy-Preserving Federated Learning*，2025年1月27日。https://www.nist.gov/blogs/cybersecurity-insights/privacy-attacks-federated-learning ；https://www.nist.gov/blogs/cybersecurity-insights/privacy-preserving-federated-learning-future-collaboration-and
 
+[^p7-cursor-pricing]: Cursor，*Clarifying our pricing*，2025年7月4日（含2025年6月16日原定价说明）；TechCrunch（Maxwell Zeff），*Cursor apologizes for unclear pricing changes that upset users*，2025年7月7日。Pro 计划由每月500次快速请求加无限慢速请求，改为每月20美元、按接口价格计的模型用量，仅“自动模式”无限；用户反映几次调用 Claude 即用完额度、未设上限者被额外收费；首席执行官 Michael Truell 称“我们承认这次定价调整处理得不好，对不起”，退还2025年6月16日至7月4日间的意外费用；公司称新模型长任务消耗更多 Token、成本原由公司承担；TechCrunch 称 Cursor 年化收入超过5亿美元，并认为 Claude Code 可能拉走部分用户。截至2025-07-07，多源一致（用户流失为媒体判断）。https://cursor.com/blog/june-2025-pricing ；https://techcrunch.com/2025/07/07/cursor-apologizes-for-unclear-pricing-changes-that-upset-users/ （访问于2026-10）
+
+[^p7-olmo3]: Ai2，*Olmo 3: Charting a path through the model flow to lead open-source AI*，2025年11月20日；HPCwire，*Ai2 Announces Olmo 3 Family of Open Frontier Language Models*，2025年11月20日。发布7B、32B 两档，公开“整条模型流程”：约6万亿 Token 的 Dolma 3 预训练数据、各主要训练阶段检查点、Dolci 推理训练数据和 OLMES 评测工具，许可证为 Apache 2.0。截至2025-11-20，已确认（机构一手发布）。https://www.businesswire.com/news/home/20251120271934/en/ ；https://www.hpcwire.com/aiwire/2025/11/20/ai2-announces-olmo-3-family-of-open-frontier-language-models/ （访问于2026-10）
+
+[^p7-npm-chalk]: StepSecurity，*20 Popular npm Packages With 2 Billion Weekly Downloads Compromised in Supply Chain Attack*，2025年9月8日；Check Point，*The Great NPM Heist – September 2025*，2025年9月。维护者 Josh Junon（Qix-）收到来自 npmjs.help 仿冒域名的“双重验证重置”钓鱼邮件，账号被接管，chalk、debug、strip-ansi、color-convert、wrap-ansi 等包被发布恶意版本，合计每周下载数十亿次；恶意代码在浏览器中检测加密钱包并替换收款地址；社区随后发布干净版本、移除受控账号的权限。截至2025-09，多源一致。https://www.stepsecurity.io/blog/20-popular-npm-packages-compromised-chalk-debug-strip-ansi-color-convert-wrap-ansi ；https://blog.checkpoint.com/crypto/the-great-npm-heist-september-2025/ （访问于2026-10）
+
 ## 第四部导读与第八章　从开源软件到开源 AI：一场生产方式的迁移
 
-[^p8-hashicorp-bsl]: HashiCorp，*HashiCorp adopts Business Source License*，2023年8月10日。宣布此后所有产品新版本由 MPL 2.0 改为 BSL 1.1，提供与 HashiCorp 竞争的商业服务的厂商不能再纳入新版本、漏洞修复和安全补丁；API、SDK 和多数库仍为 MPL 2.0。Terraform 自2014年起以 MPL 2.0 发布见 GIGAZINE 同期报道。已确认，截至2026年10月。https://www.hashicorp.com/blog/hashicorp-adopts-business-source-license ；https://www.gigazine.net/gsc_news/en/20230921-opentofu-linux-foundation-project
 
-[^p8-opentofu]: Linux Foundation，*Linux Foundation Launches OpenTofu: A New Open Source Alternative to Terraform*，2023年9月20日；Linux Foundation，*OpenTofu Announces General Availability*，2024年1月10日；GIGAZINE，2023年9月21日。OpenTF 更名 OpenTofu 并由 Linux 基金会托管，获140多家机构、700多名个人支持；1.6 版为首个正式版。已确认，截至2026年10月。https://www.linuxfoundation.org/press/announcing-opentofu ；https://www.linuxfoundation.org/press/opentofu-announces-general-availability ；https://www.gigazine.net/gsc_news/en/20230921-opentofu-linux-foundation-project
 
-[^p8-redis-license]: Redis，*Redis Adopts Dual Source-Available Licensing*，2024年3月20日；Phoronix，*Redis 8.0 Released: Now Tri-Licensed With AGPLv3*，2025年5月1日。Redis 7.4 起由 BSD 改为 RSALv2／SSPLv1 二选一，公司承认不再符合 OSI 开源定义，理由是云服务商以托管服务获利；7.2 及以前版本仍为 BSD。Redis 8 增加 AGPLv3 选项。已确认，截至2026年10月。https://redis.io/blog/redis-adopts-dual-source-available-licensing/ ；https://www.phoronix.com/news/Redis-8.0-Goes-AGPLv3
 
 [^p8-valkey]: Linux Foundation，*Linux Foundation Launches Open Source Valkey Community*，2024年3月28日。Valkey 自 Redis 7.2.4 继续开发，采用 BSD 3 条款许可证，支持方包括 AWS、Google Cloud、Oracle、Ericsson、Snap。已确认。https://www.linuxfoundation.org/press/linux-foundation-launches-open-source-valkey-community
 
-[^p8-elastic-agpl]: Elastic，*Elastic Announces Open Source License for Elasticsearch and Kibana Source Code*（Business Wire），2024年8月29日；InfoQ，2024年9月5日；DevClass，*AWS debuts OpenSearch project*，2021年4月13日。Elastic 于2021年1月将 Elasticsearch 由 Apache 2.0 改为 SSPL／Elastic License，AWS 随后推出分叉 OpenSearch；2024年8月为免费部分源代码增加 OSI 认可的 AGPL 选项。多源一致。https://www.businesswire.com/news/home/20240829537786/en ；https://www.infoq.com/news/2024/09/elastic-open-source-agpl ；https://devclass.com/2021/04/13/aws-debuts-opensearch-project-in-latest-round-of-elastic-licence-spat/
 
 [^p8-osd]: Open Source Initiative，*The Open Source Definition*。十条标准：自由再分发、源代码、衍生作品、作者源代码完整性、不歧视个人或群体、不歧视使用领域、许可证的分发、不得特定于某产品、不得限制其他软件、技术中立。访问于2026年10月。https://opensource.org/osd
 
 [^p8-osaid]: Open Source Initiative，*The Open Source AI Definition 1.0*，2024年10月28日；The New Stack，*The Open Source AI Definition Is Out*，2024年10月。要求使用、研究、修改、分享四项自由，以及数据信息、完整代码、参数三类“修改的首选形式”；不要求公开全部训练数据，社区对此有批评。已确认。https://opensource.org/ai/open-source-ai-definition ；https://thenewstack.io/the-open-source-ai-definition-is-out/
 
+[^p8-redis-agpl]: Rowan Trollope（Redis），*Redis is now available under the AGPLv3 open source license*，2025年5月1日；Frederic Lardinois，*Redis is open source again*，The New Stack，2025年5月1日。Redis 8 起增加 OSI 认可的 AGPLv3 选项，Redis Stack 中的 JSON、时间序列、概率数据类型和查询引擎并入 AGPL 授权的主版本；公司承认2024年3月的许可证变更“伤害了我们和 Redis 社区的关系”。Trollope 称改许可证“medium successful”，微软取得授权，亚马逊和谷歌没有。已确认（“中等成功”及授权情况为 CEO 单方口径）。https://redis.io/blog/agplv3/ ；https://thenewstack.io/redis-is-open-source-again/（访问于2026-10）
+
+[^p8-elasticache-valkey]: AWS，*Announcing Amazon ElastiCache for Valkey*，2024年10月8日。无服务器版定价比其他支持引擎低33%，按节点计费低20%，从 Redis OSS 切换的预留节点保留原折扣。已确认（厂商公告）。https://aws.amazon.com/about-aws/whats-new/2024/10/amazon-elasticache-valkey（访问于2026-10）
+
+[^p8-minio-console]: Chris Mellor，*MinIO removes management features from basic community edition object storage code*，Blocks & Files，2025年6月19日。联合创始人 Harshavardhana 提交代码删除社区版网页控制台的管理功能，理由是该界面缺乏维护、管理操作缺少相应安全保护；部分用户转向社区分叉 OpenMaxIO，部分停留在旧版本。多源一致（另见 Ruohang Feng，*MinIO Is Dead*，2025年12月，个人博客）。https://blocksandfiles.com/2025/06/19/minio-removes-management-features-from-basic-community-edition-object-storage-code/ ；https://blog.vonng.com/en/db/minio-is-dead/（访问于2026-10）
+
+[^p8-minio-maintenance]: Renato Losio，*MinIO GitHub Repository in Maintenance Mode: What's Next for the Open Source Object Storage?*，InfoQ，2025年12月28日。MinIO 通过 GitHub 仓库最新提交宣布社区版进入维护模式，不再接受新功能、改进和 PR，关键安全修复个案评估，建议转向商业版；称“至今没有哪个社区版分叉形成气候”，列举 Garage（AGPLv3）、SeaweedFS 与 RustFS（Apache 2.0）等替代品。已确认，截至2025年12月。https://www.infoq.com/news/2025/12/minio-s3-api-alternatives/（访问于2026-10）
+
+[^p8-minio-archive]: MinIO，`minio/minio` GitHub 仓库首页，2026年4月25日归档为只读，README 注明“THIS REPOSITORY IS NO LONGER MAINTAINED”，许可证 AGPLv3。已确认，截至2026年10月。https://github.com/minio/minio（访问于2026-10）
+
+[^p8-opentofu-cncf]: CNCF，*OpenTofu* 项目页，2025年4月23日接纳为 Sandbox 项目；The New Stack，*OpenTofu Joins CNCF: New Home for Open Source IaC Project*，2025年4月。已确认。https://www.cncf.io/projects/opentofu/ ；https://thenewstack.io/opentofu-joins-cncf-new-home-for-open-source-iac-project/（访问于2026-10）
+
 ## 第九章　开源许可证：技术自由背后的制度基础
 
-[^p9-llama2-launch]: Meta，*Meta and Microsoft Introduce the Next Generation of Llama*，2023年7月18日。称 Llama 2 为“下一代开源大语言模型”，研究和商业用途免费，微软为首选合作伙伴。已确认。https://ai.meta.com/blog/llama-2/
 
-[^p9-osi-llama]: Stefano Maffulli（Open Source Initiative），*Meta's LLaMa license is not Open Source*，2023年7月20日。指出许可证第2段限制部分用户商业使用，可接受使用政策限制使用领域，不符合开源定义第5、6条。已确认。https://opensource.org/blog/metas-llama-2-license-is-not-open-source
 
-[^p9-llama-license]: Meta，*Llama 3.2 Community License Agreement*，2024年9月。第2条：被许可方及关联方产品上一自然月月活超过7亿须另向 Meta 申请许可；第1.b.i条：分发时显著标注“Built with Llama”，用 Llama 输出训练、改进并分发的模型名须以“Llama”开头。Llama 2、3 系列许可证有相同的7亿月活条款。已确认，截至2026年10月。https://developer.meta.com/ai/llama3_2/license/
 
 [^p9-spdx3]: Linux Foundation，*SPDX 3.0 Revolutionizes Software Management in Systems with Enhanced Functionality and Streamlined Use Cases*，2024年4月16日。SPDX 3.0 新增 AI 与 Dataset 配置，覆盖模型训练与特征、数据集来源等。已确认。https://www.linuxfoundation.org/press/spdx-3-revolutionizes-software-management-in-systems-with-enhanced-functionality-and-streamlined-use-cases
 
+[^p9-osi-llama-2025]: Jordan Maris（Open Source Initiative），*Meta's LLaMa license is still not Open Source*，2025年2月18日。针对 Llama 3.x 社区许可证，指其限制使用目的、歧视用户，不符合开源定义第5、6条，新版本“不加解释地”排除欧盟境内的人。已确认。https://opensource.org/blog/metas-llama-license-is-still-not-open-source（访问于2026-10）
+
+[^p9-llama4-license]: Meta，*Llama 4 Community License Agreement*（Llama 4 Version Effective Date: April 5, 2025）及 *Llama 4 Acceptable Use Policy*。第2条：上一自然月月活超过7亿须另向 Meta 申请许可；第1.b.i条：显著标注“Built with Llama”，用 Llama 输出训练并分发的模型名须以“Llama”开头；可接受使用政策：对 Llama 4 中的多模态模型，第1(a)条权利不授予住所在欧盟的个人或主要营业地在欧盟的公司，含这些模型的产品的终端用户不受此限。已确认。https://github.com/meta-llama/llama-models/blob/main/models/llama4/LICENSE ；https://github.com/meta-llama/llama-models/blob/main/models/llama4/USE_POLICY.md（访问于2026-10）
+
+[^p9-qwen3]: Qwen Team（阿里巴巴），*Qwen3: Think Deeper, Act Faster*，2025年4月29日；Hugging Face `Qwen/Qwen3-235B-A22B` 模型页（License: apache-2.0）。发布 Qwen3-235B-A22B、Qwen3-30B-A3B 两个 MoE 模型和 0.6B 至 32B 六个稠密模型，以 Apache 2.0 开放权重。已确认。https://qwenlm.github.io/blog/qwen3/ ；https://huggingface.co/Qwen/Qwen3-235B-A22B（访问于2026-10）
+
+[^p9-qwen25-license]: Qwen Team，Qwen2.5-72B-Instruct 所附 *Qwen LICENSE AGREEMENT*，2024年9月19日。第4条：产品或服务月活超过1亿须向阿里巴巴申请许可。已确认。https://huggingface.co/Qwen/Qwen2.5-72B-Instruct/blob/main/LICENSE（访问于2026-10）
+
+[^p9-gpt-oss]: OpenAI，*Introducing gpt-oss*，2025年8月5日。gpt-oss-120b（总参数117B）和 gpt-oss-20b（21B）以 Apache 2.0 发布，为 OpenAI 自 GPT-2 以来首批开放权重语言模型。已确认。https://openai.com/index/introducing-gpt-oss/（访问于2026-10）
+
 ## 第十章　高质量数据：AI 主权最值得长期积累的资产
 
-[^p10x-samsung-chatgpt]: Bloomberg，*Samsung Bans Staff's AI Use After Spotting ChatGPT Data Leak*，2023年5月2日；Android Authority 同日转述。三星向一个主要部门发内部备忘录，禁止在公司设备和内部网络使用生成式 AI，起因是员工将内部源代码上传 ChatGPT；违者最重可被解雇。多源一致（原始报道为单一媒体）。https://www.bloomberg.com/news/articles/2023-05-02/samsung-bans-chatgpt-and-other-generative-ai-use-by-staff-after-leak ；https://www.androidauthority.com/samsung-generative-ai-chatgpt-ban-3319343
 
-[^p10x-reddit-google]: Reuters（Anna Tong、Echo Wang、Martin Coulter），*Exclusive: Reddit in AI content licensing deal with Google*，2024年2月22日；Nieman Lab 转述。三位知情人士称 Reddit 允许谷歌用其内容训练 AI，其中一人称价值约每年6,000万美元。金额为单一来源。https://www.niemanlab.org/reading/reddit-in-ai-content-licensing-deal-with-google-sources-say/ ；https://tech.yahoo.com/ai/articles/exclusive-reddit-ai-content-licensing-041012503.html
 
 [^p10x-datasheets]: Timnit Gebru、Jamie Morgenstern、Briana Vecchione、Jennifer Wortman Vaughan、Hanna Wallach、Hal Daumé III、Kate Crawford，*Datasheets for Datasets*，arXiv 2018年3月23日首发，*Communications of the ACM* 2021年12月刊。借鉴电子元件数据表，建议数据集说明动机、构成、收集过程、预处理、用途、分发和维护。已确认。https://arxiv.org/abs/1803.09010 ；https://doi.org/10.1145/3458723
 
 [^p10x-hf-dataset-cards]: Hugging Face，*Dataset Cards*（Hub 文档）。数据集卡即仓库中的 README.md，开头 YAML 元数据含语言、许可证、规模、任务类别等，用于检索和许可证展示；正文说明内容、潜在偏差和适用范围。访问于2026年10月。https://huggingface.co/docs/hub/datasets-cards
 
+[^p10-reddit-anthropic]: SiliconANGLE，*Reddit sues Anthropic over alleged scraping and commercial use of user data*，2025年6月4日；Bloomberg Law，*Reddit Sues Anthropic, Says AI Company Exploited User Data*，2025年6月4日。Reddit 在旧金山加州高等法院起诉，诉由含违约、侵犯动产、不当得利、侵权干扰与不正当竞争；称 Anthropic 在公开表示停止后仍访问其平台超过10万次，并称 Reddit 已与 OpenAI、谷歌等签授权协议而 Anthropic 拒绝。10万次为原告指控，未经法院认定。多源一致。https://siliconangle.com/2025/06/04/reddit-sues-anthropic-alleged-scraping-commercial-use-user-data/ ；https://news.bloomberglaw.com/ip-law/reddit-sues-anthropic-says-ai-company-exploited-user-data（访问于2026-10）
+
+[^p10-chatgpt-indexed]: Search Engine Journal，*OpenAI Is Pulling Shared ChatGPT Chats From Google Search*，2025年7月31日；eWeek，*ChatGPT's Share Feature Let Private Chats Appear in Google Search*，2025年8月。据 Fast Company 报道，谷歌收录了4,500多条 ChatGPT 分享链接，含姓名、简历、情绪倾诉和工作内容；用户须勾选允许搜索引擎检索；OpenAI 首席信息安全官 Dane Stuckey 称该功能是“short-lived experiment”，已撤下并与搜索引擎合作删除已收录内容，缓存可能暂留。4,500 条为 Fast Company 单一来源统计。https://www.searchenginejournal.com/openai-is-pulling-shared-chatgpt-chats-from-google-search/552671/ ；https://www.eweek.com/news/openai-chatgpt-google-search-indexes/（访问于2026-10）
+
+[^p10-eu-gpai-template]: European Commission，*Commission presents template for General-Purpose AI model providers to summarise the data used to train their model*，2025年7月24日；WilmerHale，*European Commission Releases Mandatory Template for Public Disclosure of AI Training Data*，2025年7月。依据《人工智能法》第53(1)(d)条；模板含基本信息、数据来源（网络抓取须列前10%域名，中小企业前5%或1,000个）、数据处理三部分；2025年8月2日起适用，此前上市模型须在2027年8月2日前提交；2026年8月2日起 AI 办公室可执法，罚款最高1,500万欧元或全球年营业额3%（第101条）。已确认。https://digital-strategy.ec.europa.eu/en/news/commission-presents-template-general-purpose-ai-model-providers-summarise-data-used-train-their ；https://www.wilmerhale.com/en/insights/blogs/wilmerhale-privacy-and-cybersecurity-law/european-commission-releases-mandatory-template-for-public-disclosure-of-ai-training-data（访问于2026-10）
+
 ## 第十一章　大模型主权：不押注唯一模型
 
-[^p11-openai-deprecation]: OpenAI，*GPT-4 API general availability and deprecation of older models in the Completions API*，2023年7月6日（2024年4月24日更新）；CGTN，2023年7月7日。2024年1月4日起停用 ada、babbage、curie、davinci 及 text-davinci-003 等旧补全模型，基础名称自动升级到 babbage-002／davinci-002，其余须手动迁移到 gpt-3.5-turbo-instruct；旧嵌入模型须在同日前迁移到 text-embedding-ada-002。已确认。https://openai.com/index/gpt-4-api-general-availability/ ；https://news.cgtn.com/news/2023-07-07/OpenAI-announces-general-availability-of-GPT-4-1leKumzbCV2/share_amp.html
 
-[^p11-llm-drift]: Lingjiao Chen、Matei Zaharia、James Zou，*How is ChatGPT's behavior changing over time?*，arXiv，2023年7月18日（2023年10月31日修订）。GPT-4 判断质数与合数的准确率由2023年3月的84%降至6月的51%，指令遵循能力下降；作者认为需持续监测。单篇研究。https://arxiv.org/abs/2307.09009
 
 [^p11-model-cards]: Margaret Mitchell等，*Model Cards for Model Reporting*，arXiv 2018年10月5日，FAT* 2019会议论文（ACM，DOI 10.1145/3287560.3287596）；Hugging Face，*Model Cards*（Hub 文档）。建议模型附说明，写明预期用途、评测条件和分人群表现；Hugging Face 模型卡即仓库 README.md，作为模型主页展示。已确认。https://arxiv.org/abs/1810.03993 ；https://doi.org/10.1145/3287560.3287596 ；https://huggingface.co/docs/hub/model-cards
+
+[^p11-gpt4o-restore]: OpenAI，*Introducing GPT-5*，2025年8月7日；Tom's Guide，*ChatGPT-4o is coming back after massive GPT-5 backlash — here's what happened*，2025年8月9日。GPT-5 上线后 ChatGPT 中的 GPT-4o 被替换且无法切回；Sam Altman 8月8日发帖称“We for sure underestimated how much some of the things that people like in GPT-4o matter to them”，并为 Plus 用户恢复 GPT-4o 选项。多源一致。https://openai.com/index/introducing-gpt-5/ ；https://www.tomsguide.com/ai/chatgpt-4o-is-coming-back-after-massive-gpt-5-backlash-heres-what-happened（访问于2026-10）
+
+[^p11-gpt4o-retire]: OpenAI，*Retiring GPT-4o and older models*，2026年1月29日。2026年2月13日在 ChatGPT 中下线 GPT-4o、GPT-4.1、GPT-4.1 mini 和 o4-mini；称每天仅0.1%用户仍选择 GPT-4o；API 暂无变化。已确认（使用比例为公司自报）。https://openai.com/index/retiring-gpt-4o-and-older-models（访问于2026-10）
+
+[^p11-anthropic-postmortem]: Anthropic，*A postmortem of three recent issues*，2025年9月。8月5日至9月中旬，上下文窗口路由错误、TPU 配置导致的输出损坏、近似 top-k 的 XLA 编译缺陷三个基础设施问题降低部分 Claude 回复质量；路由错误最严重的8月31日某小时影响 Sonnet 4 约16%请求；修复于9月2日至18日完成；公司称“从不因需求、时段或服务器负载降低模型质量”，并将在生产系统上持续评测。已确认（公司自述）。https://www.anthropic.com/engineering/a-postmortem-of-three-recent-issues（访问于2026-10）
+
+[^p11-gpt-oss-card]: OpenAI，*gpt-oss-120b & gpt-oss-20b Model Card*，arXiv:2508.10925，2025年8月8日；OpenAI，*Introducing gpt-oss*，2025年8月5日。模型卡含结构、训练、数学编程与安全评测；OpenAI 在生物和网络安全领域对 gpt-oss-120b 做恶意微调后按 Preparedness Framework 评估，称未达高能力水平，方法经三组独立专家审阅；思维链未受直接监督，可能含幻觉或有害内容，开发者不应直接展示给用户。已确认（公司自述）。https://arxiv.org/abs/2508.10925 ；https://openai.com/index/introducing-gpt-oss/（访问于2026-10）
+
+[^p11-anthropic-deprecation]: Anthropic，*Commitments on model deprecation and preservation*，2025年11月4日。承诺至少在公司存续期间保存所有公开发布模型及重要内部部署模型的权重，每个模型退役时撰写部署后报告并与权重一同保存；理由包括部分用户认为特定模型格外有用。已确认。https://www.anthropic.com/research/deprecation-commitments（访问于2026-10）
 
 ## 第十二章　开源生态：主权为什么需要社区
 
@@ -301,6 +347,12 @@
 [^p12-aaif]: Linux Foundation，*Linux Foundation Announces the Formation of the Agentic AI Foundation*，2025年12月9日。创始项目为 Anthropic 的 MCP、Block 的 goose、OpenAI 的 AGENTS.md；白金会员含 AWS、Anthropic、Block、Bloomberg、Cloudflare、Google、Microsoft、OpenAI，Hugging Face 为银牌会员。已确认，截至2026年10月。https://www.linuxfoundation.org/press/linux-foundation-announces-the-formation-of-the-agentic-ai-foundation
 
 [^p12-hf-scale]: Hugging Face，*State of Open Source on Hugging Face: Spring 2026*，2026年3月17日。2025年平台约1,300万用户、200多万公开模型、50多万公开数据集；Qwen 系列衍生模型超过11.3万个，含所有标注 Qwen 的模型超过20万个。平台自报数据。https://huggingface.co/blog/huggingface/state-of-os-hf-spring-2026
+
+[^p12-pytorch-umbrella]: PyTorch Foundation，*PyTorch Foundation Expands to an Umbrella Foundation to Accelerate AI Innovation*（新闻稿，PyTorch Day France），2025年5月7日。扩展为伞形基金会，可托管平台类与垂直类项目，首批托管项目为 vLLM 与 DeepSpeed；基金会有30多家成员公司。已确认。https://pytorch.org/blog/press-release-pytorch-foundation-expands-welcomes-projects-vllm-deepspeed/（访问于2026-10）
+
+[^p12-ray]: Linux Foundation，*PyTorch Foundation Welcomes Ray to Deliver a Unified Open Source AI Compute Stack*，2025年10月22日。Ray 最初由 Anyscale 开发，加入后 PyTorch（模型开发）、vLLM（推理）、Ray（分布式执行）共处同一中立归属。已确认。https://www.linuxfoundation.org/press/pytorch-foundation-welcomes-ray-to-deliver-a-unified-open-source-ai-compute-stack（访问于2026-10）
+
+[^p12-nats]: CNCF，*Protecting NATS and the integrity of open source: CNCF's commitment to the community*，2025年4月24日；CNCF，CNCF 与 Synadia 就 NATS 达成协议公告，2025年5月1日；InfoQ，2025年5月26日。Synadia 2018年将 NATS 捐给 CNCF，2025年4月提出撤出并改用 BSL；5月1日协议约定 Synadia 将 NATS 商标注册转给 Linux 基金会，CNCF 继续掌管项目基础设施和资产，Synadia 如做专有分叉须改名。已确认。https://www.cncf.io/blog/2025/04/24/protecting-nats-and-the-integrity-of-open-source-cncfs-commitment-to-the-community/ ；https://www.infoq.com/news/2025/05/nats-cncf-open-source（访问于2026-10）
 
 ## 第五部导读与第十三章　国家 AI 主权：能力、韧性与开放竞争
 
@@ -320,6 +372,18 @@
 
 [^p13-public-data]: 中共中央办公厅、国务院办公厅，《关于加快公共数据资源开发利用的意见》，2024年9月21日（2024年10月9日公布）。要求开展数据分类分级管理，在维护国家数据安全、保护个人信息和商业秘密前提下依法依规有序开放公共数据；探索授权运营，明确授权条件、运营模式、运营期限、退出机制和安全责任，运营方不得超出授权范围使用数据。已确认（一手文件）。https://www.12371.cn/2024/10/09/ARTI1728469682026388.shtml ；https://paper.people.com.cn/rmrbwap/html/2024-10/10/nw.D110000renmrb_20241010_4-04.htm
 
+[^p13-ai-plus]: 国务院，《关于深入实施“人工智能+”行动的意见》（国发〔2025〕11号），2025年8月21日印发，2025年8月27日公布，中央网信办网站转载。提出到2027年新一代智能终端、智能体等应用普及率超70%，2030年超90%，2035年全面步入智能经济和智能社会发展新阶段；“支持人工智能开源社区建设，促进模型、工具、数据集等汇聚开放”；“完善全国一体化算力网”；“持续加强人工智能高质量数据集建设”。截至2026-10，政府一手文件，已确认。https://www.cac.gov.cn/2025-08/27/c_1758018277755538.htm （访问于2026-10）
+
+[^p13-korea-select]: 亚洲经济（Asia Economy），*Naver, SKT, LG, NC, Upstage Selected as "National AI" Teams... Kakao and KT Miss Out*，2025年8月4日；经向新闻（Kyunghyang Shinmun）同期报道。韩国科学技术信息通信部选出五支“独立AI基础模型”团队；Upstage、NC AI、LG AI研究院当年获得512张B200或1024张H100的GPU支持，SK电讯和Naver云因是项目GPU租赁供应方当年不获GPU；联合采购100亿韩元数据，另每队28亿韩元专项数据；每六个月评估一次、逐轮淘汰。截至2025-08-04，多源一致。https://view.asiae.co.kr/en/article/2025080415483599833 ；https://www.khan.co.kr/en/article/202508051741427 （访问于2026-10）
+
+[^p13-korea-round1]: The Investor（韩国先驱经济英文版），*LG, SKT, Upstage advance in Korea's sovereign AI project; Naver, NC dropped in 1st round*，2026年1月15日；《韩国时报》（The Korea Times），*Motif-led consortium joins national AI foundation model project*，2026年2月20日。第一轮评估按基准测试40分、专家评审35分、用户评价25分计分；部方称Naver云的视觉编码器使用阿里巴巴Qwen2.5-VL 32B的预训练参数且以冻结方式采用、不允许更新权重，不符合独立训练要求；部方增设补选，Motif Technologies牵头的联合体2026年2月入选。截至2026-02-20，多源一致。https://www.theinvestor.co.kr/article/10656530 ；https://www.koreatimes.co.kr/amp/business/tech-science/20260220/motif-led-consortium-joins-national-ai-foundation-model-project （访问于2026-10）
+
+[^p13-korea-round2]: 《韩国时报》（The Korea Times），*LG AI Research, SK Telecom, Upstage survive next cut in national AI model project*，2026年8月18日；合众国际社（UPI）同日报道。第二轮评估后LG AI研究院（K-EXAONE 2.0）、SK电讯（A.X K2）、Upstage（Solar Open2）晋级，Motif Technologies（Motif 3）出局；Motif 3在Artificial Analysis智能指数上得47分、全球第10，但实用性和生态影响得分较低；2026年下半年为各队提供约1000张B200（上半年约768张）；第三阶段评估定于2026年下半年，评分办法未定。截至2026-08-18，多源一致。https://www.koreatimes.co.kr/business/tech-science/20260818/lg-ai-research-sk-telecom-upstage-survive-next-cut-in-national-ai-model-project ；https://www.upi.com/amp/Top_News/World-News/2026/08/18/national-ai-model-contest-to-3-teams/3771787098293/ （访问于2026-10）
+
+[^p13-indiaai-models]: 印度新闻局（PIB），*AI models developed under IndiaAI Mission represent important progress in building India's own AI capabilities*，2026年3月13日（联邦院书面答复）；PIB，*Sarvam AI Powering a Made-in-India AI Revolution*，2026年2月21日。印度人工智能计划第一阶段遴选12支本土基础模型团队；Sarvam、BharatGen、Gnani、Soket的模型在2026年印度人工智能影响峰会期间发布；超过3.8万张GPU经14家服务商纳入共享算力，另有2万张在采购中；Sarvam获得的资金和算力支持合计24.672亿卢比。截至2026-03-13，政府一手发布，已确认。https://www.pib.gov.in/PressReleasePage.aspx?PRID=2239614 ；https://www.pib.gov.in/PressReleasePage.aspx?PRID=2231169 （访问于2026-10）
+
+[^p13-sarvam-105b]: TechCrunch，*Sarvam launches new AI models*（印度人工智能影响峰会报道），2026年2月18日。Sarvam发布300亿参数和1050亿参数两款混合专家模型，上下文分别为3.2万和12.8万Token；公司称从零训练，30B预训练约16万亿Token；训练算力来自印度人工智能计划，基础设施由Yotta提供；公司表示计划开源两款模型，未说明是否公开训练数据和代码。截至2026-02-18，权威媒体转述公司说法，单一来源。https://techcrunch.com/?p=3093889 （访问于2026-10）
+
 ## 第十四章　区域与城市 AI 主权：从智算中心到智能生产体系
 
 [^p14-idle-dc]: Caiwei Chen，*China built hundreds of AI data centers to catch the AI boom. Now many stand unused.*，MIT Technology Review，2025年3月26日。据 KZ Consulting，2023—2024年中国宣布新建数据中心项目超过500个；据中国通信企业协会数据中心委员会，2024年底至少150个已投入运行；据甲子光年和36氪报道，新建算力资源最多80%闲置（媒体转述，口径未经独立核实）；报道援引北京一位数据中心项目经理的说法。截至2025-03，单一报道汇总多方来源。https://www.technologyreview.com/2025/03/26/1113802/china-ai-data-centers-unused/
@@ -328,15 +392,20 @@
 
 [^p14-data-space-pilots]: 科技日报，2025年7月21日。国家数据局公布首批63个可信数据空间创新发展试点，其中企业类28个、行业类22个、城市类13个，城市类包括上海数据集团、厦门信息集团、贵州大数据产业集团等。截至2025-07-21，权威媒体报道。https://www.stdaily.com/web/gdxw/2025-07/21/content_373264.html
 
+[^p14-eu-ai-factories]: 欧盟委员会数字战略网站，*Seven consortia selected to establish AI factories which will boost AI innovation in the EU*，2024年12月10日。首批七座“AI工厂”落在巴塞罗那、博洛尼亚、卡亚尼、比森、林雪平、斯图加特和雅典；国家与欧盟合计投入约15亿欧元，其中一半由“数字欧洲计划”出资。截至2024-12-10，官方一手，已确认。https://digital-strategy.ec.europa.eu/en/news/seven-consortia-selected-establish-ai-factories-which-will-boost-ai-innovation-eu （访问于2026-10）
+
+[^p14-lumi-aif]: LUMI 超算联盟，*LUMI AI Factory launches its first services*，2025年10月6日；欧洲高性能计算联合体（EuroHPC JU），*EuroHPC JU signs contract to deploy LUMI-AI supercomputer*，2026年8月31日。LUMI AI工厂首批上线13项服务（三档算力包、数据集服务、算力与数据接入指导、代码优化和模型训练咨询、定制培训），对初创企业、中小企业和学术研究者免费；由芬兰CSC协调，捷克、丹麦、爱沙尼亚、挪威、波兰参加；LUMI上运行过约3500个研究项目、一半以上用到AI；新系统LUMI-AI由Bull承建，总预算3.878亿欧元，计划2027年交付使用，AI算力约为现有LUMI的十倍。截至2026-08-31，官方一手，已确认。https://www.lumi-supercomputer.eu/lumi-ai-factory-first-services/ ；https://www.eurohpc-ju.europa.eu/eurohpc-ju-signs-contract-deploy-lumi-ai-supercomputer-2026-08-31_en （访问于2026-10）
+
+[^p14-hangzhou-vouchers]: 中国青年网，《杭州今年首批“算力券”兑付结果公示　三家企业获资金支持》，2025年4月11日（转述杭州市经信局公示）。2025年首批兑付三家企业；按《杭州市支持人工智能全产业链高质量发展若干措施》，算力券最高补贴合同金额的30%，每家企业每年最高800万元。截至2025-04-11，媒体转述政府公示，单一来源。http://m.cyol.com/gb/articles/2025-04/11/content_JQAbpvCZyb.html （访问于2026-10）
+
 ## 第十五章　企业 AI 主权：把外部智能变成内部能力
 
-[^p15-bloomberggpt]: Shijie Wu等，*BloombergGPT: A Large Language Model for Finance*，arXiv:2303.17564，2023年3月30日。500亿参数，训练数据含3630亿 Token 的彭博金融数据和3450亿 Token 的通用公开数据。已确认（一手来源）。https://arxiv.org/abs/2303.17564
+[^p15-airbnb-models]: Natalie Lung、Bloomberg，*Airbnb CEO Brian Chesky says OpenAI's tools aren't ready*（Fortune 转载彭博社专访），2025年10月21日；South China Morning Post，*Airbnb picks Alibaba's Qwen over ChatGPT in a win for Chinese open-source AI*，2025年10月。爱彼迎客服智能体建在13个模型之上，来源包括 OpenAI、阿里巴巴、谷歌和开源模型；切斯基称“很依赖阿里巴巴的 Qwen 模型……很好，也快，也便宜”，OpenAI 最新模型很少用于生产；该智能体2025年5月向美国英语用户全面开放，需要人工客服的用户减少15%（公司口径）。截至2025-10-21，多源一致。https://fortune.com/2025/10/21/brian-chesky-openai-tools-not-ready ；https://www.scmp.com/tech/tech-trends/article/3329921/airbnb-picks-alibabas-qwen-over-chatgpt-win-chinese-open-source-ai （访问于2026-10）
 
-[^p15-gpt4-finance]: Xianzhi Li等，*Are ChatGPT and GPT-4 General-Purpose Solvers for Financial Text Analytics? A Study on Several Typical Tasks*，arXiv:2305.05862，2023年5月；EMNLP 2023 Industry Track。GPT-4 在 FiQA 情绪分析、新闻标题分类和 ConvFinQA 问答上超过 BloombergGPT（如 ConvFinQA 准确率76.48%对43.41%），在命名实体识别上落后（56.71对60.82）。已确认（同行评审论文）。https://arxiv.org/abs/2305.05862 ；https://aclanthology.org/2023.emnlp-industry.39/
+[^p15-openai-preservation]: U.S. District Court S.D.N.Y.，*The New York Times Company v. Microsoft Corporation et al.*，No. 1:23-cv-11195，治安法官 Ona T. Wang 保存令，2025年5月13日；Loeb & Loeb，*Court Orders OpenAI to Retain All Output Log Data*，2025年6月；OpenAI，*How we're responding to The New York Times' data demands*，2025年6月5日，2025年10月22日更新。命令要求 OpenAI 保存并隔离全部输出日志（含用户已删除的对话）；ChatGPT Enterprise、Edu 及使用零数据保留（ZDR）端点的 API 客户不受影响；OpenAI 称该保存义务于2025年9月26日结束，此后恢复30天删除。截至2025-10-22，已确认（法院命令及当事方公告）。https://www.loeb.com/en/insights/passle/2025/06/court-orders-openai-to-retain-all-output-log-data-considerations-for-chatgpt-users ；https://openai.com/index/response-to-nyt-data-demands/ （访问于2026-10）
 
 ## 第十六章　个人 AI 主权：超级个体时代的数字边界
 
-[^p16-google-lockout]: Kashmir Hill，*A Dad Took Photos of His Naked Toddler for the Doctor. Google Flagged Him as a Criminal.*，The New York Times，2022年8月21日；9to5Google，2022年8月22日。2021年初，父亲马克应护士要求拍摄儿子患处照片，照片备份至谷歌相册后被判定为儿童性侵害材料，账户被封；旧金山警方认定无犯罪，谷歌驳回申诉；他失去邮件、通讯录、照片和绑定 Google Fi 的电话号码，因诉讼成本约7000美元放弃起诉。截至2022-08，多源一致。https://www.nytimes.com/2022/08/21/technology/google-surveillance-toddler-photo.html ；https://9to5google.com/2022/08/22/google-locked-account-medical-photo-story/
 
 [^p16-gdpr-portability]: 欧盟，*Regulation (EU) 2016/679（通用数据保护条例）*第20条，2016年4月27日通过，2018年5月25日适用。数据主体有权以结构化、通用、机器可读的格式获取其提供的个人数据，并转给另一控制者（适用于基于同意或合同、以自动化方式进行的处理）。已确认（一手法规）。https://eur-lex.europa.eu/eli/reg/2016/679/oj
 
@@ -345,6 +414,8 @@
 [^p16-data-regulation]: 国务院，《网络数据安全管理条例》第二十五条，2024年9月30日公布，2025年1月1日施行。个人请求转移个人信息时，在能够验证请求人身份、请求转移的是本人同意提供或基于合同收集的个人信息、转移在技术上可行、不损害他人合法权益的条件下，处理者应提供转移途径；请求次数明显超出合理范围的，可按成本收取必要费用。已确认（一手法规）。https://www.cac.gov.cn/2024-09/30/c_1729384452307680.htm
 
 [^p16-openclaw-inbox]: Simon Willison，*Summer Yue*（转引其社交媒体帖子），2026年2月23日；Forklog，*OpenClaw AI agent runs amok, deletes Meta researcher's emails*，2026年2月。Meta 的 AI 安全研究者 Summer Yue 让运行在 Mac mini 上的 OpenClaw 智能体检查邮箱并只提建议、经她同意再操作；真实邮箱触发上下文压缩，智能体丢失原始指令并开始批量删除邮件，她从手机发出的停止指令无效，只能跑到 Mac mini 前停止。截至2026-02，当事人自述并经多家媒体转述。https://simonwillison.net/2026/Feb/23/summer-yue ；https://forklog.com/en/openclaw-ai-agent-runs-amok-deletes-meta-researchers-emails/
+
+[^p16-meta-bans]: BBC News，*Instagram users angry and confused as Meta overturns yet more account bans*，2025年8月15日（Capital FM 转载）；TechCrunch，*Facebook group admins complain of mass bans; Meta says it's fixing the problem*，2025年6月24日。BBC 称有500多人来信反映账户被错误封停；荷兰店主 Yassmine Boussihmed 的店铺账户（经营五年、5,000多名关注者）2025年4月以“账户完整性”为由被封，BBC 询问后恢复；化名 Ryan 的伦敦前教师5月因儿童性剥削政策被封，7月底恢复后再度被封；Instagram 称 AI 是其内容审核的核心；指控 Meta 错误封号的请愿书截至2025年8月有36,000多人签名；Meta 发言人 Andy Stone 6月承认“影响部分 Facebook 群组的技术错误”。截至2025-08-15，多源一致（个案为 BBC 单一来源）。https://capitalfm.africa/instagram-users-angry-and-confused-as-meta-overturns-yet-more-account-bans/ ；https://techcrunch.com/2025/06/24/facebook-group-admins-complain-of-mass-bans-meta-says-its-fixing-the-problem （访问于2026-10）
 
 ## 第六部导读与第十七章　OpenCSG：从开源社区到主权 AI 基础设施
 
@@ -382,13 +453,23 @@
 
 ## 第二十二章　OpenCSG 主权 AI 解决方案蓝图
 
+[^p22-dianjun-launch]: 央广网，《引投资　搭平台　建联盟　宜昌点军区聚势开源AI》，2025年3月19日。点军区一季度招商签约暨三峡绿色算力平台发布仪式；平台整合商业算力、国产算力和多元存储，提供数据服务、模型训练、模型推理和知识库；同日揭牌宜昌市点军区开元数据基金会，成立点军开源产业联盟，首批成员12家，含联想集团、开放传神、戴尔科技、京东云、中科曙光、燧原科技等；区里称之为“基金会+产业联盟+平台”体系。截至2025-03-19，官方媒体报道，已确认。https://www.cnr.cn/hubei/jcxs/20250319/t20250319_527106525.shtml （访问于2026-10）
+
+[^p22-opencsg-hubei]: 央广网，OpenCSG Pre-A 轮融资及点军国资收益报道，2026年8月31日（腾讯新闻转载，宜昌部分署名湖北日报记者）。开放传神（湖北）科技有限公司2024年12月落户点军区；点军区国资控股的宜昌金辉投资集团2023年3月投资中科升哲，间接持有北京开放传神科技有限公司约0.828%股份；公司称湖北业务当年收入预计约5000万元、约为上年两倍，算力利用率长期在80%以上，政务应用效率提升30%。收入、利用率和效率均为公司口径。截至2026-08-31，单一媒体来源。https://news.qq.com/rain/a/20260831A0C2RS00 （访问于2026-10）
+
+[^p22-dianjun-blog]: OpenCSG，《城市智能体：宜昌点军区算力供应链平台的区域产业升级路径》，OpenCSG 博客园账号，2026年2月2日。公司称平台整合政务云、企业私有云和第三方算力，用到 CSGHub、CSGShip、AutoHub 和软硬一体的 CSGAIO，开源社区有5000多名开发者参与；文中另有算力利用率、成本下降、入驻企业和产值的预期数字。截至2026-02-02，公司自述，未经独立核实。https://www.cnblogs.com/OpenCSG/p/19565766 （访问于2026-10）
+
+[^p22-longgang-award]: 云头条（经网易号发布），深圳市龙岗区数据有限公司“AI大模型基础服务能力建设项目”中标结果报道，2026年1月20日。招标公告2025年12月31日发布，预算550万元；北京开放传神科技有限公司以540万元中标，亚信科技（中国）有限公司（报价532万元）、北京齐信智扬科技有限公司（报价546万元）参与竞标；报道未列服务范围。截至2026-01-20，采购信息媒体转述，单一来源（原始公告未能直接访问）。https://www.163.com/dy/article/KJOHVTNF0511D6RL.html （访问于2026-10）
+
 ## 第七部导读与第二十三章　董事会 AI 主权议程
 
 [^p23-air-canada]: British Columbia Civil Resolution Tribunal，*Moffatt v. Air Canada*, 2024 BCCRT 149，2024年2月14日；Law360 Canada，2024年2月16日；McMillan LLP，*A Word of Caution: Company Liable for Misrepresentations Made by Chatbot*，2024年3月4日。乘客于2022年11月11日祖母去世当天经聊天机器人询问丧亲票价，被告知可在出票后90天内申请差价；裁决员 Christopher Rivers 驳回航空公司“聊天机器人是独立法律实体”的主张，判赔差价650.88加元，连同利息与费用共812.02加元。截至2026-10-12，多源一致。https://www.law360.ca/ca/articles/1804075 ；https://mcmillan.ca/insights/a-word-of-caution-company-liable-for-misrepresentations-made-by-chatbot/
 
+[^p23-cursor-bot]: The Register，*Cursor AI's own support bot hallucinated its usage policy*，2025年4月18日；Fortune，*A customer support AI went rogue—and it's a warning for every company considering replacing workers with automation*，2025年4月19日；CX Today，*A Contact Center Chatbot Invents Company Policies, Now Customers Want Out*，2025年4月。Cursor 的 AI 邮件客服“Sam”称“每个订阅只能在一台设备上使用”是核心安全功能，实无此政策；联合创始人 Michael Truell 在 Reddit 称“我们没有这样的政策”，系“一线 AI 客服机器人的错误回答”；登出问题源于会话安全改动后的竞态缺陷；提问用户获退款，邮件客服中的 AI 回复此后加以标注。截至2025-04-19，多源一致。https://www.theregister.com/2025/04/18/cursor_ai_support_bot_lies/ ；https://fortune.com/article/customer-support-ai-cursor-went-rogue ；https://www.cxtoday.com/conversational-ai/a-contact-center-chatbot-invents-company-policies-now-customers-want-out/ （访问于2026-10）
+
 ## 第二十四章　180 天企业 AI 主权路线图
 
-[^p24-samsung]: Bloomberg，*Samsung Bans Staff's AI Use After Spotting ChatGPT Data Leak*，2023年5月2日；Redmond Magazine，2023年5月3日。三星于2023年4月底向员工发出备忘录，在公司设备及接入内网的个人设备上暂停使用生成式AI，起因是员工将内部代码上传至ChatGPT；公司同时开发内部AI工具。截至2026-10-12，多源一致。https://www.bloomberg.com/news/articles/2023-05-02/samsung-bans-chatgpt-and-other-generative-ai-use-by-staff-after-leak ；https://redmondmag.com/articles/2023/05/03/samsung-bans-employees-use-of-chatgpt.aspx
+[^p24-nsw-chatgpt]: iTnews，*NSW gov contractor uploaded Excel spreadsheet of flood victims' data to ChatGPT*，2025年10月6日；Echo（Byron Bay），*Northern Rivers Resilient Homes Program data breach*，2025年10月。新南威尔士州重建局2025年10月6日公告：一名前承包商于2025年3月12日至15日将含10列、12,000余行的 Excel 表格上传至 ChatGPT，涉及北河地区韧性家园计划最多3,000名申请人，含姓名、住址、电邮、电话及部分个人和健康信息；上传未经授权，暂无证据显示被第三方获取；Cyber Security NSW 参与调查，已向员工发出关于未经批准 AI 平台的指引。截至2025-10-06，多源一致。https://www.itnews.com.au/news/nsw-gov-contractor-uploaded-excel-spreadsheet-of-flood-victims-data-to-chatgpt-620815 ；https://www.echo.net.au/2025/10/northern-rivers-resilient-homes-program-data-breach/ （访问于2026-10）
 
 ## 第二十五章　AI 主权成熟度模型
 

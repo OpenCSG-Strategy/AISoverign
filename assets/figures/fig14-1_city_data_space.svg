@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" font-family="'Source Han Sans SC','Noto Sans CJK SC','PingFang SC','Microsoft YaHei','WenQuanYi Zen Hei',sans-serif">
+<rect width="900" height="520" fill="#fff"/>
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#111"/></marker></defs>
+<text x="40" y="40" font-size="20" text-anchor="start" font-weight="bold" fill="#111">分域的城市数据空间</text>
+<text x="40" y="66" font-size="13" text-anchor="start" font-weight="normal" fill="#555">数据留在原来的部门，城市统一管身份、目录、授权和审计</text>
+<rect x="40" y="95" width="108" height="72" rx="6" fill="#fff" stroke="#111" stroke-width="1.5"/>
+<text x="94" y="125" font-size="16" text-anchor="middle" font-weight="bold" fill="#111">政务</text>
+<text x="94" y="151" font-size="12" text-anchor="middle" font-weight="normal" fill="#555">数据留在本域</text>
+<rect x="157" y="95" width="108" height="72" rx="6" fill="#eee" stroke="#111" stroke-width="2"/>
+<text x="211" y="125" font-size="16" text-anchor="middle" font-weight="bold" fill="#111">交通</text>
+<text x="211" y="151" font-size="12" text-anchor="middle" font-weight="normal" fill="#555">数据留在本域</text>
+<rect x="274" y="95" width="108" height="72" rx="6" fill="#fff" stroke="#111" stroke-width="1.5"/>
+<text x="328" y="125" font-size="16" text-anchor="middle" font-weight="bold" fill="#111">文旅</text>
+<text x="328" y="151" font-size="12" text-anchor="middle" font-weight="normal" fill="#555">数据留在本域</text>
+<rect x="391" y="95" width="108" height="72" rx="6" fill="#fff" stroke="#111" stroke-width="1.5"/>
+<text x="445" y="125" font-size="16" text-anchor="middle" font-weight="bold" fill="#111">招商</text>
+<text x="445" y="151" font-size="12" text-anchor="middle" font-weight="normal" fill="#555">数据留在本域</text>
+<rect x="508" y="95" width="108" height="72" rx="6" fill="#fff" stroke="#111" stroke-width="1.5"/>
+<text x="562" y="125" font-size="16" text-anchor="middle" font-weight="bold" fill="#111">医疗</text>
+<text x="562" y="151" font-size="12" text-anchor="middle" font-weight="normal" fill="#555">数据留在本域</text>
+<rect x="625" y="95" width="108" height="72" rx="6" fill="#fff" stroke="#111" stroke-width="1.5"/>
+<text x="679" y="125" font-size="16" text-anchor="middle" font-weight="bold" fill="#111">教育</text>
+<text x="679" y="151" font-size="12" text-anchor="middle" font-weight="normal" fill="#555">数据留在本域</text>
+<rect x="742" y="95" width="108" height="72" rx="6" fill="#fff" stroke="#111" stroke-width="1.5"/>
+<text x="796" y="125" font-size="16" text-anchor="middle" font-weight="bold" fill="#111">工业</text>
+<text x="796" y="151" font-size="12" text-anchor="middle" font-weight="normal" fill="#555">数据留在本域</text>
+<rect x="40" y="235" width="812" height="58" rx="6" fill="#bbb" stroke="#111" stroke-width="1.5"/>
+<text x="446" y="270" font-size="16" text-anchor="middle" font-weight="bold" fill="#111">城市统一提供：身份 · 目录 · 授权 · 审计 · 数据标准</text>
+<line x1="203" y1="233" x2="203" y2="171" stroke="#111" stroke-width="1.5" marker-end="url(#ar)"/>
+<line x1="219" y1="171" x2="219" y2="231" stroke="#111" stroke-width="1.5" stroke-dasharray="4 3" marker-end="url(#ar)"/>
+<text x="231" y="200" font-size="12" text-anchor="start" font-weight="normal" fill="#555">授权后按需取用，只交回所需结果</text>
+<rect x="300" y="345" width="200" height="56" rx="6" fill="#fff" stroke="#111" stroke-width="2"/>
+<text x="400" y="379" font-size="15" text-anchor="middle" font-weight="bold" fill="#111">智能体办一件事</text>
+<line x1="400" y1="343" x2="400" y2="296" stroke="#111" stroke-width="1.5" marker-end="url(#ar)"/>
+<text x="410" y="324" font-size="12" text-anchor="start" font-weight="normal" fill="#555">申请</text>
+<rect x="560" y="345" width="292" height="56" rx="6" fill="#eee" stroke="#555" stroke-width="1.5"/>
+<text x="706" y="368" font-size="13" text-anchor="middle" font-weight="bold" fill="#111">留下记录</text>
+<text x="706" y="389" font-size="12" text-anchor="middle" font-weight="normal" fill="#111">用了多少、用来做什么、谁批准的</text>
+<line x1="502" y1="373" x2="557" y2="373" stroke="#111" stroke-width="1.2" marker-end="url(#ar)"/>
+<text x="40" y="440" font-size="14" text-anchor="start" font-weight="bold" fill="#111">数据空间也要能退出</text>
+<rect x="40" y="452" width="400" height="50" rx="6" fill="#fff" stroke="#555" stroke-width="1.5" stroke-dasharray="6 4"/>
+<text x="240" y="482" font-size="13" text-anchor="middle" font-weight="normal" fill="#111">运营方换了：目录、授权记录、日志、标准完整交接</text>
+<rect x="452" y="452" width="400" height="50" rx="6" fill="#fff" stroke="#555" stroke-width="1.5" stroke-dasharray="6 4"/>
+<text x="652" y="482" font-size="13" text-anchor="middle" font-weight="normal" fill="#111">部门不再参加：数据撤出，相关服务随之调整</text>
+</svg>

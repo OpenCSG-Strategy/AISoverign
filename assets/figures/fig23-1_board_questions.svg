@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 510" width="900" height="510" font-family="'Source Han Sans SC','Noto Sans CJK SC','PingFang SC','Microsoft YaHei','WenQuanYi Zen Hei',sans-serif">
+<rect width="900" height="510" fill="#fff"/>
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#111"/></marker></defs>
+<text x="40" y="40" font-size="20" text-anchor="start" font-weight="bold" fill="#111">董事会每半年回答的十个问题</text>
+<rect x="40" y="80" width="192" height="38" rx="6" fill="#111"/>
+<text x="136.0" y="104.6" font-size="16" text-anchor="middle" font-weight="bold" fill="#fff">依赖</text>
+<rect x="40" y="118" width="192" height="232" rx="6" fill="#fff" stroke="#111" stroke-width="1.5"/>
+<circle cx="60" cy="141" r="11" fill="#111"/>
+<text x="60" y="144.96" font-size="11" text-anchor="middle" font-weight="bold" fill="#fff">1</text>
+<text x="78" y="146" font-size="13" text-anchor="start" font-weight="normal" fill="#111">主模型或云不可用，</text>
+<text x="78" y="165" font-size="13" text-anchor="start" font-weight="normal" fill="#111">关键任务能否继续</text>
+<circle cx="60" cy="211" r="11" fill="#111"/>
+<text x="60" y="214.96" font-size="11" text-anchor="middle" font-weight="bold" fill="#fff">2</text>
+<text x="78" y="216" font-size="13" text-anchor="start" font-weight="normal" fill="#111">切换供应商时资产</text>
+<text x="78" y="235" font-size="13" text-anchor="start" font-weight="normal" fill="#111">能否导出、跑起来</text>
+<rect x="247" y="80" width="192" height="38" rx="6" fill="#111"/>
+<text x="343.0" y="104.6" font-size="16" text-anchor="middle" font-weight="bold" fill="#fff">资产</text>
+<rect x="247" y="118" width="192" height="232" rx="6" fill="#fff" stroke="#111" stroke-width="1.5"/>
+<circle cx="267" cy="141" r="11" fill="#111"/>
+<text x="267" y="144.96" font-size="11" text-anchor="middle" font-weight="bold" fill="#fff">3</text>
+<text x="285" y="146" font-size="13" text-anchor="start" font-weight="normal" fill="#111">数据、知识、评测和</text>
+<text x="285" y="165" font-size="13" text-anchor="start" font-weight="normal" fill="#111">反馈在哪里，谁拥有</text>
+<circle cx="267" cy="211" r="11" fill="#111"/>
+<text x="267" y="214.96" font-size="11" text-anchor="middle" font-weight="bold" fill="#fff">4</text>
+<text x="285" y="216" font-size="13" text-anchor="start" font-weight="normal" fill="#111">有没有统一的</text>
+<text x="285" y="235" font-size="13" text-anchor="start" font-weight="normal" fill="#111">资产清单</text>
+<circle cx="267" cy="281" r="11" fill="#111"/>
+<text x="267" y="284.96" font-size="11" text-anchor="middle" font-weight="bold" fill="#fff">5</text>
+<text x="285" y="286" font-size="13" text-anchor="start" font-weight="normal" fill="#111">有没有独立于供应商</text>
+<text x="285" y="305" font-size="13" text-anchor="start" font-weight="normal" fill="#111">的黄金评测集</text>
+<rect x="454" y="80" width="192" height="38" rx="6" fill="#111"/>
+<text x="550.0" y="104.6" font-size="16" text-anchor="middle" font-weight="bold" fill="#fff">责任</text>
+<rect x="454" y="118" width="192" height="232" rx="6" fill="#fff" stroke="#111" stroke-width="1.5"/>
+<circle cx="474" cy="141" r="11" fill="#111"/>
+<text x="474" y="144.96" font-size="11" text-anchor="middle" font-weight="bold" fill="#fff">6</text>
+<text x="492" y="146" font-size="13" text-anchor="start" font-weight="normal" fill="#111">哪些智能体能代表公司</text>
+<text x="492" y="165" font-size="13" text-anchor="start" font-weight="normal" fill="#111">行动，权限和预算多大</text>
+<circle cx="474" cy="211" r="11" fill="#111"/>
+<text x="474" y="214.96" font-size="11" text-anchor="middle" font-weight="bold" fill="#fff">7</text>
+<text x="492" y="216" font-size="13" text-anchor="start" font-weight="normal" fill="#111">哪些动作要人确认，</text>
+<text x="492" y="235" font-size="13" text-anchor="start" font-weight="normal" fill="#111">谁真正有权停止</text>
+<circle cx="474" cy="281" r="11" fill="#111"/>
+<text x="474" y="284.96" font-size="11" text-anchor="middle" font-weight="bold" fill="#fff">8</text>
+<text x="492" y="286" font-size="13" text-anchor="start" font-weight="normal" fill="#111">事故有没有变成</text>
+<text x="492" y="305" font-size="13" text-anchor="start" font-weight="normal" fill="#111">回归测试和制度改进</text>
+<rect x="661" y="80" width="192" height="38" rx="6" fill="#111"/>
+<text x="757.0" y="104.6" font-size="16" text-anchor="middle" font-weight="bold" fill="#fff">方向</text>
+<rect x="661" y="118" width="192" height="232" rx="6" fill="#eee" stroke="#111" stroke-width="1.5"/>
+<circle cx="681" cy="141" r="11" fill="#111"/>
+<text x="681" y="144.96" font-size="11" text-anchor="middle" font-weight="bold" fill="#fff">9</text>
+<text x="699" y="146" font-size="13" text-anchor="start" font-weight="normal" fill="#111">投入产出按 Token、</text>
+<text x="699" y="165" font-size="13" text-anchor="start" font-weight="normal" fill="#111">任务还是业务结果算</text>
+<circle cx="681" cy="211" r="11" fill="#111"/>
+<text x="681" y="214.96" font-size="11" text-anchor="middle" font-weight="bold" fill="#fff">10</text>
+<text x="699" y="216" font-size="13" text-anchor="start" font-weight="normal" fill="#111">一年后积累的是自己</text>
+<text x="699" y="235" font-size="13" text-anchor="start" font-weight="normal" fill="#111">的能力，还是依赖</text>
+<path d="M40,360 v10 H646 v-10" fill="none" stroke="#555" stroke-width="1.2"/>
+<text x="343" y="392" font-size="13" text-anchor="middle" font-weight="bold" fill="#111">前八个可以用事实回答</text>
+<path d="M661,360 v10 H853 v-10" fill="none" stroke="#555" stroke-width="1.2"/>
+<text x="757" y="392" font-size="13" text-anchor="middle" font-weight="bold" fill="#111">后两个需要判断</text>
+<text x="40" y="428" font-size="14" text-anchor="start" font-weight="bold" fill="#111">每个问题配一页，证据要可以复查</text>
+<rect x="300" y="412" width="80" height="26" rx="3" fill="#fff" stroke="#555" stroke-width="1.5"/>
+<text x="340" y="430" font-size="13" text-anchor="middle" font-weight="normal" fill="#111">现状</text>
+<rect x="390" y="412" width="80" height="26" rx="3" fill="#fff" stroke="#555" stroke-width="1.5"/>
+<text x="430" y="430" font-size="13" text-anchor="middle" font-weight="normal" fill="#111">证据</text>
+<rect x="480" y="412" width="80" height="26" rx="3" fill="#fff" stroke="#555" stroke-width="1.5"/>
+<text x="520" y="430" font-size="13" text-anchor="middle" font-weight="normal" fill="#111">缺口</text>
+<text x="40" y="466" font-size="13" text-anchor="start" font-weight="normal" fill="#555">例如：资产清单的版本号、评测集最近一次运行结果、停止演练记录、导出测试的日志</text>
+<text x="40" y="488" font-size="13" text-anchor="start" font-weight="normal" fill="#555">答不上来也是有用的信息：写明下一个半年由谁补齐</text>
+</svg>

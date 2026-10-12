@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 450" width="900" height="450" font-family="'Source Han Sans SC','Noto Sans CJK SC','PingFang SC','Microsoft YaHei','WenQuanYi Zen Hei',sans-serif">
+<rect width="900" height="450" fill="#fff"/>
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#111"/></marker></defs>
+<text x="40" y="40" font-size="20" text-anchor="start" font-weight="bold" fill="#111">带得走的四类资产，装在手边的几处刹车</text>
+<text x="40" y="80" font-size="15" text-anchor="start" font-weight="bold" fill="#111">数字连续性：要随身带走的</text>
+<rect x="40" y="95" width="400" height="52" rx="6" fill="#eee" stroke="#111" stroke-width="1.5"/>
+<circle cx="62" cy="121" r="11" fill="#111"/>
+<text x="62" y="125.32" font-size="12" text-anchor="middle" font-weight="bold" fill="#fff">1</text>
+<text x="84" y="117" font-size="15" text-anchor="start" font-weight="bold" fill="#111">原始资料</text>
+<text x="84" y="137" font-size="12" text-anchor="start" font-weight="normal" fill="#555">通用格式另存一份，放在服务商够不着的地方</text>
+<rect x="40" y="157" width="400" height="52" rx="6" fill="#fff" stroke="#111" stroke-width="1.5"/>
+<circle cx="62" cy="183" r="11" fill="#111"/>
+<text x="62" y="187.32" font-size="12" text-anchor="middle" font-weight="bold" fill="#fff">2</text>
+<text x="84" y="179" font-size="15" text-anchor="start" font-weight="bold" fill="#111">知识和记忆</text>
+<text x="84" y="199" font-size="12" text-anchor="start" font-weight="normal" fill="#555">写成自己看得懂的笔记，不只存在助手里</text>
+<rect x="40" y="219" width="400" height="52" rx="6" fill="#fff" stroke="#111" stroke-width="1.5"/>
+<circle cx="62" cy="245" r="11" fill="#111"/>
+<text x="62" y="249.32" font-size="12" text-anchor="middle" font-weight="bold" fill="#fff">3</text>
+<text x="84" y="241" font-size="15" text-anchor="start" font-weight="bold" fill="#111">做事的方法</text>
+<text x="84" y="261" font-size="12" text-anchor="start" font-weight="normal" fill="#555">提示词、工作流程、技能和工具设置</text>
+<rect x="40" y="281" width="400" height="52" rx="6" fill="#fff" stroke="#111" stroke-width="1.5"/>
+<circle cx="62" cy="307" r="11" fill="#111"/>
+<text x="62" y="311.32" font-size="12" text-anchor="middle" font-weight="bold" fill="#fff">4</text>
+<text x="84" y="303" font-size="15" text-anchor="start" font-weight="bold" fill="#111">“我怎样工作”</text>
+<text x="84" y="323" font-size="12" text-anchor="start" font-weight="normal" fill="#555">一页任务说明，换人换助手看完就能上手</text>
+<text x="40" y="365" font-size="12" text-anchor="start" font-weight="normal" fill="#555">法律上的数据可携带权，主要管第 1 类</text>
+<rect x="40" y="378" width="400" height="50" rx="6" fill="#fff" stroke="#555" stroke-width="1.5" stroke-dasharray="6 4"/>
+<text x="240" y="400" font-size="14" text-anchor="middle" font-weight="bold" fill="#111">身份和关系最难打包</text>
+<text x="240" y="419" font-size="12" text-anchor="middle" font-weight="normal" fill="#555">前三类保管好，关系断了还有重建的材料</text>
+<line x1="465" y1="80" x2="465" y2="430" stroke="#bbb" stroke-width="1.5" stroke-dasharray="6 5"/>
+<text x="490" y="80" font-size="15" text-anchor="start" font-weight="bold" fill="#111">一人公司的刹车</text>
+<rect x="490" y="95" width="8" height="52" fill="#111"/>
+<text x="512" y="115" font-size="14" text-anchor="start" font-weight="bold" fill="#111">试验环境和生产数据分开</text>
+<text x="512" y="137" font-size="12" text-anchor="start" font-weight="normal" fill="#555">智能体随便折腾，碰不到真实客户和账目</text>
+<rect x="490" y="161" width="8" height="52" fill="#111"/>
+<text x="512" y="181" font-size="14" text-anchor="start" font-weight="bold" fill="#111">备份放在智能体够不着的地方</text>
+<text x="512" y="203" font-size="12" text-anchor="start" font-weight="normal" fill="#555">删得掉线上的，删不掉离线副本</text>
+<rect x="490" y="227" width="8" height="52" fill="#111"/>
+<text x="512" y="247" font-size="14" text-anchor="start" font-weight="bold" fill="#111">付款、签约、删除、对外发布本人确认</text>
+<text x="512" y="269" font-size="12" text-anchor="start" font-weight="normal" fill="#555">靠权限设置保证，不靠提示词里的一句话</text>
+<rect x="490" y="293" width="8" height="52" fill="#111"/>
+<text x="512" y="313" font-size="14" text-anchor="start" font-weight="bold" fill="#111">停止的办法在手边</text>
+<text x="512" y="335" font-size="12" text-anchor="start" font-weight="normal" fill="#555">最好能一键收回全部授权</text>
+<rect x="490" y="359" width="8" height="52" fill="#111"/>
+<text x="512" y="379" font-size="14" text-anchor="start" font-weight="bold" fill="#111">每个关键账户有替代方案</text>
+<text x="512" y="401" font-size="12" text-anchor="start" font-weight="normal" fill="#555">邮箱、收款、网盘、主力模型</text>
+</svg>

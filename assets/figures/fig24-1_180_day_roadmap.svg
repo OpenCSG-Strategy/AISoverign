@@ -42,8 +42,8 @@
 <rect x="773.6666666666667" y="386" width="84.33333333333331" height="34" rx="4" fill="#111" stroke="#111" stroke-width="1.5"/>
 <text x="815.8333333333333" y="408" font-size="12" text-anchor="middle" font-weight="normal" fill="#fff">151—180</text>
 <rect x="326.0" y="100" width="273.0" height="168" rx="8" fill="none" stroke="#555" stroke-width="1.5" stroke-dasharray="5 4"/>
-<text x="609.0" y="160" font-size="12" text-anchor="start" font-weight="normal" fill="#555">前九十天与第二十七章</text>
-<text x="609.0" y="178" font-size="12" text-anchor="start" font-weight="normal" fill="#555">的作战手册重叠</text>
+<text x="609.0" y="160" font-size="12" text-anchor="start" font-weight="normal" fill="#555">前九十天：三到五项</text>
+<text x="609.0" y="178" font-size="12" text-anchor="start" font-weight="normal" fill="#555">任务形成闭环</text>
 <line x1="330" y1="456" x2="860" y2="456" stroke="#111" stroke-width="2"/>
 <polygon points="418.3333333333333,446 427.3333333333333,456 418.3333333333333,466 409.3333333333333,456" fill="#111" stroke="#111" stroke-width="1.5"/>
 <text x="418.3333333333333" y="486" font-size="12" text-anchor="middle" font-weight="bold" fill="#111">第 30 天</text>

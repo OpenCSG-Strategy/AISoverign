@@ -742,7 +742,7 @@ def fig24_1():
         b.append(box(X(30 * i) + 2, y + 6, X(30) - X(0) - 4, 34, fill=shades[i], rx=4))
         b.append(t(X(30 * i + 15), y + 28, f'{30 * i + 1}—{30 * i + 30}', 12, 'middle', fill='#fff' if i == 5 else INK))
     b.append(box(X(0) - 4, 100, X(90) - X(0) + 8, 168, fill='none', stroke=MID, dash='5 4', rx=8))
-    b += ml(X(90) + 14, 160, ['前九十天与第二十七章', '的作战手册重叠'], 12, fill=MID, lh=18)
+    b += ml(X(90) + 14, 160, ['前九十天：三到五项', '任务形成闭环'], 12, fill=MID, lh=18)
     b.append(line(x0, 456, x1, 456, arrow=False, sw=2))
     cps = [(30, '依赖地图'), (60, '闭环跑通'), (90, '故障演练'), (180, '真实切换')]
     for d, s in cps:
@@ -956,7 +956,7 @@ def fig28_2():
 
 FIGS = [fig8_1, fig9_1, fig10_1, fig10_2, fig11_1, fig12_1, fig13_1, fig13_2, fig14_1, fig15_1,
         fig16_1, fig17_1, fig18_1, fig19_1, fig20_1, fig21_1, fig22_1, fig22_2, fig23_1, fig24_1,
-        fig25_1, fig26_1, fig27_1, fig27_2, fig28_1, fig28_2]
+        fig25_1, fig26_1, fig27_2, fig28_2]
 if __name__ == '__main__':
     for f in FIGS:
         f()

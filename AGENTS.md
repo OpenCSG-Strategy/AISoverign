@@ -74,3 +74,20 @@ Frank Chen 主理的中文书籍《AI 主权》正式稿，采用序章＋五部
 - **不要用 `git add .` 或 `-A`** —— Frank 的 untracked 文件会被一起 commit 进去
 - **sub-agent 派活前必带 4 条不约束** —— 不 restore / 不 commit / 不 add 新功能 / 不续做历史 commit 的工作
 - **开放权重联名信的签署方别写错** —— 7-24 首批没有 OpenAI、Google、Anthropic; OpenAI 和谷歌在首个周末补签, Anthropic 未签并另发声明(见附录B `new-openweights-coalition`)
+
+## 飞书双向同步(每次 commit 必看)
+
+**书稿在飞书有一份镜像**: https://opencsg-china.feishu.cn/wiki/IWEIwQby4iGx19kiCiCcGMBpnAc (docx token `BDCwdVTjCoDKJrx9SSqcnE9vnGb`)。doc 顶部的水印行会写明"最后同步于 + git sha",同事也能在飞书上手改(下次同步前会先把飞书改动拉回书稿)。
+
+**当前是手动同步**——`feat/feishu-sync` 没合, GitHub Action / webhook 都没接。所以:
+
+- **AI 助手**: 看到 Frank 改完书稿即将 commit 时, **主动提醒** "本次改动需要推到飞书, 跑 `.research/feishu-sync-commands.md` 第 1 节",并在 commit 完成后停一下等他同步, 别催下一个任务
+- **触发同步的改动** (任一即需):
+  - 正文 `.md`（任何 `01_*/`、`02_*/`、`03_*/`、`03a_*/`、`03b_*/`、`04_结语/`、`00_书前/`、`05_附录/` 下文件）
+  - `05_附录/附录B_精选尾注.md`（脚注定义改了 → 编号会重排）
+  - `assets/figures/`（新增/删除/改名 png）
+  - `tools/book_structure.py`（组装规则改了 → 顺序/标题/章节计数可能变）
+- **不触发**: 索引（`.content-index.md` 等）、`.research/`、`assets/` 里的 svg、`.obsidian/`、`.github/`、`.gitignore`
+- 完整命令在 `.research/feishu-sync-commands.md`；**caption 不能硬编码**, 每次重跑 `/tmp/_build_feishu.py` 后读 `/tmp/_images.tsv`
+
+反向（同事在飞书上手改 → 拉回书稿）走同一个 md 第 2 节。

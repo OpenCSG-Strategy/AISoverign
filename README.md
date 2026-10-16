@@ -36,7 +36,7 @@
 90_出版工作台/                出版标注规范、结构与组装清单、图稿清单、文风要点、飞书同步说明（不进入纸书正文）
 assets/figures/               插图：SVG 印刷源稿＋PNG 预览，生成脚本在 assets/figures/src/
 tools/book_structure.py       结构校验与连续稿组装
-tools/feishu_sync.py          把全书同步到飞书文档（由 GitHub 自动任务调用）
+tools/feishu_sync.py          书稿和飞书文档双向同步（由 GitHub 自动任务调用）
 ```
 
 ---

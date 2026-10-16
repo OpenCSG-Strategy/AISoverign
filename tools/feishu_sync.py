@@ -1,21 +1,30 @@
 #!/usr/bin/env python3
-"""Overwrite one Feishu doc with the assembled book, figures included.
+"""Keep one Feishu doc in step with the book, figures included.
+
+Every write ends with a check value in the doc's header line. Before the next write the doc is read back;
+if its text no longer matches that value, someone edited it in Feishu, so nothing is overwritten. The
+changed paragraphs are written to --report instead, to be carried back into the markdown by hand.
 
 Environment:
   FEISHU_APP_ID, FEISHU_APP_SECRET  self-built app credentials
-  FEISHU_DOC                        the target doc's URL or token (docx/... or wiki/...)
+  FEISHU_DOC                        optional, the target doc's URL or token, default DEFAULT_DOC
   FEISHU_BASE                       optional, default https://open.feishu.cn (Lark: https://open.larksuite.com)
+  FEISHU_FORCE                      optional, 1 overwrites even when the doc has unsynced edits
   GITHUB_SHA                        optional, printed in the doc's header line
 
 `--dry-run` only writes the markdown that would be uploaded, so it needs no credentials.
+`--check` only looks for edits made in Feishu and writes nothing.
 """
 
 from __future__ import annotations
 
 import argparse
+import difflib
+import hashlib
 import json
 import os
 import re
+import subprocess
 import sys
 import tempfile
 import time
@@ -34,14 +43,19 @@ FIGURES = ROOT / "assets/figures"
 IMAGE_LINK_RE = re.compile(r"!\[([^\]]*)\]\([^)\s]*?([^/)\s]+)\.svg\)")
 FIGURE_URL = "https://figures.invalid/{}.png"
 BATCH = 400  # blocks per descendant call; the API allows 1000
+DEFAULT_DOC = "https://opencsg-china.feishu.cn/wiki/IWEIwQby4iGx19kiCiCcGMBpnAc"
+HEADER_MARK = "最后同步于"
+HEADER_RE = re.compile(r"提交 ([0-9a-f]{7,40}).*?校验 ([0-9a-f]{12})")
 
 
 # ---------- markdown ----------
 
-def book_markdown(sha: str) -> str:
+def book_markdown(sha: str, root: Path = ROOT) -> str:
+    """The upload markdown for the checkout at root (another commit's worktree when comparing)."""
     with tempfile.TemporaryDirectory() as tmp:
         out = Path(tmp) / "book.md"
-        book_structure.assemble(out)
+        subprocess.run([sys.executable, str(root / "tools/book_structure.py"), "assemble", str(out)],
+                       check=True, stdout=subprocess.DEVNULL)
         text = out.read_text(encoding="utf-8")
 
     # Feishu has no footnotes: number them by first reference and keep each definition where it stands.
@@ -56,8 +70,8 @@ def book_markdown(sha: str) -> str:
 
     stamp = datetime.now(timezone(timedelta(hours=8))).strftime("%Y-%m-%d %H:%M")
     header = (
-        f"> 本文档由 GitHub 仓库自动同步，最后同步于 {stamp}（提交 {sha[:7] or '本地'}）。"
-        "请在仓库里修改书稿，在这里直接改动的内容会在下次同步时被覆盖。\n\n"
+        f"本文档与 GitHub 仓库双向同步，{HEADER_MARK} {stamp}（提交 {sha[:7] or '本地'}）。"
+        "可以直接在这里修改，下次同步前会先把这里的改动拉回书稿。\n\n"
     )
     return header + text
 
@@ -115,15 +129,88 @@ class Feishu:
         return data["file_token"]
 
 
-def doc_id_from(target: str, api: Feishu) -> str:
+def doc_id_from(target: str, api: Feishu) -> tuple[str, dict]:
     match = re.search(r"/(docx|wiki)/([A-Za-z0-9]+)", target)
     kind, token = match.groups() if match else ("docx", target.strip())
     if kind == "wiki":
         node = api.call("GET", "/open-apis/wiki/v2/spaces/get_node", query={"token": token})["node"]
         if node["obj_type"] != "docx":
             raise SystemExit(f"wiki node is a {node['obj_type']}, not a docx document")
-        return node["obj_token"]
-    return token
+        return node["obj_token"], node
+    return token, {}
+
+
+def block_text(block: dict) -> str:
+    for value in block.values():
+        if isinstance(value, dict) and isinstance(value.get("elements"), list):
+            return "".join(e.get("text_run", {}).get("content", "")
+                           or e.get("mention_doc", {}).get("title", "")
+                           or e.get("equation", {}).get("content", "") for e in value["elements"])
+    return ""
+
+
+def texts_in_order(roots: list[str], by_id: dict) -> list[str]:
+    """Text of every block under roots, depth first, empty ones dropped."""
+    out = []
+    for root in roots:
+        for block in subtree(root, by_id):
+            text = block_text(block).strip()
+            if text:
+                out.append(text)
+    return out
+
+
+def doc_texts(api: Feishu, doc: str) -> list[str]:
+    by_id, page = {}, ""
+    while True:
+        query = {"page_size": 500, **({"page_token": page} if page else {})}
+        data = api.call("GET", f"/open-apis/docx/v1/documents/{doc}/blocks", query=query)
+        by_id.update({b["block_id"]: b for b in data.get("items", [])})
+        page = data.get("page_token", "")
+        if not data.get("has_more"):
+            break
+    return texts_in_order(by_id[doc].get("children", []), by_id)
+
+
+def check_value(texts: list[str]) -> str:
+    body = "\n".join(re.sub(r"\s+", "", t) for t in texts if HEADER_MARK not in t)
+    return hashlib.sha256(body.encode()).hexdigest()[:12]
+
+
+def edits_report(api: Feishu, texts: list[str], sha: str, node: dict) -> str:
+    """The paragraphs that differ from what was written at commit sha."""
+    with tempfile.TemporaryDirectory() as tmp:
+        tree = Path(tmp) / "tree"
+        subprocess.run(["git", "-C", str(ROOT), "worktree", "add", "--detach", str(tree), sha],
+                       check=True, capture_output=True)
+        try:
+            markdown = book_markdown(sha, tree)
+        finally:
+            subprocess.run(["git", "-C", str(ROOT), "worktree", "remove", "--force", str(tree)], check=False)
+    converted = api.call("POST", "/open-apis/docx/v1/documents/blocks/convert",
+                         {"content_type": "markdown", "content": markdown})
+    by_id = {b["block_id"]: b for b in converted["blocks"]}
+    before = [t for t in texts_in_order(converted["first_level_block_ids"], by_id) if HEADER_MARK not in t]
+    after = [t for t in texts if HEADER_MARK not in t]
+
+    edited = ""
+    if node.get("obj_edit_time"):
+        when = datetime.fromtimestamp(int(node["obj_edit_time"]), timezone(timedelta(hours=8)))
+        edited = f"，飞书文档最后修改于 {when:%Y-%m-%d %H:%M}"
+    lines = [f"# 飞书上有待拉回的修改\n\n对照提交 {sha[:7]} 写入时的内容{edited}。\n"]
+    norm = lambda xs: [re.sub(r"\s+", "", x) for x in xs]
+    matcher = difflib.SequenceMatcher(None, norm(before), norm(after), autojunk=False)
+    for op, i1, i2, j1, j2 in matcher.get_opcodes():
+        if op == "equal":
+            continue
+        lines.append(f"## 第 {j1 + 1} 段附近（{ {'replace': '改动', 'delete': '删除', 'insert': '新增'}[op] }）\n")
+        context = after[j1 - 1] if j1 else ""
+        if context:
+            lines.append(f"前一段：{context[:60]}\n")
+        lines += [f"- 原文：{t}" for t in before[i1:i2]]
+        lines += [f"+ 现在：{t}" for t in after[j1:j2]]
+        lines.append("")
+    return "\n".join(lines)
 
 
 def subtree(root: str, by_id: dict) -> list[dict]:
@@ -137,13 +224,30 @@ def subtree(root: str, by_id: dict) -> list[dict]:
     return out
 
 
-def sync(markdown: str) -> None:
-    for var in ("FEISHU_APP_ID", "FEISHU_APP_SECRET", "FEISHU_DOC"):
+def connect() -> tuple[Feishu, str, dict]:
+    for var in ("FEISHU_APP_ID", "FEISHU_APP_SECRET"):
         if not os.environ.get(var):
             raise SystemExit(f"{var} is not set")
     api = Feishu(os.environ.get("FEISHU_BASE", "https://open.feishu.cn"),
                  os.environ["FEISHU_APP_ID"], os.environ["FEISHU_APP_SECRET"])
-    doc = doc_id_from(os.environ["FEISHU_DOC"], api)
+    doc, node = doc_id_from(os.environ.get("FEISHU_DOC") or DEFAULT_DOC, api)
+    return api, doc, node
+
+
+def unsynced_edits(api: Feishu, doc: str, node: dict) -> str:
+    """A report of edits made in Feishu since the last write, or "" when there are none."""
+    texts = doc_texts(api, doc)
+    header = next((t for t in texts if HEADER_MARK in t), "")
+    match = HEADER_RE.search(header)
+    if match:
+        sha, value = match.groups()
+        return "" if check_value(texts) == value else edits_report(api, texts, sha, node)
+    if any(HEADER_MARK not in t for t in texts):
+        return "# 飞书文档里已有内容\n\n文档里有不是同步写入的内容，没有覆盖。确认可以覆盖后，设 FEISHU_FORCE=1 再运行。\n"
+    return ""
+
+
+def sync(markdown: str, api: Feishu, doc: str) -> None:
     rev = {"document_revision_id": -1}
 
     converted = api.call("POST", "/open-apis/docx/v1/documents/blocks/convert",
@@ -183,17 +287,40 @@ def sync(markdown: str) -> None:
                  {"replace_image": {"token": token}}, query=rev)
     print(f"uploaded {len(images)} figures to {doc}")
 
+    # Seal the header with a check value of what Feishu now holds, so the next run can spot edits.
+    header = block_text(by_id[tops[0]]).strip()
+    value = check_value(doc_texts(api, doc))
+    api.call("PATCH", f"/open-apis/docx/v1/documents/{doc}/blocks/{real_ids[tops[0]]}",
+             {"update_text_elements": {"elements": [{"text_run": {"content": f"{header}（校验 {value}）"}}]}},
+             query=rev)
+    print(f"check value {value}")
+
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("--dry-run", type=Path, metavar="OUT", help="write the upload markdown here and stop")
+    parser.add_argument("--check", action="store_true", help="only look for edits made in Feishu")
+    parser.add_argument("--report", type=Path, default=Path("feishu-edits.md"),
+                        help="where to write found edits (default feishu-edits.md)")
     args = parser.parse_args()
-    markdown = book_markdown(os.environ.get("GITHUB_SHA", ""))
     if args.dry_run:
-        args.dry_run.write_text(markdown, encoding="utf-8")
+        args.dry_run.write_text(book_markdown(os.environ.get("GITHUB_SHA", "")), encoding="utf-8")
         print(f"wrote {args.dry_run}")
         return 0
-    sync(markdown)
+    api, doc, node = connect()
+    report = unsynced_edits(api, doc, node)
+    if report:
+        if len(report) > 60000:  # GitHub issue bodies stop at 65536 characters
+            report = report[:60000] + "\n\n（修改太多，后面的省略了，请直接对照飞书文档。）\n"
+        args.report.write_text(report, encoding="utf-8")
+        print(report)
+        if args.check or os.environ.get("FEISHU_FORCE") != "1":
+            print(f"edits found in Feishu, nothing overwritten; see {args.report}", file=sys.stderr)
+            return 2
+    if args.check:
+        print("no edits in Feishu since the last sync")
+        return 0
+    sync(book_markdown(os.environ.get("GITHUB_SHA", "")), api, doc)
     return 0
 
 

@@ -95,11 +95,22 @@ def validate() -> int:
     return 1 if failures else 0
 
 
+HEADING_RE = re.compile(r"^(#{1,5}) ", re.M)
+
+
+def in_chapter(f: Path) -> bool:
+    """A file of a numbered chapter, which sits one level below its part in the assembled book."""
+    return f.parent.parent.name in PART_DIRS[:-1] and "第" in f.parent.name and UNIT_RE.match(f.parent.name) is not None
+
+
 def assemble(output: Path) -> None:
+    """Join the book with nested headings: 部、序章、结语、附录 at #, 章 at ##, 节 at ###."""
     output = output.resolve()
     parts = []
     for f in manuscript() + appendices():
         text = f.read_text(encoding="utf-8").strip()
+        if in_chapter(f):
+            text = HEADING_RE.sub(lambda m: "#" + m.group(1) + " ", text)
         text = IMAGE_RE.sub(
             lambda m: m.group(0).replace(m.group(1), os.path.relpath((f.parent / m.group(1)).resolve(), output.parent)),
             text,

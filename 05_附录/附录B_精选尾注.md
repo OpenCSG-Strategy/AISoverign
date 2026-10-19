@@ -1,10 +1,10 @@
 # 附录B　精选尾注
 
-本附录按章列出正文所引资料的出处。网络链接访问于二〇二六年十月。
+本附录按章列出正文所引资料的出处。网络链接访问于2026年10月。
 
 ## 序章　拐点：当 AI 从回答问题走向替人做事
 
-[^new-kimi-k3]: Moonshot AI，*Kimi K3* 发布说明，2026年7月16日；Artificial Analysis，*Four frontier launches in eight days*，2026年7月17日。https://www.kimi.ai/blog/kimi-k3
+[^new-kimi-k3]: Moonshot AI，*Kimi K3*发布说明，2026年7月16日；Artificial Analysis，*Four frontier launches in eight days*，2026年7月17日。https://www.kimi.ai/blog/kimi-k3
 
 [^new-us-china-openweights]: Axios，*The secret Trump administration battle to fight Chinese AI*，2026年7月20日。https://www.axios.com/2026/07/20/ai-us-china-open-source-kimi
 
@@ -34,7 +34,7 @@
 
 [^p1-stargate-abilene]: DatacenterDynamics，*Crusoe's Abilene data center officially live, serving Oracle and OpenAI's Stargate*，2025年9月30日。https://www.datacenterdynamics.com/en/news/crusoes-abilene-data-center-officially-live-serving-oracle-and-openais-stargate/
 
-[^p1-token-factory-builds]: NVIDIA，xAI Colossus 网络披露，2024年10月28日；Microsoft，*Inside the world's most powerful AI datacenter*，2025年9月18日。https://blogs.microsoft.com/blog/2025/09/18/inside-the-worlds-most-powerful-ai-datacenter/
+[^p1-token-factory-builds]: NVIDIA，xAI Colossus网络披露，2024年10月28日；Microsoft，*Inside the world's most powerful AI datacenter*，2025年9月18日。https://blogs.microsoft.com/blog/2025/09/18/inside-the-worlds-most-powerful-ai-datacenter/
 
 [^p1-tokenizer]: Taku Kudo、John Richardson，*SentencePiece*，EMNLP，2018年。https://arxiv.org/abs/1808.06226
 
@@ -50,7 +50,7 @@
 
 [^p1-iea-energy]: IEA，*Energy and AI*，2025年。https://www.iea.org/reports/energy-and-ai/executive-summary
 
-[^p1-infra-2026]: U.S. DOE，*2024 United States Data Center Energy Usage Report* 发布说明，2024年12月。https://www.energy.gov/articles/doe-releases-new-report-evaluating-increase-electricity-demand-data-centers
+[^p1-infra-2026]: U.S. DOE，*2024 United States Data Center Energy Usage Report*发布说明，2024年12月。https://www.energy.gov/articles/doe-releases-new-report-evaluating-increase-electricity-demand-data-centers
 
 [^p7-five-layer-cake]: NVIDIA，达沃斯对话，2026年1月21日。https://blogs.nvidia.com/blog/davos-wef-blackrock-ceo-larry-fink-jensen-huang/
 
@@ -74,7 +74,7 @@
 
 [^p2-two-frontiers]: Stanford HAI，*AI Index 2025: Technical Performance*，2025年。https://hai.stanford.edu/ai-index/2025-ai-index-report/technical-performance
 
-[^p2-frontier-models-2026]: Moonshot AI，*Kimi K3* 模型仓库，2026年7月；DeepSeek，*DeepSeek V4* 发布说明，2026年4月24日。https://github.com/MoonshotAI/Kimi-K3
+[^p2-frontier-models-2026]: Moonshot AI，*Kimi K3*模型仓库，2026年7月；DeepSeek，*DeepSeek V4*发布说明，2026年4月24日。https://github.com/MoonshotAI/Kimi-K3
 
 [^p2-small-model-family-2026]: Qwen团队，*Qwen3 Technical Report*，arXiv，2025年。https://arxiv.org/abs/2505.09388
 
@@ -92,17 +92,17 @@
 
 [^p8-hf-opensource-2026]: Hugging Face，*State of Open Source on Hugging Face: Spring 2026*，2026年；Stanford HAI，*AI Index 2026: Technical Performance*，2026年。https://huggingface.co/blog/huggingface/state-of-os-hf-spring-2026
 
-[^p2-deepseek-harness-2026]: DeepSeek，*DeepSeek Harness* 开发者预览版发布页，2026年8月13日。https://deepseek.com/harness/en/
+[^p2-deepseek-harness-2026]: DeepSeek，*DeepSeek Harness*开发者预览版发布页，2026年8月13日。https://deepseek.com/harness/en/
 
 [^p2-aws-ai-factories]: AWS，*Introducing AWS AI Factories*，2025年12月。https://aws.amazon.com/about-aws/whats-new/2025/12/aws-ai-factories/
 
 [^p2-uk-sovereign-compute]: HM Government，*National Security Strategy 2025*，2025年。https://www.gov.uk/government/publications/national-security-strategy-2025-security-for-the-british-people-in-a-dangerous-world/national-security-strategy-2025-security-for-the-british-people-in-a-dangerous-world-html
 
-[^p2-agent-protocols]: Google，*Announcing the Agent2Agent Protocol*，2025年4月9日；Linux Foundation，Agentic AI Foundation 成立公告，2025年12月。https://www.linuxfoundation.org/press/a2a-protocol-surpasses-150-organizations-lands-in-major-cloud-platforms-and-sees-enterprise-production-use-in-first-year
+[^p2-agent-protocols]: Google，*Announcing the Agent2Agent Protocol*，2025年4月9日；Linux Foundation，Agentic AI Foundation成立公告，2025年12月。https://www.linuxfoundation.org/press/a2a-protocol-surpasses-150-organizations-lands-in-major-cloud-platforms-and-sees-enterprise-production-use-in-first-year
 
 ## 第三章　控制权：智能体时代的主权定义与六种能力
 
-[^p3-waymo-schoolbus]: TechCrunch，*Waymo to issue software recall over how robotaxis behave around school buses*，2025年12月5日；NHTSA，召回编号 25E-084。https://techcrunch.com/2025/12/05/waymo-to-issue-software-recall-over-how-robotaxis-behave-around-school-buses/
+[^p3-waymo-schoolbus]: TechCrunch，*Waymo to issue software recall over how robotaxis behave around school buses*，2025年12月5日；NHTSA，召回编号25E-084。https://techcrunch.com/2025/12/05/waymo-to-issue-software-recall-over-how-robotaxis-behave-around-school-buses/
 
 [^p6-echoleak]: Pavan Reddy、Aditya Sanjay Gujral，*EchoLeak*，arXiv，2025年；Microsoft，CVE-2025-32711。https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-32711
 
@@ -114,7 +114,7 @@
 
 [^p3x-windsurf]: TechCrunch，*Windsurf says Anthropic is limiting its direct access to Claude AI models*，2025年6月3日。https://techcrunch.com/2025/06/03/windsurf-says-anthropic-is-limiting-its-direct-access-to-claude-ai-models
 
-[^p1-gdpr]: 欧盟，Regulation (EU) 2016/679，第20条。https://eur-lex.europa.eu/eli/reg/2016/679/oj
+[^p1-gdpr]: 欧盟，Regulation (EU) 2016/679（《通用数据保护条例》），第20条，2016年4月27日。https://eur-lex.europa.eu/eli/reg/2016/679/oj
 
 [^p1-data-act]: 欧盟，Regulation (EU) 2023/2854（《数据法》），第23—30条、第50条。https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023R2854
 
@@ -126,7 +126,7 @@
 
 [^p9-safety-report]: *International AI Safety Report 2026*，2026年2月3日。https://internationalaisafetyreport.org/publication/international-ai-safety-report-2026
 
-[^p9-mcp-control]: Model Context Protocol，*Authorization* 规范，2025年11月25日版、2026年7月28日修订版。https://modelcontextprotocol.io/specification/2026-07-28/basic/authorization
+[^p9-mcp-control]: Model Context Protocol，*Authorization*规范，2025年11月25日版、2026年7月28日修订版。https://modelcontextprotocol.io/specification/2026-07-28/basic/authorization
 
 [^p9-otel-control]: OpenTelemetry，*GenAI Observability*，2026年5月14日。https://opentelemetry.io/blog/2026/genai-observability/
 
@@ -140,7 +140,7 @@
 
 [^p7-npm-chalk]: StepSecurity，*20 Popular npm Packages With 2 Billion Weekly Downloads Compromised in Supply Chain Attack*，2025年9月8日。https://www.stepsecurity.io/blog/20-popular-npm-packages-compromised-chalk-debug-strip-ansi-color-convert-wrap-ansi
 
-[^p10-xz]: Andres Freund，oss-security 邮件列表原始披露，2024年3月29日。https://www.openwall.com/lists/oss-security/2024/03/29/4
+[^p10-xz]: Andres Freund，oss-security邮件列表原始披露，2024年3月29日。https://www.openwall.com/lists/oss-security/2024/03/29/4
 
 [^p10-open-governance]: Apache Software Foundation，*The Apache Way*；Linux Foundation，*Core Infrastructure Initiative*。https://www.apache.org/theapacheway/
 
@@ -162,9 +162,9 @@
 
 [^p8-minio-maintenance]: Renato Losio，*MinIO GitHub Repository in Maintenance Mode: What's Next for the Open Source Object Storage?*，InfoQ，2025年12月28日。https://www.infoq.com/news/2025/12/minio-s3-api-alternatives/
 
-[^p8-minio-archive]: MinIO，`minio/minio` GitHub 仓库，2026年4月25日归档。https://github.com/minio/minio
+[^p8-minio-archive]: MinIO，`minio/minio` GitHub仓库，2026年4月25日归档。https://github.com/minio/minio
 
-[^p8-opentofu-cncf]: CNCF，*OpenTofu* 项目页，2025年4月23日。https://www.cncf.io/projects/opentofu/
+[^p8-opentofu-cncf]: CNCF，*OpenTofu*项目页，2025年4月23日。https://www.cncf.io/projects/opentofu/
 
 [^p8-osaid]: Open Source Initiative，*The Open Source AI Definition 1.0*，2024年10月28日。https://opensource.org/ai/open-source-ai-definition
 
@@ -174,9 +174,9 @@
 
 [^p9-llama4-license]: Meta，*Llama 4 Community License Agreement*，2025年4月5日；Meta，*Llama 4 Acceptable Use Policy*。https://github.com/meta-llama/llama-models/blob/main/models/llama4/LICENSE
 
-[^p9-qwen3]: Qwen Team，*Qwen3: Think Deeper, Act Faster*，2025年4月29日。https://qwenlm.github.io/blog/qwen3/
+[^p9-qwen3]: Qwen团队，*Qwen3: Think Deeper, Act Faster*，2025年4月29日。https://qwenlm.github.io/blog/qwen3/
 
-[^p9-qwen25-license]: Qwen Team，*Qwen LICENSE AGREEMENT*（Qwen2.5-72B-Instruct），2024年9月19日。https://huggingface.co/Qwen/Qwen2.5-72B-Instruct/blob/main/LICENSE
+[^p9-qwen25-license]: Qwen团队，*Qwen LICENSE AGREEMENT*（Qwen2.5-72B-Instruct），2024年9月19日。https://huggingface.co/Qwen/Qwen2.5-72B-Instruct/blob/main/LICENSE
 
 [^p9-gpt-oss]: OpenAI，*Introducing gpt-oss*，2025年8月5日。https://openai.com/index/introducing-gpt-oss/
 
@@ -192,7 +192,7 @@
 
 [^p10x-datasheets]: Timnit Gebru等，*Datasheets for Datasets*，*Communications of the ACM*，2021年。https://doi.org/10.1145/3458723
 
-[^p10x-hf-dataset-cards]: Hugging Face，*Dataset Cards*，Hub 文档。https://huggingface.co/docs/hub/datasets-cards
+[^p10x-hf-dataset-cards]: Hugging Face，*Dataset Cards*，Hub文档。https://huggingface.co/docs/hub/datasets-cards
 
 ## 第八章　多模型：不押注唯一的模型
 
@@ -220,7 +220,7 @@
 
 [^p12-hf-scale]: Hugging Face，*State of Open Source on Hugging Face: Spring 2026*，2026年3月17日。https://huggingface.co/blog/huggingface/state-of-os-hf-spring-2026
 
-[^p8-modelscope-ecosystem]: ModelScope Team，`modelscope-hub` 代码仓库；《科技日报》，2026年3月22日。https://www.stdaily.com/web/gdxw/2026-03/22/content_490099.html
+[^p8-modelscope-ecosystem]: ModelScope团队，`modelscope-hub` 代码仓库；《科技日报》，2026年3月22日。https://www.stdaily.com/web/gdxw/2026-03/22/content_490099.html
 
 [^p12-nats]: CNCF，*Protecting NATS and the integrity of open source: CNCF's commitment to the community*，2025年4月24日。https://www.cncf.io/blog/2025/04/24/protecting-nats-and-the-integrity-of-open-source-cncfs-commitment-to-the-community/
 
@@ -238,25 +238,25 @@
 
 [^p7-deepseek-path]: DeepSeek-AI，*DeepSeek-V3 Technical Report*，arXiv，2024年。https://arxiv.org/abs/2412.19437
 
-[^p7-ascend-day0]: 投资界，八家国产芯片 Day 0 适配 DeepSeek-V4 报道，2026年4月；凤凰网科技，昇腾910C 完成 DeepSeek-V4-Pro 全参数后训练报道，2026年6月。https://news.pedaily.cn/202604/563226.shtml
+[^p7-ascend-day0]: 投资界，八家国产芯片Day 0适配DeepSeek-V4报道，2026年4月；凤凰网科技，昇腾910C完成DeepSeek-V4-Pro全参数后训练报道，2026年6月。https://news.pedaily.cn/202604/563226.shtml
 
-[^p7-china-scale]: 中国互联网络信息中心，《第57次中国互联网络发展状况统计报告》，2026年3月；国家网信办，生成式人工智能服务备案公告，2026年1月9日。https://www.cac.gov.cn/2026-01/09/c_1769688009588554.htm
+[^p7-china-scale]: 中国互联网络信息中心，《第57次中国互联网络发展状况统计报告》，2026年3月；国家互联网信息办公室，生成式人工智能服务备案公告，2026年1月9日。https://www.cac.gov.cn/2026-01/09/c_1769688009588554.htm
 
-[^p7-uae-falcon]: Technology Innovation Institute，Falcon 180B 与 Falcon Arabic 发布说明，2023年9月、2025年5月。https://www.tii.ae/index.php/news/middle-easts-leading-ai-powerhouse-tii-launches-two-new-ai-models-falcon-arabic-first-arabic
+[^p7-uae-falcon]: Technology Innovation Institute，Falcon 180B与Falcon Arabic发布说明，2023年9月、2025年5月。https://www.tii.ae/index.php/news/middle-easts-leading-ai-powerhouse-tii-launches-two-new-ai-models-falcon-arabic-first-arabic
 
 [^p7-saudi-allam]: M Saiful Bari等，*ALLaM: Large Language Models for Arabic and English*，arXiv，2024年。https://arxiv.org/abs/2407.15390
 
-[^p7-saudi-humain]: Saudi PIF，HUMAIN 成立公告，2025年5月12日。https://www.pif.gov.sa/en/news-and-insights/press-releases/2025/hrh-crown-prince-launches-humain-as-global-ai-powerhouse/
+[^p7-saudi-humain]: Saudi PIF，HUMAIN成立公告，2025年5月12日。https://www.pif.gov.sa/en/news-and-insights/press-releases/2025/hrh-crown-prince-launches-humain-as-global-ai-powerhouse/
 
 [^p7-sealion]: Singapore IMDA，*National Multimodal LLM Programme*。https://www.imda.gov.sg/how-we-can-help/national-multimodal-llm-programme
 
-[^p7-sea-adapt]: AI Singapore，SEA-LION 适配文档；Sahabat-AI，模型卡。https://docs.sea-lion.ai/models/sea-lion_adaptations
+[^p7-sea-adapt]: AI Singapore，SEA-LION适配文档；Sahabat-AI，模型卡。https://docs.sea-lion.ai/models/sea-lion_adaptations
 
 [^p7-phogpt]: Dat Quoc Nguyen等，*PhoGPT: Generative Pre-training for Vietnamese*，arXiv，2023年。https://arxiv.org/abs/2311.02945
 
 [^p7-asean-rules]: ASEAN，*Expanded ASEAN Guide on AI Governance and Ethics*，2025年。https://asean.org/wp-content/uploads/2025/01/Expanded-ASEAN-Guide-on-AI-Governance-and-Ethics-Generative-AI.pdf
 
-[^p13-ai-plus]: 国务院，《关于深入实施“人工智能+”行动的意见》（国发〔2025〕11号），2025年8月27日。https://www.cac.gov.cn/2025-08/27/c_1758018277755538.htm
+[^p13-ai-plus]: 国务院，《国务院关于深入实施“人工智能+”行动的意见》（国发〔2025〕11号），2025年8月27日。https://www.cac.gov.cn/2025-08/27/c_1758018277755538.htm
 
 [^p13-icc-email]: Molly Quell，*Trump's sanctions on ICC prosecutor have halted tribunal's work*，美联社，2025年5月15日；heise online，*Microsoft denies mail blockade at the International Criminal Court*，2025年6月。https://www.pbs.org/newshour/world/trumps-sanctions-on-iccs-chief-prosecutor-have-halted-tribunals-work-officials-and-lawyers-say
 
@@ -282,7 +282,7 @@
 
 [^p13-apertus-lang]: ETH Zurich，*Apertus: a fully open, transparent, multilingual language model*，2025年9月2日。https://ethz.ch/en/news-and-events/eth-news/news/2025/09/press-release-apertus-a-fully-open-transparent-multilingual-language-model.html
 
-[^p13-public-data]: 中共中央办公厅、国务院办公厅，《关于加快公共数据资源开发利用的意见》，2024年10月9日。https://www.12371.cn/2024/10/09/ARTI1728469682026388.shtml
+[^p13-public-data]: 中共中央办公厅、国务院办公厅，《中共中央办公厅 国务院办公厅关于加快公共数据资源开发利用的意见》，2024年10月9日。https://www.12371.cn/2024/10/09/ARTI1728469682026388.shtml
 
 [^p7-robodebt]: Royal Commission into the Robodebt Scheme，*Final Report*，2023年7月7日；AAP，*Australia's biggest class action settlement approved*，2026年6月。https://robodebt.royalcommission.gov.au/publications/report
 
@@ -290,7 +290,7 @@
 
 [^p7-syri]: Rechtbank Den Haag，*SyRI legislation in breach of European Convention on Human Rights*，2020年2月13日。https://www.rechtspraak.nl/organisatie-en-contact/organisatie/rechtbanken/rechtbank-den-haag/nieuws/2020/02/syri-legislation-in-breach-of-european-convention-on-human-rights
 
-[^p7-china-governance]: 国家网信办等，《人工智能生成合成内容标识办法》，2025年3月。https://www.cac.gov.cn/2025-03/14/c_1743654684782215.htm
+[^p7-china-governance]: 国家互联网信息办公室等，《人工智能生成合成内容标识办法》，2025年3月。https://www.cac.gov.cn/2025-03/14/c_1743654684782215.htm
 
 [^p7-canada-aia]: Treasury Board of Canada Secretariat，*Algorithmic Impact Assessment*。https://www.canada.ca/en/government/system/digital-government/digital-government-innovations/responsible-use-ai/algorithmic-impact-assessment.html
 
@@ -298,7 +298,7 @@
 
 [^p7-oecd-government-impact]: OECD，*Digital Government Outlook 2026*，2026年6月15日。https://www.oecd.org/en/publications/2026/06/digital-government-outlook_4585678e/full-report/adopting-and-governing-ai-in-government_7ef312a9.html
 
-[^new-pax-silica]: U.S. Department of State，Pax Silica Summit 新闻稿，2026年6月；U.S. Department of State，*Joint Statement on AI Opportunity Partnership*，2026年6月。https://www.state.gov/releases/office-of-the-spokesperson/2026/06/pax-silica/
+[^new-pax-silica]: U.S. Department of State，Pax Silica Summit新闻稿，2026年6月；U.S. Department of State，*Joint Statement on AI Opportunity Partnership*，2026年6月。https://www.state.gov/releases/office-of-the-spokesperson/2026/06/pax-silica/
 
 [^p7-waico]: 外交部，《成立世界人工智能合作组织协定签署仪式在上海举行》，2026年7月16日；联合国大会，第79/325号决议。https://www.fmprc.gov.cn/web/wjdt_674879/wjbxw_674885/202607/t20260716_11984399.shtml
 
@@ -342,9 +342,9 @@
 
 [^p5-deloitte-report]: AP，*Deloitte to partially refund Australian government for report with apparent AI-generated errors*，BNN Bloomberg，2025年10月7日。https://www.bnnbloomberg.ca/business/artificial-intelligence/2025/10/07/deloitte-to-partially-refund-australian-government-for-report-with-apparent-ai-generated-errors/
 
-[^p6-rite-aid]: U.S. FTC，Rite Aid 案新闻稿及起诉书，2023年12月19日。https://www.ftc.gov/news-events/news/press-releases/2023/12/rite-aid-banned-using-ai-facial-recognition-after-ftc-says-retailer-deployed-technology-without
+[^p6-rite-aid]: U.S. FTC，Rite Aid案新闻稿及起诉书，2023年12月19日。https://www.ftc.gov/news-events/news/press-releases/2023/12/rite-aid-banned-using-ai-facial-recognition-after-ftc-says-retailer-deployed-technology-without
 
-[^p6-morgan-stanley]: Morgan Stanley，Debrief 发布公告，2024年。https://www.morganstanley.com/press-releases/ai-at-morgan-stanley-debrief-launch
+[^p6-morgan-stanley]: Morgan Stanley，Debrief发布公告，2024年。https://www.morganstanley.com/press-releases/ai-at-morgan-stanley-debrief-launch
 
 [^p6-finra-genai]: FINRA，Regulatory Notice 24-09，2024年6月27日。https://www.finra.org/rules-guidance/notices/24-09
 
@@ -358,7 +358,7 @@
 
 [^new-nyc-hearing]: Startup Fortune，*AI giants tell NYC Council they cannot guarantee their agents stay safe*，2026年10月；amNY，同期报道。https://www.amny.com/politics/nyc-council-ai-giants-hearing-safety/
 
-[^p15-airbnb-models]: Natalie Lung，*Airbnb CEO Brian Chesky says OpenAI's tools aren't ready*，Bloomberg（Fortune 转载），2025年10月21日。https://fortune.com/2025/10/21/brian-chesky-openai-tools-not-ready
+[^p15-airbnb-models]: Natalie Lung，*Airbnb CEO Brian Chesky says OpenAI's tools aren't ready*，Bloomberg（Fortune转载），2025年10月21日。https://fortune.com/2025/10/21/brian-chesky-openai-tools-not-ready
 
 [^p6-fde]: OpenAI，部署公司公告，2026年5月11日。https://openai.com/index/openai-launches-the-deployment-company/
 
@@ -368,11 +368,11 @@
 
 [^p16-meta-bans]: BBC News，*Instagram users angry and confused as Meta overturns yet more account bans*，2025年8月15日；TechCrunch，*Facebook group admins complain of mass bans; Meta says it's fixing the problem*，2025年6月24日。https://techcrunch.com/2025/06/24/facebook-group-admins-complain-of-mass-bans-meta-says-its-fixing-the-problem
 
-[^p4-replika]: 意大利个人数据保护机构，Replika 处罚决定，2025年4月10日；EDPB，案件摘要，2025年5月21日。https://www.gpdp.it/home/docweb/-/docweb-display/docweb/10132048
+[^p4-replika]: 意大利个人数据保护机构，Replika处罚决定，2025年4月10日；EDPB，案件摘要，2025年5月21日。https://www.gpdp.it/home/docweb/-/docweb-display/docweb/10132048
 
-[^p4-gm-driving-data]: U.S. FTC，对 General Motors 与 OnStar 的起诉及拟议命令，2025年1月16日；The Register，*US regulator tells GM to hit the brakes on customer tracking*，2026年1月15日。https://www.ftc.gov/news-events/news/press-releases/2025/01/ftc-takes-action-against-general-motors-sharing-drivers-precise-location-driving-behavior-data-without-consent
+[^p4-gm-driving-data]: U.S. FTC，对General Motors与OnStar的起诉及拟议命令，2025年1月16日；The Register，*US regulator tells GM to hit the brakes on customer tracking*，2026年1月15日。https://www.ftc.gov/news-events/news/press-releases/2025/01/ftc-takes-action-against-general-motors-sharing-drivers-precise-location-driving-behavior-data-without-consent
 
-[^p4-derived-data]: U.S. FTC，Everalbum 案和解与最终命令，2021年5月7日。https://www.ftc.gov/news-events/news/press-releases/2021/05/ftc-finalizes-settlement-photo-app-developer-related-misuse-facial-recognition-technology
+[^p4-derived-data]: U.S. FTC，Everalbum案和解与最终命令，2021年5月7日。https://www.ftc.gov/news-events/news/press-releases/2021/05/ftc-finalizes-settlement-photo-app-developer-related-misuse-facial-recognition-technology
 
 [^p16-gdpr-portability]: 欧盟，Regulation (EU) 2016/679（《通用数据保护条例》），第20条，2016年4月27日。https://eur-lex.europa.eu/eli/reg/2016/679/oj
 
@@ -390,27 +390,27 @@
 
 [^p16-openclaw-inbox]: Simon Willison，*Summer Yue*，2026年2月23日。https://simonwillison.net/2026/Feb/23/summer-yue
 
-[^p17-opencsg-org]: OpenCSG，GitHub 组织主页及 csghub、csglite、csgclaw 仓库许可证文件。https://github.com/OpenCSGs
+[^p17-opencsg-org]: OpenCSG，GitHub组织主页及csghub、csglite、csgclaw仓库许可证文件。https://github.com/OpenCSGs
 
 ## 第四部导读与第十四章　OpenCSG：从开源社区到主权 AI 基础设施
 
-[^p17-opencsg-scale]: 投资界，OpenCSG 天使轮报道，2024年1月3日；投资界，开放传神 Pre-A 轮融资报道，2026年8月31日。https://news.pedaily.cn/202608/568318.shtml
+[^p17-opencsg-scale]: 投资界，OpenCSG天使轮报道，2024年1月3日；投资界，开放传神Pre-A轮融资报道，2026年8月31日。https://news.pedaily.cn/202608/568318.shtml
 
-[^p18-csghub-readme]: OpenCSG，csghub 与 csghub-server 仓库 README。https://github.com/OpenCSGs/csghub
+[^p18-csghub-readme]: OpenCSG，csghub与csghub-server仓库README。https://github.com/OpenCSGs/csghub
 
-[^p18-csghub-docs]: OpenCSG，CSGHub 产品文档；OpenCSG，*CSGHub Release Notes v2026.09*，2026年9月。https://opencsg.com/docs/en/releasenote/csghub_latest
+[^p18-csghub-docs]: OpenCSG，CSGHub产品文档；OpenCSG，*CSGHub Release Notes v2026.09*，2026年9月。https://opencsg.com/docs/en/releasenote/csghub_latest
 
-[^p19-csglite]: OpenCSG，csglite 仓库 README。https://github.com/OpenCSGs/csglite
+[^p19-csglite]: OpenCSG，csglite仓库README。https://github.com/OpenCSGs/csglite
 
-[^p19-csgclaw]: OpenCSG，csgclaw 仓库 README。https://github.com/OpenCSGs/csgclaw
+[^p19-csgclaw]: OpenCSG，csgclaw仓库README。https://github.com/OpenCSGs/csgclaw
 
-[^p20-agentichub]: OpenCSG，*AgenticHub* 产品文档；OpenCSG，CSGHub v2.2.0 发布说明。https://opencsg.com/docs/en/agentichub/agentichub_intro
+[^p20-agentichub]: OpenCSG，*AgenticHub*产品文档；OpenCSG，CSGHub v2.2.0发布说明。https://opencsg.com/docs/en/agentichub/agentichub_intro
 
-[^p18-dataflow]: OpenCSG，*DataFlow* 产品文档。https://opencsg.com/docs/en/dataflow/dataflow_intro
+[^p18-dataflow]: OpenCSG，*DataFlow*产品文档。https://opencsg.com/docs/en/dataflow/dataflow_intro
 
 [^p4-agenticops-origin]: OpenCSG，*AgenticOps: The Missing Operating System for Enterprise AI*，Medium，2025年7月24日。https://medium.com/@OpenCSG/agenticops-the-missing-operating-system-for-enterprise-ai-4f536de1a844
 
-[^p4-deepseek-harness-2026]: DeepSeek，`deepseek-harness` GitHub 仓库，2026年8月13日。https://github.com/deepseek-ai/deepseek-harness
+[^p4-deepseek-harness-2026]: DeepSeek，`deepseek-harness` GitHub仓库，2026年8月13日。https://github.com/deepseek-ai/deepseek-harness
 
 ## 第十五章　CSGHub：把模型与数据变成可迁移的资产
 
@@ -426,15 +426,15 @@
 
 [^p21-beijing-token-factory]: 北京市人民政府，*Beijing's First Token Factory Officially Put into Operation*，2026年6月12日；国家科技传播中心，北京壹号词元工厂产能报道，2026年6月30日。https://english.beijing.gov.cn/beijinginfo/sci/latesttrends/202606/t20260612_4697373.html
 
-[^p21-ai-gateway]: OpenCSG，CSGHub *AI Gateway* 产品文档。https://opencsg.com/docs/en/csghub/101/function/aigateway/intro
+[^p21-ai-gateway]: OpenCSG，CSGHub *AI Gateway*产品文档。https://opencsg.com/docs/en/csghub/101/function/aigateway/intro
 
-[^p17-csghub-architecture]: OpenCSG，*Enterprise AI Platform*（CSGHub 产品架构）。https://opencsg.com/docs/en/csghub_architecture_en.html
+[^p17-csghub-architecture]: OpenCSG，*Enterprise AI Platform*（CSGHub产品架构）。https://opencsg.com/docs/en/csghub_architecture_en.html
 
 ## 第十九章　解决方案蓝图：企业、数据、城市与个人
 
 [^p22-dianjun-launch]: 央广网，《引投资　搭平台　建联盟　宜昌点军区聚势开源AI》，2025年3月19日。https://www.cnr.cn/hubei/jcxs/20250319/t20250319_527106525.shtml
 
-[^p22-opencsg-hubei]: 央广网，OpenCSG Pre-A 轮融资及点军国资收益报道（腾讯新闻转载），2026年8月31日。https://news.qq.com/rain/a/20260831A0C2RS00
+[^p22-opencsg-hubei]: 央广网，OpenCSG Pre-A轮融资及点军国资收益报道（腾讯新闻转载），2026年8月31日。https://news.qq.com/rain/a/20260831A0C2RS00
 
 [^p22-dianjun-blog]: OpenCSG，《城市智能体：宜昌点军区算力供应链平台的区域产业升级路径》，博客园，2026年2月2日。https://www.cnblogs.com/OpenCSG/p/19565766
 
@@ -452,7 +452,7 @@
 
 [^p27-klarna-2024]: Klarna，*Klarna AI assistant handles two-thirds of customer service chats in its first month*，2024年2月27日。https://www.klarna.com/international/press/klarna-ai-assistant-handles-two-thirds-of-customer-service-chats-in-its-first-month/
 
-[^p27-klarna-2025]: Entrepreneur，*Klarna Is Hiring Customer Service Agents After AI Couldn't Cut It on Calls*，2025年5月9日（转述 Bloomberg 采访）。https://www.entrepreneur.com/business-news/klarna-ceo-reverses-course-by-hiring-more-humans-not-ai/491396
+[^p27-klarna-2025]: Entrepreneur，*Klarna Is Hiring Customer Service Agents After AI Couldn't Cut It on Calls*，2025年5月9日（转述Bloomberg采访）。https://www.entrepreneur.com/business-news/klarna-ceo-reverses-course-by-hiring-more-humans-not-ai/491396
 
 [^p27-openai-assistants]: OpenAI，*Assistants API beta deprecation — August 26, 2026 sunset*，OpenAI Developer Community，2025年8月26日。https://community.openai.com/t/assistants-api-beta-deprecation-august-26-2026-sunset/1354666
 
@@ -478,7 +478,7 @@
 
 [^p1-otel-genai]: OpenTelemetry，*GenAI Observability*，2026年5月14日。https://opentelemetry.io/blog/2026/genai-observability/
 
-[^p6-confidential-hybrid]: NIST，IR 8320E 草案，2026年5月29日。https://csrc.nist.gov/pubs/ir/8320/e/ipd
+[^p6-confidential-hybrid]: NIST，IR 8320E草案，2026年5月29日。https://csrc.nist.gov/pubs/ir/8320/e/ipd
 
 [^p6-model-routing]: Dujian Ding等，*Hybrid LLM: Cost-Efficient and Quality-Aware Query Routing*，ICLR，2024年；Jasper Dekoninck等，*A Unified Approach to Routing and Cascading for LLMs*，arXiv，2024年。https://arxiv.org/abs/2404.14618
 

@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 400" width="900" height="400" font-family="'Source Han Sans SC','Noto Sans CJK SC','PingFang SC','Microsoft YaHei','WenQuanYi Zen Hei',sans-serif">
 <rect width="900" height="400" fill="#fff"/>
 <defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#111"/></marker></defs>
-<text x="40" y="40" font-size="20" text-anchor="start" font-weight="bold" fill="#111">二〇二六年七月：开放权重之争与一次 AI 入侵</text>
+<text x="40" y="40" font-size="20" text-anchor="start" font-weight="bold" fill="#111">2026年7月：开放权重之争与一次 AI 入侵</text>
 <line x1="70" y1="200" x2="840" y2="200" stroke="#111" stroke-width="2" marker-end="url(#ar)"/>
 <line x1="116.25" y1="195" x2="116.25" y2="205" stroke="#111" stroke-width="1.5"/>
 <text x="116.25" y="224" font-size="13" text-anchor="middle" font-weight="normal" fill="#555">16日</text>

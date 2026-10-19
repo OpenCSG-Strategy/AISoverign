@@ -34,7 +34,7 @@ def save(name, s):
 # 0-1 timeline
 def fig0_1():
     W, H = 900, 400
-    b = [t(40, 40, '二〇二六年七月：开放权重之争与一次 AI 入侵', 20, weight='bold')]
+    b = [t(40, 40, '2026年7月：开放权重之争与一次 AI 入侵', 20, weight='bold')]
     x0, x1, y = 70, 840, 200
     b.append(line(x0, y, x1, y, arrow=True, sw=2))
     # day 16..31 mapping
